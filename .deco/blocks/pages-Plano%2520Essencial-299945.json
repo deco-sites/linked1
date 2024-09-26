@@ -1,0 +1,24 @@
+{
+  "name": "Plano Essencial",
+  "path": "/plano-essencial",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Navbar.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Banners/OnlyText.tsx",
+        "title": "Plano Essencial",
+        "subtitle": "Design intuitivo e operação fácil para administrar seus pedidos"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
