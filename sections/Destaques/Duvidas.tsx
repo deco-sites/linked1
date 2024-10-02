@@ -15,8 +15,8 @@ export interface Props {
 }
 
 export default function Section({ 
-    title = "", 
     icon = "", 
+    title = "", 
 }: Props) {
 
   return (
