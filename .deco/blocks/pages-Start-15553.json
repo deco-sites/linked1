@@ -3,12 +3,114 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Navbar.tsx",
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
+        "logoText": "Linked",
+        "buttonUrl": "/"
+      }
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/AberturaTextoAnimado.tsx",
+        "title": "Gestão inteligente para sonhar mais",
+        "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "items": [
+          {
+            "title": "Aumente a eficiência",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/31085aa3-aee4-4591-b506-d7bb4007ea83/Captura-de-Tela-2024-09-26-as-09.27.40.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Categorias.tsx",
+        "title": "Soluções para todos os tipos de estabelecimentos",
+        "tags": [
+          {
+            "name": "A la carte",
+            "url": "/a-la-carte",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/27d5916e-8ad4-458d-8eeb-a3f74b127651/Captura-de-Tela-2024-09-26-as-09.43.24.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "title": "A Linked também tem parcerias para transformar o seu negócio",
+        "items": [
+          {
+            "title": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c199e406-9dcf-4ede-bb08-67ee79a7bfac/Captura-de-Tela-2024-09-26-as-09.57.01.png",
+            "url": "/blog/5-motivos"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
+        "title": "Por quê a Linked?",
+        "results": [
+          {
+            "number": 2016,
+            "description": "Desde 2016 ajudando empresas a economizar, vender e lucrar mais."
+          },
+          {
+            "number": 1,
+            "description": "Mais de 1.000  estabelecimentos em todo o Brasil"
+          },
+          {
+            "number": 3,
+            "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "items": [
+          {
+            "title": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6295b877-c902-4aa3-8f1f-67ac60f72eff/Captura-de-Tela-2024-09-26-as-09.50.11.png",
+            "url": "/blog/5-motivos"
+          }
+        ],
+        "title": "Acompanhe as nossas receitas de sucesso"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Footer.tsx",
+        "menu": [
+          {},
+          {
+            "name": "Linked",
+            "url": "/"
+          }
+        ],
+        "linkedUrl": "/",
+        "address": "Rua Gomes de Carvalho, 1.609 Vila Olímpia, São Paulo, SP",
+        "rightsText": "Todos os direitos reservados 2024",
+        "linkedText": "/"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

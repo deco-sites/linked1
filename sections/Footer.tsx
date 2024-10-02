@@ -1,43 +1,77 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-interface Props {
-  href?: string;
-  image?: ImageWidget;
-  alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
+export type Link = {
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a URL ou o caminho de destino
+   */
+  url: string;
+};
+
+export interface Props {
+  /**
+   * @title Menu de Navegação
+   * @description Insira os links do menu de navegação
+   */
+  menu?: Link[];
+  /**
+   * @title Endereço
+   * @description Insira o endereço do rodapé
+   */
+  address: string;
+  /**
+   * @title Direitos Reservados
+   * @description Texto de direitos reservados
+   */
+  rightsText: string;
+  /**
+   * @title Link de Texto
+   * @description Insira o texto para o link adicional
+   */
+  linkedText: string;
+  /**
+   * @title URL do Link de Texto
+   * @description URL do link adicional
+   */
+  linkedUrl: string;
 }
 
-function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
+export default function Footer({
+  menu = [
+    {
+      name: "",
+      url: "/",
+    },
+  ],
+  address = "",
+  rightsText = "",
+  linkedText = "",
+  linkedUrl = "#",
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
-    </div>
+    <footer className="footer">
+      <div className="footer-top">
+        <nav className="footer-menu">
+          {menu?.map((item) => (
+            <a href={item.url} key={item.name} className="footer-link">
+              {item.name}
+            </a>
+          ))}
+        </nav>
+      </div>
+      <div className="footer-bottom">
+        <p className="footer-rights">{rightsText}</p>
+        <p className="footer-address">{address}</p>
+        <a href={linkedUrl} className="footer-linked">
+          {linkedText}
+        </a>
+      </div>
+    </footer>
   );
 }
-
-export default Footer;
