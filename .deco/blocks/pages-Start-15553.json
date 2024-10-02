@@ -5,8 +5,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Navigation/Navbar.tsx",
-        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png"
+        "__resolveType": "Navbar"
       }
     },
     {
@@ -22,6 +21,11 @@
       "section": {
         "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
         "items": [
+          {
+            "title": "Evite o disperdício",
+            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/26204d4f-87be-4bd0-85de-6f37bba358d4/Captura-de-Tela-2024-09-26-as-12.01.15.png"
+          },
           {
             "title": "Aumente a eficiência",
             "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
@@ -83,14 +87,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "title": "Acompanhe as nossas receitas de sucesso",
         "items": [
           {
             "title": "5 motivos para participar da Restaurante Week",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6295b877-c902-4aa3-8f1f-67ac60f72eff/Captura-de-Tela-2024-09-26-as-09.50.11.png",
             "url": "/blog/5-motivos"
           }
-        ],
-        "title": "Acompanhe as nossas receitas de sucesso"
+        ]
       }
     }
   ],
