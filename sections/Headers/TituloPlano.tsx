@@ -5,6 +5,7 @@ export interface Props {
   /**
    * @title Página
    * @description Escreva aqui o título da página
+   * @default Planos
    */
   page: string;
   /**
