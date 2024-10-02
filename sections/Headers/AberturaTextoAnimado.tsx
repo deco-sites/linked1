@@ -12,8 +12,8 @@ export interface Props {
 }
 
 export default function Section({ 
-    title = "Gestão inteligente para sonhar mais", 
-    subtitle = "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar", 
+    title = "", 
+    subtitle = "", 
 }: Props) {
 
   return (

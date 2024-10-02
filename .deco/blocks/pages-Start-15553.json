@@ -12,7 +12,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Headers/AberturaTextoAnimado.tsx",
         "title": "Gestão inteligente para sonhar mais",
         "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
       }
