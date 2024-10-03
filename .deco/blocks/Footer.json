@@ -1,1 +1,8 @@
-{"__resolveType":"site/sections/Footer.tsx"}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "menu": [],
+  "address": "Rua Gomes de Carvalho, 1.609 Vila Olímpia, São Paulo, SP",
+  "rightsText": "Todos os direitos reservados 2024",
+  "linkedUrl": "/",
+  "linkedText": "Linked"
+}
