@@ -33,8 +33,20 @@
           }
         ]
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
     }
   ],
   "name": "Plano Total",
-  "path": "/plano-total"
+  "path": "/planos/plano-total"
 }

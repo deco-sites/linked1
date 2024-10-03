@@ -1,6 +1,6 @@
 {
   "name": "Plano Essencial",
-  "path": "/plano-essencial",
+  "path": "/planos/plano-essencial",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -30,6 +30,18 @@
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
           }
         ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
       }
     }
   ],
