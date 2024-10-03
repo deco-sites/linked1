@@ -21,16 +21,24 @@ export interface Props {
    */
   logo?: ImageWidget;
   menu?: Link[];
+  button?: Link[];
 }
 
 export default function Section({ 
+
     logo = "", 
     menu = [
         {
             name: "Home",
             url: "/"
         }
-    ] 
+    ] ,
+    button = [
+        {
+            name: "Home",
+            url: "/"
+        }
+    ]
 }: Props) {
 
   return (
@@ -41,8 +49,18 @@ export default function Section({
                 src={logo || ""}
               />
         )}
+
         {menu?.map(item => (
             <a href={item.url}>{item.name}</a>
+        ))}
+
+        {button?.map(btn => (
+            <a href={btn.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-normal btn btn-primary">
+            {btn.name}
+            </a>
         ))}
     </div>
   );
