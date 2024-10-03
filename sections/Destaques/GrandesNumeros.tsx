@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+=======
+>>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
 export type Result = {
   /**
    * @title Grande Número

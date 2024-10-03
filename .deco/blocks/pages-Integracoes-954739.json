@@ -1,0 +1,56 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Planos",
+            "url": "/planos"
+          },
+          {
+            "name": "Opicionais",
+            "url": "/opicionais"
+          },
+          {
+            "name": "Integrações",
+            "url": "/integracoes",
+            "status": true
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloMedio.tsx",
+        "title": "Os principais serviços estão na Linked"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "name": "Integracoes",
+  "path": "/integracoes"
+}

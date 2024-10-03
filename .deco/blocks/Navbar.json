@@ -1,0 +1,36 @@
+{
+  "__resolveType": "site/sections/Navigation/Navbar.tsx",
+  "menu": [
+    {
+      "name": "Tipos de Estabelecimento",
+      "url": "/tipos-de-estabelecimento"
+    },
+    {
+      "name": "Clientes",
+      "url": "/clientes"
+    },
+    {
+      "name": "Planos",
+      "url": "/planos"
+    },
+    {
+      "name": "Parcerias",
+      "url": "/parcerias"
+    },
+    {
+      "name": "Receitas de sucesso",
+      "url": "/receitas-de-sucesso"
+    },
+    {
+      "name": "Sobre a Linked",
+      "url": "/sobre"
+    }
+  ],
+  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
+  "button": [
+    {
+      "name": "Monte o seu plano a partir de R$ 00,00",
+      "url": "/planos"
+    }
+  ]
+}
