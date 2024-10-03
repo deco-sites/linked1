@@ -13,6 +13,27 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Navigation/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Planos",
+            "url": "/planos"
+          },
+          {
+            "name": "Opicionais",
+            "url": "/opicionais",
+            "status": true
+          },
+          {
+            "name": "Integrações",
+            "url": "/integracoes"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Headers/TituloMedio.tsx",
         "title": "Turbine seu plano com mais recursos"
       }

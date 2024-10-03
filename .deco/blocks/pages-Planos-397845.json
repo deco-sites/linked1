@@ -11,6 +11,27 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Navigation/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Planos",
+            "url": "/planos",
+            "status": true
+          },
+          {
+            "name": "Opicionais",
+            "url": "/opicionais"
+          },
+          {
+            "name": "Integrações",
+            "url": "/integracoes"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Headers/TituloMedio.tsx",
         "title": "Plano para todos os modelos de negócio"
       }

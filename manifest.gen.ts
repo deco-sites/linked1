@@ -22,7 +22,8 @@ import * as $$$$$$14 from "./sections/Headers/TituloSucesso.tsx";
 import * as $$$$$$15 from "./sections/ItWorks.tsx";
 import * as $$$$$$16 from "./sections/Navigation/Categorias.tsx";
 import * as $$$$$$17 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$18 from "./sections/Navigation/Tabs.tsx";
+import * as $$$$$$19 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -44,7 +45,8 @@ const manifest = {
     "site/sections/ItWorks.tsx": $$$$$$15,
     "site/sections/Navigation/Categorias.tsx": $$$$$$16,
     "site/sections/Navigation/Navbar.tsx": $$$$$$17,
-    "site/sections/Theme/Theme.tsx": $$$$$$18,
+    "site/sections/Navigation/Tabs.tsx": $$$$$$18,
+    "site/sections/Theme/Theme.tsx": $$$$$$19,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
