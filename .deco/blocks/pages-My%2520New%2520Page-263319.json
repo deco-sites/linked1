@@ -1,7 +1,54 @@
 {
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/AberturaTextoAnimado.tsx",
+        "title": "Gestão inteligente",
+        "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
+        "subtitleMobile": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
+        "TextWithColor": " sonhar mais",
+        "WordBreak": " para",
+        "subtitleDesktop": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "items": [
+          {
+            "title": "Aumente a eficiência",
+            "description": "Com linked os pedidos são organizados e",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b3eb2ef9-e81b-4f05-a54a-03eba4fb6dab/book_on_table.png",
+            "wordBreak": " entregues antes da fome apertar."
+          },
+          {
+            "title": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/03d93a5c-4c79-4968-b745-3e225bf217a3/cutting_food.png",
+            "wordBreak": " entregues antes da fome apertar."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Home",
+  "path": "/"
 }

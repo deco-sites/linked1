@@ -32,5 +32,7 @@
       "name": "Monte o seu plano a partir de R$ 00,00",
       "url": "/planos"
     }
-  ]
+  ],
+  "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1f0c93aa-9fb8-4049-85cb-8d5b5cad8659/icon_hamburguer.png",
+  "close_icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/97ad407c-7757-4d69-af56-722f305c84f0/icon_close_x.jpg"
 }

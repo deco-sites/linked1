@@ -59,7 +59,7 @@ export default function Section({
                 src={menuLogo || ""}
               />
         )}
-        <p>{description}</p>
+        { /* <p>{description}</p> */ }
         <p>{author}</p>
         <p>{date}</p>
     </div>
