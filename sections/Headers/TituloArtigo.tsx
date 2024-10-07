@@ -50,31 +50,41 @@ export default function Section({
 }: Props) {
 
   return (
-    <section className="pt-[110px] pb-10 bg-sacramentoState">
+    <section className="pb-10">
       <div>
-        <div className="w-full inline-flex">
-          <p className="text-white-80 text-[11px]">{page}</p>
+        <div className="pt-[140px] py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
+          <p className="pl-4 text-mono text-white-80 text-[11px]">{page}</p>
           <div className="flex-1"></div>
-          <p className="text-white-80 text-[11px]">{offer}</p>
-          {menuLogo && (
-                <Image
-                  class=""
-                  src={menuLogo || ""}
-                />
-          )}
+          <div className="pr-4 inline-flex items-center space-x-2">
+            <p className="text-mono text-white-80 text-[11px]">{offer}</p>
+            {menuLogo && (
+              <Image
+                className="ml-2"
+                src={menuLogo || ""}
+              />
+            )}
+          </div>
         </div>
-          <h1 className="text-[32px] font-medium text-sans text-sacramentoState">{title}</h1>
-          <div className="w-full">
-            <div className="flex-1"></div>
-            <div className="pt-[24px] pr-4">
+        <div>
+            <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium text-sans text-sacramentoState">{title}</h1>
+            <div className="w-full">
+              <div className="flex-1"></div>
+              <div className="flex justify-between items-start pt-[24px] pr-4">
+              <div className="flex flex-col">
+                <p className="pl-4 text-sm text-sans font-light">
+                  {date}
+                  <br />
+                </p>
+                <p className="pl-4 text-sm text-sans font-light">{author}</p>
+              </div>
+
               {iconShare && (
-                    <Image
-                      class=""
-                      src={iconShare || ""}
-                    />
+                <Image
+                  className="ml-auto"
+                  src={iconShare || ""}
+                />
               )}
-              <p>{date} <br /></p>
-              <p>{author}</p>
+            </div>
           </div>
         </div>
       </div>

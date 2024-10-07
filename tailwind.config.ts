@@ -27,6 +27,7 @@ export default {
       fontFamily: {
         sans: ['Public Sans', 'sans-serif'],
         varela: ['Varela Round', 'sans-serif'],
+        mono: ['IBM Plex Mono', 'monospace'],
       },
     },
     container: {

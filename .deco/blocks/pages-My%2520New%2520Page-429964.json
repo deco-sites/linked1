@@ -1,0 +1,25 @@
+{
+  "name": "404",
+  "path": "/page-not-found",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloErro.tsx",
+        "title": "Não encontramos",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/69593216-2231-4769-8b21-39ec14654a81/cuttlery_404.svg",
+        "wordBreak": "essa página"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

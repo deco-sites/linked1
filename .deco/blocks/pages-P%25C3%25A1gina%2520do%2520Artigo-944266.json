@@ -5,6 +5,12 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Headers/TituloArtigo.tsx",
         "author": "por José Silva",
         "date": "Maio 2024",
@@ -13,6 +19,12 @@
         "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
         "menuLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png",
         "offer": "Oferecido por"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
       }
     }
   ],

@@ -1,0 +1,28 @@
+{
+  "name": "Segmento",
+  "path": "/segmento",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloSegmento.tsx",
+        "page": "Tipos de estabelecimento",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
+        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4d1f77c1-52b9-44fe-ae6d-72f3d2efa651/lightning_icon.svg",
+        "title": "Linked para",
+        "description": "Uma operação otimizada é crucial para o sucesso de um fast-food. ",
+        "titleWithColor": "Fast-food"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
