@@ -32,6 +32,16 @@ export interface Props {
    * @description Escreva a descrição do bloco
    */
   description?: string;
+  /**
+   * @title Quebra de Linha
+   * @description Escreva aqui a quebra de linha
+   */
+  wordBreak?: string;
+  /**
+   * @title Quebra de Linha
+   * @description Escreva aqui a quebra de linha
+   */
+  wordBreakDescription?: string;
 }
 
 export default function Section({ 
@@ -41,20 +51,25 @@ export default function Section({
     title = "", 
     titleWithColor = "",
     description = "",
+    wordBreak = "",
+    wordBreakDescription = ""
 }: Props) {
 
   return (
-    <section class="pt-[103px] bg-sacramentoState">
+    <section class="pt-[110px] bg-sacramentoState">
       <div>
-          <div class="inline-flex">
-            <p class="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
-            <div class="pl-[276px] pt-[24px] pr-4">
-              {iconShare && (
-                    <Image
-                      class=""
-                      src={iconShare || ""}
-                    />
-              )}
+          <div>
+            <div className="w-full inline-flex">
+              <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+              <div className="flex-1"></div>
+              <div className="pt-[24px] items-end justify-end text-end pr-4">
+                {iconShare && (
+                  <Image
+                    className=""
+                    src={iconShare || ""}
+                  />
+                )}
+              </div>
             </div>
           </div>
           <div class="pl-4 pt-[34px] pb-10">
@@ -65,7 +80,7 @@ export default function Section({
                   />
             )}
             <h1 class="pt-[10.5px] text-[32px] font-sans font-medium text-white">{title} <span class="text-secondary">{titleWithColor}</span></h1>
-            <p class="pt-[10px] text-base font-normal text-white-80">{description}</p>
+            <p class="pt-[10px] pr-[129px] text-base font-normal text-white-80">{description} <br /> {wordBreak} <br /> {wordBreakDescription}</p>
           </div>
       </div>
     </section>

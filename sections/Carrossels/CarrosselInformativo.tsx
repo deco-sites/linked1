@@ -8,15 +8,15 @@ export type Item = {
    */
   title: string;
   /**
-   * @title Quebra de Linha
-   * @description Escreva aqui a quebra de linha
-   */
-  description: string;
-    /**
    * @title Descrição
    * @description Escreva aqui a descrição do item
    */
-  wordBreak: string;
+  description: string;
+  /**
+   * @title Quebra de Linha
+   * @description Escreva aqui a quebra de linha
+   */
+  wordBreak?: string;
   /**
    * @title Imagem
    * @description Escolha a imagem do item

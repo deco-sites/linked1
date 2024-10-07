@@ -11,8 +11,10 @@ export default function Section({
 }: Props) {
 
   return (
-    <div>
-        <p>{title}</p>
-    </div>
+    <section class="bg-sacramentoState">
+      <div class="pl-4 pt-24 pr-[69px] pb-6">
+          <p className="text-[28px] text-white font-medium font-sans">{title}</p>
+      </div>
+    </section>
   );
 }
