@@ -21,10 +21,15 @@ export type Tag = {
 
 export interface Props {
 /**
- * @title Título
+ * @title Título para Desktop
  * @description Digite aqui o título do bloco
  */
-title?: string;
+titleForDesktop?: string;
+/**
+ * @title Título para Mobile
+ * @description Digite aqui o título do bloco
+ */
+titleForMobile?: string;
 /**
  * @title Categorias
  * @description Insira as categorias desejadas
@@ -33,7 +38,8 @@ title?: string;
 }
 
 export default function Section({ 
-    title = "Soluções para todos os tipos de estabelecimentos", 
+    titleForDesktop = '', 
+    titleForMobile = '',
     tags = [
         {
             name: '',
@@ -44,17 +50,26 @@ export default function Section({
 }: Props) {
 
   return (
-    <div>
-        <p>{title}</p>
-        {tags?.map(tag => (
+    <section class="grid gap-8 lg:gap-20 py-36 bg-white">
         <div>
-            <Image
-                class=""
-                src={tag.icon || ""}
-                />
-            <a href={tag.url}>{tag.name}</a>
+            <p className="md:hidden pl-[17px] text-sacramentoState text-[22px] font-semibold text-left">{titleForDesktop}</p>
+            <p className="hidden md:block text-sacramentoState text-5xl text-center">{titleForMobile}</p>
+            <div class="flex justify-center">
+                <div class="flex flex-wrap justify-start lg:justify-center pl-4 gap-x-[8px] gap-y-[8px] lg:gap-y-[17px]  w-full max-w-[888px] lg:max-w-[780px]">
+                    <div class="w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream text-primary">
+                        {tags?.map(tag => (
+                        <div class="pr-[2px] inline-flex">
+                            <Image
+                                class=""
+                                src={tag.icon || ""}
+                                />
+                            <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] font-semibold">{tag.name}</a>
+                        </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
         </div>
-        ))}
-    </div>
+    </section>
   );
 }

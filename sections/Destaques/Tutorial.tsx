@@ -21,16 +21,18 @@ export type ContentItem ={
   title?: string;
 
   icon?: ImageWidget;
+}
 
-  formatterIcon?: ImageWidget;
+export type ContentDetails = {
+  formatterIcon?: ImageWidget[];
 
   /**
    * @title Título
    * @description Escreva aqui o título do item
    */
-  contentDescription?: string;
+  contentDescription?: string[];
+};
 
-}
 export type Item = {
   /**
    * @title Título
@@ -57,6 +59,8 @@ export type Item = {
   subDescription?: string;
 
   contentItem?: ContentItem[];
+
+  contentDetails?: ContentDetails[];
   
   button?: Link[];
 };

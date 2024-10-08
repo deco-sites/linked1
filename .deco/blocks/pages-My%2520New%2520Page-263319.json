@@ -41,6 +41,56 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Navigation/Categorias.tsx",
+        "titleForDesktop": "A Linked tem opções para vários tipos de estabelecimento",
+        "tags": [
+          {
+            "name": "A la carte",
+            "url": "/a-la-carte",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c594087e-64db-4052-871f-9c66d6474b09/icon_cuttlery.svg"
+          },
+          {
+            "name": "Bar",
+            "url": "/bar",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/Tutorial.tsx",
+        "items": [
+          {
+            "contentItem": [
+              {
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/29aec73a-37df-47e6-8725-83180c4e0595/arrow_left.svg",
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/29aec73a-37df-47e6-8725-83180c4e0595/arrow_left.svg",
+                "title": "Essencial",
+                "formatterIcon": [
+                  null
+                ]
+              }
+            ],
+            "button": [],
+            "title": "Aqui você monta o plano ideal para o seu negócio",
+            "informationStep": "1",
+            "contentDetails": [
+              {
+                "formatterIcon": [
+                  null
+                ],
+                "contentDescription": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }

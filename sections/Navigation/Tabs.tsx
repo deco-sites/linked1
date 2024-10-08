@@ -33,7 +33,7 @@ export default function Section({
   return (
     <section class="w-full bg-sacramentoState border-b-2 border-white-20">
       <div className="py-2">
-        <div className="justify-center flex space-x-[37px]">
+        <div className="justify-evenly flex space-x-[37px]">
           {menu?.map(item => (
               <a href={item.url} className="text-sans text-base text-white-80">{item.name}</a>
           ))}
