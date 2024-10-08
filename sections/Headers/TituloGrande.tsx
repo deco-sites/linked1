@@ -56,11 +56,11 @@ export default function Section({
 }: Props) {
 
   return (
-    <section class="pt-[110px] bg-sacramentoState">
+    <section class="bg-sacramentoState">
       <div>
           <div>
             <div className="w-full inline-flex">
-              <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+              <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
               <div className="flex-1"></div>
               <div className="pt-[24px] items-end justify-end text-end pr-4">
                 {iconShare && (
@@ -79,8 +79,8 @@ export default function Section({
                     src={icon || ""}
                   />
             )}
-            <h1 class="pt-[10.5px] text-[32px] font-sans font-medium text-white">{title} <span class="text-secondary">{titleWithColor}</span></h1>
-            <p class="pt-[10px] pr-[129px] text-base font-normal text-white-80">{description} <br /> {wordBreak} <br /> {wordBreakDescription}</p>
+            <h1 class="pt-[10.5px] text-[32px] text-sans font-medium text-white">{title} <span class="text-secondary">{titleWithColor}</span></h1>
+            <p class="pt-[10px] pr-[129px] text-sans text-base font-normal text-white-80">{description} <br /> {wordBreak} <br /> {wordBreakDescription}</p>
           </div>
       </div>
     </section>

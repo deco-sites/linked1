@@ -51,12 +51,12 @@ export default function Section({
             {items.map((item, index) => (
               <div className="swiper-slide w-fit pl-[32px] pr-[28px] lg:ml-10" key={index}>
                 <article className="w-fit flex flex-col border-t-2 border-white-20">
-                  <p className="text-mintCream pt-[22.8px] text-left">{item.title}</p>
+                  <p className="pt-[22.8px] text-base text-mintCream text-sans text-left">{item.title}</p>
                   <div className="flex space-x-5 py-[26px] px-0">
                     <Image className="" src={item.image || ""} />
                   </div>
                   <div className="w-fit pl-0">
-                    <p className="pl-[3px] w-fit text-mintCream">{item.description} <br /> {item.wordBreak}</p>
+                    <p className="pl-[3px] w-fit text-base text-sans font-normal text-mintCream">{item.description} <br /> {item.wordBreak}</p>
                   </div>
                 </article>
               </div>

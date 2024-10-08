@@ -86,11 +86,11 @@ export default function Section({
   // }, []);
 
   return (
-    <nav role="navigation" className="inline-flex pl-4 py-[29.5px] lg:py-9 lg:px-10 w-full bg-sacramentoState border-b-2 border-white-20 fixed top-0 left-0 z-50">
-      <div>
+    <nav role="navigation" className="inline-flex pl-4 py-[29.5px] lg:py-9 lg:px-10 w-full bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
+      <div className="flex">
         {logo && (
           <Image
-            className=""
+            className="lg:pr-[124.94px]"
             src={logo || ""} 
           />
         )}
@@ -117,8 +117,7 @@ export default function Section({
         </div>
       </div>
 
-      {/* Menu principal (visível apenas em dispositivos maiores) */}
-      <div id="menu" className="hidden md:flex space-x-4 text-white font-light items-center whitespace-nowrap">
+      <div id="menu" className="hidden md:flex space-x-4 text-sans text-white font-light items-center whitespace-nowrap">
         {menu?.map((item, index) => (
           <a key={index} href={item.url}>
             {item.name}
@@ -126,15 +125,14 @@ export default function Section({
         ))}
       </div>
 
-      {/* Botões de ação */}
-      <div className="hidden w-fit md:flex ml-6 bg-secondary rounded-xl items-center justify-center gap-4">
+      <div className="hidden w-fit md:flex ml-8 mr-10 bg-secondary rounded-xl items-center justify-center gap-4">
         {button?.map((btn, index) => (
           <a
             key={index}
             href={btn.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-max px-[22px] py-3.5 flex-none text-base font-light"
+            className="w-max px-[22px] py-3.5 flex-none text-sans text-base font-light"
           >
             {btn.name}
           </a>

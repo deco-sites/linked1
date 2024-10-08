@@ -42,7 +42,7 @@ export default function Section({
   return (
     <section className="bg-sacramentoState">
       <div className="pb-[13px]">
-        <div className="pl-4 pr-4 flex items-center justify-between">
+        <div className="px-4 pt-4 flex items-center justify-between">
           {iconBack && (
             <Image
               className=""

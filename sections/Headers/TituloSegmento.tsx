@@ -44,7 +44,7 @@ export default function Section({
 }: Props) {
 
   return (
-    <section class="pt-[110px] pb-10 bg-sacramentoState">
+    <section class="pb-10 bg-sacramentoState">
       <div>
         <div className="w-full inline-flex">
           <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>

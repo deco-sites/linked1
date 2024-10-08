@@ -26,7 +26,7 @@ export default function Section({
 }: Props) {
 
   return (
-    <section className="pt-[200px] bg-sacramentoState-10">
+    <section className="pt-[90px] bg-sacramentoState-10">
       <div className="pl-4">
           {icon && (
                 <Image

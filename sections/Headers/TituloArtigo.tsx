@@ -52,7 +52,7 @@ export default function Section({
   return (
     <section className="pb-10">
       <div>
-        <div className="pt-[140px] py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
+        <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
           <p className="pl-4 text-mono text-white-80 text-[11px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pr-4 inline-flex items-center space-x-2">

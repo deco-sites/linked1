@@ -23,7 +23,7 @@ export default function Section({
 }: Props) {
 
   return (
-    <section className="pt-[180px] bg-sacramentoState">
+    <section className="pt-[70px] bg-sacramentoState">
       <div className="pl-4 pb-12">
           <p className="text-white-80 text-[11px] text-mono font-normal">{subtitle}</p>
           <p className="pt-2 text-white text-[28px] text-sans font-medium">{title} <br /> <span className="text-secondary">{titleWithColor}</span></p>

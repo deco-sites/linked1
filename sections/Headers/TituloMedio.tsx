@@ -13,7 +13,7 @@ export default function Section({
   return (
     <section class="bg-sacramentoState">
       <div class="pl-4 pt-24 pr-[69px] pb-6">
-          <p className="text-[28px] text-white font-medium font-sans">{title}</p>
+          <p className="text-[28px] text-white font-medium text-sans">{title}</p>
       </div>
     </section>
   );

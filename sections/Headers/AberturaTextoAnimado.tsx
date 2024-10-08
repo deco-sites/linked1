@@ -66,14 +66,14 @@ export default function Section({
     <section className="w-full bg-sacramentoState">
       <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center min-h-screen">
         <div className="w-fit">
-          <p className="font-sans text-white font-semibold text-[32px] lg:text-[64px]">
+          <p className="text-sans text-white font-semibold text-[32px] lg:text-[64px]">
             {title} <br /> {WordBreak} 
             <span className="text-secondary font-semibold">{TextWithColor}</span>
           </p>
         </div>
         <div className="mt-[21px]">
-          <p className="block md:hidden text-white-80 text-base font-medium">{subtitleMobile}</p>
-          <p className="hidden md:block text-white-80 text-lg font-medium">{subtitleDesktop}</p>
+          <p className="block md:hidden pr-[42px] text-white-80 text-sans text-base font-medium">{subtitleMobile}</p>
+          <p className="hidden md:block text-white-80 text-sans text-lg font-medium">{subtitleDesktop}</p>
         </div>
         {/* texto animado
         <div className="mt-5">
