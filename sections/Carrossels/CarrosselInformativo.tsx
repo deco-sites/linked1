@@ -49,14 +49,14 @@ export default function Section({
         <div className="swiper-container">
           <div className="swiper-wrapper inline-flex">
             {items.map((item, index) => (
-              <div className="swiper-slide w-fit mr-5 ml-4 lg:ml-10" key={index}>
-                <article className="w-fit pt-[26px] flex flex-col border-t-2 border-white-20">
+              <div className="swiper-slide w-fit pl-[32px] pr-[28px] lg:ml-10" key={index}>
+                <article className="w-fit flex flex-col border-t-2 border-white-20">
                   <p className="text-mintCream pt-[22.8px] text-left">{item.title}</p>
                   <div className="flex space-x-5 py-[26px] px-0">
                     <Image className="" src={item.image || ""} />
                   </div>
                   <div className="w-fit pl-0">
-                    <p className="w-fit text-mintCream">{item.description} <br /> {item.wordBreak}</p>
+                    <p className="pl-[3px] w-fit text-mintCream">{item.description} <br /> {item.wordBreak}</p>
                   </div>
                 </article>
               </div>

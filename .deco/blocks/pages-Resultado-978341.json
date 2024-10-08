@@ -1,0 +1,38 @@
+{
+  "name": "Resultado",
+  "path": "/resultado",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloSucesso.tsx",
+        "subtitle": "Resultado",
+        "title": "Júlio, o plano mais recomendado para seu estabelecimento é o ",
+        "titleWithColor": "Linked Food Total"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "items": [
+          {
+            "title": "PDV",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png",
+            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery  minuto a minuto"
+          }
+        ]
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
