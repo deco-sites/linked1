@@ -9,7 +9,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Headers/Openning.tsx",
         "title": "Gestão inteligente",
         "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
         "subtitleMobile": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
@@ -21,7 +21,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
             "title": "Aumente a eficiência",

@@ -7,6 +7,15 @@
       "section": {
 <<<<<<< HEAD
         "__resolveType": "site/sections/Navigation/Navbar.tsx",
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png"
+=======
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
+        "logoText": "Linked",
+        "buttonUrl": "/"
+>>>>>>> 523a566a20b44a8044833097e040d3247cf66410
+=======
         "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
         "logoText": "Linked",
         "buttonUrl": "/",
@@ -15,15 +24,16 @@
 =======
         "__resolveType": "Navbar"
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
 <<<<<<< HEAD
-        "__resolveType": "site/sections/Destaques/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Destaques/Openning.tsx",
 =======
-        "__resolveType": "site/sections/Headers/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Headers/Openning.tsx",
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
         "title": "Gestão inteligente para sonhar mais",
         "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
@@ -32,7 +42,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
 <<<<<<< HEAD
@@ -67,7 +77,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
         "title": "A Linked também tem parcerias para transformar o seu negócio",
         "items": [
           {
@@ -102,7 +112,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
 <<<<<<< HEAD
 =======
         "title": "Acompanhe as nossas receitas de sucesso",
@@ -120,6 +130,11 @@
         ]
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
       }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -140,6 +155,10 @@
         "__resolveType": "Footer"
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
       }
+<<<<<<< HEAD
+>>>>>>> 523a566a20b44a8044833097e040d3247cf66410
+=======
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

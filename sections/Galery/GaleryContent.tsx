@@ -27,7 +27,7 @@ export type Item = {
 export interface Props {
   /**
    * @title Items
-   * @description Configure cada item do carrossel
+   * @description Configure cada item do Galery
    */
   items: Item[];
 }

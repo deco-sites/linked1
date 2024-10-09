@@ -27,7 +27,7 @@ export interface Props {
   title: string,
   /**
    * @title Items
-   * @description Configure cada item do carrossel
+   * @description Configure cada item do Galery
    */
   items: Item[];
 }

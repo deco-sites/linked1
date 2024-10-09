@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloSucesso.tsx",
+        "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
         "subtitle": "Resultado",
         "title": "Júlio, o plano mais recomendado para seu estabelecimento é o ",
         "titleWithColor": "Linked Food Total"
@@ -20,7 +20,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
             "title": "PDV",

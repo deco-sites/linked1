@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloArtigo.tsx",
+        "__resolveType": "site/sections/Headers/TitleArticle.tsx",
         "author": "por José Silva",
         "date": "Maio 2024",
         "page": "Clientes",

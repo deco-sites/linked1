@@ -13,7 +13,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloIntegracao.tsx",
+        "__resolveType": "site/sections/Headers/TitleIntegration.tsx",
         "page": "Integrações",
         "title": "Ifood e",
         "description": "Todas as plataformas da Linked Food são compatíveis e podem ser integradas com o iFood, o principal serviço de delivery do Brasil.",
@@ -27,7 +27,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
             "title": "Visão única e integrada",

@@ -1,6 +1,6 @@
 {
-  "name": "404",
-  "path": "/page-not-found",
+  "name": "Serena",
+  "path": "/parcerias/serena",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -11,10 +11,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TitleError.tsx",
-        "title": "Não encontramos",
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/69593216-2231-4769-8b21-39ec14654a81/cuttlery_404.svg",
-        "wordBreak": "essa página"
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
       }
     }
   ],

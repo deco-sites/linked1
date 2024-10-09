@@ -1,6 +1,6 @@
 {
-  "name": "Planos",
-  "path": "/planos",
+  "name": "Inteligência de Dados Linked",
+  "path": "/opicionais/inteligencia-de-dados",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -11,29 +11,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Navigation/Tabs.tsx",
-        "menu": [
-          {
-            "name": "Planos",
-            "url": "/planos",
-            "status": true
-          },
-          {
-            "name": "Opicionais",
-            "url": "/opicionais"
-          },
-          {
-            "name": "Integrações",
-            "url": "/integracoes"
-          }
-        ]
+        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
+        "page": "Opcionais",
+        "title": "Inteligência de dados",
+        "titleWithColor": " Linked",
+        "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos."
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Plano para todos os modelos de negócio"
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx"
       }
     },
     {

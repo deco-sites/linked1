@@ -1,6 +1,6 @@
 {
-  "name": "Planos",
-  "path": "/planos",
+  "name": "Integração iFood",
+  "path": "/integracoes/ifood",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -11,29 +11,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Navigation/Tabs.tsx",
-        "menu": [
-          {
-            "name": "Planos",
-            "url": "/planos",
-            "status": true
-          },
-          {
-            "name": "Opicionais",
-            "url": "/opicionais"
-          },
-          {
-            "name": "Integrações",
-            "url": "/integracoes"
-          }
-        ]
+        "__resolveType": "site/sections/Headers/TitleIntegration.tsx",
+        "page": "Integrações",
+        "title": "iFood e ",
+        "titleWithColor": "Linked",
+        "description": "Todas as plataformas da Linked Food são compatíveis e podem ser integradas com o iFood, o principal serviço de delivery do Brasil. A integração é realizada de forma simples e rápida, exigindo apenas os dados de acesso da sua conta no iFood."
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Plano para todos os modelos de negócio"
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx"
       }
     },
     {
