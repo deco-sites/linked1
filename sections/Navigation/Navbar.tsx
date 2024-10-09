@@ -11,7 +11,7 @@ export type Link = {
    * @title Destino
    * @description Insira a url ou o caminho de destino
    */
-  url: string;
+    url: string;
 };
 
 export interface Props {

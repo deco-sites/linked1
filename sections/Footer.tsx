@@ -1,71 +1,44 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
-  /**
-   * @title Nome
-   * @description Nome visível para clique
-   */
-  name: string;
-  /**
-   * @title Destino
-   * @description Insira a URL ou o caminho de destino
-   */
-  url: string;
-};
-
 export interface Props {
   /**
-   * @title Menu de Navegação
-   * @description Insira os links do menu de navegação
-   * 
+   * @title Logo
+   * @description Insira o logo
    */
-  linkedText: string;
-  /**
-   * @title URL do Link de Texto
-   * @description URL do link adicional
-   */
-  linkedUrl: string;
-  /**
-   * @title Endereço
-   * @description Representa o endereço físico associado à entidade.
-   */
-  address: string;
+  logo?: ImageWidget;
   /**
    * @title Direitos Reservados
    * @description Texto de direitos reservados
    */
   rightsText: string;
   /**
-   * @title Link de Texto
-   * @description Insira o texto para o link adicional
+   * @title Endereço
+   * @description Insira o endereço do rodapé
    */
+  address: string;
 }
 
 export default function Footer({
-
-  linkedText = "",
-  linkedUrl = "#",
+  logo = "", 
   address = "",
   rightsText = "",
-
 }: Props) {
   return (
-    <footer className="bg-sacramentoState">
-      <div className="w-full pt-[159px] text-center">
-        <div className="text-center">
-          <a href={linkedUrl} className="text-center text-[60px] text-caribbeanGreen">
-            {linkedText}
-          </a>
-        </div>
-        <p className="pt-[22px] pb-[66px] font-light lg:text-xs text-center text-mintCream">
-          {rightsText}
-        </p>
-        <div className="pb-[72px] border-t-2 border-white-20 w-full">
-          <p className="pt-[38px] sm:text-[11px] lg:text-xs text-center text-mintCream">
-            {address}
-          </p>
-        </div>
+    <footer className="footer">
+      <div className="footer-top">
+        <nav className="footer-menu">
+          {logo && (
+                <Image
+                  class=""
+                  src={logo || ""}
+                />
+          )}
+        </nav>
+      </div>
+      <div className="footer-bottom">
+        <p className="footer-rights">{rightsText}</p>
+        <p className="footer-address">{address}</p>
       </div>
     </footer>
   );

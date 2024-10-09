@@ -1,0 +1,38 @@
+{
+  "name": "Linked para Fast-food",
+  "path": "/tipos-de-estabelecimento/fast-food",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloSegmento.tsx",
+        "title": "Linked para ",
+        "page": "Tipos de estabelecimento",
+        "titleWithColor": "Fast-food",
+        "description": "Uma operação otimizada é crucial para o sucesso de um fast-food."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

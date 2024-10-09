@@ -7,6 +7,15 @@
       "section": {
 <<<<<<< HEAD
         "__resolveType": "site/sections/Navigation/Navbar.tsx",
+<<<<<<< HEAD
+<<<<<<< HEAD
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png"
+=======
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
+        "logoText": "Linked",
+        "buttonUrl": "/"
+>>>>>>> 523a566a20b44a8044833097e040d3247cf66410
+=======
         "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9cb2570a-39c1-47f8-a132-662ca36467d1/Captura-de-Tela-2024-09-26-as-09.27.56.png",
         "logoText": "Linked",
         "buttonUrl": "/",
@@ -15,6 +24,7 @@
 =======
         "__resolveType": "Navbar"
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
       }
     },
     {
@@ -120,6 +130,11 @@
         ]
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
       }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -140,6 +155,10 @@
         "__resolveType": "Footer"
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
       }
+<<<<<<< HEAD
+>>>>>>> 523a566a20b44a8044833097e040d3247cf66410
+=======
+>>>>>>> 5e68fcad8eaf880394d2cd3d693d0263465ba2ed
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

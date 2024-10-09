@@ -1,0 +1,44 @@
+{
+  "name": "Integração iFood",
+  "path": "/integracoes/ifood",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TituloIntegracao.tsx",
+        "page": "Integrações",
+        "title": "iFood e ",
+        "titleWithColor": "Linked",
+        "description": "Todas as plataformas da Linked Food são compatíveis e podem ser integradas com o iFood, o principal serviço de delivery do Brasil. A integração é realizada de forma simples e rápida, exigindo apenas os dados de acesso da sua conta no iFood."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
