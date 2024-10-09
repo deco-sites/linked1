@@ -11,6 +11,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Headers/Offer.tsx",
+        "page": "Blog",
+        "offer": "Oferecido por",
+        "brandOffer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
+        "title": "Receitas de sucesso"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },

@@ -2,11 +2,11 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
-  /**
-   * @title Página
-   * @description Escreva aqui o título da página
-   */
-  page: string;
+  // /**
+  //  * @title Página
+  //  * @description Escreva aqui o título da página
+  //  */
+  // page: string;
   /**
    * @title Título
    * @description Escreva o título
@@ -37,16 +37,16 @@ export interface Props {
    * @description Insira o logo da Linked aqui
    */
   linkedLogo: ImageWidget;
-  /**
-   * @title Ícone de Compartilhamento
-   * @description Insira o ícone de compartilhamento aqui
-   */
-  iconShare?: ImageWidget;
+  // /**
+  //  * @title Ícone de Compartilhamento
+  //  * @description Insira o ícone de compartilhamento aqui
+  //  */
+  // iconShare?: ImageWidget;
 }
 
 export default function Section({ 
-    page = "", 
-    iconShare = "", 
+    // page = "", 
+    // iconShare = "", 
     title = "", 
     titleWithColor = "",
     integrationLogo = "", 
@@ -58,7 +58,7 @@ export default function Section({
   return (
     <section class="pb-10 bg-sacramentoState">
       <div>
-        <div className="w-full inline-flex">
+        {/* <div className="w-full inline-flex">
           <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
@@ -69,8 +69,8 @@ export default function Section({
                   />
             )}
           </div>
-        </div>
-        <div className="pl-4 pt-9 pb-2.5 inline-flex">
+        </div> */}
+        <div className="pl-4 pt-4 pb-2.5 inline-flex">
           {integrationLogo && (
             <Image
               className="rounded-full"

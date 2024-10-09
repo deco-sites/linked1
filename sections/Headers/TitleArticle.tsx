@@ -2,16 +2,16 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
-  /**
-   * @title Página
-   * @description Escreva aqui o título da página
-   */
-  page: string;
-  /**
-   * @title Oferecido por
-   * @description Escreva o nome do oferecimento
-   */
-  offer?: string;
+  // /**
+  //  * @title Página
+  //  * @description Escreva aqui o título da página
+  //  */
+  // page: string;
+  // /**
+  //  * @title Oferecido por
+  //  * @description Escreva o nome do oferecimento
+  //  */
+  // offer?: string;
   /**
    * @title Título
    * @description Escreva o nome da integração
@@ -27,11 +27,11 @@ export interface Props {
    * @description Escreva o nome do autor da matéria
    */
   author: string;
-  /**
-   * @title Logo do Menu
-   * @description Insira o logo do Menu
-   */
-  menuLogo?: ImageWidget;
+  // /**
+  //  * @title Logo do Menu
+  //  * @description Insira o logo do Menu
+  //  */
+  // menuLogo?: ImageWidget;
   /**
    * @title Ícone de Compartilhamento
    * @description Insira o ícone de compartilhamento aqui
@@ -40,11 +40,11 @@ export interface Props {
 }
 
 export default function Section({ 
-    page = "", 
-    offer = "",
+    // page = "", 
+    // offer = "",
     iconShare = "", 
     title = "", 
-    menuLogo = "",  
+    // menuLogo = "",  
     date = "", 
     author = "",
 }: Props) {
@@ -52,7 +52,7 @@ export default function Section({
   return (
     <section className="pb-10">
       <div>
-        <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
+        {/* <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
           <p className="pl-4 text-mono text-white-80 text-[11px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pr-4 inline-flex items-center space-x-2">
@@ -64,7 +64,7 @@ export default function Section({
               />
             )}
           </div>
-        </div>
+        </div> */}
         <div>
             <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium text-sans text-sacramentoState">{title}</h1>
             <div className="w-full">

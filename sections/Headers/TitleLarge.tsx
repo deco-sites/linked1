@@ -2,16 +2,16 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
-  /**
-   * @title Página
-   * @description Escreva aqui o título da página
-   */
-  page?: string;
-   /**
-   * @title Ícone de Compartilhamento
-   * @description Insira o ícone de compartilhamento aqui
-   */
-   iconShare?: ImageWidget;
+  // /**
+  //  * @title Página
+  //  * @description Escreva aqui o título da página
+  //  */
+  // page?: string;
+  //  /**
+  //  * @title Ícone de Compartilhamento
+  //  * @description Insira o ícone de compartilhamento aqui
+  //  */
+  //  iconShare?: ImageWidget;
       /**
    * @title Ícone
    * @description Insira o ícone
@@ -26,7 +26,7 @@ export interface Props {
    * @title Título com Cor
    * @description Escreva o conteúdo do bloco com cor
    */
-    titleWithColor?: string;
+  titleWithColor?: string;
   /**
    * @title Descrição
    * @description Escreva a descrição do bloco
@@ -45,8 +45,8 @@ export interface Props {
 }
 
 export default function Section({ 
-    page = "", 
-    iconShare = "",
+    // page = "", 
+    // iconShare = "",
     icon = "",
     title = "", 
     titleWithColor = "",
@@ -58,7 +58,7 @@ export default function Section({
   return (
     <section class="bg-sacramentoState">
       <div>
-          <div>
+          {/* <div>
             <div className="w-full inline-flex">
               <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
               <div className="flex-1"></div>
@@ -71,11 +71,11 @@ export default function Section({
                 )}
               </div>
             </div>
-          </div>
-          <div class="pl-4 pt-[34px] pb-10">
+          </div> */}
+          <div class="pl-4 pb-10">
             {icon && (
                   <Image
-                    class="w-[26.5px] h-[30px]"
+                    class="w-[30px] h-[29px]"
                     src={icon || ""}
                   />
             )}

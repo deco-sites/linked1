@@ -11,11 +11,20 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "page": "Opcionais",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Headers/TitleSegment.tsx",
         "page": "Opcionais",
         "title": "Inteligência de dados",
         "titleWithColor": " Linked",
-        "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos."
+        "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos.",
+        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b5c16567-1de6-4323-9aab-ff188996b766/icon_data.svg"
       }
     },
     {
