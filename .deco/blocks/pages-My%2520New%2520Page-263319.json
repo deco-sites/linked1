@@ -34,7 +34,11 @@
             "description": "Com linked os pedidos são organizados e",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/03d93a5c-4c79-4968-b745-3e225bf217a3/cutting_food.png",
             "wordBreak": " entregues antes da fome apertar."
-          }
+          },
+          {
+            "title": "PDV"
+          },
+          {}
         ]
       }
     },

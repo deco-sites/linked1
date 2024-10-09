@@ -21,7 +21,10 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx"
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
+        "items": [
+          {}
+        ]
       }
     },
     {
