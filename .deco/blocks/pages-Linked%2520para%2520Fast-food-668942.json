@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloSegmento.tsx",
+        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
         "title": "Linked para ",
         "page": "Tipos de estabelecimento",
         "titleWithColor": "Fast-food",

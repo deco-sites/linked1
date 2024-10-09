@@ -31,9 +31,9 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
 <<<<<<< HEAD
-        "__resolveType": "site/sections/Destaques/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Destaques/Openning.tsx",
 =======
-        "__resolveType": "site/sections/Headers/AberturaTextoAnimado.tsx",
+        "__resolveType": "site/sections/Headers/Openning.tsx",
 >>>>>>> e1483ad55a0ba7c818154097166384eb21ca78f4
         "title": "Gestão inteligente para sonhar mais",
         "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
@@ -42,7 +42,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
 <<<<<<< HEAD
@@ -77,7 +77,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
         "title": "A Linked também tem parcerias para transformar o seu negócio",
         "items": [
           {
@@ -112,7 +112,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselComLink.tsx",
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
 <<<<<<< HEAD
 =======
         "title": "Acompanhe as nossas receitas de sucesso",

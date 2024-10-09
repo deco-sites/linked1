@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloIntegracao.tsx",
+        "__resolveType": "site/sections/Headers/TitleIntegration.tsx",
         "page": "Integrações",
         "title": "iFood e ",
         "titleWithColor": "Linked",
@@ -21,7 +21,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx"
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx"
       }
     },
     {

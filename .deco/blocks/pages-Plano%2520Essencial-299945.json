@@ -24,7 +24,7 @@
         "title": "Plano Essencial",
         "subtitle": "Design intuitivo e operação fácil para administrar seus pedidos"
 =======
-        "__resolveType": "site/sections/Headers/TituloPlano.tsx",
+        "__resolveType": "site/sections/Headers/TitlePlan.tsx",
         "page": "Planos",
         "title": "Plano Essencial",
         "description": "Design intuitivo e operação fácil para administrar seus pedidos",
@@ -35,7 +35,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx",
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
             "title": "PDV",

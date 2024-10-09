@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloMedio.tsx",
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
         "title": "Parcerias"
       }
     },

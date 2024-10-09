@@ -32,7 +32,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloMedio.tsx",
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
         "title": "Plano para todos os modelos de negócio"
       }
     },

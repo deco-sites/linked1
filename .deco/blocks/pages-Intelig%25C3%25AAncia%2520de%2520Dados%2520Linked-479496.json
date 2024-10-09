@@ -11,7 +11,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TituloSegmento.tsx",
+        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
         "page": "Opcionais",
         "title": "Inteligência de dados",
         "titleWithColor": " Linked",
@@ -21,7 +21,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Carrossels/CarrosselInformativo.tsx"
+        "__resolveType": "site/sections/Galery/GaleryContent.tsx"
       }
     },
     {
