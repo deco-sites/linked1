@@ -49,27 +49,31 @@ export default function Section({
     ] 
 }: Props) {
 
-  return (
-    <section class="grid gap-8 lg:gap-20 py-36 bg-white">
+    return (
+    <section className="grid gap-8 lg:gap-20 py-36 bg-white">
         <div>
-            <p className="md:hidden pl-[17px] text-sacramentoState text-[22px] font-semibold text-left">{titleForDesktop}</p>
-            <p className="hidden md:block text-sacramentoState text-5xl text-center">{titleForMobile}</p>
-            <div class="flex justify-center">
-                <div class="flex flex-wrap justify-start lg:justify-center pl-4 gap-x-[8px] gap-y-[8px] lg:gap-y-[17px]  w-full max-w-[888px] lg:max-w-[780px]">
-                    <div class="w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream text-primary">
-                        {tags?.map(tag => (
-                        <div class="pr-[2px] inline-flex">
-                            <Image
-                                class=""
-                                src={tag.icon || ""}
-                                />
-                            <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] font-semibold">{tag.name}</a>
+            {/* Título para desktop */}
+            <p className="md:hidden pl-[17px] pb-[42px] text-sans font-semibold text-sacramentoState text-[22px] font-semibold text-left">{titleForDesktop}</p>
+            
+            {/* Título para mobile */}
+            <p className="hidden md:block pb-[42px] text-sans font-semibold text-sacramentoState text-5xl text-center">{titleForMobile}</p>
+            
+            <div className="flex justify-center">
+                <div className="flex flex-wrap justify-start lg:justify-center pl-4 gap-x-[8px] gap-y-[8px] lg:gap-y-[17px] w-full max-w-[888px] lg:max-w-[780px]">
+                    
+                    {tags?.map(tag => (
+                        <div key={tag.name} className="w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream text-sans font-semibold text-primary">
+                            <div className="pr-[2px] inline-flex">
+                                <Image className="" src={tag.icon || ""} alt={tag.name} />
+                                                                <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] text-sans font-semibold ">
+                                    {tag.name}
+                                </a>
+                            </div>
                         </div>
-                        ))}
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
     </section>
-  );
+    );
 }

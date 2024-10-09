@@ -53,6 +53,11 @@
             "name": "Bar",
             "url": "/bar",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg"
+          },
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ae0cfa37-72a5-4214-9a94-85bc2d4c9cd5/cup_coffe1.svg",
+            "name": "Cafeteria",
+            "url": "/cafeteria"
           }
         ]
       }
@@ -65,25 +70,30 @@
           {
             "contentItem": [
               {
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/29aec73a-37df-47e6-8725-83180c4e0595/arrow_left.svg",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg",
                 "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/29aec73a-37df-47e6-8725-83180c4e0595/arrow_left.svg",
-                "title": "Essencial",
-                "formatterIcon": [
-                  null
-                ]
+                "ContentDetails": [
+                  {
+                    "contentDescription": [
+                      null
+                    ],
+                    "Image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/29aec73a-37df-47e6-8725-83180c4e0595/arrow_left.svg"
+                  }
+                ],
+                "title": "Essencial"
               }
             ],
+            "contentDetails": [],
             "button": [],
             "title": "Aqui você monta o plano ideal para o seu negócio",
             "informationStep": "1",
-            "contentDetails": [
-              {
-                "formatterIcon": [
-                  null
-                ],
-                "contentDescription": []
-              }
-            ]
+            "subTitle": "Você escolhe o plano",
+            "subDescription": "Duas opções..."
+          },
+          {
+            "contentItem": [],
+            "contentDetails": [],
+            "button": []
           }
         ]
       }
