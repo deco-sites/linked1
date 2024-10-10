@@ -18,7 +18,6 @@ export interface Props {
   /**
    * @title Menu de Navegação
    * @description Insira os links do menu de navegação
-   * 
    */
   linkedText: string;
   /**
@@ -26,6 +25,11 @@ export interface Props {
    * @description URL do link adicional
    */
   linkedUrl: string;
+  /**
+   * @title Imagem do Link
+   * @description Insira a imagem para o link adicional
+   */
+  imageWidget: ImageWidget;
   /**
    * @title Endereço
    * @description Representa o endereço físico associado à entidade.
@@ -36,33 +40,31 @@ export interface Props {
    * @description Texto de direitos reservados
    */
   rightsText: string;
-  /**
-   * @title Link de Texto
-   * @description Insira o texto para o link adicional
-   */
 }
 
 export default function Footer({
-
   linkedText = "",
   linkedUrl = "#",
+  imageWidget = "",
   address = "",
   rightsText = "",
-
 }: Props) {
   return (
     <footer className="bg-sacramentoState">
       <div className="w-full pt-[159px] text-center">
         <div className="text-center">
-          <a href={linkedUrl} className="text-center text-[60px] text-caribbeanGreen">
-            {linkedText}
+          <a href={linkedUrl} className="text-center">
+            {imageWidget && (
+              <Image src={imageWidget} alt={linkedText} className="block md:hidden mx-auto" />
+            )}
+            <span className="hidden md:block text-[60px] text-caribbeanGreen">{linkedText}</span>
           </a>
         </div>
-        <p className="pt-[22px] pb-[66px] font-light lg:text-xs text-center text-mintCream">
+        <p className="pt-[22px] pb-[66px] font-light font-mono lg:text-xs text-center text-mintCream">
           {rightsText}
         </p>
         <div className="pb-[72px] border-t-2 border-white-20 w-full">
-          <p className="pt-[38px] sm:text-[11px] lg:text-xs text-center text-mintCream">
+          <p className="pt-[38px] sm:text-[11px] font-mono lg:text-xs text-center text-mintCream">
             {address}
           </p>
         </div>
