@@ -13,7 +13,19 @@
       "section": {
         "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
         "page": "Parcerias",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg"
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Galery/ImageContent.tsx",
+        "ImageLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/297892ce-4ca9-4b78-977d-9fb03de89fe7/brand_serena.png",
+        "items": [
+          {
+            "Image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/297892ce-4ca9-4b78-977d-9fb03de89fe7/brand_serena.png"
+          }
+        ]
       }
     },
     {
