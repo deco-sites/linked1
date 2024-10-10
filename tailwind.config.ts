@@ -20,8 +20,9 @@ export default {
         'white-80': 'rgba(255, 255, 255, 0.8)', // 80% de opacidade
         caribbeanGreen: '#00D2A0',
         sacramentoState: '#003330',
-        'sacramentoState-80': 'rgba(0, 51, 48, 0.8)', // 80% de opacidade
         'sacramentoState-10': 'rgba(0, 51, 48, 0.1)', // 10% de opacidade
+        'sacramentoState-40': 'rgba(0, 51, 48, 0.4)', // 40% de opacidade
+        'sacramentoState-80': 'rgba(0, 51, 48, 0.8)', // 80% de opacidade
         mintCream: '#D6FFF5',
       },
       fontFamily: {

@@ -35,6 +35,12 @@ export type ContentDetails = {
    * @description Escreva aqui o título do item
    */
   contentDescription?: string[];
+
+  /**
+   * @title Formatter Icon
+   * @description Icons for formatting
+   */
+  formatterIcon?: string[];
 };
 
 export type Item = {
@@ -78,41 +84,41 @@ interface Props {
 }
 
 export default function Section({ items }: Props) {
-  // return (
-    // <section>
-    //   {items?.map((item: Item, index: number) => (
-    //     <div key={index}>
-    //       {item.title && <h1>{item.title}</h1>}
-    //       {item.subTitle && <h2>{item.subTitle}</h2>}
-    //       {item.informationStep && <p>{item.informationStep}</p>}
-    //       {item.subDescription && <p>{item.subDescription}</p>}
+  return (
+    <section>
+      {items?.map((item: Item, index: number) => (
+        <div key={index}>
+          {item.title && <h1>{item.title}</h1>}
+          {item.subTitle && <h2>{item.subTitle}</h2>}
+          {item.informationStep && <p>{item.informationStep}</p>}
+          {item.subDescription && <p>{item.subDescription}</p>}
 
-    //       {item.contentItem?.map((content, idx) => (
-    //         <div key={idx}>
-    //           {content.image && <img src={content.image} alt={content.title} />}
-    //           {content.icon && <img src={content.icon} alt="Icon" />}
-    //           {content.title && <h3>{content.title}</h3>}
-    //         </div>
-    //       ))}
+          {item.contentItem?.map((content, idx) => (
+            <div key={idx}>
+              {content.image && <img src={content.image} alt={content.title} />}
+              {content.icon && <img src={content.icon} alt="Icon" />}
+              {content.title && <h3>{content.title}</h3>}
+            </div>
+          ))}
 
-    //       {item.contentDetails?.map((detail, idx) => (
-    //         <div key={idx}>
-    //           {detail.formatterIcon?.map((icon, i) => (
-    //             <img key={i} src={icon} alt={`Icon ${i}`} />
-    //           ))}
-    //           {detail.contentDescription?.map((desc, i) => (
-    //             <p key={i}>{desc}</p>
-    //           ))}
-    //         </div>
-    //       ))}
+          {item.contentDetails?.map((detail, idx) => (
+            <div key={idx}>
+              {detail.formatterIcon?.map((icon, i) => (
+                <img key={i} src={icon} alt={`Icon ${i}`} />
+              ))}
+              {detail.contentDescription?.map((desc, i) => (
+                <p key={i}>{desc}</p>
+              ))}
+            </div>
+          ))}
 
-    //       {item.button?.map((btn, idx) => (
-    //         <a key={idx} href={btn.url}>
-    //           {btn.name}
-    //         </a>
-    //       ))}
-    //     </div>
-    //   ))}
-    // </section>
-  // );
+          {item.button?.map((btn, idx) => (
+            <a key={idx} href={btn.url}>
+              {btn.name}
+            </a>
+          ))}
+        </div>
+      ))}
+    </section>
+  );
 }

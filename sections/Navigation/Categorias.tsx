@@ -42,6 +42,18 @@ export type DisplayOptions = {
    * @oneOf ["Estrutura 1", "Estrutura 2"]
    */
   structureTypeMobile?: "Estrutura 1" | "Estrutura 2";
+  /**
+   * @title Ícone para Estrutura 1
+   * @description Escolha o ícone para Estrutura 1
+   * @conditional structureTypeDesktop=Estrutura 1 || structureTypeMobile=Estrutura 1
+   */
+  iconStructure1?: ImageWidget;
+  /**
+   * @title Ícone para Estrutura 2
+   * @description Escolha o ícone para Estrutura 2
+   * @conditional structureTypeDesktop=Estrutura 2 || structureTypeMobile=Estrutura 2
+   */
+  iconStructure2?: ImageWidget;
 };
 
 export type Categoria = Tag & DisplayOptions;
@@ -81,8 +93,10 @@ export default function Section({
       icon: '',
       showOnDesktop: true,
       showOnMobile: true,
-      structureTypeDesktop: 'Estrutura 1',
-      structureTypeMobile: 'Estrutura 1'
+      structureTypeDesktop: undefined,
+      iconStructure1: '',
+      structureTypeMobile: undefined,
+      iconStructure2: ''
     }
   ]
 }: Props) {
@@ -100,6 +114,8 @@ export default function Section({
             {tags?.map(tag => {
               const isStructure1Desktop = tag.structureTypeDesktop === "Estrutura 1";
               const isStructure1Mobile = tag.structureTypeMobile === "Estrutura 1";
+              const iconDesktop = tag.structureTypeDesktop ? (isStructure1Desktop ? tag.iconStructure1 : tag.iconStructure2) : tag.icon;
+              const iconMobile = tag.structureTypeMobile ? (isStructure1Mobile ? tag.iconStructure1 : tag.iconStructure2) : tag.icon;
               return (
                 <>
                   {tag.showOnDesktop && (
@@ -108,8 +124,8 @@ export default function Section({
                       className={`hidden md:inline-flex w-fit rounded-[58px] px-4 py-3 ${isStructure1Desktop ? 'bg-mintCream text-primary' : 'bg-sacramentoState text-secondary'} text-sans font-semibold`}
                     >
                       <div className="pr-[2px] inline-flex">
-                        <Image className="" src={tag.icon || ""} alt={tag.name} />
-                        <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] text-sans font-semibold">
+                        <Image className="" src={iconDesktop || tag.icon || ""} alt={tag.name} />
+                        <a href={tag.url} className="text-md md:text-lg pl-2 text-sans font-semibold">
                           {tag.name}
                         </a>
                       </div>
@@ -121,8 +137,8 @@ export default function Section({
                       className={`md:hidden w-fit rounded-[58px] px-4 py-3 ${isStructure1Mobile ? 'bg-mintCream text-primary' : 'bg-sacramentoState text-secondary'} text-sans font-semibold`}
                     >
                       <div className="pr-[2px] inline-flex">
-                        <Image className="" src={tag.icon || ""} alt={tag.name} />
-                        <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] text-sans font-semibold">
+                        <Image className="" src={iconMobile || tag.icon || ""} alt={tag.name} />
+                        <a href={tag.url} className="text-md md:text-lg pl-2 text-sans font-semibold">
                           {tag.name}
                         </a>
                       </div>
