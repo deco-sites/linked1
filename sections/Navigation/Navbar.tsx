@@ -97,12 +97,12 @@ export default function Section({
       </div>
 
       {/* Ícones de hambúrguer e fechar para mobile */}
-      <div className="w-fit md:hidden flex items-center space-x-4">
-        <input type="checkbox" id="menu-toggle" class="hidden" />
-        <div id="hamburger-icon" class="pl-[137.28px] pr-6">
+      <div className="w-fit flex items-center space-x-4 md:hidden">
+        <input type="checkbox" id="menu-toggle" className="hidden" />
+        <div id="hamburger-icon" className="pl-[137.28px] pr-6">
           {icon && (
             <Image
-              className=""
+              className="w-auto h-auto"
               src={icon || ""}
             />
           )}
