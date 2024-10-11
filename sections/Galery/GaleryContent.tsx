@@ -44,7 +44,7 @@ export default function Section({
 }: Props) {
 
   return (
-    <section className="w-full pb-[178.23px] bg-sacramentoState">
+    <section className="w-full pb-[59px] bg-sacramentoState">
       <div className="">
         <div className="swiper-container">
           <div className="swiper-wrapper inline-flex">

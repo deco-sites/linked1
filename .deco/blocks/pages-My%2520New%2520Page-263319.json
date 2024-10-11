@@ -170,8 +170,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 2",
-            "iconStructure1": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg"
+            "iconStructure1": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg",
+            "structureTypeMobile": "Estrutura 2"
           }
         ],
         "titleForDesktop": "Soluções para todos os tipos",
@@ -194,6 +194,12 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "FixedSection"
       }
     }
   ],

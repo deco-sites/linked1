@@ -35,6 +35,11 @@ export interface Props {
    * @description Representa o endereço físico associado à entidade.
    */
   address: string;
+    /**
+   * @title Quebra de Linha
+   * @description Insira a quebra de linha
+   */
+  wordBreak?: string;
   /**
    * @title Direitos Reservados
    * @description Texto de direitos reservados
@@ -46,8 +51,9 @@ export default function Footer({
   linkedText = "",
   linkedUrl = "#",
   imageWidget = "",
-  address = "",
   rightsText = "",
+  address = "",
+  wordBreak = "",
 }: Props) {
   return (
     <footer className="bg-sacramentoState">
@@ -60,12 +66,12 @@ export default function Footer({
             <span className="hidden md:block text-[60px] text-caribbeanGreen">{linkedText}</span>
           </a>
         </div>
-        <p className="pt-[22px] pb-[66px] font-light font-mono lg:text-xs text-center text-mintCream">
+        <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs text-center text-mintCream">
           {rightsText}
         </p>
-        <div className="pb-[72px] border-t-2 border-white-20 w-full">
-          <p className="pt-[38px] sm:text-[11px] font-mono lg:text-xs text-center text-mintCream">
-            {address}
+        <div className="pb-[160px] border-t-2 border-white-20 w-full">
+          <p className="pt-[38px] text-[11px] font-mono lg:text-xs text-center text-mintCream">
+            {address} <br /> {wordBreak}
           </p>
         </div>
       </div>

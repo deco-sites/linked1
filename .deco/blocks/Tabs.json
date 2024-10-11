@@ -1,0 +1,20 @@
+{
+  "__resolveType": "site/sections/Navigation/Tabs.tsx",
+  "menu": [
+    {
+      "name": "Planos",
+      "url": "/planos",
+      "status": true
+    },
+    {
+      "name": "Opcionais",
+      "url": "/opcionais",
+      "status": true
+    },
+    {
+      "name": "Integrações",
+      "url": "/integracoes",
+      "status": true
+    }
+  ]
+}

@@ -27,6 +27,24 @@
         "description": "Uma operação otimizada é crucial para o sucesso de um fast-food. ",
         "titleWithColor": "Fast-food"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Dúvidas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "FixedSection"
+      }
     }
   ],
   "seo": {

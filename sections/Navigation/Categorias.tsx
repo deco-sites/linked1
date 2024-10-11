@@ -56,7 +56,7 @@ export type DisplayOptions = {
   iconStructure2?: ImageWidget;
 };
 
-export type Categoria = Tag & DisplayOptions;
+export type Categorias = Tag & DisplayOptions;
 
 export interface Props {
   /**
@@ -77,9 +77,8 @@ export interface Props {
   /**
    * @title Categorias
    * @description Insira as categorias desejadas
-   * @title Categoria
    */
-  tags?: Categoria[];
+  tags?: Categorias[];
 }
 
 export default function Section({

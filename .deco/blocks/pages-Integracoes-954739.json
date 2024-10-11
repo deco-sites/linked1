@@ -13,36 +13,14 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Integrações",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
+        "__resolveType": "Tabs"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Headers/TitleIntegration.tsx",
-        "page": "Integrações",
-        "title": "Ifood e",
-        "description": "Todas as plataformas da Linked Food são compatíveis e podem ser integradas com o iFood, o principal serviço de delivery do Brasil.",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
-        "integrationLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/27af2105-7391-4253-830c-beaa76a8a696/Ifood.png",
-        "linkedLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6d89aee7-7d74-44dc-afac-c5739cdb3f93/green.png",
-        "secondDescription": "A integração é realizada de forma simples e rápida, exigindo apenas os dados de acesso da sua conta no iFood.",
-        "titleWithColor": "Linked"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "Visão única e integrada",
-            "description": "O monitoramento do seu estabelecimento fica ainda mais completo com nossa ferramenta da inteligência de dados.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
-          }
-        ]
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
+        "title": "Os principais serviços estão na Linked"
       }
     },
     {
@@ -55,6 +33,12 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Footer"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "FixedSection"
       }
     }
   ],
