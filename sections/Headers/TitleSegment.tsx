@@ -13,10 +13,10 @@ export interface Props {
    */
   title: string;
   /**
-   * @title Título com Cor
-   * @description Escreva o nome do tipo de estabelecimento com cor
+   * @title Palavra ou Frase com Cor
+   * @description Escreva a palavra ou frase com cor
    */
-  titleWithColor?: string;
+  highlight?: string;
   /**
    * @title Descrição Curta
    * @description Escreva um pouco sobre as vantagens para esse tipo de estabelecimento
@@ -38,10 +38,19 @@ export default function Section({
     // page = "", 
     // iconShare = "", 
     title = "", 
-    titleWithColor = "",
+    highlight = "",
     iconSegment = "", 
     description = "", 
 }: Props) {
+
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight) return text;
+
+    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+    return parts.map((part, index) => 
+      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    );
+  };
 
   return (
     <section class="pb-10 bg-sacramentoState">
@@ -65,8 +74,8 @@ export default function Section({
                     src={iconSegment || ""}
                   />
             )}
-            <p className="pt-2.5 text-[32px] font-medium text-sans text-white">{title} <br /> <span className="text-secondary">{titleWithColor}</span></p>
-            <p className="pt-2.5 pr-[89px] text-lg font-normal text-sans text-white-80">{description}</p>
+            <p className="pt-2.5 pr-[69px] text-[32px] font-medium text-sans text-white">{getHighlightedText(title, highlight)}</p>
+            <p className="pt-2.5 pr-[40px] text-lg font-normal text-sans text-white-80">{description}</p>
           </div>
       </div>
     </section>

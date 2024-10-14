@@ -22,26 +22,16 @@ export interface Props {
    * @description Escreva o conteúdo do bloco
    */
   title?: string;
-    /**
-   * @title Título com Cor
-   * @description Escreva o conteúdo do bloco com cor
+  /**
+   * @title Palavra ou Frase com Cor
+   * @description Escreva a palavra ou frase com cor
    */
-  titleWithColor?: string;
+  highlight?: string;
   /**
    * @title Descrição
    * @description Escreva a descrição do bloco
    */
   description?: string;
-  /**
-   * @title Quebra de Linha
-   * @description Escreva aqui a quebra de linha
-   */
-  wordBreak?: string;
-  /**
-   * @title Quebra de Linha
-   * @description Escreva aqui a quebra de linha
-   */
-  wordBreakDescription?: string;
 }
 
 export default function Section({ 
@@ -49,11 +39,18 @@ export default function Section({
     // iconShare = "",
     icon = "",
     title = "", 
-    titleWithColor = "",
+    highlight = "",
     description = "",
-    wordBreak = "",
-    wordBreakDescription = ""
 }: Props) {
+
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight) return text;
+
+    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+    return parts.map((part, index) => 
+      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    );
+  };
 
   return (
     <section class="bg-sacramentoState">
@@ -79,8 +76,8 @@ export default function Section({
                     src={icon || ""}
                   />
             )}
-            <h1 class="pt-[10.5px] text-[32px] text-sans font-medium text-white">{title} <span class="text-secondary">{titleWithColor}</span></h1>
-            <p class="pt-[10px] pr-[129px] text-sans text-base font-normal text-white-80">{description} <br /> {wordBreak} <br /> {wordBreakDescription}</p>
+            <h1 class="pt-[10.5px] text-[32px] text-sans font-medium text-white">{getHighlightedText(title, highlight)}</h1>
+            <p class="pt-[10px] pr-[129px] text-sans text-base font-normal text-white-80">{description}</p>
           </div>
       </div>
     </section>

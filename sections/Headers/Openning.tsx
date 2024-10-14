@@ -5,15 +5,10 @@ export interface Props {
    */
   title?: string;
   /**
-   * @title Quebra de Linha
-   * @description Escreva aqui a quebra de linha
+   * @title Palavra ou Frase com Cor
+   * @description Escreva a palavra ou frase com cor
    */
-  WordBreak?: string;
-  /**
-   * @title Texto com Cor
-   * @description Escreva aqui o texto com cor
-   */
-  TextWithColor?: string;
+  highlight?: string;
   /**
    * @title Subtítulo
    * @description Escreva aqui o subtítulo da abertura - Desktop
@@ -26,16 +21,15 @@ export interface Props {
   subtitleMobile?: string;
 }
 
-const texts = [
-  "Gestão inteligente para economizar",
-  "Gestão inteligente para lucrar",
-  "Gestão inteligente para sonhar mais"
-];
+// const texts = [
+//   "Gestão inteligente para economizar",
+//   "Gestão inteligente para lucrar",
+//   "Gestão inteligente para sonhar mais"
+// ];
 
 export default function Section({ 
   title = "", 
-  WordBreak = "",
-  TextWithColor = "",
+  highlight = "",
   subtitleDesktop = "", 
   subtitleMobile = "",
 }: Props) {
@@ -62,13 +56,21 @@ export default function Section({
   //   };
   // }, [navigate]);
 
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight) return text;
+
+    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+    return parts.map((part, index) => 
+      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    );
+  };
+
   return (
     <section className="w-full bg-sacramentoState">
       <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center min-h-screen">
-        <div className="w-fit">
+        <div className="w-fit pr-[44px]">
           <p className="text-sans text-white font-semibold text-[32px] lg:text-[64px]">
-            {title} <br /> {WordBreak} 
-            <span className="text-secondary font-semibold">{TextWithColor}</span>
+            {getHighlightedText(title, highlight)}
           </p>
         </div>
         <div className="mt-[21px]">

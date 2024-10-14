@@ -20,11 +20,12 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "title": "Linked para ",
+        "title": "Linked para Fast-food",
         "page": "Tipos de estabelecimento",
         "titleWithColor": "Fast-food",
         "description": "Uma operação otimizada é crucial para o sucesso de um fast-food.",
-        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4d1f77c1-52b9-44fe-ae6d-72f3d2efa651/lightning_icon.svg"
+        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4d1f77c1-52b9-44fe-ae6d-72f3d2efa651/lightning_icon.svg",
+        "highlight": "Fast-food"
       }
     },
     {
