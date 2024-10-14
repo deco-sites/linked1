@@ -86,7 +86,7 @@ export default function Section({
   // }, []);
 
   return (
-    <nav role="navigation" className="inline-flex pl-4 py-[29.5px] lg:py-9 lg:px-10 w-full bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
+    <nav role="navigation" className="inline-flex pl-4 pr-4 py-[29.5px] lg:py-9 lg:px-10 w-full justify-between bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
       <div className="flex">
         {logo && (
           <Image
@@ -97,9 +97,9 @@ export default function Section({
       </div>
 
       {/* Ícones de hambúrguer e fechar para mobile */}
-      <div className="w-fit md:hidden flex items-center space-x-4">
+      <div className="w-fit md:hidden flex items-center">
         <input type="checkbox" id="menu-toggle" class="hidden" />
-        <div id="hamburger-icon" class="pl-[137.28px] pr-6">
+        <div id="hamburger-icon" class="">
           {icon && (
             <Image
               className=""
@@ -107,7 +107,7 @@ export default function Section({
             />
           )}
         </div>
-        <div id="close-icon" className="hidden pl-[137.28px] pr-6">
+        <div id="close-icon" className="hidden">
           {close_icon && (
             <Image
               className=""
