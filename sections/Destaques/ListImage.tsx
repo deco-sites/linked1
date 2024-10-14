@@ -58,8 +58,8 @@ export default function IntegrationsSection({
 }: Props) {
   return (
     <section className="ml-4 mr-4 mb-10 bg-white">
-      <div className="text-center py-10">
-        <h2 className="text-2xl font-semibold">{sectionText}</h2>
+      <div className="pr-[90px] pt-6 pb-10 justify-start">
+        <h2 className="text-base text-sans font-normal">{sectionText}</h2>
       </div>
         {/* Dropdown de Categorias */}
         <div className="mb-8 relative">
