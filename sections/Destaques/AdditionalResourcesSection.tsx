@@ -46,49 +46,49 @@ export interface Props {
 }
 
 export default function Section({ 
-    items = [] 
-  }: Props) {
-    return (
-      <section className="ml-4 mr-4 mb-10 bg-white">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className={`mb-8 ${index !== items.length - 1 ? 'border-b border-sacramentoState-10' : 'pb-[168.33px]'}`}
-          >
-            <div className="flex pt-10">
-              {item.icon && (
-                <Image
-                  className=""
-                  src={item.icon || ""}
-                  alt="Ícone"
-                />
-              )}
-            </div>
-            <div className="pt-4 pb-2 text-[22px] text-sans text-sacramentoState">
-              {item.subTitle && (
-                <h2 className="">{item.subTitle}</h2>
-              )}
-            </div>
-            <div className="pb-[32px] pr-[80px]">
-              {item.description && (
-                <p className="text-base text-sans text-sacramentoState-80 font-normal">{item.description}</p>
-              )}
-            </div>
-            <div className="w-fit py-[12.5px] mb-10 md:flex bg-white-80 rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
-              {item.button?.map((btn: Link, btnIndex: number) => (
-                <a
-                  key={btnIndex}
-                  href={btn.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-max px-[31.75px] flex-none text-sans text-base font-semibold"
-                >
-                  {btn.name}
-                </a>
-              ))}
-            </div>
+  items = [] 
+}: Props) {
+  return (
+    <section className="ml-4 mr-4 mb-10 bg-white">
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className={`mb-8 ${index !== items.length - 1 ? 'border-b border-sacramentoState-10' : 'pb-[168.33px]'}`}
+        >
+          <div className={`flex ${index === 0 ? 'pt-10' : ''}`}>
+            {item.icon && (
+              <Image
+                className=""
+                src={item.icon || ""}
+                alt="Ícone"
+              />
+            )}
           </div>
-        ))}
-      </section>
-    );
+          <div className="pt-4 pb-2 text-[22px] text-sans text-sacramentoState">
+            {item.subTitle && (
+              <h2 className="">{item.subTitle}</h2>
+            )}
+          </div>
+          <div className="pb-[32px] pr-[80px]">
+            {item.description && (
+              <p className="text-base text-sans text-sacramentoState-80 font-normal">{item.description}</p>
+            )}
+          </div>
+          <div className="w-fit py-[12.5px] mb-10 md:flex bg-white-80 rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
+            {item.button?.map((btn: Link, btnIndex: number) => (
+              <a
+                key={btnIndex}
+                href={btn.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-max px-[31.75px] flex-none text-sans text-base font-semibold"
+              >
+                {btn.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  );
 }
