@@ -41,6 +41,58 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/AdditionalResourcesSection.tsx",
+        "items": [
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/424e7829-7c5d-4750-b147-28b052fc21a7/icon_link_opcional.png",
+            "subTitle": "Link de pagamentos",
+            "description": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você.",
+            "button": [
+              {
+                "name": "Ver detalhes",
+                "url": "/detalhes"
+              }
+            ]
+          },
+          {
+            "button": [
+              {
+                "name": "Ver detalhes",
+                "url": "/detalhes"
+              }
+            ],
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/177b31bc-ff5a-4c46-9f7d-cdf8a8739dfa/icon_printer_opcionais.svg",
+            "subTitle": "Monitor de pedidos KDS",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
+          },
+          {
+            "button": [
+              {
+                "name": "Ver detalhes",
+                "url": "/detalhes"
+              }
+            ],
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/177b31bc-ff5a-4c46-9f7d-cdf8a8739dfa/icon_printer_opcionais.svg",
+            "subTitle": "App Delivery",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
+          },
+          {
+            "button": [
+              {
+                "name": "Ver detalhes",
+                "url": "/detalhes"
+              }
+            ],
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9319507d-6d1d-4be1-8637-cd4eeb66a358/icon_data_opcionais.svg",
+            "subTitle": "Inteligência de dados",
+            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },

@@ -20,20 +20,20 @@ export type Tag = {
 };
 
 export interface Props {
-/**
- * @title Título para Mobile
- * @description Digite aqui o título do bloco
- */
-titleForMobile?: string;
-/**
- * @title Título para Desktop
- * @description Digite aqui o título do bloco
- */
-titleForDesktop?: string; 
-/**
- * @title Categorias
- * @description Insira as categorias desejadas
- */
+  /**
+   * @title Título para Mobile
+   * @description Digite aqui o título do bloco
+   */
+  titleForMobile?: string;
+  /**
+   * @title Título para Desktop
+   * @description Digite aqui o título do bloco
+   */
+  titleForDesktop?: string; 
+  /**
+   * @title Categorias
+   * @description Insira as categorias desejadas
+   */
   tags?: Tag[];
 }
 
