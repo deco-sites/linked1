@@ -166,7 +166,7 @@
             "structureType": "Estrutura 2",
             "name": "Outros",
             "url": "/outros",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f962784-6d17-42d0-b165-6c71588d3d2a/icon_app_category.svg",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg",
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
@@ -174,9 +174,9 @@
             "structureTypeMobile": "Estrutura 2"
           }
         ],
-        "titleForDesktop": "Soluções para todos os tipos",
-        "titleForMobile": "A Linked tem opções para vários tipos de estabelecimento",
-        "wordBreak": "de estabelecimentos"
+        "titleForDesktop": "Soluções para todos os tipos de estabelecimentos",
+        "wordBreak": "de estabelecimentos",
+        "titleForMobile": "A Linked tem opções para vários tipos de estabelecimento"
       }
     },
     {

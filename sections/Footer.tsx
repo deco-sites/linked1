@@ -69,7 +69,7 @@ export default function Footer({
         <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs text-center text-mintCream">
           {rightsText}
         </p>
-        <div className="pb-[160px] border-t-2 border-white-20 w-full">
+        <div className="pb-[160px] lg:pb-[72px] border-t-2 border-white-20 w-full">
           <p className="pt-[38px] text-[11px] font-mono lg:text-xs text-center text-mintCream">
             {address} <br /> {wordBreak}
           </p>
