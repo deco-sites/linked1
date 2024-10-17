@@ -1,7 +1,10 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+interface Link {
   /**
    * @title Nome
    * @description Nome visível para clique
