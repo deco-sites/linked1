@@ -19,4 +19,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deco Deploy
-        uses: deco-cx/deploy
+        uses: deco-cx/deploy@v0
