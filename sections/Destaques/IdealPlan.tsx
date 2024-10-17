@@ -1,9 +1,17 @@
-export type ContentItem = {
+/**
+ * @title {{{title}}}
+ */
+export interface ContentItem {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
     /**
      * @title Título
      * @description Escreva aqui o título do item
      */
-    title?: string;
+    titleItem?: string;
   };
   
   export type Props = {
@@ -11,18 +19,14 @@ export type ContentItem = {
   };
   
   export default function Section({
-    items = [
-      {
-        title: ''
-      }
-    ]
+    items = []
   }: Props) {
     return (
       <section className="w-full bg-mintCream">
         <div className="pt-[95px] justify-center">
           {items.map((item, index) => (
             <div key={index} className="pl-[64.5px] pr-[59.5px]">
-              <h2 className="text-[32px] text-sans font-medium text-sacramentoState text-center">{item.title}</h2>
+              <h2 className="text-[32px] text-sans font-medium text-sacramentoState leading-tight-35 lg:leading-tight-55 tracking-tight-2 text-center">{item.titleItem}</h2>
             </div>
           ))}
         </div>

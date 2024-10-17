@@ -1,7 +1,15 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+export interface Link {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Nome
    * @description Nome visível para clique
@@ -40,17 +48,7 @@ export interface Props {
 export default function Section({ 
     icon = "", 
     title = "",
-    button = [
-      {
-        name: "Descubra o plano ideal",
-        url: "/planos",
-      },
-      {
-        name: "Agende uma demonstração",
-        url: "/",
-        iconButton: "",
-      },
-    ],
+    button = []
 }: Props) {
 
   return (
@@ -61,6 +59,7 @@ export default function Section({
                 <Image
                   class="w-[32px] h-[32px]"
                   src={icon || ""}
+                  width={32}
                 />
           )}
         </div>

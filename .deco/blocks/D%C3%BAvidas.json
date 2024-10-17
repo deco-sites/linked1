@@ -5,12 +5,14 @@
   "button": [
     {
       "name": "Descubra o plano ideal",
-      "url": "/planos"
+      "url": "/planos",
+      "title": "Descubra o plano ideal"
     },
     {
       "url": "/",
       "name": "Agende uma demonstração",
-      "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg"
+      "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg",
+      "title": "Agende uma demonstração"
     }
   ]
 }

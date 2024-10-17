@@ -16,15 +16,18 @@
           {
             "name": "Planos",
             "url": "/planos",
-            "status": true
+            "status": true,
+            "title": "Planos"
           },
           {
-            "name": "Opicionais",
-            "url": "/opicionais"
+            "name": "Opcionais",
+            "url": "/opcionais",
+            "title": "Opcionais"
           },
           {
             "name": "Integrações",
-            "url": "/integracoes"
+            "url": "/integracoes",
+            "title": "Integrações"
           }
         ]
       }

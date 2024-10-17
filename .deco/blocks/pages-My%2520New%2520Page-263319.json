@@ -25,10 +25,11 @@
         "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
-            "title": "Aumente a eficiência",
             "description": "Com linked os pedidos são organizados e",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png",
-            "wordBreak": " entregues antes da fome apertar."
+            "wordBreak": " entregues antes da fome apertar.",
+            "titleSection": "Aumente a eficiência",
+            "title": "Aumente a eficiência"
           }
         ]
       }
@@ -46,7 +47,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "A la carte"
           },
           {
             "name": "Bar",
@@ -56,7 +58,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Bar"
           },
           {
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ae0cfa37-72a5-4214-9a94-85bc2d4c9cd5/cup_coffe1.svg",
@@ -66,7 +69,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Cafeteria"
           },
           {
             "name": "Fast-food",
@@ -76,7 +80,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Fast-food"
           },
           {
             "url": "/padaria",
@@ -86,7 +91,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Padaria"
           },
           {
             "name": "Pizzaria",
@@ -96,7 +102,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Pizzaria"
           },
           {
             "name": "Self-Service",
@@ -106,7 +113,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Self-Service"
           },
           {
             "name": "Sorveteria",
@@ -115,7 +123,8 @@
             "structureType": "Estrutura 1",
             "showOnMobile": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Sorveteria"
           },
           {
             "name": "De rua",
@@ -124,7 +133,8 @@
             "structureType": "Estrutura 1",
             "showOnMobile": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "De rua"
           },
           {
             "name": "Japonês",
@@ -133,7 +143,8 @@
             "structureType": "Estrutura 1",
             "showOnMobile": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Japonês"
           },
           {
             "name": "Redes e franquias",
@@ -143,7 +154,8 @@
             "showOnMobile": true,
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Redes e franquias"
           },
           {
             "name": "Fine-dining",
@@ -186,7 +198,8 @@
         "__resolveType": "site/sections/Destaques/IdealPlan.tsx",
         "items": [
           {
-            "title": "Aqui você monta o plano ideal para o seu negócio"
+            "title": "Plano Ideal",
+            "titleItem": "Aqui você monta o plano ideal para o seu negócio"
           }
         ]
       }

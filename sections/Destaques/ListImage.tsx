@@ -1,7 +1,15 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type IntegrationCategory = {
+/**
+ * @title {{{title}}}
+ */
+export interface IntegrationCategory {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Nome da Categoria
    * @description Nome da categoria de integração
@@ -14,7 +22,16 @@ export type IntegrationCategory = {
   images: ImageWidget[];
 };
 
-export type filteredCategories = {
+/**
+ * @title {{{title}}}
+ */
+export interface filteredCategories {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
+
   /**
    * @title Nome
    * @description Nome da categoria filtrada
@@ -22,7 +39,15 @@ export type filteredCategories = {
   name: string;
 };
 
+/**
+ * @title {{{title}}}
+ */
 export interface Props {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Texto da Seção
    * @description Insira o texto da seção
@@ -37,7 +62,7 @@ export interface Props {
    * @title Ícone de Seta
    * @description Insira o ícone de seta
    */
-   arrowIcon: ImageWidget;
+  arrowIcon: ImageWidget;
   /**
    * @title Categorias Filtradas
    * @description Insira as categorias de integração filtradas
@@ -79,6 +104,7 @@ export default function IntegrationsSection({
                 className="w-6 h-6"
                 src={arrowIcon || ""}
                 alt="Arrow Icon"
+                width={24}
             />
             </div>
         )}
@@ -99,6 +125,7 @@ export default function IntegrationsSection({
                     className="w-full h-full object-cover"
                     src={image || ""}
                     alt={category.name}
+                    width={100}
                   />
                 </div>
               ))}

@@ -1,4 +1,12 @@
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+export interface Link {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Nome
    * @description Nome visível para clique
@@ -21,13 +29,7 @@ export interface Props {
 }
 
 export default function Section({ 
-    menu = [
-        {
-            name: "Home",
-            url: "/",
-            status: false
-        }
-    ] 
+    menu = []
 }: Props) {
 
   return (

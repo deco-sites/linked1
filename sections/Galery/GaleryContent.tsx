@@ -1,12 +1,20 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Item = {
+/**
+ * @title {{{title}}}
+ */
+export interface Item {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Título
    * @description Escreva aqui o título do item
    */
-  title: string;
+  titleSection: string;
   /**
    * @title Descrição
    * @description Escreva aqui a descrição do item
@@ -33,14 +41,7 @@ export interface Props {
 }
 
 export default function Section({ 
-  items = [
-    {
-      title: '',
-      description: '',
-      wordBreak: '',
-      image: ''
-    }
-  ] 
+  items = [], 
 }: Props) {
 
   return (
@@ -51,12 +52,12 @@ export default function Section({
             {items.map((item, index) => (
               <div className="swiper-slide w-fit pl-[32px] pr-[28px] lg:ml-10" key={index}>
                 <article className="w-fit flex flex-col border-t-2 border-white-20">
-                  <p className="pt-[22.8px] text-base text-mintCream text-sans text-left">{item.title}</p>
+                  <p className="pt-[22.8px] text-base text-mintCream text-sans text-left lg:leading-tight-21 lg:leading-tight-25">{item.titleSection}</p>
                   <div className="flex space-x-5 py-[26px] px-0">
-                    <Image className="" src={item.image || ""} />
+                    <Image className="" src={item.image || ""} width={315} />
                   </div>
                   <div className="w-fit pl-0">
-                    <p className="pl-[3px] w-fit text-base text-sans font-normal text-mintCream">{item.description} <br /> {item.wordBreak}</p>
+                    <p className="pl-[3px] w-fit text-base text-sans font-normal text-mintCream leading-tight-18 lg:leading-tight-22">{item.description} <br /> {item.wordBreak}</p>
                   </div>
                 </article>
               </div>

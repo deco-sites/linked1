@@ -30,22 +30,28 @@
         "sectionText": "Nossa lista aumenta a cada dia.  Confira todas as integrações:",
         "button": [
           {
-            "name": "Delivery"
+            "name": "Delivery",
+            "title": "Delivery"
           },
           {
-            "name": "Cardápio digital"
+            "name": "Cardápio digital",
+            "title": "Cardápio digital"
           },
           {
-            "name": "Totem e autoatendimento"
+            "name": "Totem e autoatendimento",
+            "title": "Totem e autoatendimento"
           },
           {
-            "name": "Pagamentos"
+            "name": "Pagamentos",
+            "title": "Pagamentos"
           },
           {
-            "name": "Maquininhas"
+            "name": "Maquininhas",
+            "title": "Maquininhas"
           },
           {
-            "name": "Fidelização"
+            "name": "Fidelização",
+            "title": "Fidelização"
           }
         ],
         "categories": [
@@ -56,7 +62,8 @@
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png",
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png"
             ],
-            "name": "Delivery"
+            "name": "Delivery",
+            "title": "Delivery"
           },
           {
             "images": [
@@ -66,14 +73,16 @@
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00551a17-08d8-44e1-b0c0-fbb84de41b8f/brand_gryn_food.png",
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e7ca772b-0cae-4cfc-a058-1c7c6f1f0c0f/brand_neemo.png"
             ],
-            "name": "Cardápio digital"
+            "name": "Cardápio digital",
+            "title": "Cardápio digital"
           },
           {
             "images": [
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/81a877b1-d117-4e2b-bc09-329c1009933e/brand_go_totem.png",
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d728d9a8-b788-4776-9b6f-d6b8532d6e5c/brand_voce_q_pod.png"
             ],
-            "name": "Totem e autoatendimento"
+            "name": "Totem e autoatendimento",
+            "title": "Totem e autoatendimento"
           },
           {
             "images": [
@@ -81,7 +90,8 @@
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5e2637ee-c382-4002-98c9-8b106e552f8b/brand_totvs.png",
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/175a3a08-0ef0-4114-b88b-f373e3e88a02/brand_f360.png"
             ],
-            "name": "Pagamentos"
+            "name": "Pagamentos",
+            "title": "Pagamentos"
           },
           {
             "images": [
@@ -89,13 +99,15 @@
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15430617-06d3-4a83-813e-5822c95d0b28/brand_cielo.png",
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png"
             ],
-            "name": "Maquininhas"
+            "name": "Maquininhas",
+            "title": "Maquininhas"
           },
           {
             "images": [
               "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b309473-9803-4c9a-bec9-641c48da7f26/brand_cliente_fiel.png"
             ],
-            "name": "Fidelização"
+            "name": "Fidelização",
+            "title": "Fidelização"
           }
         ],
         "dropdownText": "Por categoria",

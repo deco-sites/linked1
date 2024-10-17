@@ -2,7 +2,15 @@ import { VideoWidget } from "apps/admin/widgets.ts";
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+export interface Link {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
     /**
      * @title Nome
      * @description Nome visível para clique
@@ -15,7 +23,15 @@ export type Link = {
     url: string;
 };
 
-export type TextSection = {
+/**
+ * @title {{{title}}}
+ */
+export interface TextSection {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Texto da Seção
    * @description Insira o texto da seção
@@ -70,7 +86,11 @@ export default function Section({
             <h2 className="text-base text-sans font-semibold text-start">{Subtitle}</h2>
             {ImageWidget && (
                 <div className="">
-                <Image src={ImageWidget} alt="Section Icon" className="mx-auto" />
+                <Image 
+                src={ImageWidget} 
+                alt="Section Icon" 
+                className="mx-auto" 
+                width={24}/>
                 </div>
             )}
         </div>

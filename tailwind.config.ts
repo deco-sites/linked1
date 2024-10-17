@@ -30,9 +30,23 @@ export default {
         varela: ['Varela Round', 'sans-serif'],
         mono: ['IBM Plex Mono', 'monospace'],
       },
+      lineHeight: {
+        'tight-35': '35.2px', 
+        'tight-70': '70.4px', 
+        'tight-18': '18.8px',
+        'tight-25': '25.2px',
+        'tight-21': '21.15px',
+        'tight-22': '22.4px',
+        'tight-55': '55.2px',
+        'tight-14': '14.3px',
+        'tight-15': '15.6px'
+      },
+      letterSpacing: {
+        'tight-2': '-0.02em',
     },
     container: {
       center: true,
     },
   },
+},
 };

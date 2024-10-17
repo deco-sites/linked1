@@ -1,49 +1,111 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export interface Props {
-   /**
-   * @title Ícone
-   * @description Insira o ícone
-   */
-  icon?: ImageWidget;
+/**
+ * @title {{{title}}}
+ */
+export interface Link {
   /**
-   * @title Título
-   * @description Escreva o conteúdo do bloco
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
    */
-  title?: string;
+  title: string;
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a url ou o caminho de destino
+   */
+  url: string;
+};
+
+/**
+ * @title {{{title}}}
+ */
+export interface Item {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
+  /**
+   * @title Ícone
+   * @description Escolha o ícone da categoria
+   */
+  icon: ImageWidget;
+  /**
+   * @title Subtítulo
+   * @description Digite aqui o subtítulo
+   */
+  subTitle?: string;
   /**
    * @title Descrição
-   * @description Escreva a descrição do bloco
+   * @description Insira a descrição desejada
    */
   description?: string;
   /**
-   * @title Texto do Botão
-   * @description Escreva o texto do botão
+   * @title Botão
+   * @description Insira o botão desejado
    */
-  btnTitle?: string;
+  button?: Link[];
+}
+
+export interface Props {
   /**
-   * @title Link do Botão
-   * @description Insira o link de destino do botão
+   * @title Itens
+   * @description Insira os itens desejados
    */
-  btnLink?: string;
+  items: Item[];
 }
 
 export default function Section({ 
-    icon = "",
-    title = "", 
-    description = "",
-    btnTitle = "", 
-    btnLink = "",
+  items = [] 
 }: Props) {
-
   return (
-    <div>
-        <p>{icon}</p>
-        <p>{title}</p>
-        <p>{description}</p>
-        <p>{btnTitle}</p>
-        <p>{btnLink}</p>
-    </div>
+    <section className="ml-4 mr-4 mb-10 bg-white">
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className={`mb-8 ${index !== items.length - 1 ? 'border-b border-sacramentoState-10' : 'pb-[168.33px]'}`}
+        >
+          <div className={`flex ${index === 0 ? 'pt-10' : ''}`}>
+            {item.icon && (
+              <Image
+                className=""
+                src={item.icon || ""}
+                alt="Ícone"
+                width={100}
+              />
+            )}
+          </div>
+          <div className="pt-4 pb-2 text-[22px] text-sans text-sacramentoState">
+            {item.subTitle && (
+              <h2 className="">{item.subTitle}</h2>
+            )}
+          </div>
+          <div className="pb-[32px] pr-[80px]">
+            {item.description && (
+              <p className="text-base text-sans text-sacramentoState-80 font-normal">{item.description}</p>
+            )}
+          </div>
+          <div className="w-fit py-[12.5px] mb-10 md:flex bg-white-80 rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
+            {item.button?.map((btn: Link, btnIndex: number) => (
+              <a
+                key={btnIndex}
+                href={btn.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-max px-[31.75px] flex-none text-sans text-base font-semibold"
+              >
+                {btn.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
   );
 }
