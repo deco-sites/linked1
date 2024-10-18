@@ -111,7 +111,8 @@
           }
         ],
         "dropdownText": "Por categoria",
-        "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+        "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg",
+        "title": "Integrações"
       }
     },
     {

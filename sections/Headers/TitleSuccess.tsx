@@ -25,8 +25,12 @@ export default function Section({
   return (
     <section className="pt-[70px] bg-sacramentoState">
       <div className="pl-4 pb-12">
-          <p className="text-white-80 text-[11px] text-mono font-normal">{subtitle}</p>
-          <p className="pt-2 text-white text-[28px] text-sans font-medium">{title} <br /> <span className="text-secondary">{titleWithColor}</span></p>
+        <p className="text-white-80 text-[11px] font-mono font-normal leading-tight-14">
+          {subtitle}
+        </p>
+        <p className="pt-2 text-white text-[28px] font-sans font-medium leading-tight-32 tracking-tight-2">
+          {title} <br /> <span className="text-secondary">{titleWithColor}</span>
+        </p>
       </div>
     </section>
   );

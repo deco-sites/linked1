@@ -28,13 +28,16 @@ export default function Section({
   return (
     <section className="pt-[90px] bg-sacramentoState-10">
       <div className="pl-4">
-          {icon && (
-                <Image
-                  class=""
-                  src={icon || ""}
-                />
-          )}
-          <p className="pt-4 pb-[25px] pr-[49px] text-[32px] text-sans font-medium text-sacramentoState">{title} <br /> {wordBreak}</p>
+        {icon && (
+          <Image
+            className=""
+            src={icon || ""}
+            width={64}
+          />
+        )}
+        <p className="pt-4 pb-[25px] pr-[49px] text-[32px] font-sans font-medium leading-tight-35 tracking-tight-2 text-sacramentoState">
+          {title} <br /> {wordBreak}
+        </p>
       </div>
     </section>
   );

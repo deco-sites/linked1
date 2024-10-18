@@ -91,19 +91,21 @@ export default function Section({
         {logo && (
           <Image
             className="lg:pr-[124.94px]"
-            src={logo || ""} 
+            src={logo || ""}
+            width={173.72}
           />
         )}
       </div>
 
       {/* Ícones de hambúrguer e fechar para mobile */}
       <div className="w-fit md:hidden flex items-center">
-        <input type="checkbox" id="menu-toggle" class="hidden" />
-        <div id="hamburger-icon" class="">
+        <input type="checkbox" id="menu-toggle" className="hidden" />
+        <div id="hamburger-icon" className="">
           {icon && (
             <Image
               className=""
               src={icon || ""}
+              width={32}
             />
           )}
         </div>
@@ -112,12 +114,13 @@ export default function Section({
             <Image
               className=""
               src={close_icon || ""}
+              width={32}
             />
           )}
         </div>
       </div>
 
-      <div id="menu" className="hidden md:flex space-x-4 text-sans text-white font-light items-center whitespace-nowrap">
+      <div id="menu" className="hidden md:flex space-x-4 font-sans text-white font-light items-center whitespace-nowrap">
         {menu?.map((item, index) => (
           <a key={index} href={item.url}>
             {item.name}
@@ -132,7 +135,7 @@ export default function Section({
             href={btn.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-max px-[22px] py-3.5 flex-none text-sans text-base font-light"
+            className="w-max px-[22px] py-3.5 flex-none font-sans text-base font-light"
           >
             {btn.name}
           </a>

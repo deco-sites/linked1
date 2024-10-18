@@ -20,17 +20,20 @@ export default function Section({
 }: Props) {
 
   return (
-    <section class="pb-7 bg-sacramentoState">
+    <section className="lg:hidden pb-7 bg-sacramentoState">
       <div>
         <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+          <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px] leading-tight-15.86">
+            {page}
+          </p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
             {iconShare && (
-                  <Image
-                    class=""
-                    src={iconShare || ""}
-                  />
+              <Image
+                className=""
+                src={iconShare || ""}
+                width={24}
+              />
             )}
           </div>
         </div>

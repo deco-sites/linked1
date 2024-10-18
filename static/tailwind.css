@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
@@ -2580,6 +2580,9 @@ input.tab:checked + .tab-content,
 .w-\[30px\]{
   width: 30px;
 }
+.w-\[315px\]{
+  width: 315px;
+}
 .w-\[316px\]{
   width: 316px;
 }
@@ -2627,6 +2630,9 @@ input.tab:checked + .tab-content,
 }
 .min-w-\[157px\]{
   min-width: 157px;
+}
+.min-w-\[315px\]{
+  min-width: 315px;
 }
 .min-w-\[400px\]{
   min-width: 400px;
@@ -2859,6 +2865,9 @@ input.tab:checked + .tab-content,
 }
 .overflow-x-auto{
   overflow-x: auto;
+}
+.overflow-x-scroll{
+  overflow-x: scroll;
 }
 .truncate{
   overflow: hidden;
@@ -3180,6 +3189,9 @@ input.tab:checked + .tab-content,
 .pb-24{
   padding-bottom: 6rem;
 }
+.pb-3{
+  padding-bottom: 0.75rem;
+}
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -3249,9 +3261,6 @@ input.tab:checked + .tab-content,
 .pl-\[17px\]{
   padding-left: 17px;
 }
-.pl-\[32px\]{
-  padding-left: 32px;
-}
 .pl-\[3px\]{
   padding-left: 3px;
 }
@@ -3273,14 +3282,14 @@ input.tab:checked + .tab-content,
 .pr-4{
   padding-right: 1rem;
 }
+.pr-5{
+  padding-right: 1.25rem;
+}
 .pr-\[1\.5px\]{
   padding-right: 1.5px;
 }
 .pr-\[129px\]{
   padding-right: 129px;
-}
-.pr-\[28px\]{
-  padding-right: 28px;
 }
 .pr-\[40px\]{
   padding-right: 40px;
@@ -3344,9 +3353,6 @@ input.tab:checked + .tab-content,
 }
 .pt-7{
   padding-top: 1.75rem;
-}
-.pt-\[10\.5px\]{
-  padding-top: 10.5px;
 }
 .pt-\[10px\]{
   padding-top: 10px;
@@ -3523,11 +3529,26 @@ input.tab:checked + .tab-content,
 .leading-tight-14{
   line-height: 14.3px;
 }
+.leading-tight-15{
+  line-height: 15.6px;
+}
+.leading-tight-15\.86{
+  line-height: 15.86px;
+}
 .leading-tight-18{
   line-height: 18.8px;
 }
+.leading-tight-19{
+  line-height: 19.6px;
+}
+.leading-tight-21{
+  line-height: 21.15px;
+}
 .leading-tight-25{
   line-height: 25.2px;
+}
+.leading-tight-32{
+  line-height: 32.2px;
 }
 .leading-tight-35{
   line-height: 35.2px;
@@ -3601,6 +3622,14 @@ input.tab:checked + .tab-content,
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 /** Remove scrollbar from overflow-auto */
+/** Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
 @media (min-width: 768px){
   .md\:btn-sm{
     height: 2rem;
@@ -3674,6 +3703,9 @@ input.tab:checked + .tab-content,
   .lg\:ml-10{
     margin-left: 2.5rem;
   }
+  .lg\:flex{
+    display: flex;
+  }
   .lg\:grid{
     display: grid;
   }
@@ -3696,6 +3728,9 @@ input.tab:checked + .tab-content,
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .lg\:flex-nowrap{
+    flex-wrap: nowrap;
+  }
   .lg\:justify-center{
     justify-content: center;
   }
@@ -3713,14 +3748,32 @@ input.tab:checked + .tab-content,
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
   }
+  .lg\:pb-0{
+    padding-bottom: 0px;
+  }
+  .lg\:pb-\[103px\]{
+    padding-bottom: 103px;
+  }
   .lg\:pb-\[122px\]{
     padding-bottom: 122px;
   }
   .lg\:pb-\[72px\]{
     padding-bottom: 72px;
   }
+  .lg\:pl-0{
+    padding-left: 0px;
+  }
+  .lg\:pl-10{
+    padding-left: 2.5rem;
+  }
+  .lg\:pr-10{
+    padding-right: 2.5rem;
+  }
   .lg\:pr-\[124\.94px\]{
     padding-right: 124.94px;
+  }
+  .lg\:pt-\[152\.5px\]{
+    padding-top: 152.5px;
   }
   .lg\:pt-\[79px\]{
     padding-top: 79px;
@@ -3749,6 +3802,9 @@ input.tab:checked + .tab-content,
   }
   .lg\:leading-tight-70{
     line-height: 70.4px;
+  }
+  .lg\:tracking-tight-2{
+    letter-spacing: -0.02em;
   }
 }
 .htmx-request .\[\.htmx-request_\&\]\:inline{

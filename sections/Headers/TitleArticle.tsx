@@ -53,10 +53,10 @@ export default function Section({
     <section className="pb-10">
       <div>
         {/* <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
-          <p className="pl-4 text-mono text-white-80 text-[11px]">{page}</p>
+          <p className="pl-4 font-mono text-white-80 text-[11px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pr-4 inline-flex items-center space-x-2">
-            <p className="text-mono text-white-80 text-[11px]">{offer}</p>
+            <p className="font-mono text-white-80 text-[11px]">{offer}</p>
             {menuLogo && (
               <Image
                 className="ml-2"
@@ -66,22 +66,27 @@ export default function Section({
           </div>
         </div> */}
         <div>
-            <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium text-sans text-sacramentoState">{title}</h1>
-            <div className="w-full">
-              <div className="flex-1"></div>
-              <div className="flex justify-between items-start pt-[24px] pr-4">
+          <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium font-sans leading-tight-35 tracking-tight-2 text-sacramentoState">
+            {title}
+          </h1>
+          <div className="w-full">
+            <div className="flex-1"></div>
+            <div className="flex justify-between items-start pt-[24px] pr-4">
               <div className="flex flex-col">
-                <p className="pl-4 text-sm text-sans font-light">
+                <p className="pl-4 text-sm font-sans font-light">
                   {date}
                   <br />
                 </p>
-                <p className="pl-4 text-sm text-sans font-light">{author}</p>
+                <p className="pl-4 text-sm font-sans font-light leading-tight-19">
+                  {author}
+                </p>
               </div>
 
               {iconShare && (
                 <Image
                   className="ml-auto"
                   src={iconShare || ""}
+                  width={24}
                 />
               )}
             </div>

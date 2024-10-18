@@ -56,14 +56,16 @@ export default function Section({
       <div className="">
         <div className="pt-[96px] pb-4 flex justify-center">
           {icon && (
-                <Image
-                  class="w-[32px] h-[32px]"
-                  src={icon || ""}
-                  width={32}
-                />
+            <Image
+              className="w-[32px] h-[32px]"
+              src={icon || ""}
+              width={32}
+            />
           )}
         </div>
-        <p className="pb-[32px] text-[28px] text-sacramentoState text-sans font-medium text-center">{title}</p>
+        <p className="pb-[32px] text-[28px] text-sacramentoState font-sans leading-tight-32 lg:leading-tight-55 tracking-tight-2 font-medium text-center">
+          {title}
+        </p>
       </div>
 
       <div className="pb-24 px-4 flex flex-col rounded-xl items-center justify-center space-y-4">
@@ -73,13 +75,15 @@ export default function Section({
               href={btn.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`w-full px-4 py-3 flex-none text-sans text-base font-semibold ${
+              className={`w-full px-4 py-3 flex-none ${
                 index === 0
                   ? 'bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState'
                   : 'bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center'
               }`}
             >
-              <span className="text-center">{btn.name}</span>
+              <span className="font-sans text-base font-semibold text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+                {btn.name}
+              </span>
               {index === 1 && btn.iconButton && (
                 <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
               )}
@@ -88,6 +92,5 @@ export default function Section({
         ))}
       </div>
     </section>
-    
   );
 }

@@ -32,6 +32,7 @@ export default {
       },
       lineHeight: {
         'tight-35': '35.2px', 
+        'tight-32': '32.2px', 
         'tight-70': '70.4px', 
         'tight-18': '18.8px',
         'tight-25': '25.2px',
@@ -39,7 +40,9 @@ export default {
         'tight-22': '22.4px',
         'tight-55': '55.2px',
         'tight-14': '14.3px',
-        'tight-15': '15.6px'
+        'tight-15': '15.6px',
+        'tight-15.86': '15.86px',
+        'tight-19': '19.6px'
       },
       letterSpacing: {
         'tight-2': '-0.02em',

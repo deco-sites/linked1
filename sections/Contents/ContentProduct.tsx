@@ -77,18 +77,18 @@ export default function Section({
                 className=""
                 src={item.icon || ""}
                 alt="Ícone"
-                width={100}
+                width={64}
               />
             )}
           </div>
-          <div className="pt-4 pb-2 text-[22px] text-sans text-sacramentoState">
+          <div className="pt-4 pb-2 text-[22px] font-sans text-sacramentoState">
             {item.subTitle && (
-              <h2 className="">{item.subTitle}</h2>
+              <h2 className="font-sans text-[22px] font-semibold leading-tight-25 tracking-tight-2">{item.subTitle}</h2>
             )}
           </div>
           <div className="pb-[32px] pr-[80px]">
             {item.description && (
-              <p className="text-base text-sans text-sacramentoState-80 font-normal">{item.description}</p>
+              <p className="text-base font-sans text-sacramentoState-80 font-normal leading-tight-18">{item.description}</p>
             )}
           </div>
           <div className="w-fit py-[12.5px] mb-10 md:flex bg-white-80 rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
@@ -98,7 +98,7 @@ export default function Section({
                 href={btn.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-max px-[31.75px] flex-none text-sans text-base font-semibold"
+                className="w-max px-[31.75px] flex-none font-sans text-base font-semibold leading-tight-18"
               >
                 {btn.name}
               </a>

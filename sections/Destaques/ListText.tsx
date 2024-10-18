@@ -83,47 +83,54 @@ export default function Section({
     <section className="pl-4 pr-4 bg-white">
       <div className="container mx-auto text-center">
         <div className="pt-[26.5px] pb-[42.5px] flex justify-between items-center">
-            <h2 className="text-base text-sans font-semibold text-start">{Subtitle}</h2>
-            {ImageWidget && (
-                <div className="">
-                <Image 
-                src={ImageWidget} 
-                alt="Section Icon" 
-                className="mx-auto" 
-                width={24}/>
-                </div>
-            )}
+          <h2 className="text-base font-sans font-semibold text-start leading-tight-18">
+            {Subtitle}
+          </h2>
+          {ImageWidget && (
+            <div className="">
+              <Image
+                src={ImageWidget}
+                alt="Section Icon"
+                className="mx-auto"
+                width={24}
+              />
+            </div>
+          )}
         </div>
         <div>
-            {videoWidget && (
+          {videoWidget && (
             <div className="mb-4">
-                <video src={videoWidget} controls className="mx-auto" />
+              <video src={videoWidget} controls className="mx-auto" />
             </div>
-            )}
+          )}
         </div>
         <div>
-            {description.map((desc, index) => (
+          {description.map((desc, index) => (
             <div key={index} className="mb-4 text-left">
-                <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-semibold">{desc.SectionText}</h3>
-                <ul className="list-disc list-outside pl-5 text-base text-sacramentoState-80">
+              <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-semibold leading-tight-25 tracking-tight-2">
+                {desc.SectionText}
+              </h3>
+              <ul className="list-disc list-outside pl-5 text-base text-sacramentoState-80">
                 {desc.DescriptionSection.map((item, idx) => (
-                    <li key={idx} className="pl-2 pt-2 ">{item}</li>
+                  <li key={idx} className="pl-2 pt-2 leading-tight-18">
+                    {item}
+                  </li>
                 ))}
-                </ul>
+              </ul>
             </div>
-            ))}
+          ))}
         </div>
         <div className="pb-24 pt-10 pb-6 flex flex-col rounded-xl items-center justify-center space-y-4">
-            {button.map((btn, index) => (
-                <div key={index} className="w-full">
-                <a
-                    href={btn.url}
-                    className="w-full px-4 py-[12.5px] text-sans text-base font-semibold bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
-                >
-                    {btn.name}
-                </a>
-                </div>
-            ))}
+          {button.map((btn, index) => (
+            <div key={index} className="w-full">
+              <a
+                href={btn.url}
+                className="w-full px-4 py-[12.5px] font-sans text-base font-semibold leading-tight-18 bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
+              >
+                {btn.name}
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

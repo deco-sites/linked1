@@ -33,11 +33,13 @@ export default function Section({
 }: Props) {
 
   return (
-    <section class="w-full bg-sacramentoState border-b-2 border-white-20">
+    <section className="w-full bg-sacramentoState border-b-2 border-white-20">
       <div className="py-2">
         <div className="justify-evenly flex space-x-[37px]">
           {menu?.map(item => (
-              <a href={item.url} className="text-sans text-base text-white-80">{item.name}</a>
+            <a href={item.url} className="font-sans text-base text-white-80 leading-tight-18">
+              {item.name}
+            </a>
           ))}
         </div>
       </div>

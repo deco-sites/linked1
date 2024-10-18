@@ -164,7 +164,8 @@
             "structureType": "Estrutura 1",
             "showOnMobile": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Fine-dining"
           },
           {
             "name": "Churrascaria",
@@ -173,7 +174,8 @@
             "structureType": "Estrutura 1",
             "showOnMobile": true,
             "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1"
+            "structureTypeMobile": "Estrutura 1",
+            "title": "Churrascaria"
           },
           {
             "structureType": "Estrutura 2",
@@ -184,7 +186,8 @@
             "showOnDesktop": true,
             "structureTypeDesktop": "Estrutura 1",
             "iconStructure1": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg",
-            "structureTypeMobile": "Estrutura 2"
+            "structureTypeMobile": "Estrutura 2",
+            "title": "Outros"
           }
         ],
         "titleForDesktop": "Soluções para todos os tipos de estabelecimentos",

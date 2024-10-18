@@ -53,32 +53,39 @@ export default function Section({
   };
 
   return (
-    <section class="bg-sacramentoState">
+    <section className="bg-sacramentoState">
       <div>
-          {/* <div>
-            <div className="w-full inline-flex">
-              <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
-              <div className="flex-1"></div>
-              <div className="pt-[24px] items-end justify-end text-end pr-4">
-                {iconShare && (
-                  <Image
-                    className=""
-                    src={iconShare || ""}
-                  />
-                )}
-              </div>
+        {/* <div>
+          <div className="w-full inline-flex">
+            <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+            <div className="flex-1"></div>
+            <div className="pt-[24px] items-end justify-end text-end pr-4">
+              {iconShare && (
+                <Image
+                  className=""
+                  src={iconShare || ""}
+                />
+              )}
             </div>
-          </div> */}
-          <div class="pl-4 pb-10">
-            {icon && (
-                  <Image
-                    class="w-[30px] h-[29px]"
-                    src={icon || ""}
-                  />
-            )}
-            <h1 class="pt-[10.5px] text-[32px] text-sans font-medium text-white">{getHighlightedText(title, highlight)}</h1>
-            <p class="pt-[10px] pr-[129px] text-sans text-base font-normal text-white-80">{description}</p>
           </div>
+        </div> */}
+        <div className="pl-4 lg:pt-[152.5px] pb-3 lg:pb-0 lg:flex lg:justify-center">
+          {icon && (
+            <Image
+              className="w-[30px] h-[29px]"
+              src={icon || ""}
+              width={30}
+            />
+          )}
+        </div>
+        <div className="pl-4 pb-10 lg:pb-[103px] lg:flex lg:justify-center">
+          <h1 className="text-[32px] font-sans font-medium leading-tight-35 lg:leading-tight-70 tracking-tight-2 text-white">
+            {getHighlightedText(title, highlight)}
+          </h1>
+          <p className="lg:hidden pt-[10px] pr-[129px] font-sans text-base font-normal leading-tight-18 text-white-80">
+            {description}
+          </p>
+        </div>
       </div>
     </section>
   );
