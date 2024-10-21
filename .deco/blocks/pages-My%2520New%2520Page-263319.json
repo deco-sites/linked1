@@ -210,6 +210,68 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
+        "title": "Por quê a Linked?",
+        "results": [
+          {
+            "number": "2016",
+            "description": "Desde 2016 ajudando empresas a economizar, vender e lucrar mais.",
+            "title": "2016"
+          },
+          {
+            "description": "Mais de 1.000  estabelecimentos em todo o Brasil",
+            "title": "1.000",
+            "number": "1.000"
+          },
+          {
+            "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor",
+            "title": "3.000",
+            "number": "3.000"
+          }
+        ],
+        "SectionTitle": "Por quê a Linked?"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
+        "title": "Acompanhe as nossas receitas de sucesso",
+        "items": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15ffcf70-03e0-4c13-97f8-a96ed75ed4dc/chairs_in_restaurant.png",
+            "SectionTitle": "5 motivos para participar da Restaurante Week",
+            "SectionTitle2": "5 motivos para participar da Restaurante Week"
+          },
+          {
+            "SectionTitle": "Dicas para melhorar a apresentação dos seus pratos",
+            "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15ffcf70-03e0-4c13-97f8-a96ed75ed4dc/chairs_in_restaurant.png"
+          },
+          {
+            "SectionTitle": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15ffcf70-03e0-4c13-97f8-a96ed75ed4dc/chairs_in_restaurant.png",
+            "SectionTitle2": "5 motivos para participar da Restaurante Week"
+          },
+          {
+            "SectionTitle": "5 motivos para participar da Restaurante Week",
+            "SectionTitle2": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15ffcf70-03e0-4c13-97f8-a96ed75ed4dc/chairs_in_restaurant.png"
+          }
+        ],
+        "button": [
+          {
+            "title": "Receba no Whatspp",
+            "name": "Receba no Whatsapp",
+            "url": "/",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     },

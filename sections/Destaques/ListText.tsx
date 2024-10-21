@@ -11,16 +11,16 @@ export interface Link {
    * @description Escreva o título do bloco
    */
   title: string;
-    /**
-     * @title Nome
-     * @description Nome visível para clique
-     */
-    name: string;
-    /**
-     * @title Destino
-     * @description Insira a url ou o caminho de destino
-     */
-    url: string;
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a url ou o caminho de destino
+   */
+  url: string;
 };
 
 /**
@@ -59,7 +59,7 @@ export interface Props {
    * @title Vídeo
    * @description Insira o vídeo para a seção
    */
-  videoWidget: VideoWidget;
+  videoWidget?: VideoWidget;
   /**
    * @title Descrição
    * @description Insira a descrição para a seção
@@ -82,7 +82,7 @@ export default function Section({
   return (
     <section className="pl-4 pr-4 bg-white">
       <div className="container mx-auto text-center">
-        <div className="pt-[26.5px] pb-[42.5px] flex justify-between items-center">
+        <div className={`pt-[26.5px] ${videoWidget ? 'pb-[42.5px]' : 'pb-0'} flex justify-between items-center`}>
           <h2 className="text-base font-sans font-semibold text-start leading-tight-18">
             {Subtitle}
           </h2>
@@ -120,7 +120,7 @@ export default function Section({
             </div>
           ))}
         </div>
-        <div className="pb-24 pt-10 pb-6 flex flex-col rounded-xl items-center justify-center space-y-4">
+        <div className="pb-6 flex flex-col rounded-xl items-center justify-center space-y-4">
           {button.map((btn, index) => (
             <div key={index} className="w-full">
               <a

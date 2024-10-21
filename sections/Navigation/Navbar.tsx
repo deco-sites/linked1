@@ -86,11 +86,11 @@ export default function Section({
   // }, []);
 
   return (
-    <nav role="navigation" className="inline-flex pl-4 pr-4 py-[29.5px] lg:py-9 lg:px-10 w-full justify-between bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
-      <div className="flex">
+    <nav role="navigation" className="inline-flex px-4 py-6 w-full justify-between bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
+      <div className="flex lg:pl-10">
         {logo && (
           <Image
-            className="lg:pr-[124.94px]"
+            className=""
             src={logo || ""}
             width={173.72}
           />
@@ -128,14 +128,14 @@ export default function Section({
         ))}
       </div>
 
-      <div className="hidden w-fit md:flex ml-8 mr-10 bg-secondary rounded-xl items-center justify-center gap-4">
+      <div className="hidden w-fit md:flex ml-8 bg-secondary rounded-xl items-center justify-center">
         {button?.map((btn, index) => (
           <a
             key={index}
             href={btn.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-max px-[22px] py-3.5 flex-none font-sans text-base font-light"
+            className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
           >
             {btn.name}
           </a>

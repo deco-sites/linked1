@@ -34,6 +34,7 @@ export default {
         'tight-35': '35.2px', 
         'tight-32': '32.2px', 
         'tight-70': '70.4px', 
+        'tight-72': '72px', 
         'tight-18': '18.8px',
         'tight-25': '25.2px',
         'tight-21': '21.15px',
