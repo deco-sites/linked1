@@ -2661,9 +2661,6 @@ input.tab:checked + .tab-content,
 .max-w-\[310px\]{
   max-width: 310px;
 }
-.max-w-\[340px\]{
-  max-width: 340px;
-}
 .max-w-\[350px\]{
   max-width: 350px;
 }
@@ -3339,6 +3336,9 @@ input.tab:checked + .tab-content,
 }
 .pr-\[129px\]{
   padding-right: 129px;
+}
+.pr-\[31px\]{
+  padding-right: 31px;
 }
 .pr-\[40px\]{
   padding-right: 40px;
