@@ -72,6 +72,47 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/PerguntasFrequentes.tsx",
+        "description": [
+          {
+            "DescriptionSection": [],
+            "DescriptionAskSection": [
+              {
+                "title": "O Linked Food Essencial funciona em qualquer computador?",
+                "SectionText": "O Linked Food Essencial funciona em qualquer computador?",
+                "TitleAsk": "O Linked Food Essencial funciona em qualquer computador?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              },
+              {
+                "TitleAsk": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              },
+              {
+                "TitleAsk": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              },
+              {
+                "TitleAsk": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              },
+              {
+                "TitleAsk": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              },
+              {
+                "TitleAsk": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
+                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+              }
+            ]
+          }
+        ],
+        "Subtitle": "Dúvidas comuns",
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },

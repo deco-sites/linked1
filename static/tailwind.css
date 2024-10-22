@@ -3242,6 +3242,9 @@ input.tab:checked + .tab-content,
 .pb-\[32px\]{
   padding-bottom: 32px;
 }
+.pb-\[39px\]{
+  padding-bottom: 39px;
+}
 .pb-\[42\.5px\]{
   padding-bottom: 42.5px;
 }
@@ -3313,9 +3316,6 @@ input.tab:checked + .tab-content,
 }
 .pr-4{
   padding-right: 1rem;
-}
-.pr-5{
-  padding-right: 1.25rem;
 }
 .pr-\[1\.5px\]{
   padding-right: 1.5px;

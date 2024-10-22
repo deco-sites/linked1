@@ -50,7 +50,7 @@ export default function Section({
         <div className="swiper-wrapper inline-flex lg:flex-nowrap">
           {items.map((item, index) => (
             <div
-              className={`swiper-slide w-[315px] min-w-[315px] pl-4 pr-5 ${
+              className={`swiper-slide w-[315px] min-w-[315px] pl-4 ${
                 index === 0 ? 'lg:pl-10' : ''
               } ${index === items.length - 1 ? 'lg:pr-10' : ''} ${
                 index !== 0 ? 'lg:pl-0' : ''
