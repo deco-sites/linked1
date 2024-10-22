@@ -20,29 +20,30 @@ import * as $$$$$$12 from "./sections/Destaques/ListText2.tsx";
 import * as $$$$$$13 from "./sections/Destaques/Opcionais.tsx";
 import * as $$$$$$14 from "./sections/Destaques/Parcerias.tsx";
 import * as $$$$$$15 from "./sections/Destaques/PerguntasFrequentes.tsx";
-import * as $$$$$$16 from "./sections/Destaques/Text.tsx";
-import * as $$$$$$17 from "./sections/Destaques/Tutorial.tsx";
-import * as $$$$$$18 from "./sections/Footer.tsx";
-import * as $$$$$$19 from "./sections/Galery/GaleryContent.tsx";
-import * as $$$$$$20 from "./sections/Galery/GaleryWithLink.tsx";
-import * as $$$$$$21 from "./sections/Galery/ImageContent.tsx";
-import * as $$$$$$22 from "./sections/Headers/Offer.tsx";
-import * as $$$$$$23 from "./sections/Headers/Openning.tsx";
-import * as $$$$$$24 from "./sections/Headers/SubtitleWithShareIcon.tsx";
-import * as $$$$$$25 from "./sections/Headers/TitleArticle.tsx";
-import * as $$$$$$26 from "./sections/Headers/TitleError.tsx";
-import * as $$$$$$27 from "./sections/Headers/TitleIntegration.tsx";
-import * as $$$$$$28 from "./sections/Headers/TitleLarge.tsx";
-import * as $$$$$$29 from "./sections/Headers/TitleMedium.tsx";
-import * as $$$$$$30 from "./sections/Headers/TitleMonteSeuPlano.tsx";
-import * as $$$$$$31 from "./sections/Headers/TitlePlan.tsx";
-import * as $$$$$$32 from "./sections/Headers/TitleSegment.tsx";
-import * as $$$$$$33 from "./sections/Headers/TitleSuccess.tsx";
-import * as $$$$$$34 from "./sections/ItWorks.tsx";
-import * as $$$$$$35 from "./sections/Navigation/Categorias.tsx";
-import * as $$$$$$36 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$37 from "./sections/Navigation/Tabs.tsx";
-import * as $$$$$$38 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$16 from "./sections/Destaques/Suporte.tsx";
+import * as $$$$$$17 from "./sections/Destaques/Text.tsx";
+import * as $$$$$$18 from "./sections/Destaques/Tutorial.tsx";
+import * as $$$$$$19 from "./sections/Footer.tsx";
+import * as $$$$$$20 from "./sections/Galery/GaleryContent.tsx";
+import * as $$$$$$21 from "./sections/Galery/GaleryWithLink.tsx";
+import * as $$$$$$22 from "./sections/Galery/ImageContent.tsx";
+import * as $$$$$$23 from "./sections/Headers/Offer.tsx";
+import * as $$$$$$24 from "./sections/Headers/Openning.tsx";
+import * as $$$$$$25 from "./sections/Headers/SubtitleWithShareIcon.tsx";
+import * as $$$$$$26 from "./sections/Headers/TitleArticle.tsx";
+import * as $$$$$$27 from "./sections/Headers/TitleError.tsx";
+import * as $$$$$$28 from "./sections/Headers/TitleIntegration.tsx";
+import * as $$$$$$29 from "./sections/Headers/TitleLarge.tsx";
+import * as $$$$$$30 from "./sections/Headers/TitleMedium.tsx";
+import * as $$$$$$31 from "./sections/Headers/TitleMonteSeuPlano.tsx";
+import * as $$$$$$32 from "./sections/Headers/TitlePlan.tsx";
+import * as $$$$$$33 from "./sections/Headers/TitleSegment.tsx";
+import * as $$$$$$34 from "./sections/Headers/TitleSuccess.tsx";
+import * as $$$$$$35 from "./sections/ItWorks.tsx";
+import * as $$$$$$36 from "./sections/Navigation/Categorias.tsx";
+import * as $$$$$$37 from "./sections/Navigation/Navbar.tsx";
+import * as $$$$$$38 from "./sections/Navigation/Tabs.tsx";
+import * as $$$$$$39 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -62,29 +63,30 @@ const manifest = {
     "site/sections/Destaques/Opcionais.tsx": $$$$$$13,
     "site/sections/Destaques/Parcerias.tsx": $$$$$$14,
     "site/sections/Destaques/PerguntasFrequentes.tsx": $$$$$$15,
-    "site/sections/Destaques/Text.tsx": $$$$$$16,
-    "site/sections/Destaques/Tutorial.tsx": $$$$$$17,
-    "site/sections/Footer.tsx": $$$$$$18,
-    "site/sections/Galery/GaleryContent.tsx": $$$$$$19,
-    "site/sections/Galery/GaleryWithLink.tsx": $$$$$$20,
-    "site/sections/Galery/ImageContent.tsx": $$$$$$21,
-    "site/sections/Headers/Offer.tsx": $$$$$$22,
-    "site/sections/Headers/Openning.tsx": $$$$$$23,
-    "site/sections/Headers/SubtitleWithShareIcon.tsx": $$$$$$24,
-    "site/sections/Headers/TitleArticle.tsx": $$$$$$25,
-    "site/sections/Headers/TitleError.tsx": $$$$$$26,
-    "site/sections/Headers/TitleIntegration.tsx": $$$$$$27,
-    "site/sections/Headers/TitleLarge.tsx": $$$$$$28,
-    "site/sections/Headers/TitleMedium.tsx": $$$$$$29,
-    "site/sections/Headers/TitleMonteSeuPlano.tsx": $$$$$$30,
-    "site/sections/Headers/TitlePlan.tsx": $$$$$$31,
-    "site/sections/Headers/TitleSegment.tsx": $$$$$$32,
-    "site/sections/Headers/TitleSuccess.tsx": $$$$$$33,
-    "site/sections/ItWorks.tsx": $$$$$$34,
-    "site/sections/Navigation/Categorias.tsx": $$$$$$35,
-    "site/sections/Navigation/Navbar.tsx": $$$$$$36,
-    "site/sections/Navigation/Tabs.tsx": $$$$$$37,
-    "site/sections/Theme/Theme.tsx": $$$$$$38,
+    "site/sections/Destaques/Suporte.tsx": $$$$$$16,
+    "site/sections/Destaques/Text.tsx": $$$$$$17,
+    "site/sections/Destaques/Tutorial.tsx": $$$$$$18,
+    "site/sections/Footer.tsx": $$$$$$19,
+    "site/sections/Galery/GaleryContent.tsx": $$$$$$20,
+    "site/sections/Galery/GaleryWithLink.tsx": $$$$$$21,
+    "site/sections/Galery/ImageContent.tsx": $$$$$$22,
+    "site/sections/Headers/Offer.tsx": $$$$$$23,
+    "site/sections/Headers/Openning.tsx": $$$$$$24,
+    "site/sections/Headers/SubtitleWithShareIcon.tsx": $$$$$$25,
+    "site/sections/Headers/TitleArticle.tsx": $$$$$$26,
+    "site/sections/Headers/TitleError.tsx": $$$$$$27,
+    "site/sections/Headers/TitleIntegration.tsx": $$$$$$28,
+    "site/sections/Headers/TitleLarge.tsx": $$$$$$29,
+    "site/sections/Headers/TitleMedium.tsx": $$$$$$30,
+    "site/sections/Headers/TitleMonteSeuPlano.tsx": $$$$$$31,
+    "site/sections/Headers/TitlePlan.tsx": $$$$$$32,
+    "site/sections/Headers/TitleSegment.tsx": $$$$$$33,
+    "site/sections/Headers/TitleSuccess.tsx": $$$$$$34,
+    "site/sections/ItWorks.tsx": $$$$$$35,
+    "site/sections/Navigation/Categorias.tsx": $$$$$$36,
+    "site/sections/Navigation/Navbar.tsx": $$$$$$37,
+    "site/sections/Navigation/Tabs.tsx": $$$$$$38,
+    "site/sections/Theme/Theme.tsx": $$$$$$39,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

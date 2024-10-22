@@ -15,7 +15,7 @@ export interface TextAskSection {
      * @title Texto da Resposta
      * @description Insira o texto da resposta
      */
-    ResponseAsk: string;
+    ResponseAsk?: string;
     /**
      * @title Ícone
      * @description Insira o ícone para a seção
