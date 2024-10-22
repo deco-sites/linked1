@@ -18,6 +18,29 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/Parcerias.tsx",
+        "items": [
+          {
+            "title": "Serena",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9da6c205-c7e5-4a76-afc9-fa532dc8fade/brand_serena2.png",
+            "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz."
+          },
+          {
+            "title": "Money",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/22da5d4f-4b65-4f09-b1e6-248514be1a88/brand_money2.png",
+            "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+          },
+          {
+            "title": "Contabilizei",
+            "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked.",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4fa7589b-96fa-4daa-a2f2-9e71df76df77/brand_contabilizei2x.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },
