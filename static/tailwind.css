@@ -3445,6 +3445,9 @@ input.tab:checked + .tab-content,
 .pt-\[38px\]{
   padding-top: 38px;
 }
+.pt-\[42\.5px\]{
+  padding-top: 42.5px;
+}
 .pt-\[43px\]{
   padding-top: 43px;
 }

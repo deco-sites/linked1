@@ -36,7 +36,7 @@ export interface TextSection {
    * @title Texto da Seção
    * @description Insira o texto da seção
    */
-  SectionText: string;
+  SectionText?: string;
   /**
    * @title Descrição
    * @description Insira a descrição da seção
@@ -107,10 +107,17 @@ export default function Section({
         <div>
           {description.map((desc, index) => (
             <div key={index} className="mb-4 text-left">
-              <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-semibold leading-tight-25 tracking-tight-2">
-                {desc.SectionText}
-              </h3>
-              <ul className="list-disc list-outside pl-5 text-base text-sacramentoState-80">
+              {desc.SectionText && (
+                <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-semibold leading-tight-25 tracking-tight-2">
+                  {desc.SectionText}
+                </h3>
+              )}
+
+              <ul
+                className={`list-disc list-outside pl-5 text-base text-sacramentoState-80 ${
+                  !desc.SectionText ? 'pt-[42.5px]' : ''
+                }`}
+              >
                 {desc.DescriptionSection.map((item, idx) => (
                   <li key={idx} className="pl-2 pt-2 leading-tight-18">
                     {item}

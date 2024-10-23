@@ -49,10 +49,25 @@ export interface Props {
    */
   title: string;
   /**
+   * @title Título da Seção
+   * @description Insira o título da seção
+   */
+  titleSectionText?: string;
+  /**
    * @title Texto da Seção
    * @description Insira o texto da seção
    */
-  sectionText: string;
+  sectionText?: string;
+  /**
+   * @title Ícone
+   * @description Insira o ícone para a seção
+   */
+  ImageWidget: ImageWidget;
+  /**
+   * @title Texto da Seção
+   * @description Insira o texto da seção
+   */
+  sectionTextDescription?: string;
   /**
    * @title Texto do Dropdown
    * @description Insira o texto do dropdown
@@ -76,7 +91,10 @@ export interface Props {
 }
 
 export default function IntegrationsSection({
+  titleSectionText = '',
   sectionText = '',
+  ImageWidget = '',
+  sectionTextDescription = '',
   dropdownText = '',
   arrowIcon,
   categories = [],
@@ -88,6 +106,28 @@ export default function IntegrationsSection({
           {sectionText}
         </h2>
       </div>
+      {titleSectionText && (
+                <div className="pt-10 pb-10 flex justify-between items-center">
+                    <h1 className="text-base font-semibold text-sacramentoState leading-tight-18">
+                        {titleSectionText}
+                    </h1>
+                    {ImageWidget && (
+                        <Image
+                            className=""
+                            src={ImageWidget || ""}
+                            alt="Ícone Seta"
+                            width={24}
+                        />
+                    )}
+                </div>
+            )}
+      {sectionTextDescription && (
+        <div className="pb-10">
+          <p className="font-sans font-normal text-base leading-tight-18 text-sacramentoState-80">
+            {sectionTextDescription}
+          </p>
+        </div>
+      )}
       {/* Dropdown de Categorias */}
       <div className="mb-8 relative">
         <select className="w-full pl-2 py-[13.5px] border-b border-sacramentoState rounded-t-lg text-sacramentoState bg-sacramentoState-10 cursor-pointer appearance-none pr-10 bg-[#e9f1ef]">

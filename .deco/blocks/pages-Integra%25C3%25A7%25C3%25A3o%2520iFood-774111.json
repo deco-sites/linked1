@@ -72,20 +72,13 @@
         "description": [
           {
             "DescriptionSection": [
-              "Por combo",
-              "Por hora",
-              "Por período de caixa",
-              "Por garçom",
-              "Por cliente",
-              "Por departamento",
-              " Com margem final",
-              "Por Produto",
-              "Entregas por motoboy",
-              "Kardex (controle de estoque)",
-              "Acumulado de vendas no dia a dia",
-              "Movimento de vendas"
+              "Pedidos delivery",
+              "Pedidos Peça e Retire",
+              "Tempo de preparo",
+              "Forma de pagamento",
+              "Opções de marketing e promoções",
+              "Dados e insights de vendas"
             ],
-            "SectionText": "Vendas",
             "title": "Vendas"
           }
         ]
