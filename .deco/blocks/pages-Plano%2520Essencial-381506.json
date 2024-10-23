@@ -66,6 +66,47 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Galery/GaleryTestimony.tsx",
+        "items": [
+          {
+            "title": "Testemunha 1",
+            "titleSection": "O sucesso dos clientes é  nosso maior orgulho",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png",
+            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Testemunha 2",
+            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
+          },
+          {
+            "title": "Testemunha 3",
+            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
+          },
+          {
+            "title": "Testemunha 4",
+            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
+          }
+        ],
+        "button": [
+          {
+            "title": "Compare com a concorrência",
+            "name": "Compare com a concorrência",
+            "url": "/compare",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9615f12d-d226-432f-9563-3a48ac21d67c/icon_compare.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "ListText"
       }
     },

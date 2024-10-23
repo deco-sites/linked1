@@ -38,6 +38,7 @@ export default {
         'tight-18': '18.8px',
         'tight-25': '25.2px',
         'tight-21': '21.15px',
+        'tight-20': '20.7px',
         'tight-22': '22.4px',
         'tight-55': '55.2px',
         'tight-14': '14.3px',

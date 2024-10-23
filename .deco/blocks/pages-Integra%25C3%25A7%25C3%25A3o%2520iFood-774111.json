@@ -45,6 +45,90 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/Text2.tsx",
+        "DescriptionSection": [
+          {
+            "DescriptionSection": [
+              "Facilidade na gestão de pedidos",
+              "Maior eficiência operacional",
+              "Acesso a uma base de clientes ampla",
+              "Aumento da visibilidade"
+            ],
+            "SectionText": [
+              "Com esta integração, você visualiza os pedidos feitos no iFood em um único painel de controle. Ele traz todos os detalhes, incluindo a hora em que o pedido foi realizado e eventuais atrasos.",
+              "São muitas as vantagens de gerenciar seus pedidos do iFood através da Linked Food:"
+            ],
+            "title": "Texto 1"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ListText.tsx",
+        "Subtitle": "Recursos e funcionalidades",
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+        "description": [
+          {
+            "DescriptionSection": [
+              "Por combo",
+              "Por hora",
+              "Por período de caixa",
+              "Por garçom",
+              "Por cliente",
+              "Por departamento",
+              " Com margem final",
+              "Por Produto",
+              "Entregas por motoboy",
+              "Kardex (controle de estoque)",
+              "Acumulado de vendas no dia a dia",
+              "Movimento de vendas"
+            ],
+            "SectionText": "Vendas",
+            "title": "Vendas"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ListText2.tsx",
+        "Subtitle": "Requisitos",
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+        "description": [
+          {
+            "DescriptionSection": [],
+            "SectionText": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. ",
+            "title": "Inteligência de Dados",
+            "highlight": "Linked Total"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ListImage2.tsx",
+        "title": "Mais opcionias disponíveis",
+        "categories": [
+          {
+            "images": [
+              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/cb2ba4b6-5780-4fee-8124-374662364b6a/brand_delivery_much.png",
+              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bceb98bb-4414-4f3d-ac7d-31c75afb40ff/brand_delivery_direto.png",
+              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png",
+              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png"
+            ],
+            "title": "Mais opcionias disponíveis",
+            "name": "Mais opcionias disponíveis"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },
