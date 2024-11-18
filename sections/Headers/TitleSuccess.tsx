@@ -28,7 +28,7 @@ export default function Section({
         <p className="text-white-80 text-[11px] font-mono font-normal leading-tight-14">
           {subtitle}
         </p>
-        <p className="pt-2 text-white text-[28px] font-sans font-medium leading-tight-32 tracking-tight-2">
+        <p className="pt-2 text-white text-[28px] font-sans font-normal leading-tight-32 tracking-tight-2">
           {title} <br /> <span className="text-secondary">{titleWithColor}</span>
         </p>
       </div>

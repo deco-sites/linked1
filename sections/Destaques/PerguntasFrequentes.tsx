@@ -66,7 +66,7 @@ export default function Section({
         <section className="px-4">
             {Subtitle && (
                 <div className="pt-10 pb-10 flex justify-between items-center">
-                    <h1 className="text-base font-semibold text-sacramentoState leading-tight-18">
+                    <h1 className="text-base font-medium text-sacramentoState leading-tight-18">
                         {Subtitle}
                     </h1>
                     {ImageWidget && (

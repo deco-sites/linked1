@@ -67,23 +67,23 @@ export default function Section({
 
   return (
     <section className="w-full bg-sacramentoState">
-      <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center min-h-screen">
+      <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center py-[177px]">
         <div className="w-fit pr-[44px]">
-          <p className="font-sans text-white font-semibold text-[32px] lg:text-[64px] leading-tight-35 lg:leading-tight-70 tracking-tight-2">
+          <p className="font-sans text-white font-medium text-[32px] lg:text-[64px] leading-tight-35 lg:leading-tight-70 tracking-tight-2">
             {getHighlightedText(title, highlight)}
           </p>
         </div>
         <div className="mt-[21px]">
-          <p className="block md:hidden pr-[42px] text-white-80 font-sans text-base font-medium leading-tight-18">
+          <p className="block md:hidden pr-[42px] text-white-80 font-sans text-base font-normal leading-tight-18">
             {subtitleMobile}
           </p>
-          <p className="hidden md:block text-white-80 font-sans text-lg font-medium leading-tight-25">
+          <p className="hidden md:block text-white-80 font-sans text-lg font-normal leading-tight-25">
             {subtitleDesktop}
           </p>
         </div>
         {/* texto animado
         <div className="mt-5">
-          <p className="text-white text-xl font-medium">{animatedText}</p>
+          <p className="text-white text-xl font-normal">{animatedText}</p>
         </div> */}
       </div>
     </section>

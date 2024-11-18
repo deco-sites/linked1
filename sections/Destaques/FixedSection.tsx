@@ -42,7 +42,7 @@ export default function Section({
       <div className="w-full px-5 pt-3.5 pb-5 bg-white shadow-lg flex flex-col justify-center gap-2.5">
         <div className="inline-flex">
             <div className="w-full flex justify-between items-center gap-2">
-                <a className="py-[12.5px] px-[55px] ml-5 mr-2.5 flex-grow bg-sacramentoState rounded-lg flex justify-center items-center text-secondary text-base font-semibold font-sans leading-tight-18">
+                <a className="py-[12.5px] px-[55px] ml-5 mr-2.5 flex-grow bg-sacramentoState rounded-lg flex justify-center items-center text-secondary text-base font-medium font-sans leading-tight-18">
                     {buttonText}
                 </a>
             </div>

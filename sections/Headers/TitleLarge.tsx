@@ -57,7 +57,7 @@ export default function Section({
       <div>
         {/* <div>
           <div className="w-full inline-flex">
-            <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+            <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
             <div className="flex-1"></div>
             <div className="pt-[24px] items-end justify-end text-end pr-4">
               {iconShare && (
@@ -79,7 +79,7 @@ export default function Section({
           )}
         </div>
         <div className="pl-4 pb-10 lg:pb-[103px] lg:flex lg:justify-center">
-          <h1 className="text-[32px] font-sans font-medium leading-tight-35 lg:leading-tight-70 tracking-tight-2 text-white">
+          <h1 className="text-[32px] font-sans font-normal leading-tight-35 lg:leading-tight-70 tracking-tight-2 text-white">
             {getHighlightedText(title, highlight)}
           </h1>
           <p className="lg:hidden pt-[10px] pr-[129px] font-sans text-base font-normal leading-tight-18 text-white-80">

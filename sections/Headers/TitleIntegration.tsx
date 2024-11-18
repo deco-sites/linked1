@@ -59,7 +59,7 @@ export default function Section({
     <section className="pb-10 bg-sacramentoState">
       <div>
         {/* <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+          <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
             {iconShare && (
@@ -86,7 +86,7 @@ export default function Section({
             />
           )}
         </div>
-        <p className="pl-4 text-[32px] text-white font-medium font-sans leading-tight-35 tracking-tight-2">
+        <p className="pl-4 text-[32px] text-white font-normal font-sans leading-tight-35 tracking-tight-2">
           {title} <span className="text-secondary">{titleWithColor}</span>
         </p>
         <div className="pr-[49px] pt-2.5">

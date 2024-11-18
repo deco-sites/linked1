@@ -66,7 +66,7 @@ export default function Section({
           </div>
         </div> */}
         <div>
-          <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium font-sans leading-tight-35 tracking-tight-2 text-sacramentoState">
+          <h1 className="pl-4 pt-10 pr-12 text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-sacramentoState">
             {title}
           </h1>
           <div className="w-full">

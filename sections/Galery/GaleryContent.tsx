@@ -58,15 +58,15 @@ export default function Section({
               key={index}
             >
               <article className="w-full flex flex-col border-t-2 border-white-20">
-                <p className="pt-[22.8px] text-base text-mintCream font-sans text-left lg:leading-tight-21 lg:leading-tight-25">
+                <p className="pt-[22.8px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
                   {item.titleSection}
                 </p>
                 <div className="flex justify-center py-[26px] px-0">
                   <Image className="" src={item.image || ""} width={315} />
                 </div>
                 <div className="w-full pl-0 text-left">
-                  <p className="pl-[3px] text-base font-sans font-normal text-mintCream leading-tight-18 lg:leading-tight-22">
-                    {item.description} <br /> {item.wordBreak}
+                  <p className="pl-[3px] text-base text-white opacity-80 leading-tight-18 lg:leading-tight-22">
+                    {item.description}
                   </p>
                 </div>
               </article>

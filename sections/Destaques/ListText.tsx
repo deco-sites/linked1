@@ -83,7 +83,7 @@ export default function Section({
     <section className="pl-4 pr-4 bg-white">
       <div className="container mx-auto text-center">
         <div className={`pt-[26.5px] ${videoWidget ? 'pb-[42.5px]' : 'pb-0'} flex justify-between items-center`}>
-          <h2 className="text-base font-sans font-semibold text-start leading-tight-18">
+          <h2 className="text-base font-sans font-medium text-start leading-tight-18">
             {Subtitle}
           </h2>
           {ImageWidget && (
@@ -108,7 +108,7 @@ export default function Section({
           {description.map((desc, index) => (
             <div key={index} className="mb-4 text-left">
               {desc.SectionText && (
-                <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-semibold leading-tight-25 tracking-tight-2">
+                <h3 className="pt-10 pb-6 text-[22px] text-sacramentoState font-medium leading-tight-25 tracking-tight-2">
                   {desc.SectionText}
                 </h3>
               )}
@@ -132,7 +132,7 @@ export default function Section({
             <div key={index} className="w-full">
               <a
                 href={btn.url}
-                className="w-full px-4 py-[12.5px] font-sans text-base font-semibold leading-tight-18 bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
+                className="w-full px-4 py-[12.5px] font-sans text-base font-medium leading-tight-18 bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
               >
                 {btn.name}
               </a>

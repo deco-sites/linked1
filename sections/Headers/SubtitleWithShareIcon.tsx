@@ -23,7 +23,7 @@ export default function Section({
     <section className="lg:hidden pb-7 bg-sacramentoState">
       <div>
         <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px] leading-tight-15.86">
+          <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px] leading-tight-15.86">
             {page}
           </p>
           <div className="flex-1"></div>

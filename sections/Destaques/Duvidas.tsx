@@ -63,7 +63,7 @@ export default function Section({
             />
           )}
         </div>
-        <p className="pb-[32px] text-[28px] text-sacramentoState font-sans leading-tight-32 lg:leading-tight-55 tracking-tight-2 font-medium text-center">
+        <p className="pb-[32px] text-[28px] text-sacramentoState font-sans leading-tight-32 lg:leading-tight-55 tracking-tight-2 font-normal text-center">
           {title}
         </p>
       </div>
@@ -81,7 +81,7 @@ export default function Section({
                   : 'bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center'
               }`}
             >
-              <span className="font-sans text-base font-semibold text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+              <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
                 {btn.name}
               </span>
               {index === 1 && btn.iconButton && (

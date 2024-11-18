@@ -26,7 +26,7 @@ export interface ContentItem {
         <div className="pt-[95px] justify-center">
           {items.map((item, index) => (
             <div key={index} className="pl-[64.5px] pr-[59.5px]">
-              <h2 className="text-[32px] font-sans font-medium text-sacramentoState leading-tight-35 lg:leading-tight-55 tracking-tight-2 text-center">
+              <h2 className="text-[32px] font-sans font-normal text-sacramentoState leading-tight-35 lg:leading-tight-55 tracking-tight-2 text-center">
                 {item.titleItem}
               </h2>
             </div>

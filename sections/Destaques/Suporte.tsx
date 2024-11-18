@@ -60,7 +60,7 @@ export default function Section({
                 />
               </div>
             )}
-            <h2 className="pt-[43px] pb-[32px] text-[28px] font-sans text-mintCream font-medium text-center leading-tight-32 tracking-tight-2">
+            <h2 className="pt-[43px] pb-[32px] text-[28px] font-sans text-mintCream font-normal text-center leading-tight-32 tracking-tight-2">
               {subTitle}
             </h2>
           </div>
@@ -75,22 +75,22 @@ export default function Section({
                     key={index}
                     className={`${
                     isFirstTwo ? 'border-b border-white-20' : 'border-t border-white-20'
-                    } ${isLastTwo ? 'border-0 border-white-20'  : ''} py-4 text-center ${
+                    } ${isLastTwo ? 'border-0 border-white-20 pt-[23.5px]'  : ''} p-4 text-center ${
                     index % 2 === 0 ? 'border-r border-white-20' : ''
                     }`}
                 >
                     <div className="flex flex-col items-center justify-center">
-                    {item.ImageWidget && (
-                        <Image
-                        src={item.ImageWidget}
-                        alt="Ícone do Bloco"
-                        width={24}
-                        className=""
-                        />
-                    )}
-                    <p className={`text-[13.5px] text-white-80 leading-tight ${index === 0 ? 'px-[26px]' : 'px-4'} pt-2 pb-[25px]`}>
-                        {item.textSectionDescription}
-                    </p>
+                      {item.ImageWidget && (
+                          <Image
+                          src={item.ImageWidget}
+                          alt="Ícone do Bloco"
+                          width={27}
+                          className=""
+                          />
+                      )}
+                      <p className={`text-[13.5px] text-white-80 leading-tight font-[300] ${index === 0 ? 'px-[26px]' : 'px-4'} pt-2 pb-[25px]`}>
+                          {item.textSectionDescription}
+                      </p>
                     </div>
                 </div>
                 );

@@ -56,7 +56,7 @@ export default function Section({
     <section className="pb-10 bg-sacramentoState">
       <div>
         {/* <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+          <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
             {iconShare && (
@@ -75,7 +75,7 @@ export default function Section({
               width={32}
             />
           )}
-          <p className="pt-2.5 pr-[69px] text-[32px] font-medium font-sans leading-tight-35 tracking-tight-2 text-white">
+          <p className="pt-2.5 pr-[69px] text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
             {getHighlightedText(title, highlight)}
           </p>
           <p className="pt-2.5 pr-[40px] text-lg font-normal font-sans leading-tight-21 text-white-80">

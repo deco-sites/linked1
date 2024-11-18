@@ -83,7 +83,7 @@ export default function Section({
           </div>
           <div className="pt-4 pb-2 text-[22px] font-sans text-sacramentoState">
             {item.subTitle && (
-              <h2 className="font-sans text-[22px] font-semibold leading-tight-25 tracking-tight-2">{item.subTitle}</h2>
+              <h2 className="font-sans text-[22px] font-medium leading-tight-25 tracking-tight-2">{item.subTitle}</h2>
             )}
           </div>
           <div className="pb-[32px] pr-[80px]">
@@ -98,7 +98,7 @@ export default function Section({
                 href={btn.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-max px-[31.75px] flex-none font-sans text-base font-semibold leading-tight-18"
+                className="w-max px-[31.75px] flex-none font-sans text-base font-medium leading-tight-18"
               >
                 {btn.name}
               </a>

@@ -77,7 +77,7 @@ export default function TestimonySection({
 }: Props) {
   return (
     <section className="pb-[32px] w-full bg-mintCream">
-        <h3 className="pb-[32px] pt-10 pl-4 pr-[90px] text-[22px] font-semibold text-sacramentoState leading-tight-25 tracking-tight-2">
+        <h3 className="pb-[32px] pt-10 pl-4 pr-[90px] text-[22px] font-medium text-sacramentoState leading-tight-25 tracking-tight-2">
             {items[0]?.titleSection}
         </h3>
         <div className="overflow-x-scroll scrollbar-hide swiper-container">
@@ -101,7 +101,7 @@ export default function TestimonySection({
                                     height={224}
                                 />
                             )}
-                            <p className="py-4 text-lg font-semibold text-sacramentoState leading-tight-20">
+                            <p className="py-4 text-lg font-medium text-sacramentoState leading-tight-20">
                                 {item.textTestimony}
                             </p>
                             <p className="pr-[90px] text-base font-sans font-normal text-sacramentoState leading-tight-18">
@@ -123,7 +123,7 @@ export default function TestimonySection({
                         rel="noopener noreferrer"
                         className={`w-full px-4 py-3 flex items-center bg-sacramentoState border-[1px] rounded-xl text-center text-secondary`}
                     >
-                        <span className="pl-10 font-sans text-base font-semibold leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+                        <span className="pl-10 font-sans text-base font-medium leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
                             {button[0].name}
                         </span>
                         {button[0].iconButton && ( 

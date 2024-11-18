@@ -35,7 +35,7 @@ export default function Section({
             width={64}
           />
         )}
-        <p className="pt-4 pb-[25px] pr-[49px] text-[32px] font-sans font-medium leading-tight-35 tracking-tight-2 text-sacramentoState">
+        <p className="pt-4 pb-[25px] pr-[49px] text-[32px] font-sans font-normal leading-tight-35 tracking-tight-2 text-sacramentoState">
           {title} <br /> {wordBreak}
         </p>
       </div>

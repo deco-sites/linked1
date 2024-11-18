@@ -61,7 +61,7 @@ export default function Section({
             />
           )}
         </div>
-        <p className="pl-4 pt-[49px] text-[32px] text-white font-sans font-medium leading-tight-35 tracking-tight-2">
+        <p className="pl-4 pt-[49px] text-[32px] text-white font-sans font-normal leading-tight-35 tracking-tight-2">
           {title} <span className="text-secondary">{titleWithColor}</span>
         </p>
         <p className="pl-4 pt-4 pr-[99px] pb-[13px] text-[13.5px] text-white-80 font-sans font-normal leading-tight-15.86">

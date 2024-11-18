@@ -80,7 +80,7 @@ export default function Section({
   return (
     <section className="">
       <div>
-        <p className="pl-[15px] pb-20 pt-[93px] font-sans font-medium text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
+        <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
         <div className="flex overflow-x-scroll scrollbar-hide">
           {items.map((item, index) => (
             <div
@@ -108,7 +108,7 @@ export default function Section({
                 rel="noopener noreferrer"
                 className="w-full px-4 py-3 flex-none bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center"
               >
-                <span className="font-sans text-base font-semibold text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+                <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
                   {btn.name}
                 </span>
                 {btn.iconButton && (
