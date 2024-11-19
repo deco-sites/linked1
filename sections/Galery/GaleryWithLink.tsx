@@ -80,43 +80,53 @@ export default function Section({
   return (
     <section className="">
       <div>
-        <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
-        <div className="flex overflow-x-scroll scrollbar-hide">
+        <div className="md:w-[350px] pl-[15px] md:pl-10 pb-20 pt-[93px] ">
+          <p className="font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
+        </div>
+        <div className="md:mx-10 md:w-fit flex md:grid md:grid-cols-3 gap-4 md:gap-x-5 overflow-hidden overflow-x-auto">
           {items.map((item, index) => (
             <div
               key={index}
-              className={`pl-4 flex-none w-[274.4px] ${index === items.length - 1 ? 'pr-4' : ''}`}
+              className={`${
+                index > 2 ? 'block md:hidden' : ''
+              } pl-4 md:pl-0 md:mb-[230px] flex-none w-[274.4px] md:w-full md:max-w-[463px] border-b border-sacramentoState-10 ${
+                index === items.length - 1 ? 'pr-4' : ''
+              }`}
             >
               <Image
-                className="rounded-lg"
                 src={item.image || ""}
                 width={274.4}
+                className="md:w-[463px] md:h-fit rounded-lg"
                 alt={item.SectionTitle2}
               />
-              <p className="pt-[12.8px] pb-[53.6px] text-base leading-snug">
-                {item.SectionTitle2}
-              </p>
+              <div className="pt-[12.8px] pb-[53.6px] md:pb-[67px]">
+                <p className="text-base leading-snug">
+                  {item.SectionTitle2}
+                </p>
+              </div>
             </div>
           ))}
         </div>
-        <div className="pb-[30px] pt-[61.6px] px-4 flex flex-col rounded-xl items-center justify-center space-y-4">
-          {button?.map((btn, index) => (
-            <div key={index} className="w-full flex justify-center">
-              <a
-                href={btn.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full px-4 py-3 flex-none bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center"
-              >
-                <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
-                  {btn.name}
-                </span>
-                {btn.iconButton && (
-                  <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
-                )}
-              </a>
-            </div>
-          ))}
+        <div className="block md:hidden">
+          <div className="pb-[30px] pt-[61.6px] px-4 rounded-xl items-center justify-center space-y-4 flex flex-col">
+            {button?.map((btn, index) => (
+              <div key={index} className="w-full flex justify-center">
+                <a
+                  href={btn.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full px-4 py-3 flex-none bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center"
+                >
+                  <span className="font-sans text-base font-medium text-center leading-tight-18">
+                    {btn.name}
+                  </span>
+                  {btn.iconButton && (
+                    <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
+                  )}
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

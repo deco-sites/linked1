@@ -42,6 +42,108 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/PlanModels.tsx",
+        "content": [
+          {
+            "title": "Essencial",
+            "planTitle": "Essencial",
+            "planDescription": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio.",
+            "planPrice": "A partir de  R$ 00,00",
+            "buttonDetails": "Ver detalhes",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7969b24f-de58-4757-890e-11c11730c974/icon_cup.png"
+          },
+          {
+            "title": "Total",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/75e1577e-e9b1-4029-93dd-ec91156fd1cd/cuttley_icon.png",
+            "planTitle": "Total",
+            "planDescription": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários.",
+            "planPrice": "A partir de  R$ 00,00",
+            "buttonDetails": "Ver detalhes"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ModulesSection.tsx",
+        "content": [
+          {
+            "underlineDescription": false,
+            "title": "Módulos",
+            "sectionTitle": "Módulos",
+            "resourceDescriptionColumOne": [
+              "Delivery",
+              "Local",
+              "-",
+              "-"
+            ],
+            "resourceDescriptionColumnTwo": [
+              "Comanda",
+              "Mesa",
+              "Balcão",
+              "Delivery"
+            ]
+          },
+          {
+            "resourceDescriptionColumOne": [
+              "PDV",
+              "-",
+              "-"
+            ],
+            "resourceDescriptionColumnTwo": [
+              "PDV",
+              "Gestão",
+              "Contabilidade"
+            ],
+            "underlineDescription": false,
+            "title": "Recursos e funcionalidades",
+            "sectionTitle": "Recursos e funcionalidades"
+          },
+          {
+            "resourceDescriptionColumOne": [
+              "Impressoras não fiscais",
+              "-",
+              "POS",
+              "-",
+              "-",
+              "-"
+            ],
+            "resourceDescriptionColumnTwo": [
+              "Impressoras fiscais",
+              "Impressoras produção",
+              "POS",
+              "TEF",
+              "Balanças",
+              "Catraca de comanda"
+            ],
+            "underlineDescription": false,
+            "title": "Dispositivos",
+            "sectionTitle": "Dispositivos"
+          },
+          {
+            "resourceDescriptionColumOne": [
+              "Link de pagamentos",
+              "Monitor de preparos",
+              "-",
+              "-"
+            ],
+            "resourceDescriptionColumnTwo": [
+              "Link de pagamentos",
+              "Monitor de preparos",
+              "App de delivery",
+              "Inteligência de dados"
+            ],
+            "underlineDescription": true,
+            "title": "Opcionais",
+            "sectionTitle": "Opcionais"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },

@@ -26,9 +26,27 @@
         "items": [
           {
             "description": "Com linked os pedidos são organizados e  entregues antes da fome apertar.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/be2fb394-b5c6-46fa-869f-f762e6d8330d/book_with_cup_on_table.png",
             "titleSection": "Aumente a eficiência",
             "title": "Aumente a eficiência"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/252cf9c3-2407-4413-875d-07f22a16b489/cutting_food_on_table.png",
+            "titleSection": "Evite o disperdício",
+            "title": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e  entregues antes da fome apertar."
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f1a9790-7ff1-45ae-8c73-69e75eec483a/tablet_on_table_2.png",
+            "titleSection": "Organize suas contas ",
+            "title": "Organize suas contas ",
+            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência."
+          },
+          {
+            "titleSection": "Conheça melhor seu negócio",
+            "description": "Do prato mais vendido ao lucro em cada prato. A linked oferece relatórios diversos.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/746c9f8f-3d9d-4423-93e6-02579d67c3ad/business_woman_2.png",
+            "title": "Conheça melhor seu negócio"
           }
         ]
       }
@@ -209,6 +227,125 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/ChoosePlan.tsx",
+        "title": "Você escolhe o plano",
+        "description": "Duas opções para seu estabelecimento economizar, vender e lucrar mais.",
+        "buttonCompare": "Compare os planos",
+        "content": [
+          {
+            "planBenefits": [
+              {
+                "title": "Online",
+                "descriptionBenefits": "Online",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png"
+              },
+              {
+                "title": "PDV",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png",
+                "descriptionBenefits": "PDV"
+              }
+            ],
+            "planTitle": "Essencial",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7969b24f-de58-4757-890e-11c11730c974/icon_cup.png",
+            "title": "Plano Essencial"
+          },
+          {
+            "planBenefits": [
+              {
+                "title": "Online/Offline",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png",
+                "descriptionBenefits": "Online/Offline"
+              },
+              {
+                "title": "PDV",
+                "descriptionBenefits": "PDV",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png"
+              },
+              {
+                "title": "Gestão",
+                "descriptionBenefits": "Gestão",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png"
+              },
+              {
+                "title": "Contabilidade",
+                "descriptionBenefits": "Contabilidade",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/37881681-c38b-40d0-a15e-09aa662d31b4/arrow_ok.png"
+              }
+            ],
+            "title": "Plano Total",
+            "planTitle": "Total",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/75e1577e-e9b1-4029-93dd-ec91156fd1cd/cuttley_icon.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ChooseOptional.tsx",
+        "title": "Você escolhe os opcionais",
+        "description": "Incremente a gestão e operação do estabelecimento com nossos opcionais.",
+        "buttonDetails": "Veja em detalhes",
+        "content": [
+          {
+            "title": "Link de Pagamentos",
+            "optionalTitle": "Link de Pagamentos",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/60b99a1c-70af-4612-a56f-6d4860e50f66/icon_link.png"
+          },
+          {
+            "title": "Monitor de preparos KDS",
+            "optionalTitle": "Monitor de preparos KDS",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+          },
+          {
+            "title": "App delivery",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b32575c2-9d59-4836-a1a9-262cafb19285/icon_cellphone.png",
+            "optionalTitle": "App delivery"
+          },
+          {
+            "title": "Inteligência de dados",
+            "optionalTitle": "Inteligência de dados",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ChooseIntegracion.tsx",
+        "title": "Por fim, escolhe as integrações",
+        "description": "Os principais serviços do mercado estão aqui.  A lista não pára de crescer.",
+        "buttonList": "Veja a lista completa",
+        "content": [
+          {
+            "title": "iFood",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png"
+          },
+          {
+            "title": "Rappi",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9aaa5862-2efc-40e2-b6ea-9208fed00c63/rappi_integracion.png"
+          },
+          {
+            "title": "Abrahao",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5521161e-867c-4a2b-8039-447d4594b572/abrahao_integracion.png"
+          },
+          {
+            "title": "Delivery Direto",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png"
+          },
+          {
+            "title": "+28",
+            "integracionNumber": "+28"
+          }
+        ],
+        "descriptionMobile": "Os principais serviços do mercado estão aqui.  A lista não pára de crescer.",
+        "descriptionDesktop": "Incremente a gestão e operação do estabelecimento com nossos opcionais."
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Destaques/Suporte.tsx",
         "subTitle": "Suporte completo em todos os planos",
         "content": [
@@ -239,6 +376,35 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Galery/GaleryPartners.tsx",
+        "title": "A Linked também tem parcerias para transformar o seu negócio",
+        "items": [
+          {
+            "SectionTitle": "Money",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5efa42f3-ab03-4dcd-88b3-7dea5ce3ecda/brand_money_carrosel.png",
+            "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+          },
+          {
+            "SectionTitle": "Serena",
+            "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7cc4d475-8c0e-4db9-883b-93069619b73e/brand_serena_partner.png"
+          },
+          {
+            "SectionTitle": "Contabilizei",
+            "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ee9b7403-c1c3-4828-91bd-0b7bf0e0d2b1/brand_contabilizei_partner.png"
+          },
+          {
+            "SectionTitle": "Money4",
+            "description": "Empréstimos com taxas a partir de 1,9% ao mês.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5efa42f3-ab03-4dcd-88b3-7dea5ce3ecda/brand_money_carrosel.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
         "title": "Por quê a Linked?",
         "results": [
@@ -248,17 +414,24 @@
             "title": "2016"
           },
           {
+            "description": "Integrações com os principais serviços do mercado",
+            "title": "13",
+            "number": "13"
+          },
+          {
             "description": "Mais de 1.000  estabelecimentos em todo o Brasil",
             "title": "1.000",
             "number": "1.000"
           },
           {
-            "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor",
             "title": "3.000",
-            "number": "3.000"
+            "number": "3.000",
+            "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor"
           }
         ],
-        "SectionTitle": "Por quê a Linked?"
+        "SectionTitle": "Por quê a Linked?",
+        "SectionTitleDesktop": "Linked é especialista em food service",
+        "SectionTitleMobile": "Por quê a Linked?"
       }
     },
     {
@@ -275,7 +448,7 @@
           {
             "SectionTitle": "Dicas para melhorar a apresentação dos seus pratos",
             "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15ffcf70-03e0-4c13-97f8-a96ed75ed4dc/chairs_in_restaurant.png"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
           },
           {
             "SectionTitle": "5 motivos para participar da Restaurante Week",

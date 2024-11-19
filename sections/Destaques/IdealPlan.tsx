@@ -23,9 +23,9 @@ export interface ContentItem {
   }: Props) {
     return (
       <section className="w-full bg-mintCream">
-        <div className="pt-[95px] justify-center">
+        <div className="pt-[95px] flex justify-center">
           {items.map((item, index) => (
-            <div key={index} className="pl-[64.5px] pr-[59.5px]">
+            <div key={index} className="pl-[64.5px] pr-[59.5px] md:w-[537px] ">
               <h2 className="text-[32px] font-sans font-normal text-sacramentoState leading-tight-35 lg:leading-tight-55 tracking-tight-2 text-center">
                 {item.titleItem}
               </h2>

@@ -44,10 +44,15 @@ export default {
         'tight-14': '14.3px',
         'tight-15': '15.6px',
         'tight-15.86': '15.86px',
-        'tight-19': '19.6px'
+        'tight-19': '19.6px',
+        'tight-34': '34.5px',
+        'tight-100': '100px'
       },
       letterSpacing: {
         'tight-2': '-0.02em',
+        'tight-0.6': '-0.6px',
+        'tight-0.56': '-0.56px',
+        'tight-2.2': '-2.2px',
     },
     container: {
       center: true,

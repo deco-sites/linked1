@@ -68,7 +68,7 @@ export default function Section({
   return (
     <section className="w-full bg-sacramentoState">
       <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center py-[177px]">
-        <div className="w-fit pr-[44px]">
+        <div className="w-fit md:w-[570px] pr-[44px]">
           <p className="font-sans text-white font-medium text-[32px] lg:text-[64px] leading-tight-35 lg:leading-tight-70 tracking-tight-2">
             {getHighlightedText(title, highlight)}
           </p>
