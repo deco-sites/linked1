@@ -11,20 +11,15 @@ export interface SectionContent {
      */
     title: string;
     /**
-     * @title Icone
-     * @description Icone do Benefício
-     */
-    iconBenfits?: ImageWidget;
-    /**
-     * @title Texto da Seção
-     * @description Insira o texto da seção
-     */
-    TextOne?: string;
-    /**
      * @title Descrição
      * @description Insira a descrição da seção
      */
-    TextTwo: string;
+    description?: string;
+    /**
+     * @title Imagens
+     * @description Lista de imagens
+     */
+    images: ImageWidget[];
   };
 
 /**
@@ -47,10 +42,10 @@ export interface Content {
      */
     ImageWidget: ImageWidget;
     /**
-     * @title Descrição
-     * @description Insira a descrição para a seção
+     * @title Conteúdo
+     * @description Insira o conteúdo da seção
      */
-    description: SectionContent[];
+    SectionContent: SectionContent;
 }
 
 export interface Props {
@@ -61,8 +56,9 @@ export default function Section({
     content = [],
   }: Props) {
     return (
+
         <section className="bg-white">
-            <div className="px-4 py-6">
+            <div className="px-4 py-6 border-y border-sacramentoState-10">
                 {content.map((block, index) => (
                     <div
                         key={index}
@@ -83,32 +79,28 @@ export default function Section({
                             )}
                         </div>
 
-                        {block.description.map((section, sectionIndex) => (
-                            <div key={sectionIndex} className="pb-10 flex items-start">
-                                <div className="py-4 px-4 mr-4 w-fit flex justify-center items-center bg-white border border-sacramentoState-10  rounded-full">
-                                    {section.iconBenfits && (
-                                        <Image
-                                            src={section.iconBenfits}
-                                            alt={section.iconBenfits || section.title}
-                                            width={32}
-                                            height={32}
-                                            style={{ maxWidth: "none !important" }}
-                                            className="w-8 h-8"
-                                        />
-                                    )}
-                                </div>
-                                <div className="grid gap-y-2 w-[230px]">
-                                    {section.TextOne && (
-                                        <p className="text-lg font-sans font-semibold leading-tight-20 text-sacramentoState">
-                                            {section.TextOne}
-                                        </p>
-                                    )}
-                                    <p className="text-sm font-sans font-normal text-sacramentoState">
-                                        {section.TextTwo}
+                        <div className="">
+                            {block.SectionContent.description && (
+                                <div className="pb-10 w-[322px]">
+                                    <p className="font-sans text-base font-normal text-sacramentoState-80">
+                                        {block.SectionContent.description}
                                     </p>
                                 </div>
+                            )}
+
+                            <div className="w-full grid grid-cols-3 gap-[11px]">
+                                {block.SectionContent.images.map((image, imgIndex) => (
+                                    <div key={imgIndex} className="border border-sacramentoState-10 rounded-[14.22px] overflow-hidden">
+                                        <Image
+                                            className="w-full h-full object-cover"
+                                            src={image || ""}
+                                            alt={image || `Imagem ${imgIndex + 1}`}
+                                            width={100}
+                                        />
+                                    </div>
+                                ))}
                             </div>
-                        ))}
+                        </div>
                     </div>
                 ))}
             </div>

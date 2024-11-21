@@ -100,7 +100,7 @@ export default function Section({
                         )}
                         
                         {block.descriptionBenefits && block.descriptionBenefits.length > 0 && (
-                            <ul className="py-10 list-disc list-inside text-sacramentoState-80">
+                            <ul className="py-10 px-4 list-disc list-outside text-sacramentoState-80">
                                 {block.descriptionBenefits.map((benefit, idx) => (
                                     <li
                                         key={idx}

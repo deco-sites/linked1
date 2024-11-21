@@ -70,6 +70,99 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/AboutPlanTotal.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png",
+        "content": [
+          {
+            "descriptionSectionTop": [
+              "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. "
+            ],
+            "descriptionSectionBottom": [
+              "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador.",
+              "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
+            ],
+            "title": "Descrição"
+          }
+        ],
+        "benefits": [
+          {
+            "title": "Mesa",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg",
+            "descriptionIcon": "Mesa"
+          },
+          {
+            "title": "Balcão",
+            "descriptionIcon": "Balcão",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6626b1a3-6def-4fb8-932d-cfe77122165f/icon_counter.png"
+          },
+          {
+            "title": "Comanda",
+            "descriptionIcon": "Comanda",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f87e937-123b-4428-a5f6-f93e6c77a524/icon_book.svg"
+          },
+          {
+            "title": "Delivery",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c192033a-7e5b-41fd-94df-dc09ce3a93b9/icon_person.png",
+            "descriptionIcon": "Delivery"
+          }
+        ],
+        "benefitsDescription": [
+          "Instalação em até 72 horas",
+          "Atendimento 24x7",
+          "Treinamentos ilimitados",
+          "Sem limite de caixas e dispositivos",
+          "Sem limite de usuários",
+          "Sem limite de pedidos",
+          "Sem contrato de fidelidade",
+          "Integrações com os principais serviços do mercado",
+          "Retaguarda completa, com mais de 30 relatórios"
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Galery/GaleryTestimony.tsx",
+        "items": [
+          {
+            "titleSection": "O sucesso dos clientes é  nosso maior orgulho",
+            "title": "Clientes",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/85d486b4-fbaa-41de-b0ff-d1e25ba5857a/bakery_img.png",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Clientes",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/85d486b4-fbaa-41de-b0ff-d1e25ba5857a/bakery_img.png",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Clientes",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/85d486b4-fbaa-41de-b0ff-d1e25ba5857a/bakery_img.png"
+          },
+          {
+            "title": "Clientes",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/85d486b4-fbaa-41de-b0ff-d1e25ba5857a/bakery_img.png"
+          }
+        ],
+        "button": [
+          {
+            "title": "Compare",
+            "name": "Compare com a concorrência",
+            "url": "/compare",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9615f12d-d226-432f-9563-3a48ac21d67c/icon_compare.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "ListText"
       }
     },
@@ -77,6 +170,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Destaques/ListImage.tsx",
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
         "title": "Integrações",
         "dropdownText": "Por categoria",
         "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg",
@@ -163,7 +257,6 @@
           }
         ],
         "sectionTextDescription": "O  Linked Food Total é compatível com os principais serviços do mercado. A lista aumenta a cada dia. Confira as integrações disponíveis:",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
         "titleSectionText": "Integrações"
       }
     },

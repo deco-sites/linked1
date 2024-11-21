@@ -100,7 +100,11 @@ export default function Section({
         <div>
           {videoWidget && (
             <div className="mb-4">
-              <video src={videoWidget} controls className="mx-auto" />
+              <video 
+                src={videoWidget} 
+                controls 
+                className="mx-auto" 
+              />
             </div>
           )}
         </div>

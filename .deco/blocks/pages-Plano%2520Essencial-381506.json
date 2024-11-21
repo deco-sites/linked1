@@ -173,6 +173,51 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/IntegracionEssencial.tsx",
+        "content": [
+          {
+            "SectionContent": {
+              "images": [
+                "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/01eeaa30-6b3a-48a2-9395-5e4d55e8d6b5/brand_delivery_much-2x.png",
+                "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/345a1185-526c-4b4c-a307-0ef962b8ca2b/brand_delivery_direto-2x.png",
+                "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png",
+                "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png"
+              ],
+              "title": "Descrição",
+              "description": "O  Linked Food Total é compatível com os principais serviços do mercado. A lista aumenta a cada dia. Confira as integrações disponíveis:"
+            },
+            "title": "Integrações",
+            "Subtitle": "Integrações",
+            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/Requirements.tsx",
+        "url": "/verificar",
+        "button": "Veja como verificar",
+        "content": [
+          {
+            "SectionContent": {
+              "requirements": [
+                "Processador i3 com 4GB de memória RAM ou superior"
+              ],
+              "title": "Descrição",
+              "description": "Basicamente você precisa ter um computador conectado a internet para rodar o Linked Food Essencial. Confira as especificações:"
+            },
+            "title": "Requisitos",
+            "Subtitle": "Requisitos",
+            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Destaques/PerguntasFrequentes.tsx",
         "description": [
           {
@@ -227,6 +272,12 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "FixedSection"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/Requirements.tsx"
       }
     }
   ],
