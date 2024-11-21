@@ -66,6 +66,39 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/AboutPlanEssencial.tsx",
+        "content": [
+          {
+            "descriptionBenefits": [
+              "Não requer instalação",
+              "Atendimento 24x7",
+              "Treinamentos ilimitados",
+              "Sem limite de pedidos",
+              "Sem contrato de fidelidade",
+              "Integração com os principais serviços do mercado",
+              "Retaguarda"
+            ],
+            "title": "Sobre Plano Essencial",
+            "description": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. ",
+            "iconPlan": [
+              {
+                "title": "Balcão",
+                "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6626b1a3-6def-4fb8-932d-cfe77122165f/icon_counter.png",
+                "descriptionIcon": "Balcão"
+              },
+              {
+                "title": "Delivery",
+                "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c192033a-7e5b-41fd-94df-dc09ce3a93b9/icon_person.png",
+                "descriptionIcon": "Delivery"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Galery/GaleryTestimony.tsx",
         "items": [
           {
@@ -108,6 +141,33 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "ListText"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/OptionalEssencial.tsx",
+        "content": [
+          {
+            "description": [
+              {
+                "title": "Link de Pagamentos",
+                "TextOne": "Link de Pagamentos",
+                "TextTwo": "Envie pelo celular e economize a taxa da maquininha",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/60b99a1c-70af-4612-a56f-6d4860e50f66/icon_link.png"
+              },
+              {
+                "title": "Monitor de preparos KDS",
+                "TextOne": "Monitor de preparos KDS",
+                "TextTwo": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+              }
+            ],
+            "title": "Opcional",
+            "Subtitle": "Opcionais",
+            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          }
+        ]
       }
     },
     {

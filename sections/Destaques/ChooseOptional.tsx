@@ -1,7 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-
 /**
  * @title {{{title}}}
  */
@@ -21,7 +20,6 @@ export interface Content {
      */
     optionalTitle?: string;
 }
-
 
 export interface Props {
     /**
@@ -83,13 +81,13 @@ export default function Section({
                         >
                         <div className="py-4 px-4 w-fit flex justify-center items-center bg-white rounded-full">
                             {icon && (
-                            <Image
-                                src={icon}
-                                alt={title || "Ícone do Bloco"}
-                                width={32}
-                                height={32}
-                                className="w-8 h-8"
-                            />
+                                <Image
+                                    src={icon}
+                                    alt={title || "Ícone do Bloco"}
+                                    width={32}
+                                    height={32}
+                                    className="w-8 h-8"
+                                />
                             )}
                         </div>
                         <div className="pt-2 w-[105px] flex justify-center items-center text-center">

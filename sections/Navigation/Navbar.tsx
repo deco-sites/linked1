@@ -86,60 +86,62 @@ export default function Section({
   // }, []);
 
   return (
-    <nav role="navigation" className="inline-flex px-4 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50">
-      <div className="flex lg:pl-10">
-        {logo && (
-          <Image
-            className=""
-            src={logo || ""}
-            width={173.72}
-          />
-        )}
-      </div>
-
-      {/* Ícones de hambúrguer e fechar para mobile */}
-      <div className="w-fit md:hidden flex items-center">
-        <input type="checkbox" id="menu-toggle" className="hidden" />
-        <div id="hamburger-icon" className="">
-          {icon && (
+    <nav role="navigation" className=" bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50">
+      <div className="px-4 py-6 w-full flex justify-between items-center">
+        <div className="lg:pl-10">
+          {logo && (
             <Image
               className=""
-              src={icon || ""}
-              width={32}
+              src={logo || ""}
+              width={173.72}
             />
           )}
         </div>
-        <div id="close-icon" className="hidden">
-          {close_icon && (
-            <Image
-              className=""
-              src={close_icon || ""}
-              width={32}
-            />
-          )}
+
+        {/* Ícones de hambúrguer e fechar para mobile */}
+        <div className="w-fit block md:hidden items-center">
+          <input type="checkbox" id="menu-toggle" className="hidden" />
+          <div id="hamburger-icon" className="">
+            {icon && (
+              <Image
+                className=""
+                src={icon || ""}
+                width={32}
+              />
+            )}
+          </div>
+          <div id="close-icon" className="hidden">
+            {close_icon && (
+              <Image
+                className=""
+                src={close_icon || ""}
+                width={32}
+              />
+            )}
+          </div>
         </div>
-      </div>
 
-      <div id="menu" className="hidden md:flex space-x-4 font-sans text-white font-light items-center whitespace-nowrap">
-        {menu?.map((item, index) => (
-          <a key={index} href={item.url}>
-            {item.name}
-          </a>
-        ))}
-      </div>
+        <div id="menu" className="hidden md:flex space-x-4 font-sans text-white font-light items-center whitespace-nowrap">
+          {menu?.map((item, index) => (
+            <a key={index} href={item.url}>
+              {item.name}
+            </a>
+          ))}
+        </div>
 
-      <div className="hidden w-fit md:flex ml-8 bg-secondary rounded-xl items-center justify-center">
-        {button?.map((btn, index) => (
-          <a
-            key={index}
-            href={btn.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
-          >
-            {btn.name}
-          </a>
-        ))}
+        <div className="hidden w-fit md:flex ml-8 bg-secondary rounded-xl items-center justify-center">
+          {button?.map((btn, index) => (
+            <a
+              key={index}
+              href={btn.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
+            >
+              {btn.name}
+            </a>
+          ))}
+        </div>
       </div>
     </nav>
   );
