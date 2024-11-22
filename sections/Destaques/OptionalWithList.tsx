@@ -62,7 +62,7 @@ export default function Section({
   }: Props) {
     return (
         <section className="bg-white">
-            <div className="px-4 py-6">
+            <div className="px-4 py-6 border-t border-sacramentoState-10">
                 {content.map((block, index) => (
                     <div
                         key={index}

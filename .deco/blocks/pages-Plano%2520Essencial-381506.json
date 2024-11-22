@@ -140,30 +140,153 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "ListText"
+        "__resolveType": "site/sections/Destaques/ListText.tsx",
+        "descriptionSectionList": [],
+        "description": [
+          {
+            "DescriptionSection": [
+              "Painel centralizado com os pedidos realizados no local e via delivery",
+              "Envio de notificações para o cliente saber como está a produção de seu pedido"
+            ],
+            "SectionText": "Atender melhor",
+            "title": "Atender melhor"
+          },
+          {
+            "DescriptionSection": [
+              "Conheça os dias e horários de maior movimento para se planejar melhor",
+              "Organize e acelere a produção enviando os pedidos direto para a cozinha",
+              "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
+            ],
+            "title": "Aumentar a eficiência",
+            "SectionText": "Aumentar a eficiência"
+          },
+          {
+            "DescriptionSection": [
+              "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
+              "Sugestões de compras mais econômicas"
+            ],
+            "SectionText": "Evitar o desperdício",
+            "title": "Evitar o desperdício"
+          },
+          {
+            "DescriptionSection": [
+              "Acompanhe os pratos preferidos",
+              "Veja quem da sua equipe vende mais"
+            ],
+            "SectionText": "Vender e lucrar mais",
+            "title": "Vender e lucrar mais"
+          },
+          {
+            "DescriptionSection": [
+              "Controle total do caixa, com abertura e fechamento",
+              "Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno"
+            ],
+            "SectionText": "Ficar com as contas em dia",
+            "title": "Ficar com as contas em dia"
+          }
+        ],
+        "button": [
+          {
+            "name": "Ver lista completa",
+            "url": "/lista",
+            "title": "Ver lista completa"
+          }
+        ],
+        "Subtitle": "Recursos e funcionalidades",
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+        "videoWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4",
+        "DescriptionSection": [
+          {
+            "DescriptionSection": [],
+            "SecaoDescricao": [
+              {
+                "description": []
+              }
+            ]
+          }
+        ],
+        "content": [
+          {
+            "descriptionSectionList": [],
+            "description": [
+              {
+                "DescriptionSection": [
+                  "Painel centralizado com os pedidos realizados no local e via delivery",
+                  "Envio de notificações para o cliente saber como está a produção de seu pedido"
+                ],
+                "title": "Atender melhor",
+                "SectionText": "Atender melhor"
+              },
+              {
+                "DescriptionSection": [
+                  "Conheça os dias e horários de maior movimento para se planejar melhor",
+                  "Organize e acelere a produção enviando os pedidos direto para a cozinha",
+                  "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
+                ],
+                "title": "Aumentar a eficiência",
+                "SectionText": "Aumentar a eficiência"
+              },
+              {
+                "DescriptionSection": [
+                  "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
+                  "Sugestões de compras mais econômicas"
+                ],
+                "title": "Evitar o desperdício",
+                "SectionText": "Evitar o desperdício"
+              },
+              {
+                "DescriptionSection": [
+                  "Acompanhe os pratos preferidos ",
+                  "Veja quem da sua equipe vende mais"
+                ],
+                "title": "Vender e lucrar mais",
+                "SectionText": "Vender e lucrar mais"
+              },
+              {
+                "DescriptionSection": [
+                  "Controle total do caixa, com abertura e fechamento",
+                  "Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno"
+                ],
+                "title": "Ficar com as contas em dia",
+                "SectionText": "Ficar com as contas em dia"
+              }
+            ],
+            "button": [
+              {
+                "title": "Ver lista completa",
+                "name": "Ver lista completa",
+                "url": "/lista"
+              }
+            ],
+            "title": "Recursos e funcionalidades",
+            "Subtitle": "Recursos e funcionalidades",
+            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+            "videoWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+          }
+        ]
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/OptionalEssencial.tsx",
+        "__resolveType": "site/sections/Destaques/OptionalWithList.tsx",
         "content": [
           {
+            "title": "Opcionais",
             "description": [
               {
-                "title": "Link de Pagamentos",
-                "TextOne": "Link de Pagamentos",
-                "TextTwo": "Envie pelo celular e economize a taxa da maquininha",
-                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/60b99a1c-70af-4612-a56f-6d4860e50f66/icon_link.png"
+                "title": "Link pagamentos",
+                "TextOne": "Link pagamentos",
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/60b99a1c-70af-4612-a56f-6d4860e50f66/icon_link.png",
+                "TextTwo": "Envie pelo celular e economize a taxa da maquininha"
               },
               {
                 "title": "Monitor de preparos KDS",
                 "TextOne": "Monitor de preparos KDS",
-                "TextTwo": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
-                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+                "iconBenfits": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png",
+                "TextTwo": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
               }
             ],
-            "title": "Opcional",
             "Subtitle": "Opcionais",
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
           }
@@ -177,14 +300,14 @@
         "content": [
           {
             "SectionContent": {
+              "title": "Descrição",
+              "description": "O  Linked Food Total é compatível com os principais serviços do mercado. A lista aumenta a cada dia. Confira as integrações disponíveis:",
               "images": [
                 "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/01eeaa30-6b3a-48a2-9395-5e4d55e8d6b5/brand_delivery_much-2x.png",
                 "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/345a1185-526c-4b4c-a307-0ef962b8ca2b/brand_delivery_direto-2x.png",
                 "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png",
                 "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png"
-              ],
-              "title": "Descrição",
-              "description": "O  Linked Food Total é compatível com os principais serviços do mercado. A lista aumenta a cada dia. Confira as integrações disponíveis:"
+              ]
             },
             "title": "Integrações",
             "Subtitle": "Integrações",

@@ -29,7 +29,7 @@
       "section": {
         "__resolveType": "site/sections/Navigation/Categorias.tsx",
         "title": "Em qual categoria  seu estabelecimento mais se encaixa?",
-        "titleForMobile": "Em qual categoria  seu estabelecimento mais se encaixa?",
+        "titleForMobile": "Em qual categoria seu estabelecimento mais se encaixa?",
         "tags": [
           {
             "structureTypeDesktop": "Estrutura 1",
@@ -157,6 +157,11 @@
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f962784-6d17-42d0-b165-6c71588d3d2a/icon_app_category.svg",
             "title": "Outros"
           }
+        ],
+        "descriptionTopSection": " Clique e veja como a Linked pode ajudar.",
+        "descriptionBottomSection": [
+          "Ainda não estamos atendendo açougues e hortifrutis.",
+          "Não achou seu tipo de estabelecimento aqui? Entre em contato com nosso time para avaliarmos a viabilidade."
         ]
       }
     },

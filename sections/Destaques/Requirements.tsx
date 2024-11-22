@@ -62,7 +62,7 @@ export default function Section({
     return (
 
         <section className="bg-white">
-            <div className="px-4 py-6 border-b border-sacramentoState-10">
+            <div className="px-4 py-6 border-y border-sacramentoState-10">
                 {content.map((block, index) => (
                     <div key={index} className="flex flex-col">
                         <div className="pb-10 flex justify-between">

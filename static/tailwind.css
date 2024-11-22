@@ -2413,6 +2413,10 @@ input.tab:checked + .tab-content,
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -2755,6 +2759,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-\[522px\]{
   max-width: 522px;
+}
+.max-w-\[720px\]{
+  max-width: 720px;
 }
 .max-w-\[80px\]{
   max-width: 80px;
@@ -3409,9 +3416,6 @@ input.tab:checked + .tab-content,
 .pb-\[42\.5px\]{
   padding-bottom: 42.5px;
 }
-.pb-\[42px\]{
-  padding-bottom: 42px;
-}
 .pb-\[4px\]{
   padding-bottom: 4px;
 }
@@ -3504,9 +3508,6 @@ input.tab:checked + .tab-content,
 }
 .pr-\[15px\]{
   padding-right: 15px;
-}
-.pr-\[31px\]{
-  padding-right: 31px;
 }
 .pr-\[40px\]{
   padding-right: 40px;
@@ -3609,9 +3610,6 @@ input.tab:checked + .tab-content,
 }
 .pt-\[38px\]{
   padding-top: 38px;
-}
-.pt-\[42\.5px\]{
-  padding-top: 42.5px;
 }
 .pt-\[43px\]{
   padding-top: 43px;
@@ -4142,6 +4140,12 @@ input.tab:checked + .tab-content,
   .md\:pr-\[43px\]{
     padding-right: 43px;
   }
+  .md\:pt-\[79px\]{
+    padding-top: 79px;
+  }
+  .md\:text-left{
+    text-align: left;
+  }
   .md\:text-start{
     text-align: start;
   }
@@ -4225,9 +4229,6 @@ input.tab:checked + .tab-content,
   }
   .lg\:pt-\[152\.5px\]{
     padding-top: 152.5px;
-  }
-  .lg\:pt-\[79px\]{
-    padding-top: 79px;
   }
   .lg\:text-\[64px\]{
     font-size: 64px;

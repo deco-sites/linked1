@@ -31,6 +31,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Contents/ContentImageWithText.tsx",
+        "content": [
+          {
+            "descriptionSection": [
+              "A principal característica do fast-food é a agilidade para pedir, receber e consumir o produto. Uma operação otimizada é crucial para o sucesso de um fast-food. ",
+              "Para alcançar isso, é fundamental criar fluxos de trabalho eficientes, treinar a equipe para trabalhar de forma ágil e garantir consistência e qualidade nos pratos servidos"
+            ],
+            "title": "Sobre",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9ac91f58-a2d6-43f5-b770-01eeb60e70d2/men_in_the_kitchen.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Dúvidas"
       }
     },
