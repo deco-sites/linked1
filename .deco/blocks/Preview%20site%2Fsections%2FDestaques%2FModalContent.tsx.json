@@ -5,7 +5,7 @@
       "question": [
         {
           "answer": [
-            "Qual o nome do seu estabelcimento?"
+            "Qual o nome do seu estabelecimento?"
           ],
           "description": "Júlio, gostaríamos de mais algumas informações"
         }
@@ -13,18 +13,33 @@
       "descritiveQuestion": [
         "Qual a categoria que ele melhor se encaixa? "
       ],
-      "checkbox": [],
-      "title": "Me Liga informações adicionais",
-      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/17879d4c-6dae-4c6a-a8aa-64b66a75cfb8/fi_chevron-up.png",
-      "header": "Me liga",
+      "checkbox": [
+        {
+          "label": "manha",
+          "value": "0"
+        },
+        {
+          "label": "tarde",
+          "value": "1"
+        },
+        {
+          "label": "noite",
+          "value": "2"
+        },
+        {
+          "label": "qualquer momento do dia",
+          "value": "3"
+        }
+      ],
       "tags": [
         {
-          "title": "qweqweqweqwqeqwqewe",
-          "name": "a la carte",
+          "name": "A la carte",
           "url": "/a-la-carte",
           "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
         }
-      ]
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "Me liga"
     }
   ]
 }

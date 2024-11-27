@@ -82,18 +82,16 @@ export default function Section({
             <Image src={item.icon} alt="Item Icon" width={40} height={40} class="w-10 h-10 mb-4" />
           )}
 
-          <h2 className="text-2xl font-bold mb-4">{item.title}</h2>
           {item.header && <p className="text-lg mb-4">{item.header}</p>}
           {item.question && (
             <div className="space-y-4">
               {item.question.map((q, qIndex) => (
                 <div key={qIndex}>
-                  <h3 className="font-semibold">{q.question}</h3>
+                  <h3 className="font-semibold">{q.description}</h3>
                   {q.answer?.map((ans, ansIndex) => (
                     <div key={ansIndex} className="mt-2">
                       <div
                         contentEditable
-                        suppressContentEditableWarning={true}
                         className="w-full p-2 border-b border-gray-300"
                         style={{ minHeight: "1.5rem", whiteSpace: "nowrap" }}
                         dangerouslySetInnerHTML={{
