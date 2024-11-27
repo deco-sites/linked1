@@ -2424,9 +2424,6 @@ input.tab:checked + .tab-content,
 .mb-5{
   margin-bottom: 1.25rem;
 }
-.mb-6{
-  margin-bottom: 1.5rem;
-}
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -3532,10 +3529,6 @@ input.tab:checked + .tab-content,
 }
 .font-sans{
   font-family: Public Sans, sans-serif;
-}
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 .text-5xl{
   font-size: 3rem;

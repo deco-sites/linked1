@@ -12,9 +12,9 @@ export interface ClientsList {
     title: string;
     /**
      * @title Imagens
-     * @description Lista de imagens da categoria
+     * @description Imagem do cliente
      */
-    images: ImageWidget[];
+    images: ImageWidget;
     /**
      * @title Nome
      * @description Insira o nome do cliente
@@ -74,29 +74,28 @@ export interface Props {
      */
     arrowIcon: ImageWidget;
     /**
-     * @title Lista de Clientes
-     * @description Insira a lista de clientes
-     */
-    clients: ClientsList[];
-    /**
      * @title Filtro de Clientes
      * @description Insira os filtros disponíveis
      */
     filters: filteredClients[];
+    /**
+     * @title Lista de Clientes
+     * @description Insira a lista de clientes
+     */
+    clients: ClientsList[];
 }
 
 export default function IntegrationsSection({
-    title = '',
-    titleSectionText = '',
-    dropdownText = '',
-    arrowIcon = '',
-    clients = [],
+    title = "",
+    titleSectionText = "",
+    dropdownText = "",
+    arrowIcon = "",
     filters = [],
+    clients = [],
 }: Props) {
     return (
         <section className="bg-white">
             <div className="px-4">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">{title}</h2>
                 {titleSectionText && (
                     <p className="text-gray-600 mb-4">{titleSectionText}</p>
                 )}
@@ -141,37 +140,34 @@ export default function IntegrationsSection({
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {clients.length > 0 ? (
-                        clients.map((client, index) => (
+                    {clients.length > 0
+                        ? clients.map((client, index) => (
                             <div
                                 key={index}
                                 className="p-4 flex flex-col items-center text-center"
                             >
-                                <div className="flex flex-wrap justify-center gap-2 mb-4">
-                                    {client.images?.map((image, imgIndex) => (
-                                        image && (
-                                            <Image
-                                                key={imgIndex}
-                                                src={image}
-                                                alt={client.name || "Client Image"}
-                                                width={100}
-                                                height={100}
-                                                className="w-full h-full"
-                                            />
-                                        )
-                                    ))}
-                                </div>
+                                {client.images && (
+                                    <Image
+                                        src={client.images}
+                                        alt={client.name || "Client Image"}
+                                        width={100}
+                                        height={100}
+                                        className="w-full h-full"
+                                    />
+                                )}
 
                                 {client.name && (
                                     <h3 className="text-lg font-bold text-gray-800">
                                         {client.name}
                                     </h3>
                                 )}
+
                                 {client.type && (
                                     <p className="text-gray-600">
                                         {client.type}
                                     </p>
                                 )}
+
                                 {client.cityUf && (
                                     <p className="text-gray-500 text-sm">
                                         {client.cityUf}
@@ -179,9 +175,7 @@ export default function IntegrationsSection({
                                 )}
                             </div>
                         ))
-                    ) : (
-                        <p className=""></p>
-                    )}
+                        : <p className=""></p>}
                 </div>
             </div>
         </section>

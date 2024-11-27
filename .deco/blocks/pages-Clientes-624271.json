@@ -63,7 +63,9 @@
               null
             ]
           }
-        ]
+        ],
+        "title": "Clientes",
+        "titleSectionText": "Clientes em"
       }
     },
     {
