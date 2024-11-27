@@ -1,14 +1,22 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 
+/**
+ * @title {{{title}}}
+ */
 
-export interface Item{
-    title?: string;
+export interface Item {
+    /**
+     * @title Título do Bloco
+     * @description Escreva o título do bloco
+     */
+    title: string;
     icon?: ImageWidget;
-    description?: string;
-    subTopic?: string[];
+    header?: string;
+    content?: string;
+    subContent?: string[];
     iconArrays?: ImageWidget[];
     button?: string;
-};
+}
 
 interface Props {
     /**
@@ -17,8 +25,6 @@ interface Props {
     items?: Item[];
 }
 
-export default function Section({ 
-    items = [] 
-  }: Props) {
-
-  }
+export default function Section({
+    items = [],
+}: Props) {}
