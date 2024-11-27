@@ -4,47 +4,26 @@
     {
       "question": [
         {
-          "question": "Pode deixar que nós vamos entrar em contado",
           "answer": [
-            "qual a sua idade ?",
-            "qual seu telefone ? "
-          ]
+            "Qual o nome do seu estabelcimento?"
+          ],
+          "description": "Júlio, gostaríamos de mais algumas informações"
         }
       ],
-      "title": "Me liga Component",
-      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/0e21bbf6-a44e-4afd-84b5-b869485180ce/image-57.svg",
-      "header": "Me liga",
-      "timeOptions": [
-        {
-          "label": "manha",
-          "value": "0"
-        },
-        {
-          "label": "tarde",
-          "value": "1"
-        }
-      ],
-      "selectedOption": "0",
-      "subContent": [],
-      "iconArrays": [],
-      "checkbox": [
-        {
-          "label": "manha",
-          "value": "0"
-        },
-        {
-          "label": "tarde",
-          "value": "1"
-        },
-        {
-          "label": "noite",
-          "value": "3"
-        }
-      ],
-      "button": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/17879d4c-6dae-4c6a-a8aa-64b66a75cfb8/fi_chevron-up.png",
-      "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/b69b13e8-ed98-4ac0-8079-cdd8833be52b/I-want-very-simple-just-a-small-button-with-an-arrow-for-the-next",
       "descritiveQuestion": [
-        "Qual o melhor horário?"
+        "Qual a categoria que ele melhor se encaixa? "
+      ],
+      "checkbox": [],
+      "title": "Me Liga informações adicionais",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/17879d4c-6dae-4c6a-a8aa-64b66a75cfb8/fi_chevron-up.png",
+      "header": "Me liga",
+      "tags": [
+        {
+          "title": "qweqweqweqwqeqwqewe",
+          "name": "a la carte",
+          "url": "/a-la-carte",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
+        }
       ]
     }
   ]
