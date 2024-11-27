@@ -22,6 +22,35 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "Primary",
+        "content": [
+          {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "content": "Exemplo",
+            "colorClass": "White",
+            "colorTheme": "White"
+          },
+          {
+            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+            "colorTheme": "White",
+            "number": "35%",
+            "description": "Até 35% de economia no 1º ano energia solar e eólica"
+          },
+          {
+            "__resolveType": "site/sections/Final/Content/List.tsx",
+            "items": [
+              "lasjdalskdjlkasjd",
+              "laksjdlasjdlkasdasd"
+            ],
+            "colorTheme": "White"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Galery/GaleryContent.tsx",
         "items": [
           {
