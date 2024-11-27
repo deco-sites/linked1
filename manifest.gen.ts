@@ -29,10 +29,10 @@ import * as $$$$$$21 from "./sections/Destaques/Suporte.tsx";
 import * as $$$$$$22 from "./sections/Destaques/Text.tsx";
 import * as $$$$$$23 from "./sections/Destaques/Text2.tsx";
 import * as $$$$$$24 from "./sections/Destaques/Tutorial.tsx";
-import * as $$$$$$25 from "./sections/Final/Content/BigNumber.tsx";
-import * as $$$$$$26 from "./sections/Final/Content/List.tsx";
-import * as $$$$$$27 from "./sections/Final/Content/Title.tsx";
-import * as $$$$$$28 from "./sections/Final/ContentText.tsx";
+import * as $$$$$$26 from "./sections/Final/Content/BigNumber.tsx";
+import * as $$$$$$27 from "./sections/Final/Content/List.tsx";
+import * as $$$$$$28 from "./sections/Final/Content/Title.tsx";
+import * as $$$$$$25 from "./sections/Final/ContentText.tsx";
 import * as $$$$$$29 from "./sections/Footer.tsx";
 import * as $$$$$$30 from "./sections/Galery/GaleryContent.tsx";
 import * as $$$$$$31 from "./sections/Galery/GaleryTestimony.tsx";
@@ -84,10 +84,10 @@ const manifest = {
     "site/sections/Destaques/Text.tsx": $$$$$$22,
     "site/sections/Destaques/Text2.tsx": $$$$$$23,
     "site/sections/Destaques/Tutorial.tsx": $$$$$$24,
-    "site/sections/Final/Content/BigNumber.tsx": $$$$$$25,
-    "site/sections/Final/Content/List.tsx": $$$$$$26,
-    "site/sections/Final/Content/Title.tsx": $$$$$$27,
-    "site/sections/Final/ContentText.tsx": $$$$$$28,
+    "site/sections/Final/Content/BigNumber.tsx": $$$$$$26,
+    "site/sections/Final/Content/List.tsx": $$$$$$27,
+    "site/sections/Final/Content/Title.tsx": $$$$$$28,
+    "site/sections/Final/ContentText.tsx": $$$$$$25,
     "site/sections/Footer.tsx": $$$$$$29,
     "site/sections/Galery/GaleryContent.tsx": $$$$$$30,
     "site/sections/Galery/GaleryTestimony.tsx": $$$$$$31,
