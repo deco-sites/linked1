@@ -1,5 +1,17 @@
 import { Section } from "deco/blocks/section.ts";
 
+/**
+ * @title {{{title}}}
+ */
+export interface Item {
+  
+  title: string
+  /**
+   * @title Conteúdo
+   */
+  section: Section;
+
+}
 
 export interface Props {
 
@@ -8,7 +20,7 @@ export interface Props {
     /**
      * @title Conteúdo
      */
-    content: Section[];
+    sections: Item[];
     
 }
 
@@ -50,14 +62,14 @@ function setClass(value) {
     return;
 }
 
-export default function MultiSection({ content, background }: Props) {
+export default function MultiSection({ sections, background }: Props) {
 
     return (
-        <div className={setClass(background)}>
-            {content?.map((section) => (
-                LoadComponent(section)
-            ))}
-        </div>
+      <div className={setClass(background)}>
+          {sections?.map((item) => (
+              LoadComponent(item.section)
+          ))}
+      </div>
     )
 
 }

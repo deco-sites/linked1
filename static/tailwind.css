@@ -3902,6 +3902,9 @@ input.tab:checked + .tab-content,
     padding: 0px;
   }
 }
+.first\:pt-10:first-child{
+  padding-top: 2.5rem;
+}
 .last\:pb-\[23px\]:last-child{
   padding-bottom: 23px;
 }
