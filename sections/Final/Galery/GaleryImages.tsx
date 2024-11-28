@@ -1,5 +1,5 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import GaleryContent from "../../../components/ui/Galery/GaleryContent/index.tsx";
+import GaleryImages from "../../../components/ui/Galery/GaleryImages/index.tsx";
 
 /**
  * @title {{{title}}}
@@ -35,6 +35,6 @@ export default function Section({
 }: Props) {
 
   return (
-    <GaleryContent items={items} />
+    <GaleryImages items={items} />
   );
 }
