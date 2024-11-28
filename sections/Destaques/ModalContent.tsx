@@ -33,7 +33,7 @@ export type QuestionItem = {
   answer?: string[];
 };
 
-export type CheckBoxOption = {
+export type RadioButtonOption = {
   /**
    * @title Opção de Horário
    * @description Escreva uma opção de horário
@@ -51,7 +51,7 @@ export interface Item {
   header?: string;
   question?: QuestionItem[];
   descritiveQuestion?: string[];
-  checkbox?: CheckBoxOption[];
+  radioButton?: RadioButtonOption[];
   tags?: Tag[];
   /**
    * @title Ícone do Botão
@@ -124,9 +124,9 @@ export default function Section({
               ))}
             </div>
           </div>
-          {item.checkbox && (
+          {item.radioButton && (
             <div className="mt-4 space-y-2">
-              {item.checkbox.map((option, optionIndex) => (
+              {item.radioButton.map((option, optionIndex) => (
                 <label key={optionIndex} className="flex items-center">
                   <input
                     type="radio"

@@ -39,7 +39,8 @@
         }
       ],
       "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
-      "header": "Me liga"
+      "header": "Me liga",
+      "radioButton": []
     }
   ]
 }
