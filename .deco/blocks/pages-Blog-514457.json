@@ -21,7 +21,62 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Receitas de sucesso"
+        "title": "Receitas de sucesso",
+        "highlight": "sucesso"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Mais lidas",
+            "url": "/mais-lidas",
+            "status": true,
+            "title": "Mais lidas"
+          },
+          {
+            "name": "Recentes",
+            "url": "/recentes",
+            "status": true,
+            "title": "Recentes"
+          },
+          {
+            "name": "Assuntos",
+            "url": "/assuntos",
+            "status": true,
+            "title": "Assuntos"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/NewsCard.tsx",
+        "items": [
+          {
+            "title": "Equipamentos",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/04d3ef4a-40f1-4149-a349-7f8be2438293/food_on_table.png",
+            "description": "Restaurantes com cardápios enxutos lucram mais ",
+            "button": "Equipamentos"
+          },
+          {
+            "title": "Pratos",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+            "button": "Cardápio",
+            "description": "Dicas para melhorar a apresentação dos seus pratos"
+          },
+          {
+            "button": "Eventos",
+            "title": "Eventos",
+            "description": "5 motivos para participar da Restaurante Week",
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png"
+          }
+        ],
+        "buttonMore": "Carregar mais",
+        "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/237a659e-8bac-47a9-8c90-4331dd76e677/arrow_down_button_blog.svg"
       }
     },
     {

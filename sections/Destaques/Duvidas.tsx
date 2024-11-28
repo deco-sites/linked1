@@ -53,43 +53,47 @@ export default function Section({
 
   return (
     <section className="bg-mintCream">
-      <div className="">
-        <div className="pt-[96px] pb-4 flex justify-center">
-          {icon && (
-            <Image
-              className="w-[32px] h-[32px]"
-              src={icon || ""}
-              width={32}
-            />
-          )}
-        </div>
-        <p className="pb-[32px] text-[28px] text-sacramentoState font-sans leading-tight-32 lg:leading-tight-55 tracking-tight-2 font-normal text-center">
-          {title}
-        </p>
-      </div>
-
-      <div className="pb-24 px-4 flex flex-col rounded-xl items-center justify-center space-y-4">
-        {button?.map((btn, index) => (
-          <div key={index} className="w-full flex justify-center">
-            <a
-              href={btn.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`w-full px-4 py-3 flex-none ${
-                index === 0
-                  ? 'bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState'
-                  : 'bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center'
-              }`}
-            >
-              <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
-                {btn.name}
-              </span>
-              {index === 1 && btn.iconButton && (
-                <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
-              )}
-            </a>
+      <div className="flex flex-col justify-center items-center">
+        <div className="">
+          <div className="pt-[96px] pb-4 flex justify-center">
+            {icon && (
+              <Image
+                className="w-[32px] h-[32px]"
+                src={icon || ""}
+                width={32}
+              />
+            )}
           </div>
-        ))}
+          <div className="pb-[32px] text-center">
+            <p className="text-[28px] md:text-5xl font-sans font-normal md:font-medium leading-tight-32 md:leading-tight-55 tracking-tight-2 md:tracking-tight-0.96 text-sacramentoState ">
+              {title}
+            </p>
+          </div>
+        </div>
+
+        <div className="pb-24 px-4 md:w-full md:max-w-[465px] flex flex-col rounded-xl items-center justify-center space-y-4">
+          {button?.map((btn, index) => (
+            <div key={index} className="w-full flex justify-center">
+              <a
+                href={btn.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`w-full px-4 py-3 flex-none ${
+                  index === 0
+                    ? 'bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState'
+                    : 'bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center'
+                }`}
+              >
+                <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+                  {btn.name}
+                </span>
+                {index === 1 && btn.iconButton && (
+                  <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
+                )}
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

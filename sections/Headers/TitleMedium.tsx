@@ -29,8 +29,8 @@ export default function Section({
 
   return (
     <section className="bg-sacramentoState">
-      <div className="pl-4 pt-20 pr-[75px] pb-6">
-        <p className="text-[28px] text-white font-normal font-sans leading-tight-32 tracking-tight-2">
+      <div className="pl-4 md:pl-10 pt-[74px] md:pt-[120px] pr-[75px] pb-6 w-full md:max-w-[739px]">
+        <p className="text-[28px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">
           {getHighlightedText(title, highlight)}
         </p>
       </div>
