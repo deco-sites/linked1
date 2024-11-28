@@ -30,14 +30,14 @@ import * as $$$$$$22 from "./sections/Destaques/Suporte.tsx";
 import * as $$$$$$23 from "./sections/Destaques/Text.tsx";
 import * as $$$$$$24 from "./sections/Destaques/Text2.tsx";
 import * as $$$$$$25 from "./sections/Destaques/Tutorial.tsx";
-import * as $$$$$$26 from "./sections/Final/Content/Image.tsx";
-import * as $$$$$$27 from "./sections/Final/Content/BigNumber.tsx";
+import * as $$$$$$26 from "./sections/Final/Content/BigNumber.tsx";
+import * as $$$$$$27 from "./sections/Final/Content/Image.tsx";
 import * as $$$$$$28 from "./sections/Final/Content/List.tsx";
 import * as $$$$$$29 from "./sections/Final/Content/Paragraph.tsx";
 import * as $$$$$$30 from "./sections/Final/Content/Product.tsx";
 import * as $$$$$$31 from "./sections/Final/Content/Title.tsx";
 import * as $$$$$$32 from "./sections/Final/Content/TitleMedium.tsx";
-import * as $$$$$$33 from "./sections/Final/ContentText.tsx";
+import * as $$$$$$33 from "./sections/Final/Galery/GaleryContent.tsx";
 import * as $$$$$$34 from "./sections/Footer.tsx";
 import * as $$$$$$35 from "./sections/Galery/GaleryContent.tsx";
 import * as $$$$$$36 from "./sections/Galery/GaleryTestimony.tsx";
@@ -97,7 +97,7 @@ const manifest = {
     "site/sections/Final/Content/Product.tsx": $$$$$$30,
     "site/sections/Final/Content/Title.tsx": $$$$$$31,
     "site/sections/Final/Content/TitleMedium.tsx": $$$$$$32,
-    "site/sections/Final/ContentText.tsx": $$$$$$33,
+    "site/sections/Final/Galery/GaleryContent.tsx": $$$$$$33,
     "site/sections/Footer.tsx": $$$$$$34,
     "site/sections/Galery/GaleryContent.tsx": $$$$$$35,
     "site/sections/Galery/GaleryTestimony.tsx": $$$$$$36,
