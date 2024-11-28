@@ -38,31 +38,6 @@ import * as $$$$$$30 from "./sections/Final/Content/Product.tsx";
 import * as $$$$$$31 from "./sections/Final/Content/Title.tsx";
 import * as $$$$$$32 from "./sections/Final/Content/TitleMedium.tsx";
 import * as $$$$$$33 from "./sections/Final/Galery/GaleryContent.tsx";
-<<<<<<< HEAD
-import * as $$$$$$34 from "./sections/Footer.tsx";
-import * as $$$$$$35 from "./sections/Galery/GaleryContent.tsx";
-import * as $$$$$$36 from "./sections/Galery/GaleryTestimony.tsx";
-import * as $$$$$$37 from "./sections/Galery/GaleryWithLink.tsx";
-import * as $$$$$$38 from "./sections/Galery/ImageContent.tsx";
-import * as $$$$$$39 from "./sections/Headers/Offer.tsx";
-import * as $$$$$$40 from "./sections/Headers/Openning.tsx";
-import * as $$$$$$41 from "./sections/Headers/SubtitleWithShareIcon.tsx";
-import * as $$$$$$42 from "./sections/Headers/TitleArticle.tsx";
-import * as $$$$$$43 from "./sections/Headers/TitleError.tsx";
-import * as $$$$$$44 from "./sections/Headers/TitleIntegration.tsx";
-import * as $$$$$$45 from "./sections/Headers/TitleLarge.tsx";
-import * as $$$$$$46 from "./sections/Headers/TitleMedium.tsx";
-import * as $$$$$$47 from "./sections/Headers/TitleMonteSeuPlano.tsx";
-import * as $$$$$$48 from "./sections/Headers/TitlePlan.tsx";
-import * as $$$$$$49 from "./sections/Headers/TitleSegment.tsx";
-import * as $$$$$$50 from "./sections/Headers/TitleSuccess.tsx";
-import * as $$$$$$51 from "./sections/ItWorks.tsx";
-import * as $$$$$$52 from "./sections/MultiSection.tsx";
-import * as $$$$$$53 from "./sections/Navigation/Categorias.tsx";
-import * as $$$$$$54 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$55 from "./sections/Navigation/Tabs.tsx";
-import * as $$$$$$56 from "./sections/Theme/Theme.tsx";
-=======
 import * as $$$$$$34 from "./sections/Final/Galery/GaleryImages.tsx";
 import * as $$$$$$35 from "./sections/Final/Galery/GaleryPartners.tsx";
 import * as $$$$$$36 from "./sections/Final/Galery/GaleryTestimony.tsx";
@@ -89,7 +64,6 @@ import * as $$$$$$56 from "./sections/Navigation/Categorias.tsx";
 import * as $$$$$$57 from "./sections/Navigation/Navbar.tsx";
 import * as $$$$$$58 from "./sections/Navigation/Tabs.tsx";
 import * as $$$$$$59 from "./sections/Theme/Theme.tsx";
->>>>>>> 3072e931ff0d32437ce88af59127a56374266d39
 
 const manifest = {
   "sections": {
