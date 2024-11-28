@@ -116,6 +116,50 @@
               ]
             },
             "title": "carrossel de abertura"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Galery/GaleryTestimony.tsx",
+              "items": [
+                {
+                  "titleSection": "Primeiro",
+                  "textTestimony": "\"\u001fAtravés dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+                  "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/85d486b4-fbaa-41de-b0ff-d1e25ba5857a/bakery_img.png",
+                  "title": "Primeiro"
+                }
+              ],
+              "title": "O sucesso dos clientes é  nosso maior orgulho"
+            },
+            "title": "carrossel testemunha"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Galery/GaleryPartners.tsx",
+              "items": [
+                {
+                  "title": "primeiro",
+                  "description": "Empréstimos com taxas a partir de 1,9% ao mês.",
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png"
+                }
+              ],
+              "button": [],
+              "title": "A Linked também tem parcerias para transformar o seu negócio"
+            },
+            "title": "parceiros carousel"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Galery/GaleryImages.tsx",
+              "items": [
+                {
+                  "title": "primeiro",
+                  "description": "asdasdasdsa",
+                  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c5188585-19bd-446f-8aaf-bf42784fc047/icon_restaurant_group.png"
+                }
+              ]
+            },
+            "title": "images car"
           }
         ]
       }

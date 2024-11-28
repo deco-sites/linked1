@@ -2,7 +2,7 @@ import type { JSX } from "preact";
 import Script, { type Props } from "./script.tsx";
 import Image from "apps/website/components/Image.tsx";
 
-function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
+function GaleryImages({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
       <section className="w-full pb-[59px]">
@@ -18,9 +18,6 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
                   key={index}
                 >
                   <article className="w-full flex flex-col border-t-2 border-white-20">
-                    <p className="pt-[22.8px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
-                      {item.title}
-                    </p>
                     <div className="flex justify-center py-[26px] px-0">
                       <Image className="" src={item.image || ""} width={315} />
                     </div>
@@ -40,4 +37,4 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
   );
 }
 
-export default GaleryContent;
+export default GaleryImages;
