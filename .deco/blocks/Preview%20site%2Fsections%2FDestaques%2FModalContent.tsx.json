@@ -38,9 +38,167 @@
           "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
         }
       ],
-      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/9e50cc46-03c2-47da-bab5-f46954ee9c81/Fab.png",
       "header": "Me liga",
-      "radioButton": []
+      "radioButton": [],
+      "button": [],
+      "checkBoxButton": [],
+      "url": [],
+      "urlButton": []
+    },
+    {
+      "question": [
+        {
+          "answer": [
+            " Por favor diga o seu nome"
+          ],
+          "description": "Primeiramente como podemos te chamar"
+        }
+      ],
+      "descritiveQuestion": [],
+      "radioButton": [],
+      "tags": [],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "Descubra seu plano ideal",
+      "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/17879d4c-6dae-4c6a-a8aa-64b66a75cfb8/fi_chevron-up.png",
+      "button": [
+        {
+          "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/9e50cc46-03c2-47da-bab5-f46954ee9c81/Fab.png",
+          "buttonUrl": "https://www.google.com/",
+          "buttonDescription": "Próximo"
+        }
+      ],
+      "checkBoxButton": [],
+      "url": [],
+      "urlButton": []
+    },
+    {
+      "question": [],
+      "descritiveQuestion": [],
+      "radioButton": [],
+      "tags": [
+        {
+          "name": "A la carte",
+          "url": "/ a-la-carte",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
+        },
+        {
+          "name": "Bar",
+          "url": "/bar",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
+        },
+        {
+          "name": "Cafeteria",
+          "url": "/cafeteria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d961d56c-011d-43db-92bf-4ec33cbdff95/u_utensils.svg"
+        }
+      ],
+      "button": [
+        {
+          "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/9e50cc46-03c2-47da-bab5-f46954ee9c81/Fab.png",
+          "buttonDescription": "Próximo",
+          "buttonUrl": "www.google.com"
+        }
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "Júlio, qual desses tipos melhor descreve o seu estabelecimento?",
+      "checkBoxButton": [],
+      "url": [],
+      "urlButton": []
+    },
+    {
+      "question": [],
+      "descritiveQuestion": [],
+      "radioButton": [
+        {
+          "label": "Apenas uma loja",
+          "value": "0"
+        },
+        {
+          "label": "Mais de uma loja",
+          "value": "1"
+        }
+      ],
+      "tags": [],
+      "button": [
+        {
+          "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/9e50cc46-03c2-47da-bab5-f46954ee9c81/Fab.png",
+          "buttonDescription": "Próximo"
+        }
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "Quantas lojas o estabelecimento possui?",
+      "checkBoxButton": [],
+      "url": [],
+      "urlButton": []
+    },
+    {
+      "question": [],
+      "descritiveQuestion": [],
+      "radioButton": [],
+      "checkBoxButton": [
+        {
+          "label": "Organizar a produção na cozinha",
+          "value": "0"
+        },
+        {
+          "label": "Aumentar o número de pedidos",
+          "value": "1"
+        },
+        {
+          "label": "Reduzir o desperdício",
+          "value": "2"
+        },
+        {
+          "label": "Planejar melhor as compras",
+          "value": "3"
+        }
+      ],
+      "tags": [],
+      "button": [
+        {
+          "buttonDescription": "Próximo",
+          "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/9e50cc46-03c2-47da-bab5-f46954ee9c81/Fab.png"
+        }
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "O que você está buscando nesta nova ferramenta de automação?",
+      "urlTitle": "Outros dispositivos",
+      "url": "https://www.google.com",
+      "urlButton": [
+        {
+          "urlTitle": "Outros dispositovos",
+          "url": "/outros-dispositivos"
+        }
+      ]
+    },
+    {
+      "question": [
+        {
+          "answer": [
+            "Digite seu Email"
+          ]
+        },
+        {
+          "answer": [
+            "Telefone (DDD+Número)"
+          ],
+          "description": "E/ou"
+        }
+      ],
+      "descritiveQuestion": [],
+      "radioButton": [],
+      "checkBoxButton": [],
+      "tags": [],
+      "button": [
+        {
+          "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/4e795a77-39ca-4a28-b520-2ff30f500b4c/Primary.svg"
+        }
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/fdb86c71-f25d-41c6-8f31-3ba974568a98/u_angle-left.svg",
+      "header": "Pra finalizar, para onde podemos mandar o resultado?",
+      "url": [],
+      "urlButton": []
     }
   ]
 }
