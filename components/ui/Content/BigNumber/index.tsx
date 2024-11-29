@@ -28,18 +28,22 @@ function setClass(value) {
   return;
 }
 
+/* Descrição do component 
+*asdasd
+*asd
+*asd 
+*/
+
 function BigNumber({ number, description, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <div className="pl-4">
-        <div className="!pr-[103px]">
-          <p className={`text-left text-7xl font-thin leading-tight-72 tracking-tight-2 pb-[23px] ${setClass(colorTheme)}`}>
-            {number}
-          </p>
-          <p className={`text-left text-base leading-tight-18 pb-[136px] last:pb-[23px] ${setClass(colorTheme)}`}>
-            {description}
-          </p>
-        </div>
+      <div className="grid gap-5 px-4 md:py-10">
+        <p className={`text-7xl tracking-tight-2 ${setClass(colorTheme)}`}>
+          {number}
+        </p>
+        <p className={`text-base leading-tight-18 pr-[82px] md:pr-0 ${setClass(colorTheme)}`}>
+          {description}
+        </p>
       </div>
       {/* <Script /> */}
     </>

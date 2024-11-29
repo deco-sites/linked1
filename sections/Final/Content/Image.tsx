@@ -8,9 +8,14 @@ import ImageCircle from "../../../components/ui/Content/ImageCircle/index.tsx";
 export interface Props {
   /**
    * @title Imagem
-   * @description Adicione a imagem aqui
+   * @description Adicione a imagem Desktop aqui
    */
-  image: ImageWidget;
+  imageDesktop: ImageWidget;
+  /**
+   * @title Imagem
+   * @description Adicione a imagem Mobile aqui
+   */
+  imageMobile: ImageWidget;
   /**
    * @title Tipo de Imagem
    * @description Selecione o tipo de imagem
@@ -20,26 +25,27 @@ export interface Props {
 }
 
 export default function Section({ 
-    image = "", 
+    imageDesktop = "", 
+    imageMobile = "", 
     type = "Média"
 }: Props) {
 
   return (
     <div class="">
-        {image && type === "Grande" && (
-          <ImageLarge image={image || ""} />
+        {imageDesktop && imageMobile && type === "Grande" && (
+          <ImageLarge imageDesktop={imageDesktop || ""} imageMobile={imageMobile || ""} />
         )}
-        {image && type === "Média" && (
-          <ImageMedium image={image || ""} />
+        {imageDesktop && imageMobile && type === "Média" && (
+          <ImageMedium imageDesktop={imageDesktop || ""} imageMobile={imageMobile || ""} />
         )}
-        {image && type === "Pequena" && (
-          <ImageSmall image={image || ""} />
+        {imageDesktop && type === "Pequena" && (
+          <ImageSmall imageDesktop={imageDesktop || ""} />
         )}
-        {image && type === "Full" && (
-          <ImageFull image={image || ""} />
+        {imageDesktop && imageMobile && type === "Full" && (
+          <ImageFull imageDesktop={imageDesktop || ""} imageMobile={imageMobile || ""} />
         )}
-        {image && type === "Cantos Arredondados" && (
-          <ImageCircle image={image || ""} />
+        {imageDesktop && imageMobile && type === "Cantos Arredondados" && (
+          <ImageCircle imageDesktop={imageDesktop || ""} imageMobile={imageMobile || ""} />
         )}
     </div>
   );

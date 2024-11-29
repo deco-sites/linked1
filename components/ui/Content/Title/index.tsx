@@ -31,9 +31,11 @@ function setClass(value) {
 function Title({ content, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <p className={`pt-[12.8px] pb-10 font-sans text-base font-normal leading-tight-18 ${setClass(colorTheme)}`}>
-          {content}
-      </p>
+      <div className="px-4 pb-4 pt-10">
+        <p className={`text-3xl font-semibold pr-[56px] md:pr-0 ${setClass(colorTheme)}`}>
+            {content}
+        </p>
+      </div>
       {/* <Script /> */}
     </>
   );

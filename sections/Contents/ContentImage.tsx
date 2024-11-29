@@ -1,12 +1,18 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+// import ImageComponent from "apps/website/components/Image.tsx";
+import ImageComponent from "../Final/Content/Image.tsx";
 
 export interface Props {
   /**
-   * @title Imagem
-   * @description Adicione a imagem aqui
+   * @title Imagem Desktop
+   * @description Adicione a imagem desktop aqui
    */
-  image: ImageWidget;
+  imageDesktop: ImageWidget;
+  /**
+   * @title Imagem Mobile
+   * @description Adicione a imagem mobile aqui
+   */
+  imageMobile: ImageWidget;
   /**
    * @title Tipo de Imagem
    * @description Selecione o tipo de imagem
@@ -15,16 +21,24 @@ export interface Props {
 }
 
 export default function Section({ 
-    image = "", 
+    imageDesktop = "", 
+    imageMobile = "", 
     type = "Média"
 }: Props) {
 
   return (
     <div class="">
-        {image && (
+        {/* {image && (
           <Image
             className="rounded-full"
             src={image || ""}
+          />
+        )} */}
+        {imageDesktop && imageMobile && (
+          <ImageComponent
+            imageDesktop={imageDesktop || ""}
+            imageMobile={imageMobile || ""}
+            type={type}
           />
         )}
     </div>

@@ -31,15 +31,17 @@ function setClass(value) {
 function List({ items, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <ul
-        className={`list-disc list-outside pl-5 text-base text-sacramentoState-80 ${setClass(colorTheme)}`}
-      >
-        {items.map((item) => (
-          <li className="pl-2 pt-2 leading-tight-18">
-            {item}
-          </li>
-        ))}
-      </ul>
+      <div className="px-4 pt-4 pb-10">
+        <ul
+          className={`list-disc pl-5 ${setClass(colorTheme)}`}
+        >
+          {items.map((item) => (
+            <li className="">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
       {/* <Script /> */}
     </>
   );

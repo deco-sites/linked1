@@ -41,7 +41,7 @@
         "content": [
           {
             "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "content": "Exemplo",
+            "content": "Serena: Energia limpa e economia na conta de luz",
             "colorClass": "White",
             "colorTheme": "White"
           },
@@ -54,8 +54,10 @@
           {
             "__resolveType": "site/sections/Final/Content/List.tsx",
             "items": [
-              "lasjdalskdjlkasjd",
-              "laksjdlasjdlkasdasd"
+              "Contratação digital",
+              "Não é preciso instalar placas solares",
+              "Energia entregue do mesmo jeito, pela sua distribuidora",
+              "Você só paga o que consome"
             ],
             "colorTheme": "White"
           },
@@ -160,6 +162,53 @@
               ]
             },
             "title": "images car"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Contents/ContentImage.tsx",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/04d3ef4a-40f1-4149-a349-7f8be2438293/food_on_table.png",
+              "type": "Grande",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/dac3e363-2074-475a-8a30-327568d7cdb6/image-51-(1).jpg"
+            },
+            "title": "imagem large"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Image.tsx",
+              "type": "Média",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/dac3e363-2074-475a-8a30-327568d7cdb6/image-51-(1).jpg"
+            },
+            "title": "Imagem média"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Image.tsx",
+              "type": "Pequena",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2dec0ada-0f8f-4e4d-b2a3-95e723120f86/Rectangle-219-(1).jpg",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2dec0ada-0f8f-4e4d-b2a3-95e723120f86/Rectangle-219-(1).jpg",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/04d3ef4a-40f1-4149-a349-7f8be2438293/food_on_table.png"
+            },
+            "title": "Imagem pequena"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Image.tsx",
+              "type": "Full",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/dac3e363-2074-475a-8a30-327568d7cdb6/image-51-(1).jpg"
+            },
+            "title": "Imagem full"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Image.tsx",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/dac3e363-2074-475a-8a30-327568d7cdb6/image-51-(1).jpg",
+              "type": "Cantos Arredondados"
+            },
+            "title": "Imagem arredondada"
           }
         ]
       }

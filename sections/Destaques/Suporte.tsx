@@ -1,5 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+// import ImageComponent from "../Final/Content/Image.tsx";
+import ImageComponent from "../Contents/ContentImage.tsx";
 
 /**
  * @title {{{title}}}
@@ -50,15 +52,20 @@ export default function Section({
         <div className="container mx-auto text-center">
           <div className="pt-[78px] block justify-between items-center">
             {ImageWidget && (
-              <div className="">
-                <Image
-                  src={ImageWidget}
-                  alt="Ícone da Seção"
-                  className="mx-auto"
-                  width={234}
-                  height={338}
-                />
-              </div>
+              // <div className="">
+              //   <Image
+              //     src={ImageWidget}
+              //     alt="Ícone da Seção"
+              //     className="mx-auto"
+              //     width={234}
+              //     height={338}
+              //   />
+              // </div>
+              <ImageComponent 
+                  imageDesktop={ImageWidget}
+                  imageMobile={ImageWidget}
+                  type="Cantos Arredondados"
+              />
             )}
             <h2 className="pt-[43px] pb-[32px] text-[28px] font-sans text-mintCream font-normal text-center leading-tight-32 tracking-tight-2">
               {subTitle}
