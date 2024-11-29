@@ -50,6 +50,8 @@ export default {
       letterSpacing: {
         'tight-2': '-0.02em',
         'tight-0.96': '-0.96px',
+        'tight-0.44': '-0.44px',
+        'tight-0.56': '-0.56px'
     },
     container: {
       center: true,

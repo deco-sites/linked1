@@ -83,6 +83,80 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Destaques/TestimonyText.tsx",
+        "textTestimony": "“A gente tinha mais de 250 pratos no cardápio. Os clientes pediam no máximo 10. Então foi com esses que ficamos.”",
+        "nameDescription": "MARIA RITA, proprietária do Restaurante Sabor de Minas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentText.tsx",
+        "content": {
+          "subTopic": [
+            {
+              "descriptionTopic": [],
+              "descriptionSubTopics": [
+                {
+                  "topicDescriptionContent": [
+                    "Oferecer um cardápio mais enxuto é uma escolha que precisa estar diretamente relacionada à forma como seu estabelecimento se posiciona no mercado. ",
+                    "Essa maneira mais especializada em determinado segmento vai ajudar a construir uma imagem única de seu estabelecimento. Contando com identidade própria, você poderá ser conhecido por oferecer “o melhor prato da cidade”.",
+                    "Relembre todas as vantagens desse cardápio mais enxuto:"
+                  ],
+                  "title": "Foque no seu nicho",
+                  "subTitleTopic": "Foque no seu nicho"
+                }
+              ],
+              "title": "Foque no seu nicho"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
+        "title": "Leia mais",
+        "items": [
+          {
+            "SectionTitle": "Leia mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
+            "SectionTitle2": "5 motivos para participar da Restaurante Week"
+          },
+          {
+            "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
+            "SectionTitle": "Leia Mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          },
+          {
+            "SectionTitle": "Leia Mais",
+            "SectionTitle2": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png"
+          },
+          {
+            "SectionTitle": "Leia Mais",
+            "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/ReceiveRecipes.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
+        "sectionText": "Receba as receitas de sucesso da Menu em seu Whatsapp",
+        "button": {
+          "buttonText": "Assinar",
+          "url": "/planos"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     },

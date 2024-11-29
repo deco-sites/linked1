@@ -67,71 +67,83 @@ export interface Props {
 
 export default function Section({ content }: Props) {
     return (
-        <section className="bg-white">
-            {content.image && (
-                <div>
-                    <Image
-                        src={content.image || ""}
-                        alt={content.image || ""}
-                        width={100}
-                        className="w-full"
-                    />
-                    {content.descriptionImage && (
-                        <div className="px-4 py-4">
-                            <p className="text-sm font-sans font-normal text-gray-700">
-                                {content.descriptionImage}
-                            </p>
-                        </div>
-                    )}
-                </div>
-            )}
-
-            <div className="px-4">
-                {content.subTopic?.map((subTopic, index) => (
-                    <div key={index} className="mb-6">
-                        {subTopic.descriptionTopic && (
-                            <ul className="list-none pl-0">
-                                {subTopic.descriptionTopic.map(
-                                    (description, idx) => (
-                                        <li
-                                            key={idx}
-                                            className="text-lg font-sans text-gray-700"
-                                        >
-                                            {description}
-                                        </li>
-                                    ),
+        <section className="bg-white md:bg-sacramentoState-10">
+            <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+                <div className="md:bg-white md:w-full md:max-w-[500px]">
+                    <div className="pb-20">
+                        {content.image && (
+                            <div>
+                                <Image
+                                    src={content.image || ""}
+                                    alt={content.image || ""}
+                                    width={100}
+                                    className="w-full"
+                                />
+                                {content.descriptionImage && (
+                                    <div className="px-4 py-4">
+                                        <p className="text-sm font-sans font-normal text-gray-700">
+                                            {content.descriptionImage}
+                                        </p>
+                                    </div>
                                 )}
-                            </ul>
+                            </div>
                         )}
 
-                        {subTopic.descriptionSubTopics.map(
-                            (descriptionSubTopic, idx) => (
-                                <div key={idx} className="mt-4">
-                                    <div className="pt-[32px] pb-4">
-                                        <h3 className="text-[22px] font-sans font-semibold text-gray-800">
-                                            {descriptionSubTopic.subTitleTopic}
-                                        </h3>
-                                    </div>
-
-                                    <div className="py-4">
-                                        {descriptionSubTopic
-                                            .topicDescriptionContent
-                                            .map(
-                                                (content, contentIdx) => (
-                                                    <p
-                                                        key={contentIdx}
-                                                        className="text-gray-600 mt-2"
+                        <div className="px-4">
+                            {content.subTopic?.map((subTopic, index) => (
+                                <div key={index} className="mb-6">
+                                    {subTopic.descriptionTopic && (
+                                        <ul className="list-none pl-0">
+                                            {subTopic.descriptionTopic.map(
+                                                (description, idx) => (
+                                                    <li
+                                                        key={idx}
+                                                        className="text-lg font-sans text-gray-700"
                                                     >
-                                                        {content}
-                                                    </p>
+                                                        {description}
+                                                    </li>
                                                 ),
                                             )}
-                                    </div>
+                                        </ul>
+                                    )}
+
+                                    {subTopic.descriptionSubTopics.map(
+                                        (descriptionSubTopic, idx) => (
+                                            <div key={idx} className="">
+                                                <div className="pt-[32px] pb-4">
+                                                    <h3 className="text-[22px] font-sans font-semibold leading-tight-25 tracking-tight-0.44 text-sacramentoState">
+                                                        {descriptionSubTopic
+                                                            .subTitleTopic}
+                                                    </h3>
+                                                </div>
+
+                                                <div className="py-4">
+                                                    {descriptionSubTopic
+                                                        .topicDescriptionContent
+                                                        .map(
+                                                            (
+                                                                content,
+                                                                contentIdx,
+                                                            ) => (
+                                                                <div className="mt-4">
+                                                                    <p
+                                                                        key={contentIdx}
+                                                                        className="text-lg font-sans font-normal text-sacramentoState-80"
+                                                                    >
+                                                                        {content}
+                                                                    </p>
+                                                                </div>
+                                                            ),
+                                                        )}
+                                                </div>
+                                            </div>
+                                        ),
+                                    )}
                                 </div>
-                            ),
-                        )}
+                            ))}
+                        </div>
                     </div>
-                ))}
+                </div>
             </div>
         </section>
     );
