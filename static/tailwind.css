@@ -529,6 +529,11 @@ input[type=number] {
     max-width: 1536px;
   }
 }
+.avatar.placeholder > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .badge{
   display: inline-flex;
   align-items: center;
@@ -2786,8 +2791,20 @@ input.tab:checked + .tab-content,
 .max-w-\[244px\]{
   max-width: 244px;
 }
+.max-w-\[255px\]{
+  max-width: 255px;
+}
+.max-w-\[262px\]{
+  max-width: 262px;
+}
 .max-w-\[264px\]{
   max-width: 264px;
+}
+.max-w-\[275px\]{
+  max-width: 275px;
+}
+.max-w-\[279px\]{
+  max-width: 279px;
 }
 .max-w-\[290px\]{
   max-width: 290px;
@@ -2985,6 +3002,9 @@ input.tab:checked + .tab-content,
   -moz-column-gap: 8px;
        column-gap: 8px;
 }
+.gap-y-4{
+  row-gap: 1rem;
+}
 .gap-y-\[32px\]{
   row-gap: 32px;
 }
@@ -3170,6 +3190,10 @@ input.tab:checked + .tab-content,
 .border-transparent{
   border-color: transparent;
 }
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
 .border-white-20{
   border-color: rgba(255, 255, 255, 0.2);
 }
@@ -3322,6 +3346,10 @@ input.tab:checked + .tab-content,
   padding-left: 55px;
   padding-right: 55px;
 }
+.px-\[67px\]{
+  padding-left: 67px;
+  padding-right: 67px;
+}
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -3337,6 +3365,10 @@ input.tab:checked + .tab-content,
 .py-2\.5{
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .py-3{
   padding-top: 0.75rem;
@@ -3413,6 +3445,9 @@ input.tab:checked + .tab-content,
 }
 .pb-7{
   padding-bottom: 1.75rem;
+}
+.pb-\[109px\]{
+  padding-bottom: 109px;
 }
 .pb-\[136px\]{
   padding-bottom: 136px;
@@ -3600,6 +3635,9 @@ input.tab:checked + .tab-content,
 .pt-\[12\.8px\]{
   padding-top: 12.8px;
 }
+.pt-\[13px\]{
+  padding-top: 13px;
+}
 .pt-\[144px\]{
   padding-top: 144px;
 }
@@ -3630,6 +3668,9 @@ input.tab:checked + .tab-content,
 .pt-\[32px\]{
   padding-top: 32px;
 }
+.pt-\[35px\]{
+  padding-top: 35px;
+}
 .pt-\[38px\]{
   padding-top: 38px;
 }
@@ -3641,6 +3682,9 @@ input.tab:checked + .tab-content,
 }
 .pt-\[45px\]{
   padding-top: 45px;
+}
+.pt-\[46px\]{
+  padding-top: 46px;
 }
 .pt-\[49px\]{
   padding-top: 49px;
@@ -3854,6 +3898,12 @@ input.tab:checked + .tab-content,
 .leading-tight-72{
   line-height: 72px;
 }
+.tracking-tight-0\.44{
+  letter-spacing: -0.44px;
+}
+.tracking-tight-0\.56{
+  letter-spacing: -0.56px;
+}
 .tracking-tight-2{
   letter-spacing: -0.02em;
 }
@@ -3891,15 +3941,10 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
-<<<<<<< HEAD
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
-=======
 .text-green-500{
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
@@ -3907,7 +3952,6 @@ input.tab:checked + .tab-content,
 .text-green-600{
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
->>>>>>> a6185d50b4463effe9d5cb08defb19665463a7ca
 }
 .text-mintCream{
   --tw-text-opacity: 1;
@@ -3920,6 +3964,9 @@ input.tab:checked + .tab-content,
 .text-sacramentoState{
   --tw-text-opacity: 1;
   color: rgb(0 51 48 / var(--tw-text-opacity));
+}
+.text-sacramentoState-40{
+  color: rgba(0, 51, 48, 0.4);
 }
 .text-sacramentoState-80{
   color: rgba(0, 51, 48, 0.8);
@@ -3985,6 +4032,14 @@ input.tab:checked + .tab-content,
     border-radius: 9999px;
     padding: 0px;
   }
+}
+.placeholder\:text-base::-moz-placeholder{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.placeholder\:text-base::placeholder{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .first\:pt-10:first-child{
   padding-top: 2.5rem;
@@ -4068,6 +4123,10 @@ input.tab:checked + .tab-content,
     --tw-space-x-reverse: 0;
     margin-right: calc(71px * var(--tw-space-x-reverse));
     margin-left: calc(71px * calc(1 - var(--tw-space-x-reverse)));
+  }
+  .md\:bg-sacramentoState{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 51 48 / var(--tw-bg-opacity));
   }
   .md\:bg-sacramentoState-10{
     background-color: rgba(0, 51, 48, 0.1);

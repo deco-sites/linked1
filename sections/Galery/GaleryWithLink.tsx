@@ -25,7 +25,7 @@ export interface Link {
    * @description URL do ícone opcional
    */
   iconButton?: ImageWidget;
-};
+}
 
 /**
  * @title {{{SectionTitle}}}
@@ -51,14 +51,14 @@ export interface Item {
    * @description Escolha a imagem do item
    */
   image: ImageWidget;
-};
+}
 
 export interface Props {
   /**
    * @title Título
    * @description Escreva aqui o título do bloco
    */
-  title: string,
+  title: string;
   /**
    * @title Items
    * @description Configure cada item do Galery
@@ -71,21 +71,24 @@ export interface Props {
   button?: Link[];
 }
 
-export default function Section({ 
-  title = '',
+export default function Section({
+  title = "",
   items = [],
-  button = []
+  button = [],
 }: Props) {
-
   return (
-    <section className="">
-      <div>
-        <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
+    <section className="bg-mintCream">
+      <div className="pl-4">
+        <div className="pb-20 pt-[93px] ">
+          <p className="text-[28px] font-sans font-normal leading-tight-32 tracking-tight-2 text-sacramentoState">
+            {title}
+          </p>
+        </div>
         <div className="flex overflow-x-scroll scrollbar-hide">
           {items.map((item, index) => (
             <div
               key={index}
-              className={`pl-4 flex-none w-[274.4px] ${index === items.length - 1 ? 'pr-4' : ''}`}
+              className="pr-4 w-full max-w-[275px] flex-none"
             >
               <Image
                 className="rounded-lg"
@@ -93,7 +96,7 @@ export default function Section({
                 width={274.4}
                 alt={item.SectionTitle2}
               />
-              <p className="pt-[12.8px] pb-[53.6px] text-base leading-snug">
+              <p className="pt-[13px] pb-[54px] text-base leading-snug">
                 {item.SectionTitle2}
               </p>
             </div>
@@ -112,7 +115,11 @@ export default function Section({
                   {btn.name}
                 </span>
                 {btn.iconButton && (
-                  <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
+                  <img
+                    src={btn.iconButton}
+                    alt="WhatsApp Icon"
+                    className="w-6 h-6 ml-2.5"
+                  />
                 )}
               </a>
             </div>
