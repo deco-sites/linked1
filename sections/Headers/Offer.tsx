@@ -25,15 +25,15 @@ export default function Section({
     brandOffer = "",
 }: Props) {
     return (
-        <section className="">
-        <div>
-          <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
-            <p className="pl-4 font-mono text-white-80 text-[11px] leading-tight-15.86">
+        <section className="bg-sacramentoState">
+        <div className="py-[26.51px]">
+          <div className="pl-4 md:px-10 w-full flex items-center justify-between">
+            <p className="text-[11px] font-mono  leading-tight-15.86 text-white-80">
               {page}
             </p>
             <div className="flex-1"></div>
-            <div className="pr-4 inline-flex items-center space-x-2">
-              <p className="font-mono text-white-80 text-[11px] leading-tight-14">
+            <div className="pr-4 md:pr-0 inline-flex items-center space-x-2">
+              <p className="text-[11px] font-mono  leading-tight-15.86 text-white-80">
                 {offer}
               </p>
               {brandOffer && (

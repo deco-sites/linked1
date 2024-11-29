@@ -2428,6 +2428,9 @@ input.tab:checked + .tab-content,
 .mb-5{
   margin-bottom: 1.25rem;
 }
+.mb-6{
+  margin-bottom: 1.5rem;
+}
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -2791,6 +2794,9 @@ input.tab:checked + .tab-content,
 .list-disc{
   list-style-type: disc;
 }
+.list-none{
+  list-style-type: none;
+}
 .appearance-none{
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -2835,8 +2841,8 @@ input.tab:checked + .tab-content,
 .justify-between{
   justify-content: space-between;
 }
-.justify-evenly{
-  justify-content: space-evenly;
+.justify-around{
+  justify-content: space-around;
 }
 .gap-1{
   gap: 0.25rem;
@@ -3197,6 +3203,10 @@ input.tab:checked + .tab-content,
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.px-\[10px\]{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .px-\[12px\]{
   padding-left: 12px;
   padding-right: 12px;
@@ -3526,6 +3536,9 @@ input.tab:checked + .tab-content,
 .pt-\[26\.5px\]{
   padding-top: 26.5px;
 }
+.pt-\[32px\]{
+  padding-top: 32px;
+}
 .pt-\[38px\]{
   padding-top: 38px;
 }
@@ -3783,6 +3796,14 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+.text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
 .text-mintCream{
   --tw-text-opacity: 1;
   color: rgb(214 255 245 / var(--tw-text-opacity));
@@ -3920,11 +3941,19 @@ input.tab:checked + .tab-content,
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .md\:flex-row{
+    flex-direction: row;
+  }
   .md\:justify-start{
     justify-content: flex-start;
   }
   .md\:justify-center{
     justify-content: center;
+  }
+  .md\:space-x-\[4px\] > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4px * var(--tw-space-x-reverse));
+    margin-left: calc(4px * calc(1 - var(--tw-space-x-reverse)));
   }
   .md\:space-x-\[71px\] > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
@@ -3950,6 +3979,12 @@ input.tab:checked + .tab-content,
   }
   .md\:pl-10{
     padding-left: 2.5rem;
+  }
+  .md\:pr-0{
+    padding-right: 0px;
+  }
+  .md\:pt-20{
+    padding-top: 5rem;
   }
   .md\:pt-4{
     padding-top: 1rem;

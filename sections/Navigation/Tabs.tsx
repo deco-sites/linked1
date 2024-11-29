@@ -32,19 +32,21 @@ export default function Section({
   menu = [],
 }: Props) {
   return (
-    <section className="w-full bg-sacramentoState border-b-2 border-white-20">
-      <div className="py-2 md:pl-10 flex md:justify-start">
-        <div className="flex justify-evenly space-x-[37px] md:space-x-[71px]">
-          {menu?.map((item) => (
-            <div className="">
-              <a
-                href={item.url}
-                className="text-base font-sans leading-tight-18 text-white-80"
-              >
-                {item.name}
-              </a>
-            </div>
-          ))}
+    <section className="bg-sacramentoState border-b-2 border-white-20">
+      <div className="py-3 px-[10px] md:pl-10">
+        <div className="flex-1">
+          <div className="flex justify-around md:justify-start space-x-[37px] md:space-x-[71px]">
+            {menu?.map((item) => (
+              <div className="">
+                <a
+                  href={item.url}
+                  className="text-base font-sans leading-tight-18 text-white-80"
+                >
+                  {item.name}
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
