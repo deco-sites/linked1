@@ -1,6 +1,25 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+export type Button ={
+  /**
+     * @title Ícone do Botão
+     * @description Selecione um ícone SVG ou PNG para o botão
+     */
+  buttonIcon?: ImageWidget;
+  /**
+   * @title URL do Botão
+   */
+  buttonUrl?: string;
+
+  /**
+ * @title 
+ * @description Escreva aqui o nome da categoria
+ */
+  buttonDescription?: string;
+}
+
+
 export type Tag = {
   /**
    * @title Nome
@@ -20,7 +39,7 @@ export type Tag = {
 };
 
 export type QuestionItem = {
-  /**
+  /** 
    * @title Título do Bloco
    * @description Escreva o título do bloco
    */
@@ -35,8 +54,8 @@ export type QuestionItem = {
 
 export type RadioButtonOption = {
   /**
-   * @title Opção de Horário
-   * @description Escreva uma opção de horário
+   * @title Opção 
+   * @description Escreva uma opção 
    */
   label: string;
   /**
@@ -46,22 +65,39 @@ export type RadioButtonOption = {
   value: string;
 };
 
+export type checkBoxOption = {
+  /**
+   * @title Opção 
+   * @description Escreva uma opção 
+   */
+  label: string;
+  /**
+   * @title Valor
+   * @description Um valor único para esta opção
+   */
+  value: string;
+};
+
+
+export type urlButton = {
+  /**
+    * @title URL Título
+    * @description Insira o título para o link
+    */
+  urlTitle?: string;
+  url?: string;
+};
+
 export interface Item {
   icon?: ImageWidget;
   header?: string;
   question?: QuestionItem[];
   descritiveQuestion?: string[];
   radioButton?: RadioButtonOption[];
+  checkBoxButton?: checkBoxOption[];
   tags?: Tag[];
-  /**
-   * @title Ícone do Botão
-   * @description Selecione um ícone SVG ou PNG para o botão
-   */
-  buttonIcon?: ImageWidget;
-  /**
-   * @title URL do Botão
-   */
-  buttonUrl?: string;
+  urlButton?: urlButton[];
+  button?:Button[];
 }
 
 interface Props {
@@ -139,19 +175,44 @@ export default function Section({
               ))}
             </div>
           )}
-          {item.buttonIcon && item.buttonUrl && (
-            <div className="mt-4 flex justify-end">
-              <a href={item.buttonUrl} className="inline-block">
-                <Image
-                  src={item.buttonIcon}
-                  alt="Button Icon"
-                  width={40}
-                  height={40}
-                  class="w-10 h-10"
-                />
-              </a>
+          {item.checkBoxButton && (
+            <div className="mt-4 space-y-2">
+              {item.checkBoxButton.map((option, optionIndex) => (
+                <label key={optionIndex} className="flex items-center">
+                  <input
+                    type="checkbox"
+                    name={`checkbox-group-${index}`}
+                    className="form-checkbox h-5 w-5 rounded border-gray-300 text-green-500 focus:ring-green-500"
+                    value={option.value}
+                  />
+                  <span className="ml-2">{option.label}</span>
+                </label>
+              ))}
             </div>
           )}
+          {item.urlButton && item.urlButton.map((urlBtn, urlIndex) => (
+            <div className="mt-4">
+              <a key={urlIndex} href={urlBtn.url} className="text-black underline">{urlBtn.urlTitle}</a>
+            </div>
+          ))}
+          {item.button &&(
+            <div className="mt-4 flex flex justify-end">
+              {item.button.map((option) => (
+                <div className="flex items-center">
+                <span className="mr-2">{option.buttonDescription}</span>
+                <a href={option.buttonUrl} className="inline-block">
+                  <Image
+                    src={option.buttonIcon}
+                      alt="Button Icon"
+                      width={40}
+                      height={40}
+                      class="w-10 h-10"
+                      />
+                   </a>
+                </div>
+              ))} 
+              </div>
+      )}
         </div>
       ))}
     </div>
