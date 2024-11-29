@@ -108,7 +108,7 @@ export default function Section({ content }: Props) {
                             (descriptionSubTopic, idx) => (
                                 <div key={idx} className="mt-4">
                                     <div className="pt-[32px] pb-4">
-                                        <h3 className="text-xl font-semibold text-gray-800">
+                                        <h3 className="text-[22px] font-sans font-semibold text-gray-800">
                                             {descriptionSubTopic.subTitleTopic}
                                         </h3>
                                     </div>
