@@ -59,11 +59,12 @@ import * as $$$$$$51 from "./sections/Headers/TitlePlan.tsx";
 import * as $$$$$$52 from "./sections/Headers/TitleSegment.tsx";
 import * as $$$$$$53 from "./sections/Headers/TitleSuccess.tsx";
 import * as $$$$$$54 from "./sections/ItWorks.tsx";
-import * as $$$$$$55 from "./sections/MultiSection.tsx";
-import * as $$$$$$56 from "./sections/Navigation/Categorias.tsx";
-import * as $$$$$$57 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$58 from "./sections/Navigation/Tabs.tsx";
-import * as $$$$$$59 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$55 from "./sections/ModalContent.tsx";
+import * as $$$$$$56 from "./sections/MultiSection.tsx";
+import * as $$$$$$57 from "./sections/Navigation/Categorias.tsx";
+import * as $$$$$$58 from "./sections/Navigation/Navbar.tsx";
+import * as $$$$$$59 from "./sections/Navigation/Tabs.tsx";
+import * as $$$$$$60 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -122,11 +123,12 @@ const manifest = {
     "site/sections/Headers/TitleSegment.tsx": $$$$$$52,
     "site/sections/Headers/TitleSuccess.tsx": $$$$$$53,
     "site/sections/ItWorks.tsx": $$$$$$54,
-    "site/sections/MultiSection.tsx": $$$$$$55,
-    "site/sections/Navigation/Categorias.tsx": $$$$$$56,
-    "site/sections/Navigation/Navbar.tsx": $$$$$$57,
-    "site/sections/Navigation/Tabs.tsx": $$$$$$58,
-    "site/sections/Theme/Theme.tsx": $$$$$$59,
+    "site/sections/ModalContent.tsx": $$$$$$55,
+    "site/sections/MultiSection.tsx": $$$$$$56,
+    "site/sections/Navigation/Categorias.tsx": $$$$$$57,
+    "site/sections/Navigation/Navbar.tsx": $$$$$$58,
+    "site/sections/Navigation/Tabs.tsx": $$$$$$59,
+    "site/sections/Theme/Theme.tsx": $$$$$$60,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

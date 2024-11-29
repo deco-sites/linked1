@@ -182,7 +182,7 @@ export default function Section({
                   <input
                     type="checkbox"
                     name={`checkbox-group-${index}`}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 rounded border-gray-300 text-green-500 focus:ring-green-500"
                     value={option.value}
                   />
                   <span className="ml-2">{option.label}</span>
