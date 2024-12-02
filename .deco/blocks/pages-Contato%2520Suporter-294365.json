@@ -1,0 +1,89 @@
+{
+  "name": "Contato Suporte",
+  "path": "/suporte",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Navbar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Navigation/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Vendas",
+            "url": "/contato",
+            "status": true,
+            "title": "Vendas"
+          },
+          {
+            "name": "Suporte",
+            "url": "/suporte",
+            "status": true,
+            "title": "Suporte"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
+        "title": "Como podemos ajudar?",
+        "highlight": "ajudar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contents/ContentButtons.tsx",
+        "textSection": "Nosso time está à disposição para te atender todos os dias, inclusive nos feriados. ",
+        "button": [
+          {
+            "title": "Falar no WhatsApp",
+            "name": "Falar no WhatsApp",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg",
+            "description": "todos os dias, 24h"
+          },
+          {
+            "title": "Ligar  11 4780 4630",
+            "name": "Ligar  11 4780 4630",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d2fe9c2e-3d5c-4c36-8f3c-9c7b6143c21e/u_incoming-call.svg",
+            "description": "segunda a sexta, das 8:00 as 23:00"
+          },
+          {
+            "title": "Acompanhar pedido",
+            "name": "Acompanhar pedido",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4f9de970-d400-4da7-9996-b9b0a4b43547/acompanhar_pedido_icon.svg",
+            "description": "Confira o status da sua solicitação  em tempo real"
+          },
+          {
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/238bc4ad-4bc5-4646-85b0-789056988195/tutorial_acompanhamentos_icon.svg",
+            "title": "Tutoriais e treinamentos",
+            "name": "Tutoriais e treinamentos",
+            "description": "vídeos com dicas de como usar todos os produtos e recursos da Linked "
+          },
+          {
+            "title": "Enviar email",
+            "name": "Enviar email",
+            "description": "Respostas em até 2 dias úteis",
+            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/06e44fee-3504-4afa-9a07-043c885aed0d/icon_email.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -20,7 +20,7 @@ export interface IntegrationCategory {
    * @description Lista de imagens da categoria
    */
   images: ImageWidget[];
-};
+}
 
 /**
  * @title {{{title}}}
@@ -37,7 +37,7 @@ export interface filteredCategories {
    * @description Nome da categoria filtrada
    */
   name: string;
-};
+}
 
 /**
  * @title {{{title}}}
@@ -73,7 +73,7 @@ export interface Props {
    * @description Insira o texto do dropdown
    */
   dropdownText: string;
-   /**
+  /**
    * @title Ícone de Seta
    * @description Insira o ícone de seta
    */
@@ -91,11 +91,11 @@ export interface Props {
 }
 
 export default function IntegrationsSection({
-  titleSectionText = '',
-  sectionText = '',
-  ImageWidget = '',
-  sectionTextDescription = '',
-  dropdownText = '',
+  titleSectionText = "",
+  sectionText = "",
+  ImageWidget = "",
+  sectionTextDescription = "",
+  dropdownText = "",
   arrowIcon,
   categories = [],
 }: Props) {
@@ -107,20 +107,20 @@ export default function IntegrationsSection({
         </h2>
       </div>
       {titleSectionText && (
-                <div className="pt-10 pb-10 flex justify-between items-center">
-                    <h1 className="text-base font-medium text-sacramentoState leading-tight-18">
-                        {titleSectionText}
-                    </h1>
-                    {ImageWidget && (
-                        <Image
-                            className=""
-                            src={ImageWidget || ""}
-                            alt="Ícone Seta"
-                            width={24}
-                        />
-                    )}
-                </div>
-            )}
+        <div className="pt-10 pb-10 flex justify-between items-center">
+          <h1 className="text-base font-medium text-sacramentoState leading-tight-18">
+            {titleSectionText}
+          </h1>
+          {ImageWidget && (
+            <Image
+              className=""
+              src={ImageWidget || ""}
+              alt="Ícone Seta"
+              width={24}
+            />
+          )}
+        </div>
+      )}
       {sectionTextDescription && (
         <div className="pb-10">
           <p className="font-sans font-normal text-base leading-tight-18 text-sacramentoState-80">
@@ -131,7 +131,10 @@ export default function IntegrationsSection({
       {/* Dropdown de Categorias */}
       <div className="mb-8 relative">
         <select className="w-full pl-2 py-[13.5px] border-b border-sacramentoState rounded-t-lg text-sacramentoState bg-sacramentoState-10 cursor-pointer appearance-none pr-10 bg-[#e9f1ef]">
-          <option value="" className="text-sacramentoState-80 text-lg font-sans font-normal leading-tight-21">
+          <option
+            value=""
+            className="text-sacramentoState-80 text-lg font-sans font-normal leading-tight-21"
+          >
             {dropdownText}
           </option>
           {categories.map((category, index) => (
@@ -163,7 +166,10 @@ export default function IntegrationsSection({
             </div>
             <div className="w-full grid grid-cols-3 gap-[11px]">
               {category.images.map((image, imgIndex) => (
-                <div key={imgIndex} className="border border-sacramentoState-10 rounded-[14.22px] overflow-hidden">
+                <div
+                  key={imgIndex}
+                  className="border border-sacramentoState-10 rounded-[14.22px] overflow-hidden"
+                >
                   <Image
                     className="w-full h-full object-cover"
                     src={image || ""}

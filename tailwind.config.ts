@@ -51,7 +51,8 @@ export default {
         'tight-2': '-0.02em',
         'tight-0.96': '-0.96px',
         'tight-0.44': '-0.44px',
-        'tight-0.56': '-0.56px'
+        'tight-0.56': '-0.56px',
+        'tight-1.28': '-1.28px'
     },
     container: {
       center: true,
