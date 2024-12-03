@@ -4,17 +4,20 @@
     {
       "name": "Planos",
       "url": "/planos",
-      "status": true
+      "status": true,
+      "title": "Planos"
     },
     {
       "name": "Opcionais",
       "url": "/opcionais",
-      "status": true
+      "status": true,
+      "title": "Opcionais"
     },
     {
       "name": "Integrações",
       "url": "/integracoes",
-      "status": true
+      "status": true,
+      "title": "Integrações"
     }
   ]
 }

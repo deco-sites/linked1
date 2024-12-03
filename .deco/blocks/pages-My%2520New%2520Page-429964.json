@@ -12,9 +12,97 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Headers/TitleError.tsx",
-        "title": "Não encontramos",
+        "title": "Não encontramos essa página",
         "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/69593216-2231-4769-8b21-39ec14654a81/cuttlery_404.svg",
         "wordBreak": "essa página"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Destaques/TabsWithListText.tsx",
+        "sectionContentSubtitle": "Mas a Linked certamente tem o que você procura",
+        "subtitleSection": "Mas a Linked certamente tem o que você procura",
+        "menu": [
+          {
+            "title": "Food",
+            "name": "Food"
+          },
+          {
+            "title": "Beauty",
+            "name": "Beauty"
+          },
+          {
+            "title": "Pet",
+            "name": "Pet"
+          }
+        ],
+        "content": [
+          {
+            "listContentTextSection": [
+              "À la carte",
+              "Adega",
+              "Açaí",
+              "Bar",
+              "Cafeteria",
+              "Churrascaria",
+              "Fast Food",
+              "Fine dining"
+            ],
+            "subtitleSectionContent": "Soluções para cada tipo de negócio",
+            "title": "Soluções para cada tipo de negócio"
+          },
+          {
+            "listContentTextSection": [
+              "Plano Linked Food  Essencial",
+              "Plano Linked Food  Total"
+            ],
+            "title": "Produtos",
+            "subtitleSectionContent": "Produtos"
+          },
+          {
+            "listContentTextSection": [
+              "Link de Pagamentos",
+              "Monitor de preparos KDS",
+              "Inteligência de Dados",
+              "App de Delivery próprio"
+            ],
+            "title": "Opcionais",
+            "subtitleSectionContent": "Opcionais"
+          },
+          {
+            "listContentTextSection": [
+              "Abrahão",
+              "Alloy",
+              "Capta",
+              "Cliente Fiel",
+              "Deeliv",
+              "Delivery Direto",
+              "Delivery Much",
+              "F360º"
+            ],
+            "title": "Integrações com os principais serviços",
+            "subtitleSectionContent": "Integrações com os principais serviços"
+          },
+          {
+            "listContentTextSection": [
+              "Energia renovável mais barata",
+              "Crédito",
+              "Contabilidade",
+              "Compras coletivas",
+              "Recrutamento para food service"
+            ],
+            "title": "Parcerias exclusivas",
+            "subtitleSectionContent": "Parcerias exclusivas"
+          },
+          {
+            "listContentTextSection": [
+              "Receitas de sucesso "
+            ],
+            "title": "Boas práticas e informações",
+            "subtitleSectionContent": "Boas práticas e informações"
+          }
+        ]
       }
     },
     {

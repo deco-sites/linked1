@@ -9,16 +9,16 @@ export interface Props {
    * @description Escreva a palavra ou frase com cor
    */
   highlight?: string;
+  // /**
+  //  * @title Subtítulo
+  //  * @description Escreva aqui o subtítulo da abertura - Desktop
+  //  */
+  // subtitleDesktop?: string;
   /**
    * @title Subtítulo
-   * @description Escreva aqui o subtítulo da abertura - Desktop
+   * @description Escreva aqui o subtítulo da abertura
    */
-  subtitleDesktop?: string;
-  /**
-   * @title Subtítulo
-   * @description Escreva aqui o subtítulo da abertura - Mobile
-   */
-  subtitleMobile?: string;
+  subtitleDescription?: string;
 }
 
 // const texts = [
@@ -27,11 +27,11 @@ export interface Props {
 //   "Gestão inteligente para sonhar mais"
 // ];
 
-export default function Section({ 
-  title = "", 
+export default function Section({
+  title = "",
   highlight = "",
-  subtitleDesktop = "", 
-  subtitleMobile = "",
+  // subtitleDesktop = "",
+  subtitleDescription = "",
 }: Props) {
   // const [currentTextIndex, setCurrentTextIndex] = useState(0);
   // const [animatedText, setAnimatedText] = useState(texts[0]);
@@ -44,14 +44,14 @@ export default function Section({
   //       setAnimatedText(texts[nextIndex]);
   //       return nextIndex;
   //     });
-  //   }, 3000); 
+  //   }, 3000);
 
   //   const timeoutId = setTimeout(() => {
-  //     navigate('/'); 
-  //   }, 9000); 
+  //     navigate('/');
+  //   }, 9000);
 
   //   return () => {
-  //     clearInterval(intervalId); 
+  //     clearInterval(intervalId);
   //     clearTimeout(timeoutId);
   //   };
   // }, [navigate]);
@@ -59,32 +59,39 @@ export default function Section({
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return parts.map((part, index) => 
-      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    const parts = text.split(new RegExp(`(${highlight})`, "gi"));
+    return parts.map((part, index) =>
+      part.toLowerCase() === highlight.toLowerCase()
+        ? <span key={index} className="text-secondary">{part}</span>
+        : part
     );
   };
 
   return (
-    <section className="w-full bg-sacramentoState">
-      <div className="ml-4 lg:ml-10 flex flex-col items-left justify-center py-[177px]">
-        <div className="w-fit pr-[44px]">
+    <section className="bg-sacramentoState h-[80vh] flex">
+      <div className="ml-4 md:ml-10 w-full flex flex-col items-start justify-center">
+        <div className="w-full max-w-[289px] md:max-w-[548px]">
           <p className="font-sans text-white font-medium text-[32px] lg:text-[64px] leading-tight-35 lg:leading-tight-70 tracking-tight-2">
             {getHighlightedText(title, highlight)}
           </p>
         </div>
-        <div className="mt-[21px]">
-          <p className="block md:hidden pr-[42px] text-white-80 font-sans text-base font-normal leading-tight-18">
-            {subtitleMobile}
+        <div className="pt-[10px] md:pt-[21px] max-w-[320px] md:max-w-none w-full">
+          <p className="text-base md:text-lg font-sans font-normal leading-tight-18 md:leading-tight-25 text-white-80">
+            {subtitleDescription}
           </p>
-          <p className="hidden md:block text-white-80 font-sans text-lg font-normal leading-tight-25">
-            {subtitleDesktop}
-          </p>
+          {
+          /*  <p className="hidden md:block text-white-80 font-sans font-normal leading-tight-25">
+                {subtitleDesktop}
+              </p> 
+            */
+          }
         </div>
-        {/* texto animado
-        <div className="mt-5">
-          <p className="text-white text-xl font-normal">{animatedText}</p>
-        </div> */}
+        {
+          /* texto animado
+          <div className="mt-5">
+            <p className="text-white text-xl font-normal">{animatedText}</p>
+          </div> */
+        }
       </div>
     </section>
   );

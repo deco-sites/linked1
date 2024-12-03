@@ -30,7 +30,7 @@ export interface Item {
    * @description Escolha a imagem do item
    */
   image: ImageWidget;
-};
+}
 
 export interface Props {
   /**
@@ -40,10 +40,9 @@ export interface Props {
   items: Item[];
 }
 
-export default function Section({ 
-  items = [], 
+export default function Section({
+  items = [],
 }: Props) {
-
   return (
     <section className="w-full pb-[59px] bg-sacramentoState">
       <div className="overflow-x-scroll scrollbar-hide swiper-container">
@@ -64,8 +63,8 @@ export default function Section({
                 <div className="flex justify-center py-[26px] px-0 w-[343px] h-[485px]">
                   <Image className="w-full h-full object-cover rounded-xl" src={item.image || ""} width={315} />
                 </div>
-                <div className="w-full pl-0 text-left">
-                  <p className="pl-[3px] text-base text-white opacity-80 leading-tight-18 lg:leading-tight-22">
+                <div className="pl-[3px] w-full text-left">
+                  <p className="text-base font-sans font-light leading-tight-18 md:leading-none text-mintCream md:text-white opacity-80">
                     {item.description}
                   </p>
                 </div>

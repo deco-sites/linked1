@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export interface Props {
   /**
@@ -13,23 +13,32 @@ export interface Props {
   highlight?: string;
 }
 
-export default function Section({ 
-  title = "", 
+export default function Section({
+  title = "",
   highlight = "",
 }: Props) {
-
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return parts.map((part, index) => 
-      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
-    );
+    const regex = new RegExp(`(${highlight})`, "giu");
+
+    const parts = text.split(regex);
+
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === highlight.toLowerCase()) {
+        return (
+          <span key={index} className="text-secondary">
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
   };
 
   return (
     <section className="bg-sacramentoState">
-      <div className="pl-4 md:pl-10 pt-[74px] md:pt-[120px] pr-[75px] pb-6 w-full md:max-w-[739px]">
+      <div className="pl-4 md:pl-10 pt-[74px] md:pt-[120px] pr-[75px] pb-6 w-full max-w-[290px] md:max-w-[739px]">
         <p className="text-[28px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">
           {getHighlightedText(title, highlight)}
         </p>

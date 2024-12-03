@@ -8,26 +8,19 @@ export interface Props {
    */
   title: string;
   /**
-   * @title Quebra de linha
-   * @description Escreva a quebra de linha
-   */
-  wordBreak?: string;
-  /**
    * @title Ícone de Compartilhamento
    * @description Insira o ícone de compartilhamento aqui
    */
   icon: ImageWidget;
 }
 
-export default function Section({ 
-    title = "", 
-    wordBreak = "",
-    icon = "", 
+export default function Section({
+  title = "",
+  icon = "",
 }: Props) {
-
   return (
-    <section className="pt-[90px] bg-sacramentoState-10">
-      <div className="pl-4">
+    <section className="bg-sacramentoState-10">
+      <div className="pl-4 md:pl-0 pt-[90px] flex flex-col md:justify-center md:items-center">
         {icon && (
           <Image
             className=""
@@ -35,9 +28,11 @@ export default function Section({
             width={64}
           />
         )}
-        <p className="pt-4 pb-[25px] pr-[49px] text-[32px] font-sans font-normal leading-tight-35 tracking-tight-2 text-sacramentoState">
-          {title} <br /> {wordBreak}
-        </p>
+        <div className="pt-4 pb-[25px] w-full max-w-[311px] md:max-w-[632px] md:text-center">
+          <p className="text-[32px] md:text-[64px] font-sans font-normal md:font-medium leading-tight-35 md:leading-tight-70 tracking-tight-2 md:tracking-tight-1.28 text-sacramentoState">
+            {title}
+          </p>
+        </div>
       </div>
     </section>
   );

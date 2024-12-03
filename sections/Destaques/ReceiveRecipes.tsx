@@ -38,8 +38,8 @@ export default function Section({
     button,
 }: Props) {
     return (
-        <section className="bg-white">
-            <div className="md:pt-[64px] md:flex md:justify-center">
+        <section className="bg-white md:bg-sacramentoState-10">
+            <div className="md:py-[64px] md:flex md:justify-center">
                 <div className="md:bg-white md:w-full md:max-w-[500px]">
                     {image && (
                         <div className="">
