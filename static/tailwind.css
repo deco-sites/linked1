@@ -2678,14 +2678,14 @@ input.tab:checked + .tab-content,
 .h-\[480px\]{
   height: 480px;
 }
-.h-\[80vh\]{
-  height: 80vh;
-}
-.h-\[485px\]{
-  height: 485px;
+.h-\[535px\]{
+  height: 535px;
 }
 .h-\[64px\]{
   height: 64px;
+}
+.h-\[80vh\]{
+  height: 80vh;
 }
 .h-auto{
   height: auto;
@@ -2728,6 +2728,9 @@ input.tab:checked + .tab-content,
 }
 .min-h-\[42px\]{
   min-height: 42px;
+}
+.\!w-full{
+  width: 100% !important;
 }
 .w-0{
   width: 0px;
@@ -2773,9 +2776,6 @@ input.tab:checked + .tab-content,
 }
 .w-\[332px\]{
   width: 332px;
-}
-.w-\[343px\]{
-  width: 343px;
 }
 .w-\[363px\]{
   width: 363px;
@@ -3106,6 +3106,14 @@ input.tab:checked + .tab-content,
   -moz-column-gap: 10px;
        column-gap: 10px;
 }
+.gap-x-\[28px\]{
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+.gap-x-\[4px\]{
+  -moz-column-gap: 4px;
+       column-gap: 4px;
+}
 .gap-x-\[8px\]{
   -moz-column-gap: 8px;
        column-gap: 8px;
@@ -3420,6 +3428,10 @@ input.tab:checked + .tab-content,
 .p-6{
   padding: 1.5rem;
 }
+.\!px-4{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
@@ -3536,6 +3548,13 @@ input.tab:checked + .tab-content,
   padding-top: 26px;
   padding-bottom: 26px;
 }
+.py-\[32px\]{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.\!pb-6{
+  padding-bottom: 1.5rem !important;
+}
 .pb-0{
   padding-bottom: 0px;
 }
@@ -3565,9 +3584,6 @@ input.tab:checked + .tab-content,
 }
 .pb-6{
   padding-bottom: 1.5rem;
-}
-.pb-\[109px\]{
-  padding-bottom: 109px;
 }
 .pb-\[109px\]{
   padding-bottom: 109px;
@@ -3623,6 +3639,9 @@ input.tab:checked + .tab-content,
 .pb-\[47px\]{
   padding-bottom: 47px;
 }
+.pb-\[48px\]{
+  padding-bottom: 48px;
+}
 .pb-\[53\.6px\]{
   padding-bottom: 53.6px;
 }
@@ -3631,9 +3650,6 @@ input.tab:checked + .tab-content,
 }
 .pb-\[59px\]{
   padding-bottom: 59px;
-}
-.pb-\[60px\]{
-  padding-bottom: 60px;
 }
 .pb-\[64px\]{
   padding-bottom: 64px;
@@ -3800,8 +3816,8 @@ input.tab:checked + .tab-content,
 .pt-\[22px\]{
   padding-top: 22px;
 }
-.pt-\[23\.5px\]{
-  padding-top: 23.5px;
+.pt-\[23px\]{
+  padding-top: 23px;
 }
 .pt-\[24px\]{
   padding-top: 24px;
@@ -3818,8 +3834,8 @@ input.tab:checked + .tab-content,
 .pt-\[38px\]{
   padding-top: 38px;
 }
-.pt-\[42\.5px\]{
-  padding-top: 42.5px;
+.pt-\[42px\]{
+  padding-top: 42px;
 }
 .pt-\[43px\]{
   padding-top: 43px;
@@ -4117,6 +4133,9 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: rgb(0 51 48 / var(--tw-text-opacity));
 }
+.text-sacramentoState-10{
+  color: rgba(0, 51, 48, 0.1);
+}
 .text-sacramentoState-40{
   color: rgba(0, 51, 48, 0.4);
 }
@@ -4331,6 +4350,10 @@ input.tab:checked + .tab-content,
   .md\:p-10{
     padding: 2.5rem;
   }
+  .md\:\!px-10{
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -4346,6 +4369,18 @@ input.tab:checked + .tab-content,
   .md\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+  .md\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .md\:py-\[120px\]{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .md\:py-\[64px\]{
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
   .md\:pb-12{
     padding-bottom: 3rem;
@@ -4379,6 +4414,13 @@ input.tab:checked + .tab-content,
   }
   .md\:pt-\[64px\]{
     padding-top: 64px;
+  }
+  .md\:text-center{
+    text-align: center;
+  }
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
   .md\:text-5xl{
     font-size: 3rem;
@@ -4432,9 +4474,6 @@ input.tab:checked + .tab-content,
   }
 }
 @media (min-width: 1024px){
-  .lg\:ml-10{
-    margin-left: 2.5rem;
-  }
   .lg\:grid{
     display: grid;
   }

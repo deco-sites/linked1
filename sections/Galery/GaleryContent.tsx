@@ -44,26 +44,28 @@ export default function Section({
   items = [],
 }: Props) {
   return (
-    <section className="w-full pb-[59px] bg-sacramentoState">
-      <div className="overflow-x-scroll scrollbar-hide swiper-container">
-        <div className="swiper-wrapper inline-flex lg:flex-nowrap gap-6">
+    <section className="bg-sacramentoState">
+      <div className="pb-[59px] overflow-x-scroll scrollbar-hide swiper-container">
+        <div className="swiper-wrapper !px-4 md:!px-10 flex gap-x-4 md:gap-x-[20px]">
           {items.map((item, index) => (
             <div
-              className={`swiper-slide w-[343px] ml-4 ${
-                index === 0 ? 'lg:ml-10' : ''
-              } ${index === items.length - 1 ? 'lg:mr-10' : ''} ${
-                index !== 0 ? 'lg:ml-0' : ''
-              }`}
+              className="swiper-slide w-full max-w-[343px] flex-none md:flex md:flex-auto"
               key={index}
             >
               <article className="w-full flex flex-col border-t-2 border-white-20">
-                <p className="pt-[22.8px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
-                  {item.titleSection}
-                </p>
-                <div className="flex justify-center py-[26px] px-0 w-[343px] h-[485px]">
-                  <Image className="w-full h-full object-cover rounded-xl" src={item.image || ""} width={315} />
+                <div className="pt-[23px] text-left">
+                  <p className="text-base md:text-lg font-normal md:font-light md:leading-tight-25 text-mintCream md:text-white">
+                    {item.titleSection}
+                  </p>
                 </div>
-                <div className="pl-[3px] w-full text-left">
+                <div className="flex justify-center py-[26px] px-0 w-full max-w-[343px]">
+                  <Image
+                    src={item.image || ""}
+                    width={343}
+                    className="w-full h-full object-cover rounded-3xl"
+                  />
+                </div>
+                <div className="w-full text-left">
                   <p className="text-base font-sans font-light leading-tight-18 md:leading-none text-mintCream md:text-white opacity-80">
                     {item.description}
                   </p>
