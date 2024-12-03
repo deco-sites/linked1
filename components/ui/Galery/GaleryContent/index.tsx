@@ -7,7 +7,7 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
     <>
       <section className="w-full pb-[59px]">
           <div className="overflow-x-scroll scrollbar-hide swiper-container">
-            <div className="swiper-wrapper inline-flex lg:flex-nowrap">
+            <div className="swiper-wrapper flex gap-6 lg:flex-nowrap">
               {items.map((item, index) => (
                 <div
                   className={`swiper-slide w-[315px] min-w-[315px] pl-4 ${

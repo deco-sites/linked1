@@ -29,6 +29,24 @@
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png",
             "titleSection": "Aumente a eficiência",
             "title": "Aumente a eficiência"
+          },
+          {
+            "title": "Evite o disperdício",
+            "titleSection": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1dddfad7-12fe-440b-9ea6-6225cea5e517/Rectangle-219.jpg"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png",
+            "title": "Organize suas contas ",
+            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência.",
+            "titleSection": "Organize suas contas "
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
+            "description": "Do prato mais vendido ao lucro em cada prato. A linked oferece relatórios diversos.",
+            "titleSection": "Conheça melhor seu negócio",
+            "title": "Conheça melhor seu negócio"
           }
         ]
       }
@@ -413,7 +431,8 @@
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d3e04456-4f6e-430a-b89f-6243bef42b49/icon_team.svg"
           }
         ],
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a427297b-c1d7-4f39-83bf-bdd51a050d53/img_group_people.png"
+        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a427297b-c1d7-4f39-83bf-bdd51a050d53/img_group_people.png",
+        "background": "Secondary"
       }
     },
     {
@@ -488,6 +507,104 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "FixedSection"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Title.tsx",
+              "colorTheme": "Primary",
+              "content": "Serena: Energia limpa e economia na conta de luz"
+            },
+            "title": "Title"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+              "colorTheme": "Primary",
+              "content": "Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável."
+            },
+            "title": "Body"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "35%",
+              "description": "Até 35% de economia no 1º ano energia solar e eólica"
+            },
+            "title": "Big number"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+              "colorTheme": "Primary",
+              "content": "Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável."
+            },
+            "title": "Body"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Serena: Energia limpa e economia na conta de luz"
+            },
+            "title": "Title medium"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/List.tsx",
+              "colorTheme": "Primary",
+              "items": [
+                "Contratação digital",
+                "Não é preciso instalar placas solares",
+                "Energia entregue do mesmo jeito, pela sua distribuidora",
+                "Você só paga o que consome"
+              ]
+            },
+            "title": "List"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+              "colorTheme": "Primary",
+              "logo": {},
+              "title": "Del",
+              "logos": [
+                {
+                  "title": "Delivery much",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2c5bb0a9-f1bd-420f-8f16-453a8aa3f8f2/Deliverymuch.jpg"
+                },
+                {
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00bcd62a-41bf-4dd9-bbd9-641a94acc2c6/Delivery-direto.jpg",
+                  "title": "Delivery direto"
+                },
+                {
+                  "title": "Ifood",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ab766c1a-ceba-44d0-8232-be0aefbccca6/Ifood.jpg"
+                },
+                {
+                  "title": "Prefiro delivery",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2d334e5d-b175-4751-a6b0-0c6a4596c01d/prefirodelivery.jpg"
+                }
+              ]
+            },
+            "title": "LogoGroup"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Title.tsx",
+              "colorTheme": "Primary",
+              "content": "Serena: Energia limpa e economia na conta de luz"
+            },
+            "title": "Exemplo de texto"
+          }
+        ],
+        "background": "White"
       }
     }
   ],

@@ -2,10 +2,12 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 // import ImageComponent from "../Final/Content/Image.tsx";
 import ImageComponent from "../Contents/ContentImage.tsx";
+import IconGroupComponent from "../Contents/ContentIconGroup.tsx";
 
 /**
  * @title {{{title}}}
  */
+
 export interface ContentSection {
   /**
    * @title Título do Bloco
@@ -37,20 +39,104 @@ export interface Props {
     subTitle: string;
     /**
      * @title Contéudo
-     * @description Configure cada item do conteúdo
+     * @description Configure cada item do conteúdo (Max 8 itens)
      */
     content: ContentSection[];
+    
+    background: "Primary" | "Secondary" | "White" | "Light"
+}
+
+// Implemente a seção
+function setClass(value) {
+  switch (value) {
+    case "Primary":
+        return 'bg-primary'
+        break;
+
+    case "Secondary":
+        return 'bg-secondary'
+        break;
+
+    case "White":
+        return 'bg-white'
+        break;
+
+    case "Light":
+        return 'bg-light'
+        break;
+  
+    default:
+        return 'bg-primary'
+        break;
+
+  }
+    return;
+}
+
+// Implemente a seção
+function setClassBorder(value) {
+  switch (value) {
+    case "Primary":
+        return 'bg-white-20'
+        break;
+
+    case "Secondary":
+        return 'bg-white-20'
+        break;
+
+    case "White":
+        return 'bg-sacramentoState-10'
+        break;
+
+    case "Light":
+        return 'bg-primary'
+        break;
+  
+    default:
+        return 'bg-primary'
+        break;
+
+  }
+    return;
+}
+
+// Implemente a seção
+function setClassTitle(value) {
+  switch (value) {
+    case "Primary":
+        return 'text-mintCream'
+        break;
+
+    case "Secondary":
+        return 'text-primary'
+        break;
+
+    case "White":
+        return 'text-primary'
+        break;
+
+    case "Light":
+        return 'text-primary'
+        break;
+  
+    default:
+        return 'text-primary'
+        break;
+
+  }
+    return;
 }
 
 export default function Section({
     ImageWidget,
     subTitle,
     content,
+    background
   }: Props) {
     return (
-      <section className="pl-4 pr-4 bg-sacramentoState">
-        <div className="container mx-auto text-center">
-          <div className="pt-[78px] block justify-between items-center">
+      <section className={`pl-4 pr-4 ${setClass(background)}`}>
+        <div className="container mx-auto text-center pt-[56px] pb-[120px]">
+          <div className=" block justify-between items-center">
             {ImageWidget && (
               // <div className="">
               //   <Image
@@ -67,42 +153,47 @@ export default function Section({
                   type="Cantos Arredondados"
               />
             )}
-            <h2 className="pt-[43px] pb-[32px] text-[28px] font-sans text-mintCream font-normal text-center leading-tight-32 tracking-tight-2">
+            <h2 className={`pt-[43px] pb-[32px] text-[28px] md:text-5xl font-sans ${setClassTitle(background)} font-normal text-center leading-tight-32 tracking-tight-2`}>
               {subTitle}
             </h2>
           </div>
   
-          <div className="grid grid-cols-2">
-            {content.map((item, index) => {
-                const isFirstTwo = index < 2;
-                const isLastTwo = index >= content.length - 2; 
+          <div className={`grid gap-[1px] ${setClassBorder(background)} ${
+              content.length === 1
+                ? 'grid-cols-1' // 1 item: 1 coluna
+                : content.length === 2
+                ? 'grid-cols-2' // 2 itens: 2 colunas
+                : content.length === 3
+                ? 'grid-cols-2 md:grid-cols-3' // 3 itens: 2 colunas mobile, 3 colunas desktop
+                : content.length === 4 || content.length === 8 || content.length >= 8
+                ? 'grid-cols-2' // 4 ou 8 itens: 2 colunas
+                : content.length === 5 || content.length === 7
+                ? 'grid-cols-2' // 5 ou 7 itens: comportamento especial
+                : 'grid-cols-2 md:grid-cols-3' // 6+ itens padrão: 3 colunas no desktop
+          }`}>
+            {content.slice(0, 8).map((item, index) => {
+                // Detecta se é o último item para layouts especiais
+                const isLastItem = index === content.length - 1;
+                const isOddSet = content.length % 2 !== 0;
 
                 return (
-                <div
-                    key={index}
-                    className={`${
-                    isFirstTwo ? 'border-b border-white-20' : 'border-t border-white-20'
-                    } ${isLastTwo ? 'border-0 border-white-20 pt-[23.5px]'  : ''} p-4 text-center ${
-                    index % 2 === 0 ? 'border-r border-white-20' : ''
-                    }`}
-                >
-                    <div className="flex flex-col items-center justify-center">
-                      {item.ImageWidget && (
-                          <Image
-                          src={item.ImageWidget}
-                          alt="Ícone do Bloco"
-                          width={27}
-                          className=""
-                          />
-                      )}
-                      <p className={`text-[13.5px] text-white-80 leading-tight font-[300] ${index === 0 ? 'px-[26px]' : 'px-4'} pt-2 pb-[25px]`}>
-                          {item.textSectionDescription}
-                      </p>
+                    <div
+                      key={index}
+                      className={`${
+                        isOddSet && isLastItem ? 'col-span-2' : '' // No último item ímpar, ocupa 2 colunas
+                      }`}
+                    >
+                      <IconGroupComponent 
+                        // key={index}
+                        icon={item.ImageWidget}
+                        title={item.textSectionDescription}
+                        background={background}
+                        // isLastItem={isLastItem}
+                      />
                     </div>
-                </div>
                 );
             })}
-            </div>
+          </div>
       </div>
     </section>
   );

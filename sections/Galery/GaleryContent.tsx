@@ -47,13 +47,13 @@ export default function Section({
   return (
     <section className="w-full pb-[59px] bg-sacramentoState">
       <div className="overflow-x-scroll scrollbar-hide swiper-container">
-        <div className="swiper-wrapper inline-flex lg:flex-nowrap">
+        <div className="swiper-wrapper inline-flex lg:flex-nowrap gap-6">
           {items.map((item, index) => (
             <div
-              className={`swiper-slide w-[315px] min-w-[315px] pl-4 ${
-                index === 0 ? 'lg:pl-10' : ''
-              } ${index === items.length - 1 ? 'lg:pr-10' : ''} ${
-                index !== 0 ? 'lg:pl-0' : ''
+              className={`swiper-slide w-[343px] ml-4 ${
+                index === 0 ? 'lg:ml-10' : ''
+              } ${index === items.length - 1 ? 'lg:mr-10' : ''} ${
+                index !== 0 ? 'lg:ml-0' : ''
               }`}
               key={index}
             >
@@ -61,8 +61,8 @@ export default function Section({
                 <p className="pt-[22.8px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
                   {item.titleSection}
                 </p>
-                <div className="flex justify-center py-[26px] px-0">
-                  <Image className="" src={item.image || ""} width={315} />
+                <div className="flex justify-center py-[26px] px-0 w-[343px] h-[485px]">
+                  <Image className="w-full h-full object-cover rounded-xl" src={item.image || ""} width={315} />
                 </div>
                 <div className="w-full pl-0 text-left">
                   <p className="pl-[3px] text-base text-white opacity-80 leading-tight-18 lg:leading-tight-22">

@@ -7,7 +7,7 @@ function GaleryPartners({ items }: JSX.IntrinsicElements["div"] & Props) {
     <>
         <section className="">
             <div>
-                <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p>
+                {/* <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p> */}
                 <div className="flex overflow-x-scroll scrollbar-hide">
                 {items.map((item, index) => (
                     <div

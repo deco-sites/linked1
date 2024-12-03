@@ -65,7 +65,7 @@ function setClass(value) {
 export default function MultiSection({ sections, background }: Props) {
 
     return (
-      <div className={setClass(background)}>
+      <div className={`${setClass(background)} md:py-10`}>
           {sections?.map((item) => (
               LoadComponent(item.section)
           ))}
