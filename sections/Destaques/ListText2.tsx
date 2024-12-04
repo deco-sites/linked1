@@ -45,51 +45,52 @@ export interface Props {
 }
 
 export default function Section({
-  Subtitle = '',
-  ImageWidget = '',
+  Subtitle = "",
+  ImageWidget = "",
   description = [],
 }: Props) {
-
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return parts.map((part, index) => 
-      part.toLowerCase() === highlight.toLowerCase() ? (
-        <span key={index} className="underline">{part}</span>
-      ) : (
-        part
-      )
+    const parts = text.split(new RegExp(`(${highlight})`, "gi"));
+    return parts.map((part, index) =>
+      part.toLowerCase() === highlight.toLowerCase()
+        ? <span key={index} className="underline">{part}</span>
+        : part
     );
-  };  
+  };
 
   return (
-    <section className="pl-4 pr-4 pb-[26.5px] bg-white w-full border-t border-sacramentoState-10">
-      <div className="container mx-auto text-center">
-        <div className="pt-[26.5px] pb-[42.5px] flex justify-between items-center">
-          <h2 className="text-base font-sans font-medium text-start leading-tight-18">
-            {Subtitle}
-          </h2>
-          {ImageWidget && (
-            <div className="">
-              <Image
-                src={ImageWidget}
-                alt="Section Icon"
-                className="mx-auto"
-                width={24}
-              />
+    <section className="bg-white md:bg-sacramentoState-10">
+      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+        <div className="md:bg-white md:w-full md:max-w-[706px]">
+          <div className="px-4 md:px-10 pb-[27px] border-t border-sacramentoState-1  text-center">
+            <div className="pt-[27px] pb-[43px] flex justify-between items-center">
+              <h2 className="text-base font-sans font-medium text-start leading-tight-18">
+                {Subtitle}
+              </h2>
+              {ImageWidget && (
+                <div className="">
+                  <Image
+                    src={ImageWidget}
+                    alt="Section Icon"
+                    className="mx-auto cursor-pointer"
+                    width={24}
+                  />
+                </div>
+              )}
             </div>
-          )}
-        </div>
 
-        <div>
-          {description.map((desc, index) => (
-            <div key={index}>
-              <h3 className="pb-[23px] text-base text-left text-sacramentoState-80 font-normal leading-tight-18">
-                {getHighlightedText(desc.SectionText, desc.highlight)}
-              </h3>
+            <div>
+              {description.map((desc, index) => (
+                <div key={index} className="pb-[23px] text-left">
+                  <h3 className="text-base font-sans font-normal leading-tight-18 text-sacramentoState-80">
+                    {getHighlightedText(desc.SectionText, desc.highlight)}
+                  </h3>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>

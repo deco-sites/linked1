@@ -54,8 +54,8 @@ export default function Section({
   };
 
   return (
-    <section className="bg-sacramentoState">
-      <div className="pb-10">
+    <section className="bg-sacramentoState flex justify-center ">
+      <div className="grid gap-3 md:text-center w-full max-w-[739px] px-4 pb-6 pt-8 md:py-12 md:px-10">
         {
           /* <div className="w-full inline-flex">
           <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
@@ -70,7 +70,7 @@ export default function Section({
           </div>
         </div> */
         }
-        <div className="pl-4 pt-5 pb-6 flex flex-col justify-start items-start md:justify-center md:items-center">
+        <div className="flex md:justify-center">
           {iconSegment && (
             <Image
               className=""
@@ -78,19 +78,14 @@ export default function Section({
               width={32}
             />
           )}
-
-          <div className="pt-2.5 pr-[69px] text-start md:text-center">
-            <p className="text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
-              {getHighlightedText(title, highlight)}
-            </p>
-          </div>
-
-          <div className="pt-2.5 pr-[40px] text-start md:text-center">
-            <p className="text-lg font-normal font-sans leading-tight-21 text-white-80">
-              {description}
-            </p>
-          </div>
         </div>
+        <p className="text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
+          {getHighlightedText(title, highlight)}
+        </p>
+
+        <p className="text-lg font-normal font-sans leading-tight-21 text-white-80">
+          {description}
+        </p>
       </div>
     </section>
   );

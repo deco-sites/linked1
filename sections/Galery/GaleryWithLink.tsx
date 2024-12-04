@@ -78,23 +78,23 @@ export default function Section({
 }: Props) {
   return (
     <section className="bg-mintCream">
-      <div className="pl-4">
+      <div className="px-4 md:px-10">
         <div className="pb-20 pt-[93px] ">
           <p className="text-[28px] font-sans font-normal leading-tight-32 tracking-tight-2 text-sacramentoState">
             {title}
           </p>
         </div>
-        <div className="flex overflow-x-scroll scrollbar-hide">
+        <div className="grid grid-cols-4 overflow-x-scroll scrollbar-hide">
           {items.map((item, index) => (
             <div
               key={index}
-              className="pr-4 w-full max-w-[275px] flex-none"
+              className="pr-4 w-full flex-none"
             >
               <Image
-                className="rounded-lg"
                 src={item.image || ""}
                 width={274.4}
                 alt={item.SectionTitle2}
+                className="!w-full rounded-lg"
               />
               <p className="pt-[13px] pb-[54px] text-base leading-snug">
                 {item.SectionTitle2}

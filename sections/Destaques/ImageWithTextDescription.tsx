@@ -21,7 +21,7 @@ export default function Section({
     return (
         <section className="bg-sacramentoState md:bg-sacramentoState-10">
             <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-                <div className="md:bg-sacramentoState md:w-full md:max-w-[500px]">
+                <div className="md:bg-sacramentoState md:w-full md:max-w-[706px]">
                     <div className="flex flex-col border-b border-white-20">
                         <div className="">
                             {image && (
@@ -36,7 +36,7 @@ export default function Section({
                                 </div>
                             )}
                         </div>
-                        <div className="px-4 py-10">
+                        <div className="px-4 md:px-10 py-10">
                             {sectionText && (
                                 <div className="w-full max-w-[343px] md:max-w-none">
                                     <p className="text-base font-sans font-normal leading-tight-18 text-white">

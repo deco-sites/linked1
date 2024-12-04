@@ -14,8 +14,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#01251D',
-        secondary: '#3BEDB2',
+        // primary: '#01251D',
+        // secondary: '#3BEDB2',
         'white-20': 'rgba(255, 255, 255, 0.2)', // 20% de opacidade
         'white-80': 'rgba(255, 255, 255, 0.8)', // 80% de opacidade
         caribbeanGreen: '#00D2A0',

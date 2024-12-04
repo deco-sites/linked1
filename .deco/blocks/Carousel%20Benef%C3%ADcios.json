@@ -1,0 +1,34 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryContent.tsx",
+        "items": [
+          {
+            "title": "Aumente a eficiência",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/10f13c93-1524-464f-bb28-46a81ba57bb5/35e9d2b49a67f52adc7b47afbc4b134c.png"
+          },
+          {
+            "title": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png"
+          },
+          {
+            "title": "Organize suas contas",
+            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png"
+          },
+          {
+            "title": "Conheça melhor seu negócio",
+            "description": "Do prato mais vendido ao lucro em cada prato. A linked oferece relatórios diversos.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/71ad122c-25b1-414d-9b23-df2bd8789b20/3734fee09295cc5075d7beeff6aeebba.png"
+          }
+        ]
+      },
+      "title": "Diferenciais"
+    }
+  ]
+}

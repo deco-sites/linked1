@@ -77,17 +77,17 @@ export default function TestimonySection({
 }: Props) {
     return (
         <section className="bg-mintCream">
-            <div className="px-4 pb-[32px] md:py-[120px]">
+            <div className="px-4 md:px-10 pb-[32px] md:py-[120px]">
                 <div className="py-[32px] text-start md:text-center">
                     <h3 className="text-base font-sans font-normal text-sacramentoState">
                         {items[0]?.titleSection}
                     </h3>
                 </div>
                 <div className="overflow-x-scroll scrollbar-hide swiper-container">
-                    <div className="swiper-wrapper inline-flex gap-x-[28px]">
+                    <div className="swiper-wrapper inline-flex md:grid md:grid-cols-3 gap-x-[28px]">
                         {items.map((item, index) => (
                             <div
-                                className={`swiper-slide w-full max-w-[343px] flex-none md:flex md:flex-auto ${
+                                className={`swiper-slide w-full max-w-[309px] md:max-w-none flex-none md:flex md:flex-auto ${
                                     index >= 3 ? "block md:hidden" : ""
                                 }`}
                                 key={index}
@@ -100,7 +100,7 @@ export default function TestimonySection({
                                                 alt={item.image}
                                                 width={309}
                                                 height={224}
-                                                className="w-full h-full object-cover"
+                                                className="!w-full !h-full object-cover"
                                             />
                                         )}
                                         <div className="py-4 w-full max-w-[309px]">

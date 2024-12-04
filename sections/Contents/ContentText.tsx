@@ -69,7 +69,7 @@ export default function Section({ content }: Props) {
     return (
         <section className="bg-white md:bg-sacramentoState-10">
             <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-                <div className="md:bg-white md:w-full md:max-w-[500px]">
+                <div className="md:bg-white md:w-full md:max-w-[706px]">
                     <div className="pb-20">
                         {content.image && (
                             <div>
@@ -80,7 +80,7 @@ export default function Section({ content }: Props) {
                                     className="w-full"
                                 />
                                 {content.descriptionImage && (
-                                    <div className="px-4 py-4">
+                                    <div className="px-4 md:px-10 py-4">
                                         <p className="text-sm font-sans font-normal text-gray-700">
                                             {content.descriptionImage}
                                         </p>
@@ -89,7 +89,7 @@ export default function Section({ content }: Props) {
                             </div>
                         )}
 
-                        <div className="px-4">
+                        <div className="px-4 md:px-10">
                             {content.subTopic?.map((subTopic, index) => (
                                 <div key={index} className="mb-6">
                                     {subTopic.descriptionTopic && (

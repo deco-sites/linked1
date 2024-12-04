@@ -97,7 +97,7 @@ export default function IntegrationsSection({
     return (
         <section className="bg-white md:bg-sacramentoState-10">
             <div className="md:pt-4 md:pb-[64px] md:flex md:justify-center">
-                <div className="md:bg-white md:w-full md:max-w-[500px]">
+                <div className="md:bg-white md:w-full md:max-w-[706px]">
                     <div className="px-4 md:px-10 md:pt-[45px] pb-[27px]">
                         {titleSectionText && (
                             <p className="text-gray-600 mb-4">

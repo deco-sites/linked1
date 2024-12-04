@@ -8,7 +8,7 @@ export interface Props {
    */
   number: string;
   description: string;
-  colorTheme: "Primary" | "Secondary" | "White" | "Light"
+  colorTheme: "Primary" | "Secondary" | "White" | "Light" | "Sacramento-State" | "Sacramento-State-10" | "Mint-Cream"
 }
 
 export default function Section({ 

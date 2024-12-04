@@ -57,57 +57,75 @@ export interface Props {
     description: TextSection[];
 }
 
-export default function Section({ 
-    Subtitle, 
+export default function Section({
+    Subtitle,
     ImageWidget,
-    description 
+    description,
 }: Props) {
     return (
-        <section className="px-4">
-            {Subtitle && (
-                <div className="pt-10 pb-10 flex justify-between items-center">
-                    <h1 className="text-base font-medium text-sacramentoState leading-tight-18">
-                        {Subtitle}
-                    </h1>
-                    {ImageWidget && (
-                        <Image
-                            className=""
-                            src={ImageWidget || ""}
-                            alt="Ícone Seta"
-                            width={24}
-                        />
-                    )}
-                </div>
-            )}
+        <section className="bg-white md:bg-sacramentoState-10">
+            <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+                <div className="md:bg-white md:w-full md:max-w-[706px]">
+                    <div className="px-4 md:px-10">
+                        {Subtitle && (
+                            <div className="py-10 flex justify-between items-center">
+                                <h1 className="text-base font-medium text-sacramentoState leading-tight-18">
+                                    {Subtitle}
+                                </h1>
+                                {ImageWidget && (
+                                    <Image
+                                        className=""
+                                        src={ImageWidget || ""}
+                                        alt="Ícone Seta"
+                                        width={24}
+                                    />
+                                )}
+                            </div>
+                        )}
 
-            {description.map((section) => (
-                <div key={section.DescriptionAskSection} className="pb-4">
-                    {section.DescriptionAskSection.map((askSection, askIndex) => (
-                        <div 
-                            key={askIndex} 
-                            className={`flex items-center ${
-                                askIndex !== 0 ? 'pt-4' : ''
-                            } ${
-                                askIndex === section.DescriptionAskSection.length - 1 
-                                    ? 'pb-[39px]' 
-                                    : 'border-b border-sacramentoState-10 pb-4'
-                            }`}
-                        >
-                            {askSection.ImageWidget && (
-                                <Image
-                                    className=""
-                                    src={askSection.ImageWidget || ""}
-                                    alt="Ícone Seta"
-                                    width={24}
-                                />
-                            )}
-                            <h3 className="pl-4 font-sans text-lg font-normal text-sacramentoState leading-tight-21">
-                                {askSection.TitleAsk}
-                            </h3>
-                        </div>
-                    ))}
+                        {description.map((section) => (
+                            <div
+                                key={section.DescriptionAskSection}
+                                className="pb-4"
+                            >
+                                {section.DescriptionAskSection.map((
+                                    askSection,
+                                    askIndex,
+                                ) => (
+                                    <div
+                                        key={askIndex}
+                                        className={`flex items-center ${
+                                            askIndex !== 0 ? "pt-4" : ""
+                                        } ${
+                                            askIndex ===
+                                                    section
+                                                            .DescriptionAskSection
+                                                            .length - 1
+                                                ? "pb-[39px]"
+                                                : "border-b border-sacramentoState-10 pb-4"
+                                        }`}
+                                    >
+                                        <div className="flex gap-x-[10px] cursor-pointer">
+                                            {askSection.ImageWidget && (
+                                                <Image
+                                                    className=""
+                                                    src={askSection
+                                                        .ImageWidget || ""}
+                                                    alt="Ícone Seta"
+                                                    width={24}
+                                                />
+                                            )}
+                                            <h3 className="font-sans text-lg font-normal text-sacramentoState leading-tight-21">
+                                                {askSection.TitleAsk}
+                                            </h3>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
                 </div>
-            ))}
+            </div>
         </section>
     );
 }
