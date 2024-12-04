@@ -16,7 +16,7 @@ export interface Props {
   background: "Primary" | "Secondary" | "White" | "Light";
   collapse: {
     enable: boolean,
-    title: string
+    title?: string
   };
   /**
    * @title Conteúdo
@@ -88,10 +88,12 @@ export default function MultiSection({ sections, background, collapse }: Props) 
       </div>
     );
   } else {
-    <div className={`${setClass(background)} md:py-10`}>
-      {sections?.map((item) => (
-        LoadComponent(item.section)
-      ))}
-    </div>
+    return (
+      <div className={`${setClass(background)} md:py-10`}>
+        {sections?.map((item) => (
+          LoadComponent(item.section)
+        ))}
+      </div>
+    )
   }
 }

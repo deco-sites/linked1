@@ -107,8 +107,7 @@
           }
         ],
         "collapse": {
-          "enable": true,
-          "title": "Opicionais"
+          "enable": false
         }
       }
     }
