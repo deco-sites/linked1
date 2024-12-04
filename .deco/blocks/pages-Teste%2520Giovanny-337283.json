@@ -105,7 +105,11 @@
             },
             "title": "Comparação"
           }
-        ]
+        ],
+        "collapse": {
+          "enable": true,
+          "title": "Opicionais"
+        }
       }
     }
   ],

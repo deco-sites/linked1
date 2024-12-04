@@ -12,12 +12,17 @@ export interface Item {
 }
 
 export interface Props {
-  background: "Primary" | "Secondary" | "White" | "Light";
 
+  background: "Primary" | "Secondary" | "White" | "Light";
+  collapse: {
+    enable: boolean,
+    title: string
+  };
   /**
    * @title Conteúdo
    */
   sections: Item[];
+
 }
 
 // Implemente a seção
@@ -69,12 +74,24 @@ function setClass(value) {
   return;
 }
 
-export default function MultiSection({ sections, background }: Props) {
-  return (
+export default function MultiSection({ sections, background, collapse }: Props) {
+
+  if(collapse.enable) {
+    return (
+      <div tabIndex={0} className="collapse collapse-arrow border-base-300 bg-base-200 border">
+        <div className="collapse-title text-xl font-medium">{ collapse.title }</div>
+        <div className="collapse-content">
+          {sections?.map((item) => (
+            LoadComponent(item.section)
+          ))}
+        </div>
+      </div>
+    );
+  } else {
     <div className={`${setClass(background)} md:py-10`}>
       {sections?.map((item) => (
         LoadComponent(item.section)
       ))}
     </div>
-  );
+  }
 }
