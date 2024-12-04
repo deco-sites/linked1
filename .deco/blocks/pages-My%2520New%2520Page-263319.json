@@ -35,6 +35,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "Passo a Passo - Plano Ideal"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Suporte"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Navigation/Categorias.tsx",
         "tags": [
           {
@@ -191,18 +203,6 @@
         "titleForDesktop": "Soluções para todos os tipos de estabelecimentos",
         "wordBreak": "de estabelecimentos",
         "titleForMobile": "A Linked tem opções para vários tipos de estabelecimento"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/IdealPlan.tsx",
-        "items": [
-          {
-            "title": "Plano Ideal",
-            "titleItem": "Aqui você monta o plano ideal para o seu negócio"
-          }
-        ]
       }
     },
     {
