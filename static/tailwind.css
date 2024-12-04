@@ -2782,9 +2782,6 @@ details.collapse summary::-webkit-details-marker{
 .ml-8{
   margin-left: 2rem;
 }
-.ml-auto{
-  margin-left: auto;
-}
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -2902,6 +2899,9 @@ details.collapse summary::-webkit-details-marker{
 .h-\[232px\]{
   height: 232px;
 }
+.h-\[30px\]{
+  height: 30px;
+}
 .h-\[32px\]{
   height: 32px;
 }
@@ -3001,6 +3001,9 @@ details.collapse summary::-webkit-details-marker{
 .w-\[100px\]{
   width: 100px;
 }
+.w-\[120px\]{
+  width: 120px;
+}
 .w-\[10px\]{
   width: 10px;
 }
@@ -3009,6 +3012,9 @@ details.collapse summary::-webkit-details-marker{
 }
 .w-\[274\.4px\]{
   width: 274.4px;
+}
+.w-\[30px\]{
+  width: 30px;
 }
 .w-\[315px\]{
   width: 315px;
@@ -3186,6 +3192,12 @@ details.collapse summary::-webkit-details-marker{
 }
 .max-w-\[707px\]{
   max-width: 707px;
+}
+.max-w-\[735px\]{
+  max-width: 735px;
+}
+.max-w-\[739px\]{
+  max-width: 739px;
 }
 .max-w-\[80px\]{
   max-width: 80px;
@@ -3845,14 +3857,8 @@ details.collapse summary::-webkit-details-marker{
 .pb-10{
   padding-bottom: 2.5rem;
 }
-.pb-12{
-  padding-bottom: 3rem;
-}
 .pb-2{
   padding-bottom: 0.5rem;
-}
-.pb-2\.5{
-  padding-bottom: 0.625rem;
 }
 .pb-20{
   padding-bottom: 5rem;
@@ -3880,9 +3886,6 @@ details.collapse summary::-webkit-details-marker{
 }
 .pb-\[136px\]{
   padding-bottom: 136px;
-}
-.pb-\[13px\]{
-  padding-bottom: 13px;
 }
 .pb-\[15px\]{
   padding-bottom: 15px;
@@ -3986,9 +3989,6 @@ details.collapse summary::-webkit-details-marker{
 .pr-10{
   padding-right: 2.5rem;
 }
-.pr-12{
-  padding-right: 3rem;
-}
 .pr-2{
   padding-right: 0.5rem;
 }
@@ -4007,23 +4007,11 @@ details.collapse summary::-webkit-details-marker{
 .pr-\[31px\]{
   padding-right: 31px;
 }
-.pr-\[40px\]{
-  padding-right: 40px;
-}
-.pr-\[49px\]{
-  padding-right: 49px;
-}
 .pr-\[56px\]{
   padding-right: 56px;
 }
 .pr-\[59\.5px\]{
   padding-right: 59.5px;
-}
-.pr-\[69px\]{
-  padding-right: 69px;
-}
-.pr-\[75px\]{
-  padding-right: 75px;
 }
 .pr-\[80px\]{
   padding-right: 80px;
@@ -4034,17 +4022,11 @@ details.collapse summary::-webkit-details-marker{
 .pr-\[90px\]{
   padding-right: 90px;
 }
-.pr-\[99px\]{
-  padding-right: 99px;
-}
 .pt-10{
   padding-top: 2.5rem;
 }
 .pt-2{
   padding-top: 0.5rem;
-}
-.pt-2\.5{
-  padding-top: 0.625rem;
 }
 .pt-20{
   padding-top: 5rem;
@@ -4060,9 +4042,6 @@ details.collapse summary::-webkit-details-marker{
 }
 .pt-4{
   padding-top: 1rem;
-}
-.pt-5{
-  padding-top: 1.25rem;
 }
 .pt-6{
   padding-top: 1.5rem;
@@ -4133,9 +4112,6 @@ details.collapse summary::-webkit-details-marker{
 .pt-\[47px\]{
   padding-top: 47px;
 }
-.pt-\[49px\]{
-  padding-top: 49px;
-}
 .pt-\[52px\]{
   padding-top: 52px;
 }
@@ -4147,9 +4123,6 @@ details.collapse summary::-webkit-details-marker{
 }
 .pt-\[61\.6px\]{
   padding-top: 61.6px;
-}
-.pt-\[70px\]{
-  padding-top: 70px;
 }
 .pt-\[74px\]{
   padding-top: 74px;
@@ -4577,6 +4550,9 @@ details.collapse summary::-webkit-details-marker{
   }
 }
 @media (min-width: 768px){
+  .md\:invisible{
+    visibility: hidden;
+  }
   .md\:ml-10{
     margin-left: 2.5rem;
   }
@@ -4589,11 +4565,20 @@ details.collapse summary::-webkit-details-marker{
   .md\:hidden{
     display: none;
   }
+  .md\:h-\[45px\]{
+    height: 45px;
+  }
   .md\:h-\[48px\]{
     height: 48px;
   }
   .md\:h-\[76px\]{
     height: 76px;
+  }
+  .md\:w-\[174px\]{
+    width: 174px;
+  }
+  .md\:w-\[45px\]{
+    width: 45px;
   }
   .md\:w-\[48px\]{
     width: 48px;
@@ -4698,6 +4683,10 @@ details.collapse summary::-webkit-details-marker{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
+  .md\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -4713,6 +4702,9 @@ details.collapse summary::-webkit-details-marker{
   .md\:pb-12{
     padding-bottom: 3rem;
   }
+  .md\:pb-14{
+    padding-bottom: 3.5rem;
+  }
   .md\:pb-\[64px\]{
     padding-bottom: 64px;
   }
@@ -4721,6 +4713,12 @@ details.collapse summary::-webkit-details-marker{
   }
   .md\:pl-10{
     padding-left: 2.5rem;
+  }
+  .md\:pl-2{
+    padding-left: 0.5rem;
+  }
+  .md\:pl-2\.5{
+    padding-left: 0.625rem;
   }
   .md\:pr-0{
     padding-right: 0px;
