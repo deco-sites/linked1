@@ -1,0 +1,28 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "colorTheme": "Primary",
+        "content": "Soluções para todos os tipos de estabelecimentos"
+      },
+      "title": "Texto Principal"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Chips.tsx",
+        "tags": [
+          {
+            "colorTheme": "Primary",
+            "name": "A la carte",
+            "url": "/estabelecimentos/a-la-carte",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+          }
+        ]
+      },
+      "title": "Categorias"
+    }
+  ]
+}

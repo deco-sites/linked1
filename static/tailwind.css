@@ -2914,6 +2914,9 @@ details.collapse summary::-webkit-details-marker{
 .h-\[480px\]{
   height: 480px;
 }
+.h-\[485\.77px\]{
+  height: 485.77px;
+}
 .h-\[535px\]{
   height: 535px;
 }
@@ -3572,7 +3575,7 @@ details.collapse summary::-webkit-details-marker{
 }
 .border-secondary{
   --tw-border-opacity: 1;
-  border-color: rgb(59 237 178 / var(--tw-border-opacity));
+  border-color: var(--fallback-s,oklch(var(--s)/var(--tw-border-opacity)));
 }
 .border-transparent{
   border-color: transparent;
@@ -3625,7 +3628,10 @@ details.collapse summary::-webkit-details-marker{
 }
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(1 37 29 / var(--tw-bg-opacity));
+  background-color: var(--fallback-p,oklch(var(--p)/var(--tw-bg-opacity)));
+}
+.bg-primary\/40{
+  background-color: var(--fallback-p,oklch(var(--p)/0.4));
 }
 .bg-sacramentoState{
   --tw-bg-opacity: 1;
@@ -3636,7 +3642,7 @@ details.collapse summary::-webkit-details-marker{
 }
 .bg-secondary{
   --tw-bg-opacity: 1;
-  background-color: rgb(59 237 178 / var(--tw-bg-opacity));
+  background-color: var(--fallback-s,oklch(var(--s)/var(--tw-bg-opacity)));
 }
 .bg-slate-100{
   --tw-bg-opacity: 1;
@@ -4414,7 +4420,7 @@ details.collapse summary::-webkit-details-marker{
 }
 .text-primary{
   --tw-text-opacity: 1;
-  color: rgb(1 37 29 / var(--tw-text-opacity));
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
 }
 .text-sacramentoState{
   --tw-text-opacity: 1;
@@ -4431,7 +4437,7 @@ details.collapse summary::-webkit-details-marker{
 }
 .text-secondary{
   --tw-text-opacity: 1;
-  color: rgb(59 237 178 / var(--tw-text-opacity));
+  color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
 }
 .text-white{
   --tw-text-opacity: 1;

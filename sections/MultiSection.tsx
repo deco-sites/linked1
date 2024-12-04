@@ -13,15 +13,15 @@ export interface Item {
 
 export interface Props {
 
-  background: "Primary" | "Secondary" | "White" | "Light";
-  collapse: {
-    enable: boolean,
+  background?: "Primary" | "Secondary" | "White" | "Light";
+  collapse?: {
+    enable?: boolean,
     title?: string
   };
   /**
    * @title Conteúdo
    */
-  sections: Item[];
+  sections?: Item[];
 
 }
 
@@ -76,7 +76,7 @@ function setClass(value) {
 
 export default function MultiSection({ sections, background, collapse }: Props) {
 
-  if(collapse.enable) {
+  if(collapse) {
     return (
       <div tabIndex={0} className="collapse collapse-arrow border-base-300 bg-base-200 border">
         <div className="collapse-title text-xl font-medium">{ collapse.title }</div>
