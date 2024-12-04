@@ -34,28 +34,30 @@ export interface Props {
   // iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    // page = "", 
-    // iconShare = "", 
-    title = "", 
-    highlight = "",
-    iconSegment = "", 
-    description = "", 
+export default function Section({
+  // page = "",
+  // iconShare = "",
+  title = "",
+  highlight = "",
+  iconSegment = "",
+  description = "",
 }: Props) {
-
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return parts.map((part, index) => 
-      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    const parts = text.split(new RegExp(`(${highlight})`, "gi"));
+    return parts.map((part, index) =>
+      part.toLowerCase() === highlight.toLowerCase()
+        ? <span key={index} className="text-secondary">{part}</span>
+        : part
     );
   };
 
   return (
-    <section className="pb-10 bg-sacramentoState">
-      <div>
-        {/* <div className="w-full inline-flex">
+    <section className="bg-sacramentoState">
+      <div className="pb-10">
+        {
+          /* <div className="w-full inline-flex">
           <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
@@ -66,8 +68,9 @@ export default function Section({
               />
             )}
           </div>
-        </div> */}
-        <div className="pl-4 pt-5 pb-6">
+        </div> */
+        }
+        <div className="pl-4 pt-5 pb-6 flex flex-col justify-start items-start md:justify-center md:items-center">
           {iconSegment && (
             <Image
               className=""
@@ -75,12 +78,18 @@ export default function Section({
               width={32}
             />
           )}
-          <p className="pt-2.5 pr-[69px] text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
-            {getHighlightedText(title, highlight)}
-          </p>
-          <p className="pt-2.5 pr-[40px] text-lg font-normal font-sans leading-tight-21 text-white-80">
-            {description}
-          </p>
+
+          <div className="pt-2.5 pr-[69px] text-start md:text-center">
+            <p className="text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
+              {getHighlightedText(title, highlight)}
+            </p>
+          </div>
+
+          <div className="pt-2.5 pr-[40px] text-start md:text-center">
+            <p className="text-lg font-normal font-sans leading-tight-21 text-white-80">
+              {description}
+            </p>
+          </div>
         </div>
       </div>
     </section>

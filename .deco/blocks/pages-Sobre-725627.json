@@ -80,54 +80,98 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
-        "SectionTitle": "Não faltam números para comprovar nossa experiência",
-        "results": [
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "sections": [
           {
-            "title": "+1.000",
-            "number": "+1.000",
-            "description": "estabelecimentos de food service atendidos em todo o Brasil"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Não faltam números para comprovar nossa experiência"
+            },
+            "title": "Não faltam números para comprovar nossa experiência"
           },
           {
-            "title": "+3.000",
-            "number": "+3.000",
-            "description": "profissionais utilizando diariamente nossos produtos e soluções"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "+1.000",
+              "description": "estabelecimentos de food service atendidos em todo o Brasil"
+            },
+            "title": "+1.000"
           },
           {
-            "title": "+ 000.000",
-            "number": "+ 000.000",
-            "description": "pedidos passam mensalmente por nossas plataformas"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "+3.000",
+              "description": "profissionais utilizando diariamente nossos produtos e soluções"
+            },
+            "title": "+3.000"
           },
           {
-            "title": "+R$ 0 Bi",
-            "number": "+R$ 0 Bi",
-            "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "+ 000.000",
+              "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
+            },
+            "title": "+ 000.000"
           }
-        ]
+        ],
+        "background": "Secondary"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
-        "SectionTitle": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho",
-        "results": [
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "sections": [
           {
-            "title": "00 dias",
-            "number": "00 dias",
-            "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
+            },
+            "title": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
           },
           {
-            "title": "0x",
-            "number": "0x",
-            "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "00 dias",
+              "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
+            },
+            "title": "00 dias"
           },
           {
-            "title": "00%",
-            "number": "00%",
-            "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "0x",
+              "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
+            },
+            "title": "0x"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "00%",
+              "description": "é o aumento médio do faturamento nos clientes com nosso app de delivery"
+            },
+            "title": "00%"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Primary",
+              "number": "R$ 00M",
+              "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
+            },
+            "title": "R$ 00M"
           }
-        ]
+        ],
+        "background": "White"
       }
     },
     {

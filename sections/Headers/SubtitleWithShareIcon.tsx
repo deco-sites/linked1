@@ -21,7 +21,7 @@ export default function Section({
 
   return (
     <section className="md:hidden bg-sacramentoState">
-      <div className="px-4 pt-6 pb-[60px]">
+      <div className="px-4 pt-6">
         <div className="flex justify-between items-center">
           <p className="text-sm font-sans font-normal leading-tight-15.86 text-white-80">
             {page}

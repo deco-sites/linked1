@@ -439,26 +439,45 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/GrandesNumeros.tsx",
-        "title": "Por quê a Linked?",
-        "results": [
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "Primary",
+        "sections": [
           {
-            "number": "2016",
-            "description": "Desde 2016 ajudando empresas a economizar, vender e lucrar mais.",
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Secondary",
+              "content": "Por quê a Linked?"
+            },
+            "title": "Por quê a Linked?"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Secondary",
+              "number": "2016",
+              "description": "Desde 2016 ajudando empresas a economizar, vender e lucrar mais."
+            },
             "title": "2016"
           },
           {
-            "description": "Mais de 1.000  estabelecimentos em todo o Brasil",
-            "title": "1.000",
-            "number": "1.000"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Secondary",
+              "number": "1.000",
+              "description": "Mais de 1.000  estabelecimentos em todo o Brasil"
+            },
+            "title": "1.000"
           },
           {
-            "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor",
-            "title": "3.000",
-            "number": "3.000"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+              "colorTheme": "Secondary",
+              "number": "3.000",
+              "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor"
+            },
+            "title": "3.000"
           }
-        ],
-        "SectionTitle": "Por quê a Linked?"
+        ]
       }
     },
     {
@@ -574,7 +593,7 @@
               "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
               "colorTheme": "Primary",
               "logo": {},
-              "title": "Del",
+              "title": "Delivery",
               "logos": [
                 {
                   "title": "Delivery much",
@@ -595,6 +614,13 @@
               ]
             },
             "title": "LogoGroup"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+              "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+            },
+            "title": "video"
           },
           {
             "section": {
