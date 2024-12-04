@@ -5,6 +5,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Final/Content/Conection.tsx",
+        "content": "1",
+        "topBackground": "Secondary",
+        "bottomBackground": "White",
+        "circleBackground": "Primary",
+        "colorText": "Secondary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/MultiSection.tsx",
         "background": "White",
         "sections": [
