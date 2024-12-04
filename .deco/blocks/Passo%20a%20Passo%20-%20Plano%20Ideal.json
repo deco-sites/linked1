@@ -1,0 +1,188 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "Secondary",
+        "collapse": {
+          "enable": false
+        },
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Title.tsx",
+              "colorTheme": "Primary",
+              "content": "Aqui você monta o plano ideal para o seu negócio"
+            },
+            "title": "Titulo"
+          }
+        ]
+      },
+      "title": "Chamada"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Conection.tsx",
+        "content": "1",
+        "topBackground": "Secondary",
+        "bottomBackground": "White",
+        "circleBackground": "Primary",
+        "colorText": "Secondary"
+      },
+      "title": "Divisão Passo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "White",
+        "collapse": {},
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Você escolhe o plano"
+            },
+            "title": "Título"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+              "colorTheme": "Light",
+              "content": "Duas opções para seu estabelecimento economizar, vender e lucrar mais."
+            },
+            "title": "Descrição"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Comparison.tsx",
+              "headerLeft": {
+                "title": "Essencial"
+              },
+              "headerRight": {
+                "title": "Total"
+              },
+              "content": [
+                {
+                  "contentLeft": [
+                    {
+                      "title": "Online"
+                    }
+                  ],
+                  "contentRight": [
+                    {
+                      "title": "Online / Offline"
+                    }
+                  ],
+                  "title": " "
+                }
+              ],
+              "footerLeft": {
+                "button": {
+                  "name": " ",
+                  "url": " "
+                }
+              },
+              "footerRight": {
+                "button": {
+                  "name": " ",
+                  "url": " "
+                }
+              }
+            },
+            "title": "Comparativo de Planos"
+          }
+        ]
+      },
+      "title": "Conteúdo Passo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Conection.tsx",
+        "content": "2",
+        "topBackground": "White",
+        "bottomBackground": "Secondary",
+        "circleBackground": "Primary",
+        "colorText": "Secondary"
+      },
+      "title": "Divisão Passo 2"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "Secondary",
+        "collapse": {},
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Você escolhe os opcionais"
+            },
+            "title": "Título"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+              "colorTheme": "Light",
+              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais."
+            },
+            "title": "Descrição"
+          }
+        ]
+      },
+      "title": "Conteúdo Passo 2"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Conection.tsx",
+        "content": "3",
+        "topBackground": "Secondary",
+        "bottomBackground": "White",
+        "circleBackground": "Primary",
+        "colorText": "Secondary"
+      },
+      "title": "Divisão Passo 3"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "White",
+        "collapse": {},
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+              "colorTheme": "Primary",
+              "content": "Por fim, escolhe as integrações"
+            },
+            "title": "Título"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+              "colorTheme": "Light",
+              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais."
+            },
+            "title": "Descrição"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Image.tsx",
+              "type": "Pequena",
+              "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2a68d6d6-2b01-426e-bb54-86fdfe1ad6f4/Frame-187.png",
+              "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2a68d6d6-2b01-426e-bb54-86fdfe1ad6f4/Frame-187.png"
+            },
+            "title": "Imagem de Integrações"
+          }
+        ]
+      },
+      "title": "Conteúdo Passo 3"
+    }
+  ],
+  "collapse": {
+    "enable": false
+  }
+}

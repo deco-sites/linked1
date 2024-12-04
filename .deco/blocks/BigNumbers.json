@@ -1,0 +1,50 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "content": "Linked é especialista em food service",
+        "colorTheme": "Secondary"
+      },
+      "title": "Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "number": "2016",
+        "colorTheme": "Mint-Cream",
+        "description": "Desde 2016 fazendo o melhor pelo food service"
+      },
+      "title": "Ano de Início"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "number": "13",
+        "colorTheme": "Mint-Cream",
+        "description": "Integrações com os principais serviços do mercado"
+      },
+      "title": "Integrações"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "number": "1000",
+        "colorTheme": "Mint-Cream",
+        "description": "Mais de 1.000  estabelecimentos em todo o Brasil"
+      },
+      "title": "Estabelecimentos"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "number": "3000",
+        "colorTheme": "Mint-Cream",
+        "description": "Mais de 3.000 chefs, garçons, contadores e gestores trabalhando melhor"
+      },
+      "title": "Profissionais"
+    }
+  ]
+}

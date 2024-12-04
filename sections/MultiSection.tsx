@@ -76,7 +76,7 @@ function setClass(value) {
 
 export default function MultiSection({ sections, background, collapse }: Props) {
 
-  if(collapse) {
+  if(collapse && collapse.enable) {
     return (
       <div tabIndex={0} className="collapse collapse-arrow border-base-300 bg-base-200 border">
         <div className="collapse-title text-xl font-medium">{ collapse.title }</div>
