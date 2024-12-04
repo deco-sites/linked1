@@ -71,7 +71,8 @@ function setClass(value) {
 
 export default function MultiSection({ sections, background }: Props) {
   return (
-    <div className={`${setClass(background)} md:py-10`}>
+    // adicionar um padding aqui fará com que todos os multisection receba essa alteração, revise antes de fazer a alteração 
+    <div className={`${setClass(background)}`}>
       {sections?.map((item) => (
         LoadComponent(item.section)
       ))}

@@ -3,11 +3,6 @@ import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   /**
-   * @title Ícone do Plano
-   * @description Insira o ícone do plano aqui
-   */
-  iconBack: ImageWidget;
-  /**
    * @title Ícone de Compartilhamento
    * @description Insira o ícone de compartilhamento aqui
    */
@@ -35,38 +30,41 @@ export default function Section({
     logo = "", 
     title = "", 
     titleWithColor = "",
-    iconBack = "", 
     description = "", 
 }: Props) {
 
   return (
     <section className="bg-sacramentoState">
-      <div className="pb-[13px]">
-        <div className="px-4 pt-4 flex items-center justify-between">
-          {iconBack && (
-            <Image
-              className=""
-              src={iconBack || ""}
-              width={24}
-            />
-          )}
-
-          <div className="flex-grow"></div>
-
-          {logo && (
-            <Image
-              className=""
-              src={logo || ""}
-              width={376}
-            />
-          )}
+      <div className="px-4 pt-4 flex items-center justify-between">
+        <div>
+          <svg className="md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M19 12H5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 19L5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p className="text-sm font-sans font-normal leading-tight-15.86 text-white-80 hidden md:block md:invisible">Ambiente seguro</p>
         </div>
-        <p className="pl-4 pt-[49px] text-[32px] text-white font-sans font-normal leading-tight-35 tracking-tight-2">
-          {title} <span className="text-secondary">{titleWithColor}</span>
-        </p>
-        <p className="pl-4 pt-4 pr-[99px] pb-[13px] text-[13.5px] text-white-80 font-sans font-normal leading-tight-15.86">
-          {description}
-        </p>
+
+        {logo && (
+          <Image
+            src={logo || ""}
+            width={20}
+            className="w-[120px] md:w-[174px]"
+          />
+        )}
+
+        <div className="hidden md:block">
+          <p className="text-sm font-sans font-normal leading-tight-15.86 text-white-80">Ambiente seguro</p>
+        </div>
+      </div>
+      <div className="w-full flex md:justify-center">
+          <div className="w-full max-w-[300px] md:max-w-[739px] grid gap-3 p-4 pt-10 md:p-10">
+              <p className="md:text-center text-[32px] text-white font-sans font-normal leading-tight-35 tracking-tight-2">
+                {title} <span className="text-secondary">{titleWithColor}</span>
+              </p>
+              <p className="md:text-center text-[13.5px] text-white-80 font-sans font-normal leading-tight-15.86">
+                {description}
+              </p>
+          </div>
       </div>
     </section>
   );
