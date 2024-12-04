@@ -183,7 +183,8 @@
         "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
         "title": "Tudo certo!",
         "titleWithColor": "Tudo certo!",
-        "subtitle": "Solicitação realizada com sucesso, Júlio. Em breve a cotação será enviada para seu telefone e e-mail."
+        "subtitle": "Solicitação realizada com sucesso, Júlio. Em breve a cotação será enviada para seu telefone e e-mail.",
+        "highlight": "Tudo certo!"
       }
     }
   ],

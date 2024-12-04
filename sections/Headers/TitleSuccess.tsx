@@ -33,8 +33,8 @@ export default function Section({
   };
 
   return (
-    <section className="bg-sacramentoState">
-      <div className="w-full max-w-[739px] text-center p-4 py-10 md:p-10 pt-20">
+    <section className="bg-sacramentoState flex justify-center">
+      <div className="w-full max-w-[739px] text-center grid gap-3 p-4 py-10 md:p-10 md:pt-20">
         <p className="text-white text-[28px] font-sans font-normal leading-tight-32 tracking-tight-2">
         {getHighlightedText(title, highlight)}
         </p>

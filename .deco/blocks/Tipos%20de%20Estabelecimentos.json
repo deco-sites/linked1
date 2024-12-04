@@ -6,7 +6,8 @@
       "section": {
         "__resolveType": "site/sections/Final/Content/Title.tsx",
         "colorTheme": "Primary",
-        "content": "Soluções para todos os tipos de estabelecimentos"
+        "content": "Soluções para todos os tipos de estabelecimentos",
+        "align": "center"
       },
       "title": "Texto Principal"
     },

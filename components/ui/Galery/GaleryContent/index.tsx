@@ -21,7 +21,7 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
                     <p className="pt-[22.8px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
                       {item.title}
                     </p>
-                    <div className="flex justify-center py-[26px] px-0 h-[485.77px] relative">
+                    <div className="flex justify-center my-[26px] px-0 h-[485.77px] relative">
                       <Image className="absolute w-full h-full object-cover rounded-2xl" src={item.image || ""} width={315} />
                       <div className="absolute w-full h-full bg-primary/40"></div>
                     </div>

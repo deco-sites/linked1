@@ -8,14 +8,20 @@ export interface Props {
    */
   content: string;
   colorTheme: "Primary" | "Secondary" | "White" | "Light"
+  /**
+   * @title Alinhamento
+   * @description Selecione o tipo de alinhamento que deseja
+   */
+  align: "left" | "center" | "right" | "justify"
 }
 
 export default function Section({ 
   content, 
-  colorTheme
+  colorTheme,
+  align
 }: Props) {
 
   return (
-    <Title content={content} colorTheme={colorTheme}  />
+    <Title content={content} colorTheme={colorTheme} align={align} />
   );
 }
