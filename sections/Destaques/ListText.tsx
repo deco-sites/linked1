@@ -93,8 +93,8 @@ export default function Section({
   return (
     <section className="bg-white md:bg-sacramentoState-10">
       <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-        <div className="md:bg-white md:w-full md:max-w-[500px]">
-          <div className="px-4 text-center">
+        <div className="md:bg-white md:w-full md:max-w-[706px]">
+          <div className="px-4 md:px-10 text-center">
             <div
               className={`pt-6 ${
                 videoWidget && !sectionDescription ? "pb-[42px]" : "pb-0"

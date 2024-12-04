@@ -40,7 +40,7 @@ export default function Section({
     return (
         <section className="bg-white md:bg-sacramentoState-10">
             <div className="md:py-[64px] md:flex md:justify-center">
-                <div className="md:bg-white md:w-full md:max-w-[500px]">
+                <div className="md:bg-white md:w-full md:max-w-[706px]">
                     {image && (
                         <div className="">
                             <Image

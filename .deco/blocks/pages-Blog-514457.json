@@ -54,29 +54,53 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Destaques/NewsCard.tsx",
-        "items": [
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "White",
+        "sections": [
           {
-            "title": "Equipamentos",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/04d3ef4a-40f1-4149-a349-7f8be2438293/food_on_table.png",
-            "description": "Restaurantes com cardápios enxutos lucram mais ",
-            "button": "Equipamentos"
-          },
-          {
-            "title": "Pratos",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-            "button": "Cardápio",
-            "description": "Dicas para melhorar a apresentação dos seus pratos"
-          },
-          {
-            "button": "Eventos",
-            "title": "Eventos",
-            "description": "5 motivos para participar da Restaurante Week",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png"
+            "section": {
+              "__resolveType": "site/sections/Final/Content/CardMedium.tsx",
+              "items": [
+                {
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
+                  "title": "Equipamentos",
+                  "button": "Equipamentos",
+                  "description": "Restaurantes com cardápios enxutos lucram mais "
+                },
+                {
+                  "title": "Cardápio",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+                  "button": "Cardápio",
+                  "description": "Dicas para melhorar a apresentação dos seus pratos"
+                },
+                {
+                  "title": "Eventos",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
+                  "button": "Eventos",
+                  "description": "5 motivos para participar da Restaurante Week"
+                },
+                {
+                  "title": "Cardápio",
+                  "button": "Cardápio",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+                  "description": "Dicas para melhorar a apresentação dos seus pratos"
+                },
+                {
+                  "title": "Eventos",
+                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
+                  "description": "5 motivos para participar da Restaurante Week",
+                  "button": "Eventos"
+                }
+              ],
+              "colorTheme": "Sacramento-State",
+              "buttonMore": "Carregar mais",
+              "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/237a659e-8bac-47a9-8c90-4331dd76e677/arrow_down_button_blog.svg",
+              "colorTheme2": "Mint-Cream",
+              "colorThemeButton": "Mint-Cream"
+            },
+            "title": "Conteúdo"
           }
-        ],
-        "buttonMore": "Carregar mais",
-        "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/237a659e-8bac-47a9-8c90-4331dd76e677/arrow_down_button_blog.svg"
+        ]
       }
     },
     {

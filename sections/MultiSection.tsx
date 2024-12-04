@@ -12,8 +12,8 @@ export interface Item {
 }
 
 export interface Props {
+  background: "Primary" | "Secondary" | "White" | "Light" | "Sacramento-State" | "Sacramento-State-10" | "Mint-Cream";
 
-  background?: "Primary" | "Secondary" | "White" | "Light";
   collapse?: {
     enable?: boolean,
     title?: string

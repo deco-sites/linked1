@@ -85,7 +85,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "content": "Não faltam números para comprovar nossa experiência"
             },
             "title": "Não faltam números para comprovar nossa experiência"
@@ -93,7 +93,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "+1.000",
               "description": "estabelecimentos de food service atendidos em todo o Brasil"
             },
@@ -102,7 +102,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "+3.000",
               "description": "profissionais utilizando diariamente nossos produtos e soluções"
             },
@@ -111,14 +111,14 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "+ 000.000",
               "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
             },
             "title": "+ 000.000"
           }
         ],
-        "background": "Secondary"
+        "background": "Mint-Cream"
       }
     },
     {
@@ -129,7 +129,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "content": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
             },
             "title": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
@@ -137,7 +137,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "00 dias",
               "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
             },
@@ -146,7 +146,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "0x",
               "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
             },
@@ -155,7 +155,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "00%",
               "description": "é o aumento médio do faturamento nos clientes com nosso app de delivery"
             },
@@ -164,7 +164,7 @@
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Primary",
+              "colorTheme": "Sacramento-State",
               "number": "R$ 00M",
               "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
             },

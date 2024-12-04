@@ -58,8 +58,8 @@ export default function Section({
     return (
         <section className="bg-mintCream md:bg-sacramentoState-10">
             <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-                <div className="md:bg-mintCream md:w-full md:max-w-[500px]">
-                    <div className="px-4">
+                <div className="md:bg-mintCream md:w-full md:max-w-[706px]">
+                    <div className="px-4 md:px-10">
                         {subtitleSection && (
                             <div className="pb-4 pt-20 w-full max-w-[317px]">
                                 <h2 className="text-lg font-sans font-normal text-sacramentoState">
@@ -94,7 +94,7 @@ export default function Section({
                                 {content.map((item, index) => (
                                     <div
                                         key={index}
-                                        className="w-full max-w-[317px]"
+                                        className="w-full max-w-[317px] md:max-w-none"
                                     >
                                         <p className="text-[22px] font-sans font-semibold leading-tight-25 tracking-tight-0.44 text-sacramentoState">
                                             {item.sectionContentText}

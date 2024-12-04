@@ -69,8 +69,8 @@ export default function Section({
     return (
         <section className="bg-white md:bg-sacramentoState-10">
             <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-                <div className="md:bg-white md:w-full md:max-w-[500px]">
-                    <div className="px-4">
+                <div className="md:bg-white md:w-full md:max-w-[706px]">
+                    <div className="px-4 md:px-10">
                         {sectionContentSubtitle && (
                             <div className="pb-4 pt-20 w-full max-w-[275px]">
                                 <h2 className="text-[22px] font-sans font-semibold leading-tight-25 tracking-tight-0.44 text-sacramentoState">

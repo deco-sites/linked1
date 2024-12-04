@@ -47,13 +47,13 @@ export default function TestimonySection({
         <section className="bg-white md:bg-sacramentoState-10">
             <div className="md:pt-[64px] md:flex md:justify-center">
                 <div className="md:bg-white">
-                    <div className="px-4 md:px-10 pt-[45px] mb-[68px] md:w-full md:max-w-[500px]">
+                    <div className="px-4 md:px-10 pt-[45px] mb-[68px] md:w-full md:max-w-[706px]">
                         {items.map((item, index) => (
                             <div
                                 key={index}
                                 className="pb-10 flex flex-col border-b border-sacramentoState-10"
                             >
-                                <div className="pb-10 w-full max-w-[309px] text-start">
+                                <div className="pb-10 w-full max-w-[309px] md:max-w-none text-start">
                                     <h3 className="text-base font-sans font-normal text-sacramentoState">
                                         {item.titleSection}
                                     </h3>
@@ -66,7 +66,7 @@ export default function TestimonySection({
                                                 item.title}
                                             width={420}
                                             height={224}
-                                            className=""
+                                            className="md:!w-full"
                                         />
                                     )
                                     : null}
