@@ -26,7 +26,13 @@ export interface Props {
 export default function Section({
   content,
   colorTheme,
-  textAlignment
+  textAlignment,
 }: Props) {
-  return <TitleMedium content={content} colorTheme={colorTheme} alignment={textAlignment} />;
+  return (
+    <TitleMedium
+      content={content}
+      colorTheme={colorTheme}
+      alignment={textAlignment}
+    />
+  );
 }

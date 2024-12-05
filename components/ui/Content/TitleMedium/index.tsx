@@ -51,7 +51,9 @@ function TitleMedium(
       <div className="w-full flex justify-center">
         <div className="w-full max-w-[706px] p-4 pt-10 md:px-0 md:py-8">
           <p
-            className={`font-sans text-2xl md:text-3xl font-medium leading-tight-18 ${setClass(colorTheme)} ${setAlignment(alignment)}`}
+            className={`font-sans text-2xl md:text-3xl font-medium leading-tight-18 ${
+              setClass(colorTheme)
+            } ${setAlignment(alignment)}`}
           >
             {content}
           </p>
