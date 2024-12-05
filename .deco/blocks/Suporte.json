@@ -26,17 +26,23 @@
             "title": "Atendimento 24x7",
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg",
             "textSectionDescription": "Atendimento 24x7",
-            "background": "Primary"
+            "background": "Primary",
+            "icon": "User",
+            "iconColor": "Accent"
           },
           {
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
             "title": "Treinamentos ilimitados",
-            "background": "Primary"
+            "background": "Primary",
+            "icon": "Tiktok",
+            "iconColor": "Accent"
           },
           {
             "background": "Primary",
             "title": "Configuração e montagem do 1º cardápio",
-            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg"
+            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg",
+            "icon": "Tiktok",
+            "iconColor": "Accent"
           }
         ],
         "background": "Primary",
