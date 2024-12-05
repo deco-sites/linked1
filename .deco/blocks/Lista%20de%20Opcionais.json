@@ -1,0 +1,62 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Product.tsx",
+        "button": {
+          "name": "Ver Detalhes",
+          "url": "/opcionais/link-de-pagamentos"
+        },
+        "colorTheme": "Primary",
+        "title": "Link de pagamentos",
+        "description": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você.",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+      },
+      "title": "Link de Pagamento"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Product.tsx",
+        "button": {
+          "name": "Ver Detalhes",
+          "url": "/opcionais/monitor-de-pedidos-kds"
+        },
+        "colorTheme": "Primary",
+        "title": "Monitor de pedidos KDS",
+        "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+      },
+      "title": "Monitor de pedidos KDS"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Product.tsx",
+        "button": {
+          "name": "Ver Detalhes",
+          "url": "/opcionais/app-delivery"
+        },
+        "colorTheme": "Primary",
+        "title": "App Delivery",
+        "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+      },
+      "title": "App Delivery"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Product.tsx",
+        "button": {
+          "name": "Ver Detalhes",
+          "url": "/opcionais/inteligencia-de-dados"
+        },
+        "colorTheme": "Primary",
+        "title": "Inteligência de dados ",
+        "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+      },
+      "title": "Inteligência de dados "
+    }
+  ]
+}
