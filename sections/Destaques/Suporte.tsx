@@ -164,7 +164,7 @@ export default function Section({
             return (
               <div
                 key={index}
-                className={`${isOddSet && isLastItem ? "col-span-2" : "" // No último item ímpar, ocupa 2 colunas
+                className={`${isOddSet && isLastItem ? "col-span-2 md:col-span-1" : "" // No último item ímpar, ocupa 2 colunas
                 }`}
               >
                 <IconGroupComponent

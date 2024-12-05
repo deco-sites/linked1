@@ -42,7 +42,7 @@ function Title(
       <div className="w-full flex justify-center">
         <div className="w-full max-w-[706px] px-4 pb-4 pt-10 md:px-0 md:py-8">
           <p
-            className={`text-3xl md:text-5xl font-semibold pr-[56px] md:pr-0 ${setColor(color)} ${setAlignment(alignment)}`}
+            className={`text-3xl md:text-5xl font-medium pr-[56px] md:pr-0 ${setColor(color)} ${setAlignment(alignment)}`}
           >
             {content}
           </p>
