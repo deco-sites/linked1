@@ -21,5 +21,11 @@ export default function Section({
   colorTheme,
   textAlignment,
 }: Props) {
-  return <Paragraph content={content} colorTheme={colorTheme} alignment={textAlignment}/>;
+  return (
+    <Paragraph
+      content={content}
+      colorTheme={colorTheme}
+      alignment={textAlignment}
+    />
+  );
 }

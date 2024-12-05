@@ -43,7 +43,9 @@ function Paragraph(
       <div className="w-full flex justify-center">
         <div className="w-full max-w-[706px] p-4 md:px-0 md:py-8">
           <p
-            className={`font-sans text-base font-normal leading-tight-18 ${setClass(colorTheme)} ${setAlignment(alignment)}`}
+            className={`font-sans text-base font-normal leading-tight-18 ${
+              setClass(colorTheme)
+            } ${setAlignment(alignment)}`}
           >
             {content}
           </p>
@@ -52,4 +54,3 @@ function Paragraph(
     </>
   );
 }
-
