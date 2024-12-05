@@ -1,5 +1,5 @@
-import React from 'react';
-import Title from '../../../components/ui/Content/Title/index.tsx';
+import React from "react";
+import Title from "../../../components/ui/Content/Title/index.tsx";
 
 export interface Props {
   /**
@@ -7,21 +7,21 @@ export interface Props {
    * @description Escreva aqui o seu conteúdo
    */
   content: string;
-  colorTheme: "Primary" | "Secondary" | "White" | "Light"
   /**
    * @title Alinhamento
-   * @description Selecione o tipo de alinhamento que deseja
+   * @format button-group
+   * @options site/loaders/icons.ts
    */
-  align: "left" | "center" | "right" | "justify"
+  textAlignment?: "Left" | "Center" | "Right";
+  colorTheme: "Primary" | "Secondary" | "White" | "Accent";
 }
 
-export default function Section({ 
-  content, 
+export default function Section({
+  content,
+  textAlignment,
   colorTheme,
-  align
 }: Props) {
-
   return (
-    <Title content={content} colorTheme={colorTheme} align={align} />
+    <Title content={content} color={colorTheme} alignment={textAlignment} />
   );
 }

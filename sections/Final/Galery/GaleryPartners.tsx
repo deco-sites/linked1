@@ -20,7 +20,7 @@ export interface Item {
    * @description Escolha a imagem do item
    */
   image: ImageWidget;
-};
+}
 
 export interface Props {
   /**
@@ -30,11 +30,8 @@ export interface Props {
   items: Item[];
 }
 
-export default function Section({ 
-  items = []
+export default function Section({
+  items = [],
 }: Props) {
-
-  return (
-    <GaleryPartners items={items} />
-  );
+  return <GaleryPartners items={items} />;
 }

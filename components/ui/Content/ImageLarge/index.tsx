@@ -1,8 +1,10 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "./script.tsx";
+
 import Image from "apps/website/components/Image.tsx";
 
-function ImageLarge({ imageDesktop, imageMobile }: JSX.IntrinsicElements["div"] & Props) {
+function ImageLarge(
+  { imageDesktop, imageMobile }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div>
@@ -19,7 +21,6 @@ function ImageLarge({ imageDesktop, imageMobile }: JSX.IntrinsicElements["div"] 
           />
         </div>
       </div>
-      <Script />
     </>
   );
 }

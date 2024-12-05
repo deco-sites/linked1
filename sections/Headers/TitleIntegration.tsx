@@ -12,7 +12,7 @@ export interface Props {
    * @description Escreva o título
    */
   title: string;
-    /**
+  /**
    * @title Título com Cor
    * @description Escreva o título com cor
    */
@@ -22,7 +22,7 @@ export interface Props {
    * @description Escreva um pouco sobre a integração
    */
   description: string;
-    /**
+  /**
    * @title Descrição Curta
    * @description Escreva um pouco sobre a integração
    */
@@ -44,21 +44,21 @@ export interface Props {
   // iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    // page = "", 
-    // iconShare = "", 
-    title = "", 
-    titleWithColor = "",
-    integrationLogo = "", 
-    linkedLogo = "", 
-    description = "", 
-    secondDescription = ""
+export default function Section({
+  // page = "",
+  // iconShare = "",
+  title = "",
+  titleWithColor = "",
+  integrationLogo = "",
+  linkedLogo = "",
+  description = "",
+  secondDescription = "",
 }: Props) {
-
   return (
     <section className="bg-sacramentoState flex justify-center">
       <div className="grid gap-3 md:text-center w-full max-w-[739px] px-4 pb-6 pt-8 md:py-12 md:px-10">
-        {/* <div className="w-full inline-flex">
+        {
+          /* <div className="w-full inline-flex">
           <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
@@ -69,7 +69,8 @@ export default function Section({
               />
             )}
           </div>
-        </div> */}
+        </div> */
+        }
         <div className="flex md:justify-center md:pl-2.5">
           {integrationLogo && (
             <Image

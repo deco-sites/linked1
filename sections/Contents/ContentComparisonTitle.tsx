@@ -5,9 +5,7 @@ import Image from "apps/website/components/Image.tsx";
  * @title {{{title}}}
  */
 
-
 export interface ContentHeader {
-
   /**
    * @title Título do Bloco
    * @description Escreva o título do bloco
@@ -40,20 +38,18 @@ export interface ContentHeader {
 }
 
 export interface Body {
-    
-    /**
-     * @title Título do Bloco
-     * @description Escreva o título do bloco
-     */
-    title: string;
-  
-    /**
-     * @title Nome do Recurso
-     */
-    sectionTitle?: string;
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
+
+  /**
+   * @title Nome do Recurso
+   */
+  sectionTitle?: string;
 }
 export interface ContentBody {
-    
   /**
    * @title Título do Bloco
    * @description Escreva o título do bloco
@@ -74,14 +70,12 @@ export interface ContentBody {
    * @description Escreva aqui a descrição para a Coluna 2
    */
   resourceDescriptionColumnTwo?: Body[];
-
 }
 /**
  * @title {{{title}}}
  */
 
 export interface Content {
-
   /**
    * @title Descrição Coluna 1 header
    * @description Escreva aqui a descrição para a Coluna 1 Header
@@ -105,11 +99,10 @@ export interface Props {
    * @title Items
    * @description Configure cada item do Galery
    */
-    content?: Content[];
-
+  content?: Content[];
 }
 
-export default function Section({ 
+export default function Section({
   content = [],
 }: Props) {
   return (
@@ -134,165 +127,197 @@ export default function Section({
     //     </div>
     // </div>
     <section className="">
-        <div className="relative">
-            <div className="px-4 pt-[47px] pb-[64px] flex justify-center items-center gap-6">
-                {content.map((item, index) => (
-                    <div
-                        key={index}
-                        className={`grid gap-[64px]`}
-                    >
-                        <div className="grid grid-cols-2 gap-6">
-                            {Array.isArray(item.resourceHeaderDescriptionColumOne) && (
-                                <div className="">
-                                {item.resourceHeaderDescriptionColumOne.map((header, idx) => (
-                                  <div key={idx} className="grid gap-8">
-                                    <div className="flex gap-2 items-center">
-                                        {header.icon && (
-                                            <Image
-                                                src={header.icon}
-                                                alt={header.icon || "Ícone Plano"}
-                                                width={32}
-                                                height={32}
-                                                className="w-8 h-8"
-                                            />
-                                        )}
-                                        {header.planTitle && (
-                                            <h4 className="text-lg font-semibold text-sacramentoState">{header.planTitle}</h4>
-                                        )}
-                                    </div>
-                                    <hr />
-                                    {header.planDescription && (
-                                        <p className="text-base font-light text-sacramentoState-80">{header.planDescription}</p>
-                                    )}
-                                    {header.planPrice && (
-                                        <p className="text-base font-bold text-sacramentoState">{header.planPrice}</p>
-                                    )}
-                                    {header.buttonDetails && (
-                                    <button className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState">
-                                        {header.buttonDetails}
-                                    </button>
-                                    )}
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-                            {Array.isArray(item.resourceHeaderDescriptionColumTwo) && (
-                                <div className="">
-                                {item.resourceHeaderDescriptionColumTwo.map((header, idx) => (
-                                  <div key={idx} className="grid gap-8">
-                                    <div className="flex gap-2 items-center">
-                                        {header.icon && (
-                                            <Image
-                                                src={header.icon}
-                                                alt={header.icon || "Ícone Plano"}
-                                                width={32}
-                                                height={32}
-                                                className="w-8 h-8"
-                                            />
-                                        )}
-                                        {header.planTitle && (
-                                            <h4 className="text-lg font-semibold text-sacramentoState">{header.planTitle}</h4>
-                                        )}
-                                    </div>
-                                    <hr />
-                                    {header.planDescription && (
-                                        <p className="text-base font-light text-sacramentoState-80">{header.planDescription}</p>
-                                    )}
-                                    {header.planPrice && (
-                                        <p className="text-base font-bold text-sacramentoState">{header.planPrice}</p>
-                                    )}
-                                    {header.buttonDetails && (
-                                    <button className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState">
-                                        {header.buttonDetails}
-                                    </button>
-                                    )}
-                                  </div>
-                                ))}
-                              </div>
-                            )}
+      <div className="relative">
+        <div className="px-4 pt-[47px] pb-[64px] flex justify-center items-center gap-6">
+          {content.map((item, index) => (
+            <div
+              key={index}
+              className={`grid gap-[64px]`}
+            >
+              <div className="grid grid-cols-2 gap-6">
+                {Array.isArray(item.resourceHeaderDescriptionColumOne) && (
+                  <div className="">
+                    {item.resourceHeaderDescriptionColumOne.map((
+                      header,
+                      idx,
+                    ) => (
+                      <div key={idx} className="grid gap-8">
+                        <div className="flex gap-2 items-center">
+                          {header.icon && (
+                            <Image
+                              src={header.icon}
+                              alt={header.icon || "Ícone Plano"}
+                              width={32}
+                              height={32}
+                              className="w-8 h-8"
+                            />
+                          )}
+                          {header.planTitle && (
+                            <h4 className="text-lg font-semibold text-sacramentoState">
+                              {header.planTitle}
+                            </h4>
+                          )}
                         </div>
-                        {/* Content Body Section */}
-                        {Array.isArray(item.resourceContentBody) && item.resourceContentBody.map((body, bodyIndex) => (
-                        <div key={bodyIndex} className="grid grid-cols-2 gap-6">
-                            <h2 className="text-2xl font-bold text-sacramentoState col-span-2 break-all">{body.title}</h2>
-                            <hr className="col-span-2" />
-
-                            {/* Coluna 1 */}
-                            {Array.isArray(body.resourceDescriptionColumOne) && (
-                            <div className="grid gap-4">
-                                {body.resourceDescriptionColumOne.map((columnItem, colIndex) => (
-                                <div key={colIndex} className="">
-                                    <h4 className="text-base font-normal text-sacramentoState break-all">{columnItem.title}</h4>
-                                </div>
-                                ))}
-                            </div>
-                            )}
-
-                            {/* Coluna 2 */}
-                            {Array.isArray(body.resourceDescriptionColumnTwo) && (
-                            <div className="grid gap-4">
-                                {body.resourceDescriptionColumnTwo.map((columnItem, colIndex) => (
-                                <div key={colIndex} className="">
-                                    <h4 className="text-base font-normal text-sacramentoState break-all">{columnItem.title}</h4>
-                                </div>
-                                ))}
-                            </div>
-                            )}
+                        <hr />
+                        {header.planDescription && (
+                          <p className="text-base font-light text-sacramentoState-80">
+                            {header.planDescription}
+                          </p>
+                        )}
+                        {header.planPrice && (
+                          <p className="text-base font-bold text-sacramentoState">
+                            {header.planPrice}
+                          </p>
+                        )}
+                        {header.buttonDetails && (
+                          <button className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState">
+                            {header.buttonDetails}
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {Array.isArray(item.resourceHeaderDescriptionColumTwo) && (
+                  <div className="">
+                    {item.resourceHeaderDescriptionColumTwo.map((
+                      header,
+                      idx,
+                    ) => (
+                      <div key={idx} className="grid gap-8">
+                        <div className="flex gap-2 items-center">
+                          {header.icon && (
+                            <Image
+                              src={header.icon}
+                              alt={header.icon || "Ícone Plano"}
+                              width={32}
+                              height={32}
+                              className="w-8 h-8"
+                            />
+                          )}
+                          {header.planTitle && (
+                            <h4 className="text-lg font-semibold text-sacramentoState">
+                              {header.planTitle}
+                            </h4>
+                          )}
                         </div>
+                        <hr />
+                        {header.planDescription && (
+                          <p className="text-base font-light text-sacramentoState-80">
+                            {header.planDescription}
+                          </p>
+                        )}
+                        {header.planPrice && (
+                          <p className="text-base font-bold text-sacramentoState">
+                            {header.planPrice}
+                          </p>
+                        )}
+                        {header.buttonDetails && (
+                          <button className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState">
+                            {header.buttonDetails}
+                          </button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {/* Content Body Section */}
+              {Array.isArray(item.resourceContentBody) &&
+                item.resourceContentBody.map((body, bodyIndex) => (
+                  <div key={bodyIndex} className="grid grid-cols-2 gap-6">
+                    <h2 className="text-2xl font-bold text-sacramentoState col-span-2 break-all">
+                      {body.title}
+                    </h2>
+                    <hr className="col-span-2" />
+
+                    {/* Coluna 1 */}
+                    {Array.isArray(body.resourceDescriptionColumOne) && (
+                      <div className="grid gap-4">
+                        {body.resourceDescriptionColumOne.map((
+                          columnItem,
+                          colIndex,
+                        ) => (
+                          <div key={colIndex} className="">
+                            <h4 className="text-base font-normal text-sacramentoState break-all">
+                              {columnItem.title}
+                            </h4>
+                          </div>
                         ))}
-                    </div>
-                    // <div key={index} className="text-start">
-                    //     <div className="flex gap-x-2 items-center">
-                    //         {item.icon && (
-                    //             <Image
-                    //                 src={item.icon}
-                    //                 alt={item.icon || "Ícone Plano"}
-                    //                 width={32}
-                    //                 height={32}
-                    //                 className="w-8 h-8"
-                    //             />
-                    //         )}
-                    //         <div className="flex items-center">
-                    //             {item.planTitle && (
-                    //                 <h3 className="font-sans text-lg font-semibold leading-tight-20">
-                    //                     {item.planTitle}
-                    //                 </h3>
-                    //             )}
-                    //         </div>
-                    //     </div>
-                    //     <div className="pt-4 pb-5 absolute left-0 w-full">
-                    //         <div className="border-b border-sacramentoState-10"></div>
-                    //     </div>
-                    //     {item.planDescription && (
-                    //         <div className="mt-10 -w-[160px]">
-                    //             <p className="text-base font-sans font-light text-sacramentoState-80">
-                    //                 {item.planDescription}
-                    //             </p>
-                    //         </div>
-                    //     )}
-                    //     {item.planPrice && (
-                    //         <div className="mt-8 w-[100px] ">
-                    //             <p className="text-base font-sans font-bold text-sacramentoState">
-                    //                 {item.planPrice}
-                    //             </p>
-                    //         </div>
-                    //     )}
-                    //     {item.buttonDetails && (
-                    //         <div className="mt-8 border border-sacramentoState rounded-xl">
-                    //             <a href="" className="w-full">
-                    //                 <div className="py-[13px] md:px-[31px] text-center">
-                    //                     <p className="text-base font-sans font-semibold text-sacramentoState">
-                    //                         {item.buttonDetails}
-                    //                     </p>
-                    //                 </div>
-                    //             </a>
-                    //         </div>
-                    //     )}
-                    // </div>
+                      </div>
+                    )}
+
+                    {/* Coluna 2 */}
+                    {Array.isArray(body.resourceDescriptionColumnTwo) && (
+                      <div className="grid gap-4">
+                        {body.resourceDescriptionColumnTwo.map((
+                          columnItem,
+                          colIndex,
+                        ) => (
+                          <div key={colIndex} className="">
+                            <h4 className="text-base font-normal text-sacramentoState break-all">
+                              {columnItem.title}
+                            </h4>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
             </div>
+            // <div key={index} className="text-start">
+            //     <div className="flex gap-x-2 items-center">
+            //         {item.icon && (
+            //             <Image
+            //                 src={item.icon}
+            //                 alt={item.icon || "Ícone Plano"}
+            //                 width={32}
+            //                 height={32}
+            //                 className="w-8 h-8"
+            //             />
+            //         )}
+            //         <div className="flex items-center">
+            //             {item.planTitle && (
+            //                 <h3 className="font-sans text-lg font-semibold leading-tight-20">
+            //                     {item.planTitle}
+            //                 </h3>
+            //             )}
+            //         </div>
+            //     </div>
+            //     <div className="pt-4 pb-5 absolute left-0 w-full">
+            //         <div className="border-b border-sacramentoState-10"></div>
+            //     </div>
+            //     {item.planDescription && (
+            //         <div className="mt-10 -w-[160px]">
+            //             <p className="text-base font-sans font-light text-sacramentoState-80">
+            //                 {item.planDescription}
+            //             </p>
+            //         </div>
+            //     )}
+            //     {item.planPrice && (
+            //         <div className="mt-8 w-[100px] ">
+            //             <p className="text-base font-sans font-bold text-sacramentoState">
+            //                 {item.planPrice}
+            //             </p>
+            //         </div>
+            //     )}
+            //     {item.buttonDetails && (
+            //         <div className="mt-8 border border-sacramentoState rounded-xl">
+            //             <a href="" className="w-full">
+            //                 <div className="py-[13px] md:px-[31px] text-center">
+            //                     <p className="text-base font-sans font-semibold text-sacramentoState">
+            //                         {item.buttonDetails}
+            //                     </p>
+            //                 </div>
+            //             </a>
+            //         </div>
+            //     )}
+            // </div>
+          ))}
         </div>
-        {/* <div className="px-4">
+      </div>
+      {
+        /* <div className="px-4">
             {content.map((item, index) => (
                 <div
                     key={index}
@@ -369,7 +394,8 @@ export default function Section({
                     </div>
                 </div>
             ))}
-        </div> */}
+        </div> */
+      }
     </section>
   );
 }

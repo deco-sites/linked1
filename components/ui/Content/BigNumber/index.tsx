@@ -1,42 +1,32 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "./script.tsx";
 
 // Implemente a seção
-function setClass(value) {
+function setClass(value: string) {
   switch (value) {
     case "primary":
       return "text-primary";
-      break;
 
     case "Secondary":
       return "text-secondary";
-      break;
 
     case "White":
       return "text-white";
-      break;
 
-    case "Light":
-      return "text-light";
-      break;
+    case "Accent":
+      return "text-accent";
 
     case "Sacramento-State":
       return "text-sacramentoState";
-      break;
 
     case "Sacramento-State-10":
       return "text-sacramentoState-10";
-      break;
 
     case "Mint-Cream":
       return "text-mintCream";
-      break;
 
     default:
       return "text-primary";
-      break;
   }
-  return;
 }
 
 /* Descrição do component
@@ -68,7 +58,6 @@ function BigNumber(
           </p>
         </div>
       </div>
-      {/* <Script /> */}
     </>
   );
 }

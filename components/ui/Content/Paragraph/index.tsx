@@ -1,44 +1,41 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "./script.tsx";
 
 // Implemente a seção
-function setClass(value) {
+function setClass(value: string) {
   switch (value) {
     case "Primary":
-        return 'text-primary'
-        break;
+      return "text-primary";
 
     case "Secondary":
-        return 'text-secondary'
-        break;
+      return "text-secondary";
 
     case "White":
-        return 'text-white'
-        break;
+      return "text-white";
 
-    case "Light":
-        return 'text-light'
-        break;
-  
+    case "Accent":
+      return "text-accent";
+
     default:
-        return 'text-primary'
-        break;
-
+      return "text-primary";
   }
-  return;
 }
 
-function Paragraph({ content, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
+function Paragraph(
+  { content, colorTheme }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div className="w-full flex justify-center">
         <div className="w-full max-w-[706px] p-4 md:px-0 md:py-8">
-          <p className={`font-sans text-base font-normal leading-tight-18 ${setClass(colorTheme)}`}>
-              {content}
+          <p
+            className={`font-sans text-base font-normal leading-tight-18 ${
+              setClass(colorTheme)
+            }`}
+          >
+            {content}
           </p>
         </div>
       </div>
-      {/* <Script /> */}
     </>
   );
 }

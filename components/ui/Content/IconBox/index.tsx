@@ -1,83 +1,82 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "./script.tsx";
-import Image from "apps/website/components/Image.tsx";
 
-function setClass(value) {
+import Icon from "../../../../components/ui/Icon.tsx";
+
+function setClass(value: string) {
   switch (value) {
     case "Primary":
-        return 'bg-primary'
-        break;
+      return "bg-primary";
 
     case "Secondary":
-        return 'bg-secondary'
-        break;
+      return "bg-secondary";
 
     case "White":
-        return 'bg-white'
-        break;
+      return "bg-white";
 
     case "Light":
-        return 'bg-light'
-        break;
-  
-    default:
-        return 'bg-primary'
-        break;
+      return "bg-light";
 
+    default:
+      return "bg-primary";
   }
 }
 
 // Implemente a seção
-function setClassSubTitle(value) {
+function setClassColor(value) {
   switch (value) {
     case "Primary":
-        return 'text-white'
-        break;
+      return "text-primary";
 
     case "Secondary":
-        return 'text-primary'
-        break;
+      return "text-secondary";
 
     case "White":
-        return 'text-primary'
-        break;
+      return "text-white";
 
-    case "Light":
-        return 'text-primary'
-        break;
-  
+    case "Accent":
+      return "text-accent";
+
     default:
-        return 'text-primary'
-        break;
-
+      return "text-primary";
   }
 }
 
-function IconBox({ 
+function IconBox({
   icon,
   title,
   background,
-  backgroundIcon
+  backgroundIcon,
+  color,
 }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <div className={`flex flex-col items-center justify-center gap-2 py-3 px-4 h-full min-h-[170px] ${setClass(background)}`}
+      <div
+        className={`flex flex-col items-center justify-center gap-2 py-3 px-4 h-full min-h-[170px] ${
+          setClass(background)
+        }`}
       >
-        <div className={`flex justify-center items-center h-[64px] w-[64px] md:h-[76px] md:w-[76px] rounded-full ${setClass(backgroundIcon)}`}>
+        <div
+          className={`flex justify-center items-center h-[64px] w-[64px] md:h-[76px] md:w-[76px] rounded-full ${
+            setClass(backgroundIcon)
+          }`}
+        >
           {icon && (
-              <Image
-              src={icon}
-              alt="Ícone do Bloco"
-              width={48}
-              className="w-[32px] h-[32px] md:w-[48px] md:h-[48px]"
-              />
+            <Icon
+              id={icon}
+              size={40}
+              strokeWidth={2}
+              class={`${setClassColor(color)}`}
+            />
           )}
         </div>
-          <p className={`text-[13.5px] md:text-base ${ setClassSubTitle(background) } leading-tight font-normal text-center`}>
-              {title}
-          </p>
+        <p
+          className={`text-[13.5px] md:text-base ${
+            setClassColor(color)
+          } leading-tight font-normal text-center`}
+        >
+          {title}
+        </p>
       </div>
-      <Script />
     </>
   );
 }

@@ -10,22 +10,22 @@ export interface Tag {
    * @description Escreva o título do bloco
    */
   title: string;
-    /**
-     * @title Nome
-     * @description Escreva aqui o nome da categoria
-     */
-    name: string;
-    /**
-     * @title Destino
-     * @description Insira a url ou o caminho de destino
-     */
-    url: string;
-    /**
-     * @title Ícone
-     * @description Escolha a o ícone da categoria
-     */
-    icon: ImageWidget;
-};
+  /**
+   * @title Nome
+   * @description Escreva aqui o nome da categoria
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a url ou o caminho de destino
+   */
+  url: string;
+  /**
+   * @title Ícone
+   * @description Escolha a o ícone da categoria
+   */
+  icon: ImageWidget;
+}
 
 export interface Props {
   /**
@@ -37,7 +37,7 @@ export interface Props {
    * @title Título para Desktop
    * @description Digite aqui o título do bloco
    */
-  titleForDesktop?: string; 
+  titleForDesktop?: string;
   /**
    * @title Categorias
    * @description Insira as categorias desejadas
@@ -45,12 +45,11 @@ export interface Props {
   tags?: Tag[];
 }
 
-export default function Section({ 
-    titleForMobile = '',
-    titleForDesktop = '',
-    tags = []
+export default function Section({
+  titleForMobile = "",
+  titleForDesktop = "",
+  tags = [],
 }: Props) {
-
   return (
     <section className="grid gap-8 lg:gap-20 pb-[65px] bg-white">
       <div>
@@ -62,19 +61,25 @@ export default function Section({
         <p className="pt-[144px] px-[240px] hidden md:block font-sans text-sacramentoState text-5xl font-medium leading-tight-55 tracking-tight-2 text-center">
           {titleForDesktop}
         </p>
-        
+
         <div className="flex justify-start lg:justify-center pl-4 lg:pt-[79px]">
           <div className="flex flex-wrap justify-start lg:justify-center gap-x-[8px] gap-y-[8px] lg:gap-y-[17px] w-full max-w-[350px] lg:max-w-[780px]">
-            {tags?.map(tag => (
-              <div key={tag.name} className="w-fit sm:w-1/2 lg:w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream font-sans font-medium text-primary items-center">
+            {tags?.map((tag) => (
+              <div
+                key={tag.name}
+                className="w-fit sm:w-1/2 lg:w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream font-sans font-medium text-primary items-center"
+              >
                 <div className="inline-flex items-center">
-                  <Image 
-                    className="w-4 h-4" 
-                    src={tag.icon || ""} 
-                    alt={tag.name} 
-                    width={10.67} 
+                  <Image
+                    className="w-4 h-4"
+                    src={tag.icon || ""}
+                    alt={tag.name}
+                    width={10.67}
                   />
-                  <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] font-sans font-medium leading-tight-18">
+                  <a
+                    href={tag.url}
+                    className="text-md md:text-lg pl-2 pr-[1.5px] font-sans font-medium leading-tight-18"
+                  >
                     {tag.name}
                   </a>
                 </div>

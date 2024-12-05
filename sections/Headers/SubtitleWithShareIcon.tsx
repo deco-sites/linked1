@@ -14,11 +14,10 @@ export interface Props {
   iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    page = "", 
-    iconShare = "", 
+export default function Section({
+  page = "",
+  iconShare = "",
 }: Props) {
-
   return (
     <section className="bg-sacramentoState">
       <div className="px-4 md:px-10 pt-6">

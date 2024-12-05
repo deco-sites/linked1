@@ -7,7 +7,7 @@
         "__resolveType": "site/sections/Final/Content/Title.tsx",
         "colorTheme": "Primary",
         "content": "Soluções para todos os tipos de estabelecimentos",
-        "align": "center"
+        "textAlignment": "Center"
       },
       "title": "Texto Principal"
     },

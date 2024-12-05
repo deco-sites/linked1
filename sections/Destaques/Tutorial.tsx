@@ -1,5 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 
 export type Link = {
   /**
@@ -14,7 +13,7 @@ export type Link = {
   url: string;
 };
 
-export type ContentItem ={
+export type ContentItem = {
   image?: ImageWidget;
   /**
    * @title Título
@@ -25,7 +24,7 @@ export type ContentItem ={
   icon?: ImageWidget;
 
   ContentDetails?: ContentDetails[];
-}
+};
 
 export type ContentDetails = {
   Image?: ImageWidget;
@@ -51,9 +50,9 @@ export type Item = {
   title?: string;
 
   /**
-* @subdescription subDescription
-* @description Escreva aqui o subDescriçao do item
-*/
+   * @subdescription subDescription
+   * @description Escreva aqui o subDescriçao do item
+   */
   informationStep?: string;
 
   /**
@@ -63,23 +62,23 @@ export type Item = {
   subTitle?: string;
 
   /**
- * @subdescription subDescription
- * @description Escreva aqui o subDescriçao do item
- */
+   * @subdescription subDescription
+   * @description Escreva aqui o subDescriçao do item
+   */
   subDescription?: string;
 
   contentItem?: ContentItem[];
 
   contentDetails?: ContentDetails[];
-  
+
   button?: Link[];
 };
 
 interface Props {
   /**
- * @title Items
- * @description Tutorial
- */
+   * @title Items
+   * @description Tutorial
+   */
   items?: Item[];
 }
 
@@ -106,9 +105,8 @@ export default function Section({ items }: Props) {
               {detail.formatterIcon?.map((icon, i) => (
                 <img key={i} src={icon} alt={`Icon ${i}`} />
               ))}
-              {detail.contentDescription?.map((desc, i) => (
-                <p key={i}>{desc}</p>
-              ))}
+              {detail.contentDescription?.map((desc, i) => <p key={i}>{desc}
+              </p>)}
             </div>
           ))}
 

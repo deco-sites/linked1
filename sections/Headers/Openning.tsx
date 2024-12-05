@@ -80,9 +80,9 @@ export default function Section({
             {subtitleDescription}
           </p>
           {
-          /*  <p className="hidden md:block text-white-80 font-sans font-normal leading-tight-25">
+            /*  <p className="hidden md:block text-white-80 font-sans font-normal leading-tight-25">
                 {subtitleDesktop}
-              </p> 
+              </p>
             */
           }
         </div>

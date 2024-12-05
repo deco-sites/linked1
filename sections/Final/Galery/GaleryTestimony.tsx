@@ -28,17 +28,15 @@ export interface Item {
 }
 
 export interface Props {
-    /**
-     * @title Items
-     * @description Configure cada item do Galery
-     */
-    items: Item[];
+  /**
+   * @title Items
+   * @description Configure cada item do Galery
+   */
+  items: Item[];
 }
 
-export default function TestimonySection({ 
-  items
+export default function TestimonySection({
+  items,
 }: Props) {
-  return (
-    <GaleryTestimony items={items} />
-  );
+  return <GaleryTestimony items={items} />;
 }

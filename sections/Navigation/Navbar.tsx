@@ -11,7 +11,7 @@ export type Link = {
    * @title Destino
    * @description Insira a url ou o caminho de destino
    */
-    url: string;
+  url: string;
 };
 
 export interface Props {
@@ -51,7 +51,6 @@ export default function Section({
     },
   ],
 }: Props) {
-
   // // Efeito para o menu toggle (abrir e fechar)
   // useEffect(() => {
   //   const menuToggle = document.getElementById("menu-toggle") as HTMLInputElement;
@@ -86,7 +85,10 @@ export default function Section({
   // }, []);
 
   return (
-    <nav role="navigation" className="inline-flex px-4 md:px-10 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50">
+    <nav
+      role="navigation"
+      className="inline-flex px-4 md:px-10 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50"
+    >
       <div className="flex">
         {logo && (
           <Image
@@ -120,7 +122,10 @@ export default function Section({
         </div>
       </div>
 
-      <div id="menu" className="hidden md:flex space-x-4 font-sans text-white font-light items-center whitespace-nowrap">
+      <div
+        id="menu"
+        className="hidden md:flex space-x-4 font-sans text-white font-light items-center whitespace-nowrap"
+      >
         {menu?.map((item, index) => (
           <a key={index} href={item.url}>
             {item.name}

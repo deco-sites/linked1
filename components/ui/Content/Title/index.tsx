@@ -1,31 +1,23 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "./script.tsx";
 
 // Implemente a seção
-function setClass(value) {
+function setColor(value: string) {
   switch (value) {
     case "Primary":
-        return 'text-primary'
-        break;
+      return "text-primary";
 
     case "Secondary":
-        return 'text-secondary'
-        break;
+      return "text-secondary";
 
     case "White":
-        return 'text-white'
-        break;
+      return "text-white";
 
-    case "Light":
-        return 'text-light'
-        break;
-  
+    case "Accent":
+      return "text-accent";
+
     default:
-        return 'text-primary'
-        break;
-
+      return "text-primary";
   }
-  return;
 }
 function setAlign(value) {
   switch (value) {
@@ -33,38 +25,36 @@ function setAlign(value) {
         return 'text-left'
         break;
 
-    case "center":
-        return 'text-center'
-        break;
+// Implemente a seção
+function setAlignment(value: string) {
+  switch (value) {
+    case "Left":
+      return "text-left";
 
-    case "right":
-        return 'text-right'
-        break;
+    case "Center":
+      return "text-center";
 
-    case "justify":
-        return 'text-justify'
-        break;
-  
-    default:
-        return 'text-left'
-        break;
-
+    case "Right":
+      return "text-right";
   }
-  return;
 }
 
-function Title({ content, colorTheme, align }: JSX.IntrinsicElements["div"] & Props) {
+function Title(
+  { content, color, alignment }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div className="w-full flex justify-center">
         <div className="w-full max-w-[706px] px-4 pb-4 pt-10 md:px-0 md:py-8">
-          {/* Não pensei em uma maneira amigavel de manter o padding-right no mobile */}
-          <p className={`text-3xl md:text-5xl font-semibold ${setAlign(align)} ${setClass(colorTheme)}`}>
-              {content}
+          <p
+            className={`text-3xl md:text-5xl font-semibold pr-[56px] md:pr-0 ${
+              setColor(color)
+            } ${setAlignment(alignment)}`}
+          >
+            {content}
           </p>
         </div>
       </div>
-      {/* <Script /> */}
     </>
   );
 }

@@ -1,3 +1,12 @@
+export interface Props {
+  title: string;
+  description: string;
+  mainButtonText: string;
+  mainButtonLink: string;
+  checkboxLabel: string;
+  checkboxRequired: boolean;
+}
+
 export default function ModalContent({
   title,
   description,
@@ -15,7 +24,11 @@ export default function ModalContent({
         {checkboxLabel && (
           <div class="form-control">
             <label class="label cursor-pointer">
-              <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" required={checkboxRequired} />
+              <input
+                type="checkbox"
+                class="form-checkbox h-5 w-5 text-green-600"
+                required={checkboxRequired}
+              />
               <span class="label-text ml-2">{checkboxLabel}</span>
             </label>
           </div>

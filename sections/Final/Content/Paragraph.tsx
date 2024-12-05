@@ -1,5 +1,5 @@
-import React from 'react';
-import Paragraph from '../../../components/ui/Content/Paragraph/index.tsx';
+import React from "react";
+import Paragraph from "../../../components/ui/Content/Paragraph/index.tsx";
 
 export interface Props {
   /**
@@ -7,15 +7,12 @@ export interface Props {
    * @description Escreva aqui o seu conteúdo
    */
   content: string;
-  colorTheme: "Primary" | "Secondary" | "White" | "Light"
+  colorTheme: "Primary" | "Secondary" | "White" | "Accent";
 }
 
-export default function Section({ 
-  content, 
-  colorTheme
+export default function Section({
+  content,
+  colorTheme,
 }: Props) {
-
-  return (
-    <Paragraph content={content} colorTheme={colorTheme}  />
-  );
+  return <Paragraph content={content} colorTheme={colorTheme} />;
 }

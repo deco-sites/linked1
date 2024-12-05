@@ -2,8 +2,10 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
+import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$0 from "./loaders/availableIcons.ts";
+import * as $$$1 from "./loaders/icons.ts";
 import * as $$$$$$0 from "./sections/Contents/ContentAccordeon.tsx";
 import * as $$$$$$1 from "./sections/Contents/ContentButtons.tsx";
 import * as $$$$$$2 from "./sections/Contents/ContentClientGroup.tsx";
@@ -74,15 +76,18 @@ import * as $$$$$$66 from "./sections/Headers/TitleMonteSeuPlano.tsx";
 import * as $$$$$$67 from "./sections/Headers/TitlePlan.tsx";
 import * as $$$$$$68 from "./sections/Headers/TitleSegment.tsx";
 import * as $$$$$$69 from "./sections/Headers/TitleSuccess.tsx";
-import * as $$$$$$70 from "./sections/ItWorks.tsx";
-import * as $$$$$$71 from "./sections/ModalContent.tsx";
-import * as $$$$$$72 from "./sections/MultiSection.tsx";
-import * as $$$$$$73 from "./sections/Navigation/Categorias.tsx";
-import * as $$$$$$74 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$75 from "./sections/Navigation/Tabs.tsx";
-import * as $$$$$$76 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$70 from "./sections/ModalContent.tsx";
+import * as $$$$$$71 from "./sections/MultiSection.tsx";
+import * as $$$$$$72 from "./sections/Navigation/Categorias.tsx";
+import * as $$$$$$73 from "./sections/Navigation/Navbar.tsx";
+import * as $$$$$$74 from "./sections/Navigation/Tabs.tsx";
+import * as $$$$$$75 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/availableIcons.ts": $$$0,
+    "site/loaders/icons.ts": $$$1,
+  },
   "sections": {
     "site/sections/Contents/ContentAccordeon.tsx": $$$$$$0,
     "site/sections/Contents/ContentButtons.tsx": $$$$$$1,
@@ -154,16 +159,15 @@ const manifest = {
     "site/sections/Headers/TitlePlan.tsx": $$$$$$67,
     "site/sections/Headers/TitleSegment.tsx": $$$$$$68,
     "site/sections/Headers/TitleSuccess.tsx": $$$$$$69,
-    "site/sections/ItWorks.tsx": $$$$$$70,
-    "site/sections/ModalContent.tsx": $$$$$$71,
-    "site/sections/MultiSection.tsx": $$$$$$72,
-    "site/sections/Navigation/Categorias.tsx": $$$$$$73,
-    "site/sections/Navigation/Navbar.tsx": $$$$$$74,
-    "site/sections/Navigation/Tabs.tsx": $$$$$$75,
-    "site/sections/Theme/Theme.tsx": $$$$$$76,
+    "site/sections/ModalContent.tsx": $$$$$$70,
+    "site/sections/MultiSection.tsx": $$$$$$71,
+    "site/sections/Navigation/Categorias.tsx": $$$$$$72,
+    "site/sections/Navigation/Navbar.tsx": $$$$$$73,
+    "site/sections/Navigation/Tabs.tsx": $$$$$$74,
+    "site/sections/Theme/Theme.tsx": $$$$$$75,
   },
   "apps": {
-    "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
+    "site/apps/decohub.ts": $$$$$$$$$$$0,
     "site/apps/site.ts": $$$$$$$$$$$1,
   },
   "name": "site",

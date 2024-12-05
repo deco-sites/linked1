@@ -9,8 +9,8 @@
   "mainColors": {
     "base-100": "#ffffff",
     "primary": "#003330",
-    "secondary": "#3BEDB2",
-    "tertiary": "#404040",
+    "secondary": "#D6FFF5",
+    "tertiary": "#3BEDB2",
     "neutral": "#003330",
     "success": "#008060",
     "warning": "#ffc453",
@@ -58,5 +58,8 @@
       }
     ]
   },
-  "mode": "light"
+  "mode": "light",
+  "complementaryColors": {
+    "primary-light": "#D6FFF5"
+  }
 }

@@ -1,11 +1,11 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Button ={
+export type Button = {
   /**
-     * @title Ícone do Botão
-     * @description Selecione um ícone SVG ou PNG para o botão
-     */
+   * @title Ícone do Botão
+   * @description Selecione um ícone SVG ou PNG para o botão
+   */
   buttonIcon?: ImageWidget;
   /**
    * @title URL do Botão
@@ -13,12 +13,11 @@ export type Button ={
   buttonUrl?: string;
 
   /**
- * @title 
- * @description Escreva aqui o nome da categoria
- */
+   * @title
+   * @description Escreva aqui o nome da categoria
+   */
   buttonDescription?: string;
-}
-
+};
 
 export type Tag = {
   /**
@@ -39,7 +38,7 @@ export type Tag = {
 };
 
 export type QuestionItem = {
-  /** 
+  /**
    * @title Título do Bloco
    * @description Escreva o título do bloco
    */
@@ -54,8 +53,8 @@ export type QuestionItem = {
 
 export type RadioButtonOption = {
   /**
-   * @title Opção 
-   * @description Escreva uma opção 
+   * @title Opção
+   * @description Escreva uma opção
    */
   label: string;
   /**
@@ -67,8 +66,8 @@ export type RadioButtonOption = {
 
 export type checkBoxOption = {
   /**
-   * @title Opção 
-   * @description Escreva uma opção 
+   * @title Opção
+   * @description Escreva uma opção
    */
   label: string;
   /**
@@ -78,12 +77,11 @@ export type checkBoxOption = {
   value: string;
 };
 
-
 export type urlButton = {
   /**
-    * @title URL Título
-    * @description Insira o título para o link
-    */
+   * @title URL Título
+   * @description Insira o título para o link
+   */
   urlTitle?: string;
   url?: string;
 };
@@ -97,7 +95,7 @@ export interface Item {
   checkBoxButton?: checkBoxOption[];
   tags?: Tag[];
   urlButton?: urlButton[];
-  button?:Button[];
+  button?: Button[];
 }
 
 interface Props {
@@ -115,7 +113,13 @@ export default function Section({
       {items.map((item, index) => (
         <div key={index} className="mb-8 bg-white shadow-md rounded-lg p-6">
           {item.icon && (
-            <Image src={item.icon} alt="Item Icon" width={40} height={40} class="w-10 h-10 mb-4" />
+            <Image
+              src={item.icon}
+              alt="Item Icon"
+              width={40}
+              height={40}
+              class="w-10 h-10 mb-4"
+            />
           )}
 
           {item.header && <p className="text-lg mb-4">{item.header}</p>}
@@ -140,11 +144,16 @@ export default function Section({
               ))}
             </div>
           )}
-          {item.descritiveQuestion && <p className="text-lg mb-4">{item.descritiveQuestion}</p>}
+          {item.descritiveQuestion && (
+            <p className="text-lg mb-4">{item.descritiveQuestion}</p>
+          )}
           <div className="flex justify-start lg:justify-center pl-4 lg:pt-[79px]">
             <div className="flex flex-wrap justify-start lg:justify-center gap-x-[8px] gap-y-[8px] lg:gap-y-[17px] w-full max-w-[350px] lg:max-w-[780px]">
-              {item.tags?.map(tag => (
-                <div key={tag.name} className="w-fit sm:w-1/2 lg:w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream font-sans font-medium text-primary items-center">
+              {item.tags?.map((tag) => (
+                <div
+                  key={tag.name}
+                  className="w-fit sm:w-1/2 lg:w-fit rounded-[58px] inline-flex px-4 py-3 bg-mintCream font-sans font-medium text-primary items-center"
+                >
                   <div className="inline-flex items-center">
                     <Image
                       className="w-4 h-4"
@@ -152,7 +161,10 @@ export default function Section({
                       alt={tag.name}
                       width={10.67}
                     />
-                    <a href={tag.url} className="text-md md:text-lg pl-2 pr-[1.5px] font-sans font-medium leading-tight-18">
+                    <a
+                      href={tag.url}
+                      className="text-md md:text-lg pl-2 pr-[1.5px] font-sans font-medium leading-tight-18"
+                    >
                       {tag.name}
                     </a>
                   </div>
@@ -190,29 +202,36 @@ export default function Section({
               ))}
             </div>
           )}
-          {item.urlButton && item.urlButton.map((urlBtn, urlIndex) => (
-            <div className="mt-4">
-              <a key={urlIndex} href={urlBtn.url} className="text-black underline">{urlBtn.urlTitle}</a>
-            </div>
-          ))}
-          {item.button &&(
+          {item.urlButton &&
+            item.urlButton.map((urlBtn, urlIndex) => (
+              <div className="mt-4">
+                <a
+                  key={urlIndex}
+                  href={urlBtn.url}
+                  className="text-black underline"
+                >
+                  {urlBtn.urlTitle}
+                </a>
+              </div>
+            ))}
+          {item.button && (
             <div className="mt-4 flex flex justify-end">
               {item.button.map((option) => (
                 <div className="flex items-center">
-                <span className="mr-2">{option.buttonDescription}</span>
-                <a href={option.buttonUrl} className="inline-block">
-                  <Image
-                    src={option.buttonIcon}
+                  <span className="mr-2">{option.buttonDescription}</span>
+                  <a href={option.buttonUrl} className="inline-block">
+                    <Image
+                      src={option.buttonIcon ? option.buttonIcon : ""}
                       alt="Button Icon"
                       width={40}
                       height={40}
                       class="w-10 h-10"
-                      />
-                   </a>
+                    />
+                  </a>
                 </div>
-              ))} 
-              </div>
-      )}
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </div>

@@ -3,12 +3,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Navbar"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Headers/Openning.tsx",
         "title": "Gestão inteligente para sonhar mais",
         "subtitle": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
@@ -21,219 +15,34 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Carousel Benefícios"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Tipos de Estabelecimentos"
-      }
+      "__resolveType": "Carousel Benefícios"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Passo a Passo - Plano Ideal"
-      }
+      "__resolveType": "Tipos de Estabelecimentos"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Suporte"
-      }
+      "__resolveType": "Passo a Passo - Plano Ideal"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Carousel de Parceiros"
-      }
+      "__resolveType": "Suporte"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "BigNumbers"
-      }
+      "__resolveType": "Carousel de Parceiros"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Carousel de Receitas de Sucesso"
-      }
+      "__resolveType": "BigNumbers"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Navigation/Categorias.tsx",
-        "tags": [
-          {
-            "name": "A la carte",
-            "url": "/a-la-carte",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c594087e-64db-4052-871f-9c66d6474b09/icon_cuttlery.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "A la carte"
-          },
-          {
-            "name": "Bar",
-            "url": "/bar",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Bar"
-          },
-          {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ae0cfa37-72a5-4214-9a94-85bc2d4c9cd5/cup_coffe1.svg",
-            "name": "Cafeteria",
-            "url": "/cafeteria",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Cafeteria"
-          },
-          {
-            "name": "Fast-food",
-            "url": "/fast-food",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Fast-food"
-          },
-          {
-            "url": "/padaria",
-            "name": "Padaria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a710fbf8-6ccd-483a-82cb-364eb2c2de7b/icon_equals_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Padaria"
-          },
-          {
-            "name": "Pizzaria",
-            "url": "/pizzaria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/df40aa54-3c22-40f0-ab0d-cee3b681080c/icon_pizza_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Pizzaria"
-          },
-          {
-            "name": "Self-Service",
-            "url": "/self-service",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bf0897bd-840d-44a5-8b08-179a7631d1d7/icon_balance_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Self-Service"
-          },
-          {
-            "name": "Sorveteria",
-            "url": "/sorveteria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/eea1f29d-7b02-46e0-add5-4dab8e15f38a/icon_ice_cream_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Sorveteria"
-          },
-          {
-            "name": "De rua",
-            "url": "/rua",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/20e58c5a-cb67-40d0-ad35-842f5b97693d/icon_truck.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "De rua"
-          },
-          {
-            "name": "Japonês",
-            "url": "/japones",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6d2f559d-6767-4466-9bb1-3d02ad965140/icon_sushi_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Japonês"
-          },
-          {
-            "name": "Redes e franquias",
-            "url": "/redes-franquias",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/efcf5b35-23c3-4c28-a937-c3b5ff212086/icon_market_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Redes e franquias"
-          },
-          {
-            "name": "Fine-dining",
-            "url": "/fine-dining",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/364c7428-840e-42f0-bc91-fee58339e09c/icon_rounded_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Fine-dining"
-          },
-          {
-            "name": "Churrascaria",
-            "url": "/churrascaria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f5d6640-88f1-4b44-a681-2d93221b6ea1/icon_meat_category.svg",
-            "structureType": "Estrutura 1",
-            "showOnMobile": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "title": "Churrascaria"
-          },
-          {
-            "structureType": "Estrutura 2",
-            "name": "Outros",
-            "url": "/outros",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg",
-            "showOnMobile": true,
-            "showOnDesktop": true,
-            "structureTypeDesktop": "Estrutura 1",
-            "iconStructure1": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg",
-            "structureTypeMobile": "Estrutura 2",
-            "title": "Outros"
-          }
-        ],
-        "titleForDesktop": "Soluções para todos os tipos de estabelecimentos",
-        "wordBreak": "de estabelecimentos",
-        "titleForMobile": "A Linked tem opções para vários tipos de estabelecimento"
-      }
+      "__resolveType": "Carousel de Receitas de Sucesso"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

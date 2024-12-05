@@ -19,38 +19,37 @@ export interface Link {
    * @title Destino
    * @description Insira a url ou o caminho de destino
    */
-    url: string;
+  url: string;
   /**
    * @title Ícone
    * @description URL do ícone opcional
    */
   iconButton?: ImageWidget;
-};
-
-export interface Props {
-    /**
-     * @title Ícone de Dúvida
-     * @description Insira o ícone de dúvida aqui
-     */
-    icon: ImageWidget;
-    /**
-     * @title Título
-     * @description Escreva o título do bloco
-     */
-    title: string;
-    /**
-     * @title Botão
-     * @description Insira o botão
-     */
-    button?: Link[];
 }
 
-export default function Section({ 
-    icon = "", 
-    title = "",
-    button = []
-}: Props) {
+export interface Props {
+  /**
+   * @title Ícone de Dúvida
+   * @description Insira o ícone de dúvida aqui
+   */
+  icon: ImageWidget;
+  /**
+   * @title Título
+   * @description Escreva o título do bloco
+   */
+  title: string;
+  /**
+   * @title Botão
+   * @description Insira o botão
+   */
+  button?: Link[];
+}
 
+export default function Section({
+  icon = "",
+  title = "",
+  button = [],
+}: Props) {
   return (
     <section className="bg-mintCream">
       <div className="flex flex-col justify-center items-center">
@@ -80,15 +79,19 @@ export default function Section({
                 rel="noopener noreferrer"
                 className={`w-full px-4 py-3 flex-none ${
                   index === 0
-                    ? 'bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState'
-                    : 'bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center'
+                    ? "bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState"
+                    : "bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center"
                 }`}
               >
                 <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
                   {btn.name}
                 </span>
                 {index === 1 && btn.iconButton && (
-                  <img src={btn.iconButton} alt="WhatsApp Icon" className="w-6 h-6 ml-2.5" />
+                  <img
+                    src={btn.iconButton}
+                    alt="WhatsApp Icon"
+                    className="w-6 h-6 ml-2.5"
+                  />
                 )}
               </a>
             </div>

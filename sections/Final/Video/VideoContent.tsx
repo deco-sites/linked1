@@ -9,8 +9,8 @@ export default function Section({
   video = "",
 }: Props) {
   return (
-      <div>
-          <VideoComponent video={video} />
-      </div>
+    <div>
+      <VideoComponent video={video} />
+    </div>
   );
 }

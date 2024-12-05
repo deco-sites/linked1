@@ -35,13 +35,11 @@ export interface Props {
   iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    page = "", 
-    iconShare = "", 
-    iconPlan = "", 
-    title = "", 
-    highlight = "",
-    description = "", 
+export default function Section({
+  iconPlan = "",
+  title = "",
+  highlight = "",
+  description = "",
 }: Props) {
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
@@ -64,18 +62,22 @@ export default function Section({
 
   return (
     <div className="bg-sacramentoState flex justify-center">
-        <div className="px-4 pb-6 pt-8 w-full max-w-[735px] md:text-center flex flex-col gap-3 md:items-center">
-            {iconPlan && (
-                  <Image
-                    width={45}
-                    height={45}
-                    class="w-[30px] h-[30px] md:w-[45px] md:h-[45px]"
-                    src={iconPlan || ""}
-                  />
-            )}
-            <p className="text-[28px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">{getHighlightedText(title, highlight)}</p>
-            <p className="text-base md:text-lg font-sans font-normal leading-tight-18 md:leading-tight-25 text-white-80">{description}</p>
-        </div>
+      <div className="px-4 pb-6 pt-8 w-full max-w-[735px] md:text-center flex flex-col gap-3 md:items-center">
+        {iconPlan && (
+          <Image
+            width={45}
+            height={45}
+            class="w-[30px] h-[30px] md:w-[45px] md:h-[45px]"
+            src={iconPlan || ""}
+          />
+        )}
+        <p className="text-[28px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">
+          {getHighlightedText(title, highlight)}
+        </p>
+        <p className="text-base md:text-lg font-sans font-normal leading-tight-18 md:leading-tight-25 text-white-80">
+          {description}
+        </p>
+      </div>
     </div>
   );
 }

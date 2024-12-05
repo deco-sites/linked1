@@ -1,5 +1,5 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Product from '../../../components/ui/Content/Product/index.tsx';
+import Product from "../../../components/ui/Content/Product/index.tsx";
 
 export interface Link {
   /**
@@ -12,8 +12,7 @@ export interface Link {
    * @description Insira a url ou o caminho de destino
    */
   url: string;
-};
-
+}
 
 export interface Props {
   /**
@@ -36,25 +35,25 @@ export interface Props {
    * @description Insira o botão desejado
    */
   button: Link;
-  colorTheme: "Primary" | "Secondary" | "White" | "Light"
+  colorTheme: "Primary" | "Secondary" | "White" | "Accent";
 }
 
-export default function Section({ 
+export default function Section({
   icon,
   title,
   description,
   button,
-  colorTheme
+  colorTheme,
 }: Props) {
-    return (
-      <>
-        <Product 
-          icon={icon}
-          title={title}
-          description={description}
-          button={button}
-          colorTheme={colorTheme}
-        />
-      </>
-    );
-  }  
+  return (
+    <>
+      <Product
+        icon={icon}
+        title={title}
+        description={description}
+        button={button}
+        colorTheme={colorTheme}
+      />
+    </>
+  );
+}

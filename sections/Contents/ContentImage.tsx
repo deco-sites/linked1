@@ -20,27 +20,28 @@ export interface Props {
   type: "Grande" | "Média" | "Pequena" | "Full" | "Cantos Arredondados";
 }
 
-export default function Section({ 
-    imageDesktop = "", 
-    imageMobile = "", 
-    type = "Média"
+export default function Section({
+  imageDesktop = "",
+  imageMobile = "",
+  type = "Média",
 }: Props) {
-
   return (
     <div class="">
-        {/* {image && (
+      {
+        /* {image && (
           <Image
             className="rounded-full"
             src={image || ""}
           />
-        )} */}
-        {imageDesktop && imageMobile && (
-          <ImageComponent
-            imageDesktop={imageDesktop || ""}
-            imageMobile={imageMobile || ""}
-            type={type}
-          />
-        )}
+        )} */
+      }
+      {imageDesktop && imageMobile && (
+        <ImageComponent
+          imageDesktop={imageDesktop || ""}
+          imageMobile={imageMobile || ""}
+          type={type}
+        />
+      )}
     </div>
   );
 }

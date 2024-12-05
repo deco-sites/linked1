@@ -42,9 +42,9 @@ export interface ComplementaryColors {
   /** @format color-input */
   "base-content"?: string;
   /** @format color-input */
-  "primary-content"?: string;
+  "primary-light"?: string;
   /** @format color-input */
-  "secondary-content"?: string;
+  "secondary-light"?: string;
   /**
    * @title Accent Content
    * @format color-input */
@@ -165,10 +165,10 @@ const toVariables = (
 
   const colorVariables = Object.entries({
     "--p": t["primary"],
-    "--pc": t["primary-content"] ?? contrasted(t["primary"]),
+    "--pc": t["primary-light"] ?? contrasted(t["primary"]),
 
     "--s": t["secondary"],
-    "--sc": t["secondary-content"] ?? contrasted(t["secondary"]),
+    "--sc": t["secondary-light"] ?? contrasted(t["secondary"]),
 
     "--a": t["tertiary"],
     "--ac": t["tertiary-content"] ?? contrasted(t["tertiary"]),

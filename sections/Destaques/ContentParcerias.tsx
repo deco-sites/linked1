@@ -14,7 +14,7 @@ export interface Item {
    * @title Logo
    * @description Insira a logo do bloco
    */
-  logo?: ImageWidget; 
+  logo?: ImageWidget;
   /**
    * @title Descrição do bloco
    * @description Escreva a descrição do bloco
@@ -29,8 +29,8 @@ interface Props {
   items?: Item[];
 }
 
-export default function Section({ 
-  items = [] 
+export default function Section({
+  items = [],
 }: Props) {
   return (
     <section>
@@ -39,12 +39,12 @@ export default function Section({
           <div
             key={index}
             className={`flex flex-col items-center border-b border-sacramentoState-10 ${
-              index === items.length - 1 ? 'mb-[65.6px]' : ''
+              index === items.length - 1 ? "mb-[65.6px]" : ""
             }`}
           >
             {item.logo && (
               <Image
-                src={item.logo} 
+                src={item.logo}
                 width={343}
                 height={232}
                 className="pt-10 w-full"

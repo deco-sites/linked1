@@ -14,7 +14,8 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/Title.tsx",
               "colorTheme": "Primary",
-              "content": "Aqui você monta o plano ideal para o seu negócio"
+              "content": "Aqui você monta o plano ideal para o seu negócio",
+              "textAlignment": "Center"
             },
             "title": "Titulo"
           }
@@ -29,7 +30,7 @@
         "topBackground": "Secondary",
         "bottomBackground": "White",
         "circleBackground": "Primary",
-        "colorText": "Secondary"
+        "colorText": "Accent"
       },
       "title": "Divisão Passo 1"
     },
@@ -105,7 +106,7 @@
         "topBackground": "White",
         "bottomBackground": "Secondary",
         "circleBackground": "Primary",
-        "colorText": "Secondary"
+        "colorText": "Accent"
       },
       "title": "Divisão Passo 2"
     },
@@ -142,7 +143,7 @@
         "topBackground": "Secondary",
         "bottomBackground": "White",
         "circleBackground": "Primary",
-        "colorText": "Secondary"
+        "colorText": "Accent"
       },
       "title": "Divisão Passo 3"
     },

@@ -2,79 +2,61 @@ import type { JSX } from "preact";
 import Image from "apps/website/components/Image.tsx";
 
 // Implemente a seção
-function setClass(value) {
+function setClass(value: string) {
   switch (value) {
     case "primary":
       return "text-primary";
-      break;
 
     case "Secondary":
       return "text-secondary";
-      break;
 
     case "White":
       return "text-white";
-      break;
 
-    case "Light":
-      return "text-light";
-      break;
+    case "Accent":
+      return "text-accent";
 
     case "Sacramento-State":
       return "text-sacramentoState";
-      break;
 
     case "Sacramento-State-10":
       return "text-sacramentoState-10";
-      break;
 
     case "Mint-Cream":
       return "text-mintCream";
-      break;
 
     default:
       return "text-primary";
-      break;
   }
-  return;
 }
 
 // Implemente a seção
-function setClassButton(value) {
+function setClassButton(value: string) {
   switch (value) {
     case "primary":
       return "bg-primary";
-      break;
 
     case "Secondary":
       return "bg-secondary";
-      break;
 
     case "White":
       return "bg-white";
-      break;
 
     case "Light":
       return "bg-light";
-      break;
 
     case "Sacramento-State":
       return "bg-sacramentoState";
-      break;
 
     case "Sacramento-State-10":
       return "bg-sacramentoState-10";
-      break;
 
     case "Mint-Cream":
       return "bg-mintCream";
-      break;
 
     default:
       return "bg-primary";
-      break;
   }
-  return;
 }
 
 function NewsCard({
