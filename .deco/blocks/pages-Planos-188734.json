@@ -3,17 +3,19 @@
   "path": "/planos",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Plano para todos os modelos de negócio"
-      }
+      "__resolveType": "Topo de Página com Tab"
+    },
+    {
+      "__resolveType": "Comparativo de Planos"
+    },
+    {
+      "__resolveType": "Dúvidas"
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

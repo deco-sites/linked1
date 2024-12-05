@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+  "menu": [
+    {
+      "name": "Planos",
+      "url": "/planos"
+    },
+    {
+      "name": "Opicionais",
+      "url": "/opicionais"
+    },
+    {
+      "name": "Integrações",
+      "url": "/integracoes"
+    }
+  ]
+}
