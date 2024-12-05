@@ -1,0 +1,13 @@
+{
+  "__resolveType": "site/sections/Destaques/ListText2.tsx",
+  "Subtitle": "Requisitos",
+  "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+  "description": [
+    {
+      "DescriptionSection": [],
+      "title": "Inteligência de Dados",
+      "SectionText": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. ",
+      "highlight": "Linked Total"
+    }
+  ]
+}
