@@ -2,7 +2,7 @@ import type { JSX } from "preact";
 import Image from "apps/website/components/Image.tsx";
 
 // Implemente a seção
-function setClass(value: string) {
+function setClass(value) {
   switch (value) {
     case "Primary":
       return "text-primary";

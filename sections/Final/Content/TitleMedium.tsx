@@ -7,6 +7,12 @@ export interface Props {
    * @description Escreva aqui o seu conteúdo
    */
   content: string;
+  /**
+   * @title Alinhamento
+   * @format button-group
+   * @options site/loaders/icons.ts
+   */
+  textAlignment?: "Left" | "Center" | "Right";
   colorTheme:
     | "Primary"
     | "Secondary"
@@ -20,6 +26,7 @@ export interface Props {
 export default function Section({
   content,
   colorTheme,
+  textAlignment
 }: Props) {
-  return <TitleMedium content={content} colorTheme={colorTheme} />;
+  return <TitleMedium content={content} colorTheme={colorTheme} alignment={textAlignment} />;
 }

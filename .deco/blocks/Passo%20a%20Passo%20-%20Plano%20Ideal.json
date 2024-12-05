@@ -44,15 +44,17 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
-              "content": "Você escolhe o plano"
+              "content": "Você escolhe o plano",
+              "textAlignment": "Center"
             },
             "title": "Título"
           },
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-              "colorTheme": "Light",
-              "content": "Duas opções para seu estabelecimento economizar, vender e lucrar mais."
+              "colorTheme": "Primary",
+              "content": "Duas opções para seu estabelecimento economizar, vender e lucrar mais.",
+              "textAlignment": "Center"
             },
             "title": "Descrição"
           },
@@ -120,15 +122,17 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
-              "content": "Você escolhe os opcionais"
+              "content": "Você escolhe os opcionais",
+              "textAlignment": "Center"
             },
             "title": "Título"
           },
           {
             "section": {
               "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-              "colorTheme": "Light",
-              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais."
+              "colorTheme": "Primary",
+              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais.",
+              "textAlignment": "Center"
             },
             "title": "Descrição"
           }
@@ -157,7 +161,8 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
-              "content": "Por fim, escolhe as integrações"
+              "content": "Por fim, escolhe as integrações",
+              "textAlignment": "Center"
             },
             "title": "Título"
           },
@@ -165,7 +170,8 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
               "colorTheme": "Light",
-              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais."
+              "content": "Incremente a gestão e operação do estabelecimento com nossos opcionais.",
+              "textAlignment": "Center"
             },
             "title": "Descrição"
           },

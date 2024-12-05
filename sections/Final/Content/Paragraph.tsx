@@ -8,11 +8,18 @@ export interface Props {
    */
   content: string;
   colorTheme: "Primary" | "Secondary" | "White" | "Accent";
+  /**
+   * @title Alinhamento
+   * @format button-group
+   * @options site/loaders/icons.ts
+   */
+  textAlignment?: "Left" | "Center" | "Right";
 }
 
 export default function Section({
   content,
   colorTheme,
+  textAlignment,
 }: Props) {
-  return <Paragraph content={content} colorTheme={colorTheme} />;
+  return <Paragraph content={content} colorTheme={colorTheme} alignment={textAlignment}/>;
 }
