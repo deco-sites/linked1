@@ -5,42 +5,13 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Navigation/Tabs.tsx",
-        "menu": [
-          {
-            "name": "Planos",
-            "url": "/planos",
-            "status": false,
-            "title": "Planos"
-          },
-          {
-            "name": "Opcionais",
-            "url": "/opcionais",
-            "status": true,
-            "title": "Opcionais"
-          },
-          {
-            "name": "Integrações",
-            "url": "/integracoes",
-            "title": "Integrações"
-          }
-        ]
-      }
+      "__resolveType": "Topo de Página - Opcionais"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Turbine seu plano com mais recursos"
-      }
+      "__resolveType": "Lista de Opcionais"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -90,7 +61,7 @@
             "button": [
               {
                 "name": "Ver detalhes",
-                "url": "/detalhes",
+                "url": "/opcionais/inteligencia-de-dados",
                 "title": "Botão Ver Detalhes"
               }
             ],
@@ -104,22 +75,10 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "name": "Opcionais",

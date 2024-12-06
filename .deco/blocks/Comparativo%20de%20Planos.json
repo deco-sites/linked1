@@ -1,0 +1,95 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "collapse": {
+    "title": "Comparação de Planos"
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Comparison.tsx",
+        "headerLeft": {
+          "title": "Essencial",
+          "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio."
+        },
+        "headerRight": {
+          "title": "Total",
+          "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários."
+        },
+        "content": [
+          {
+            "contentLeft": [
+              {
+                "title": "Delivery"
+              },
+              {
+                "title": "Local"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "Comanda"
+              },
+              {
+                "title": "Mesa"
+              },
+              {
+                "title": "Balcão"
+              },
+              {
+                "title": "Delivery"
+              }
+            ],
+            "title": "Módulos"
+          },
+          {
+            "contentLeft": [
+              {
+                "title": "PDV"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "PDV"
+              },
+              {
+                "title": "Gestão"
+              },
+              {
+                "title": "Contabilidade"
+              }
+            ],
+            "title": "Recursos e funcionalidades"
+          }
+        ],
+        "footerLeft": {
+          "button": {
+            "name": "Ver detalhes",
+            "url": "/planos/plano-essencial"
+          },
+          "price": "A partir de  R$ 00,00"
+        },
+        "footerRight": {
+          "button": {
+            "name": "Ver detalhes",
+            "url": "/planos/plano-total"
+          },
+          "price": "A partir de  R$ 00,00"
+        }
+      },
+      "title": "Comparação"
+    }
+  ]
+}

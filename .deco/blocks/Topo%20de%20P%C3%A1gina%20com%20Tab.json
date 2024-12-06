@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "collapse": {
+    "title": "Topo de Página"
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "Navegação entre Planos, Opcionais e Integrações"
+      },
+      "title": "Tabs"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Plano para todos os modelos de negócio"
+      },
+      "title": "Título da Página"
+    }
+  ]
+}

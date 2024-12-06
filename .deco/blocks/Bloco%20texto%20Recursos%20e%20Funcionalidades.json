@@ -1,0 +1,19 @@
+{
+  "__resolveType": "site/sections/Destaques/ListText.tsx",
+  "Subtitle": "Recursos e funcionalidades",
+  "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+  "description": [
+    {
+      "DescriptionSection": [
+        "Pedidos delivery",
+        "Pedidos Peça e Retire",
+        "Tempo de preparo",
+        "Forma de pagamento",
+        "Opções de marketing e promoções",
+        "Dados e insights de vendas"
+      ],
+      "title": "Vendas"
+    }
+  ],
+  "button": []
+}

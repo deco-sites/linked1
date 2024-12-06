@@ -3,38 +3,81 @@
   "menu": [
     {
       "name": "Tipos de Estabelecimento",
-      "url": "/tipos-de-estabelecimento"
+      "url": "/tipos-de-estabelecimento",
+      "title": "Tipos de Estabelecimento"
     },
     {
       "name": "Clientes",
-      "url": "/clientes"
+      "url": "/clientes",
+      "title": "Clientes"
     },
     {
       "name": "Planos",
-      "url": "/planos"
+      "url": "/planos",
+      "title": "Planos"
     },
     {
       "name": "Parcerias",
-      "url": "/parcerias"
+      "url": "/parcerias",
+      "title": "Parcerias"
     },
     {
       "name": "Receitas de sucesso",
-      "url": "/receitas-de-sucesso"
+      "url": "/receitas-de-sucesso",
+      "title": "Receitas de sucesso"
     },
     {
       "name": "Sobre a Linked",
-      "url": "/sobre"
-    },
-    {}
+      "url": "/sobre",
+      "title": "Sobre a linked"
+    }
   ],
   "button": [
     {
       "name": "Monte o seu plano a partir de R$ 00,00",
-      "url": "/planos"
-    },
-    {}
+      "url": "/planos",
+      "title": "Monte seu plano",
+      "buttonTheme": "Primary dark",
+      "text": "Monte seu plano a partir de R$ 00,00",
+      "link": "monte-seu-plano"
+    }
   ],
   "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1f0c93aa-9fb8-4049-85cb-8d5b5cad8659/icon_hamburguer.png",
   "close_icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/97ad407c-7757-4d69-af56-722f305c84f0/icon_close_x.jpg",
-  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e817617-dfe2-4fbd-b618-309782a75dfe/Frame-138.svg"
+  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e817617-dfe2-4fbd-b618-309782a75dfe/Frame-138.svg",
+  "subMenu": [
+    {
+      "title": "Sobre a Linked",
+      "name": "teste",
+      "url": "/teste",
+      "buttonTheme": "Nenhuma estilização",
+      "text": "Sobre a Linked",
+      "link": "sobre-a-linked"
+    },
+    {
+      "buttonTheme": "Nenhuma estilização",
+      "title": "Trabalhe conosco",
+      "text": "Trabalhe conosco",
+      "link": "trabalhe-conosco"
+    },
+    {
+      "buttonTheme": "Nenhuma estilização",
+      "title": "Contato",
+      "text": "Contato",
+      "link": "contato"
+    },
+    {
+      "buttonTheme": "Nenhuma estilização",
+      "title": "Termos de uso",
+      "text": "Termos de uso",
+      "link": "/termos-de-uso"
+    },
+    {
+      "buttonTheme": "Nenhuma estilização",
+      "title": "Privacidade",
+      "text": "Privacidade",
+      "link": "privacidade"
+    }
+  ],
+  "linkIcons": []
 }
