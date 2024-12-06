@@ -42,29 +42,31 @@ export default function Section({
       id="fixed-section"
       className="fixed bottom-0 left-0 w-full flex justify-center bg-white lg:hidden z-50"
     >
-      <div className="w-full px-5 pt-3.5 pb-5 bg-white shadow-lg flex flex-col justify-center gap-2.5">
-        <div className="inline-flex">
-          <div className="w-full flex justify-between items-center gap-2">
-            <a className="py-[12.5px] px-[55px] ml-5 mr-2.5 flex-grow bg-sacramentoState rounded-lg flex justify-center items-center text-secondary text-base font-medium font-sans leading-tight-18">
+      <div className="px-5 pt-[14px] pb-5 w-full grid gap-y-[9px]">
+        <div className="w-full flex items-center space-x-2">
+          <div className="flex-grow">
+            <a className="py-[10px] px-5 w-full bg-sacramentoState rounded-[10px] flex justify-center items-center text-base font-medium font-sans leading-tight-18 text-[#3BEDB2]">
               {buttonText}
             </a>
           </div>
-          <div className="py-2.5 px-5 bg-secondary rounded-lg flex justify-center items-center">
+          <div className="w-[92px] flex-shrink-0">
             {ImageWidget && (
-              <div className="w-6 h-6 flex justify-center items-center">
+              <div className="w-full px-5 py-2.5 h-10 flex justify-center items-center bg-secondary rounded-[10px]">
                 <Image
                   src={ImageWidget}
                   alt="Section Image"
-                  className=""
+                  className="w-6 h-6"
                   width={24}
                 />
               </div>
             )}
           </div>
         </div>
-        <p className="w-full text-center text-sacramentoState-80 text-sm font-normal font-sans leading-tight-15.86">
-          {description}
-        </p>
+        <div className="text-center">
+          <p className="text-sm font-sans font-normal leading-tight-15.86 text-sacramentoState-80">
+            {description}
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -28,47 +28,53 @@ function Product(
 ) {
   return (
     <>
-      <div className={`flex first:pt-10 pt-[81px]`}>
-        {icon && (
-          <Image
-            className=""
-            src={icon || ""}
-            alt="Ícone"
-            width={64}
-          />
-        )}
-      </div>
-      <div className="pt-4 pb-2">
-        {title && (
-          <h2
-            className={`font-sans text-[22px] font-medium ${
-              setClass(colorTheme)
-            } leading-tight-25 tracking-tight-2`}
-          >
-            {title}
-          </h2>
-        )}
-      </div>
-      <div className="pb-[32px] pr-[80px]">
-        {description && (
-          <p
-            className={`text-base font-sans ${
-              setClass(colorTheme)
-            }-80 font-normal leading-tight-18`}
-          >
-            {description}
-          </p>
-        )}
-      </div>
-      <div className="w-fit py-[12.5px] md:flex bg-sacramentoState rounded-xl border-[1px] border-secondary items-center justify-center gap-4">
-        <a
-          href={button.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-max px-[31.75px] flex-none font-sans text-base font-medium text-secondary leading-tight-18"
-        >
-          {button.name}
-        </a>
+      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+        <div className="md:w-full md:max-w-[706px]">
+          <div className="px-4 md:px-10 py-10 w-full max-w-[343px] md:max-w-none">
+            <div className="flex">
+              {icon && (
+                <Image
+                  className=""
+                  src={icon || ""}
+                  alt="Ícone"
+                  width={64}
+                />
+              )}
+            </div>
+            <div className="pt-4 pb-2">
+              {title && (
+                <h2
+                  className={`text-[22px] font-sans font-semibold ${
+                    setClass(colorTheme)
+                  } leading-tight-25 tracking-tight-0.44`}
+                >
+                  {title}
+                </h2>
+              )}
+            </div>
+            <div className="pb-[32px] w-full max-w-[300px] md:max-w-none">
+              {description && (
+                <p
+                  className={`text-base font-sans ${
+                    setClass(colorTheme)
+                  }-80 font-normal`}
+                >
+                  {description}
+                </p>
+              )}
+            </div>
+            <div className="w-fit py-[13px] md:flex rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
+              <a
+                href={button.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-max px-[32px] flex-none font-sans text-base font-semibold leading-tight-18 text-sacramentoState"
+              >
+                {button.name}
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

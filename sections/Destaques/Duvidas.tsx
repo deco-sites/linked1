@@ -70,20 +70,20 @@ export default function Section({
           </div>
         </div>
 
-        <div className="pb-24 px-4 md:w-full md:max-w-[465px] flex flex-col rounded-xl items-center justify-center space-y-4">
+        <div className="pb-24 px-4 w-full max-w md:max-w-[465px] flex flex-col rounded-xl items-center justify-center space-y-4">
           {button?.map((btn, index) => (
-            <div key={index} className="w-full flex justify-center">
+            <div key={index} className="w-full max-w flex gap-x-[10px] justify-center cursor-pointer">
               <a
                 href={btn.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`w-full px-4 py-3 flex-none ${
+                className={`w-full px-5 py-3 flex-none ${
                   index === 0
                     ? "bg-transparent border-[1px] border-sacramentoState rounded-xl text-center text-sacramentoState"
-                    : "bg-sacramentoState rounded-xl text-secondary flex items-center pr-2.5 justify-center"
+                    : "bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
                 }`}
               >
-                <span className="font-sans text-base font-medium text-center leading-tight-18 lg:leading-tight-21 lg:leading-tight-55 lg:tracking-tight-2">
+                <span className="font-sans text-base font-semibold text-center">
                   {btn.name}
                 </span>
                 {index === 1 && btn.iconButton && (

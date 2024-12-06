@@ -3,171 +3,68 @@
   "path": "/planos/plano-essencial",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Planos",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+      "page": "Planos",
+      "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleLarge.tsx",
-        "page": "Planos",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
-        "title": "Plano Essencial",
-        "description": "Design intuitivo e operação fácil para administrar seus pedidos",
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/aba1ccff-4afd-4cc0-a9aa-977847b57e4c/Captura-de-Tela-2024-10-02-as-20.00.13.png",
-        "titleWithColor": "Essencial",
-        "wordBreak": "fácil para administrar seus",
-        "wordBreakDescription": "pedidos",
-        "highlight": "Essencial"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "PDV",
-            "description": "Pedidos organizados e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png",
-            "titleSection": "PDV"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Sacramento-State",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
+            "title": "Plano Essencial",
+            "highlight": "Essencial",
+            "description": "Design intuitivo e operação fácil para administrar seus pedidos",
+            "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8715add7-3b4c-4e5d-a5fc-b9d570802c1c/cuttlery_plan_icon.svg"
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Plano Essencial"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Carousel Benefícios"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/List.tsx",
+            "items": [
+              "Não requer instalação",
+              "Atendimento 24x7",
+              "Treinamentos ilimitados",
+              "Sem limite de pedidos"
+            ],
+            "colorTheme": "Primary"
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
-          }
-        ]
-      }
+          "title": "Lista Texto"
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryTestimony.tsx",
-        "items": [
-          {
-            "title": "Testemunha 1",
-            "titleSection": "O sucesso dos clientes é  nosso maior orgulho",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png",
-            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-          },
-          {
-            "title": "Testemunha 2",
-            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
-          },
-          {
-            "title": "Testemunha 3",
-            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
-          },
-          {
-            "title": "Testemunha 4",
-            "textTestimony": "\" Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e31c4d8e-8d09-4a09-a8e2-baae18b1ae6d/img_testemony1.png"
-          }
-        ],
-        "button": [
-          {
-            "title": "Compare com a concorrência",
-            "name": "Compare com a concorrência",
-            "url": "/compare",
-            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9615f12d-d226-432f-9563-3a48ac21d67c/icon_compare.svg"
-          }
-        ]
-      }
+      "__resolveType": "Dúvidas"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "ListText"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/PerguntasFrequentes.tsx",
-        "description": [
-          {
-            "DescriptionSection": [],
-            "DescriptionAskSection": [
-              {
-                "title": "O Linked Food Essencial funciona em qualquer computador?",
-                "SectionText": "O Linked Food Essencial funciona em qualquer computador?",
-                "TitleAsk": "O Linked Food Essencial funciona em qualquer computador?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              }
-            ]
-          }
-        ],
-        "Subtitle": "Dúvidas comuns",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

@@ -3,174 +3,114 @@
   "path": "/tipos-de-estabelecimento",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Tipos de estabelecimento",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+      "page": "Tipos de estabelecimento",
+      "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "highlight": "cada tipo de negócio",
-        "title": "Soluções pensadas para cada tipo de negócio"
-      }
+      "__resolveType": "site/sections/Headers/TitleLarge.tsx",
+      "title": "Soluções pensadas para cada tipo de negócio",
+      "highlight": "cada tipo de negócio"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Navigation/Categorias.tsx",
-        "title": "Em qual categoria  seu estabelecimento mais se encaixa?",
-        "titleForMobile": "Em qual categoria  seu estabelecimento mais se encaixa?",
-        "tags": [
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "A la carte",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c594087e-64db-4052-871f-9c66d6474b09/icon_cuttlery.svg",
-            "url": "/a-la-carte",
-            "title": "A la carte"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Bar",
-            "url": "/bar",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg",
-            "showOnMobile": true,
-            "title": "Bar"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Cafeteria",
-            "url": "/cafeteria",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ae0cfa37-72a5-4214-9a94-85bc2d4c9cd5/cup_coffe1.svg",
-            "title": "Cafeteria"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Fast-food",
-            "url": "/fast-food",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg",
-            "title": "Fast-food"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Padaria",
-            "url": "/padaria",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a710fbf8-6ccd-483a-82cb-364eb2c2de7b/icon_equals_category.svg",
-            "title": "Padaria"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Pizzaria",
-            "url": "/pizzaria",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/df40aa54-3c22-40f0-ab0d-cee3b681080c/icon_pizza_category.svg",
-            "title": "Pizzaria"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Self-Service",
-            "url": "/self-service",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bf0897bd-840d-44a5-8b08-179a7631d1d7/icon_balance_category.svg",
-            "title": "Self-Service"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "url": "/sorveteria",
-            "showOnMobile": true,
-            "name": "Sorveteria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/eea1f29d-7b02-46e0-add5-4dab8e15f38a/icon_ice_cream_category.svg",
-            "title": "Sorveteria"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "De rua",
-            "url": "/rua",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/20e58c5a-cb67-40d0-ad35-842f5b97693d/icon_truck.svg",
-            "showOnMobile": true,
-            "title": "De rua"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Japonês",
-            "url": "/japones",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6d2f559d-6767-4466-9bb1-3d02ad965140/icon_sushi_category.svg",
-            "title": "Japonês"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Redes e franquias",
-            "url": "/redes-franquias",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/efcf5b35-23c3-4c28-a937-c3b5ff212086/icon_market_category.svg",
-            "title": "Redes e franquias"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Fine-dining",
-            "url": "/fine-dining",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/364c7428-840e-42f0-bc91-fee58339e09c/icon_rounded_category.svg",
-            "title": "Fine-dining"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 1",
-            "name": "Churrascaria",
-            "url": "/churrascaria",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f5d6640-88f1-4b44-a681-2d93221b6ea1/icon_meat_category.svg",
-            "showOnMobile": true,
-            "title": "Churrascaria"
-          },
-          {
-            "structureTypeDesktop": "Estrutura 1",
-            "structureTypeMobile": "Estrutura 2",
-            "name": "Outros",
-            "url": "/outros",
-            "showOnMobile": true,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f962784-6d17-42d0-b165-6c71588d3d2a/icon_app_category.svg",
-            "title": "Outros"
-          }
-        ]
-      }
+      "__resolveType": "site/sections/Navigation/Categorias.tsx",
+      "tags": [
+        {
+          "title": "A la carte",
+          "name": "A la carte",
+          "url": "/a-la-carte",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/c594087e-64db-4052-871f-9c66d6474b09/icon_cuttlery.svg"
+        },
+        {
+          "title": "Bar",
+          "name": "Bar",
+          "url": "/bar",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg"
+        },
+        {
+          "title": "Cafeteria",
+          "name": "Cafeteria",
+          "url": "/cafeteria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ae0cfa37-72a5-4214-9a94-85bc2d4c9cd5/cup_coffe1.svg"
+        },
+        {
+          "title": "Fast-food",
+          "name": "Fast-food",
+          "url": "/fast-food",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg"
+        },
+        {
+          "title": "Padaria",
+          "name": "Padaria",
+          "url": "/padaria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a710fbf8-6ccd-483a-82cb-364eb2c2de7b/icon_equals_category.svg"
+        },
+        {
+          "title": "Pizzaria",
+          "name": "Pizzaria",
+          "url": "/pizzaria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/df40aa54-3c22-40f0-ab0d-cee3b681080c/icon_pizza_category.svg"
+        },
+        {
+          "title": "Self-Service",
+          "name": "Self-Service",
+          "url": "/self-service",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bf0897bd-840d-44a5-8b08-179a7631d1d7/icon_balance_category.svg"
+        },
+        {
+          "title": "Sorveteria",
+          "name": "Sorveteria",
+          "url": "/sorveteria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/eea1f29d-7b02-46e0-add5-4dab8e15f38a/icon_ice_cream_category.svg"
+        },
+        {
+          "title": "De rua",
+          "name": "De rua",
+          "url": "/de-rua",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/20e58c5a-cb67-40d0-ad35-842f5b97693d/icon_truck.svg"
+        },
+        {
+          "title": "Japonês",
+          "name": "Japonês",
+          "url": "/japones",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/6d2f559d-6767-4466-9bb1-3d02ad965140/icon_sushi_category.svg"
+        },
+        {
+          "title": "Redes e franquias",
+          "name": "Redes e franquias",
+          "url": "/redes-franquias",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/efcf5b35-23c3-4c28-a937-c3b5ff212086/icon_market_category.svg"
+        },
+        {
+          "title": "Fine-dining",
+          "name": "Fine-dining",
+          "url": "/fine-dining",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/364c7428-840e-42f0-bc91-fee58339e09c/icon_rounded_category.svg"
+        },
+        {
+          "title": "Churrascaria",
+          "name": "Churrascaria",
+          "url": "/churrascaria",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0f5d6640-88f1-4b44-a681-2d93221b6ea1/icon_meat_category.svg"
+        },
+        {
+          "title": "Outros",
+          "name": "Outros",
+          "url": "/outros",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b4462405-3612-4fce-8a3f-6c92251ec18a/icon_app_desktop_category.svg"
+        }
+      ],
+      "titleForMobile": "Em qual categoria  seu estabelecimento mais se encaixa?",
+      "titleForDesktop": "Em qual categoria  seu estabelecimento mais se encaixa?"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

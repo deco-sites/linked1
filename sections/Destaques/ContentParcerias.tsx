@@ -51,9 +51,11 @@ export default function Section({
               />
             )}
             {item.description && (
-              <p className="pt-[12.8px] pb-10 font-sans text-base font-normal leading-tight-18 text-sacramentoState">
-                {item.description}
-              </p>
+              <div className="pt-[13px] pb-10">
+                <p className="text-base font-sans font-normal leading-tight-18 text-sacramentoState">
+                  {item.description}
+                </p>
+              </div>
             )}
           </div>
         ))}

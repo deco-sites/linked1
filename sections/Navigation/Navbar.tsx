@@ -1,7 +1,15 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+export interface Link {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Nome
    * @description Nome visível para clique
@@ -12,14 +20,19 @@ export type Link = {
    * @description Insira a url ou o caminho de destino
    */
   url: string;
-};
+}
 
 export interface Props {
   /**
    * @title Logo
    * @description Insira o logo
    */
-  logo?: ImageWidget;
+  logo: ImageWidget;
+  /**
+   * @title Destino
+   * @description Insira a url ou o caminho de destino
+   */
+  url: string;
   /**
    * @title Ícone de Menu
    * @description Insira o ícone de menu
@@ -36,20 +49,11 @@ export interface Props {
 
 export default function Section({
   logo,
+  url = "/",
   icon,
   close_icon,
-  menu = [
-    {
-      name: "Home",
-      url: "/",
-    },
-  ],
-  button = [
-    {
-      name: "Home",
-      url: "/",
-    },
-  ],
+  menu,
+  button,
 }: Props) {
   // // Efeito para o menu toggle (abrir e fechar)
   // useEffect(() => {
@@ -89,13 +93,16 @@ export default function Section({
       role="navigation"
       className="inline-flex px-4 md:px-10 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50"
     >
-      <div className="flex">
+      <div className="flex items-center">
         {logo && (
-          <Image
-            className=""
-            src={logo || ""}
-            width={173.72}
-          />
+          <a href={url} className="cursor-pointer">
+            <Image
+              className="cursor-pointer"
+              src={logo || ""}
+              width={173.72}
+              alt="Logo"
+            />
+          </a>
         )}
       </div>
 
@@ -133,14 +140,14 @@ export default function Section({
         ))}
       </div>
 
-      <div className="hidden w-fit md:flex ml-8 bg-secondary rounded-xl items-center justify-center">
+      <div className="hidden w-fit md:flex bg-secondary rounded-xl items-center justify-center">
         {button?.map((btn, index) => (
           <a
             key={index}
             href={btn.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
+            className="w-fit px-[22px] py-3.5 flex-none font-sans text-base font-light whitespace-nowrap"
           >
             {btn.name}
           </a>

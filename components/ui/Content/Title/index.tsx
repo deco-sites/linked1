@@ -40,9 +40,9 @@ function Title(
   return (
     <>
       <div className="w-full flex justify-center">
-        <div className="w-full max-w-[706px] px-4 pb-4 pt-10 md:px-0 md:py-8">
+        <div className="w-full px-4 pb-4 pt-10 md:px-0 md:py-8">
           <p
-            className={`text-3xl md:text-5xl font-medium pr-[56px] md:pr-0 ${setColor(color)} ${setAlignment(alignment)}`}
+            className={`text-[28px] md:text-5xl font-sans font-medium leading-tight-32 md:leading-tight-55 tracking-tight-0.56 md:tracking-tight-0.96 ${setColor(color)} ${setAlignment(alignment)}`}
           >
             {content}
           </p>

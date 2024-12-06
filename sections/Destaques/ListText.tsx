@@ -180,7 +180,7 @@ export default function Section({
                 <div key={index} className="w-full">
                   <a
                     href={btn.url}
-                    className="w-full px-4 py-[12.5px] font-sans text-base font-medium leading-tight-18 bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
+                    className="w-full px-4 py-[13px] font-sans text-base font-medium leading-tight-18 bg-sacramentoState rounded-xl text-secondary flex items-center justify-center"
                   >
                     {btn.name}
                   </a>

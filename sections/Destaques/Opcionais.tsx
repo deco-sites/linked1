@@ -71,12 +71,12 @@ export default function Section({
   items = [],
 }: Props) {
   return (
-    <section className="bg-sacramentoState md:bg-sacramentoState-10">
+    <section className="bg-white md:bg-sacramentoState-10">
       <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-        <div className="md:bg-sacramentoState md:w-full md:max-w-[706px]">
+        <div className="md:bg-white md:w-full md:max-w-[706px]">
           <div className="px-4 md:px-10">
             {title && (
-              <div className="py-10 w-full max-w-[239px]">
+              <div className="py-10 w-full max-w-[239px] md:max-w-none">
                 <h1 className="text-[28px] font-sans font-normal leading-tight-32 tracking-tight-2 text-white">
                   {title}
                 </h1>
@@ -86,7 +86,7 @@ export default function Section({
             {items.map((item, index) => (
               <div
                 key={index}
-                className={`w-full max-w-[343px] ${
+                className={`w-full max-w-[343px] md:max-w-none ${
                   index !== items.length - 1
                     ? "border-b border-sacramentoState-10"
                     : "pb-10"
@@ -104,26 +104,26 @@ export default function Section({
                 </div>
                 <div className="pt-4 pb-2">
                   {item.subTitle && (
-                    <h2 className="text-[22px] font-sans font-medium leading-tight-25 tracking-tight-2 text-white">
+                    <h2 className="text-[22px] font-sans font-medium leading-tight-25 tracking-tight-2 text-sacramentoState">
                       {item.subTitle}
                     </h2>
                   )}
                 </div>
-                <div className="pb-[32px] w-full max-w-[300px]">
+                <div className="pb-[32px] w-full max-w-[300px] md:max-w-none">
                   {item.description && (
-                    <p className="text-base font-sans text-white-80 font-normal leading-tight-18">
+                    <p className="text-base font-sans text-sacramentoState-80 font-normal leading-tight-18">
                       {item.description}
                     </p>
                   )}
                 </div>
-                <div className="w-fit py-[13px] md:flex bg-sacramentoState rounded-xl border-[1px] border-secondary items-center justify-center gap-4">
+                <div className="py-[13px] mb-10 w-fit md:flex bg-transparent rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
                   {item.button?.map((btn: Link, btnIndex: number) => (
                     <a
                       key={btnIndex}
                       href={btn.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-max px-[32px] flex-none font-sans text-base font-medium text-secondary leading-tight-18"
+                      className="w-max px-[32px] flex-none font-sans text-base font-medium text-sacramentoState leading-tight-18"
                     >
                       {btn.name}
                     </a>

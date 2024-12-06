@@ -10,7 +10,7 @@ function ComparisonHeader(
       <div className="grid grid-cols-2 gap-6">
         {left && (
           <div className="grid gap-8">
-            <div className="flex gap-2 items-center">
+            <div className="w-full max-w-[160px] flex gap-2 items-center">
               {left.icon && (
                 <Image
                   src={left.icon}
@@ -21,7 +21,7 @@ function ComparisonHeader(
                 />
               )}
               {left.title && (
-                <h4 className="text-lg font-semibold text-sacramentoState">
+                <h4 className="text-lg font-semibold leading-tight-20 text-sacramentoState break-all">
                   {left.title}
                 </h4>
               )}

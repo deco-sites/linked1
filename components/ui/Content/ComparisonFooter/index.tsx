@@ -9,14 +9,16 @@ function ComparisonFooter(
         {left && (
           <div className="grid gap-8">
             {left.price && (
-              <p className="text-base font-bold text-sacramentoState">
-                {left.price}
-              </p>
+              <div className="w-full max-w-[90px]">
+                <p className="text-base font-sans font-bold text-sacramentoState">
+                  {left.price}
+                </p>
+              </div>
             )}
             {left.button && (
               <a
                 href={left.button.link}
-                className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState"
+                className="text-base font-sans font-semibold px-4 py-2 rounded-lg border border-sacramentoState text-sacramentoState text-center"
               >
                 {left.button.name}
               </a>
@@ -26,14 +28,16 @@ function ComparisonFooter(
         {right && (
           <div className="grid gap-8">
             {right.price && (
-              <p className="text-base font-bold text-sacramentoState">
-                {right.price}
-              </p>
+              <div className="w-full max-w-[90px]">
+                <p className="text-base font-sans font-bold text-sacramentoState">
+                  {right.price}
+                </p>
+              </div>
             )}
             {right.button && (
               <a
                 href={right.button.link}
-                className="text-sacramentoState px-4 py-2 rounded-lg border border-sacramentoState"
+                className="text-base font-sans font-semibold px-4 py-2 rounded-lg border border-sacramentoState text-sacramentoState text-center"
               >
                 {right.button.name}
               </a>

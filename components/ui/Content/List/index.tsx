@@ -23,17 +23,21 @@ function setClass(value: string) {
 function List({ items, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <div className="w-full flex justify-center">
-        <div className="w-full max-w-[706px] p-4 pb-10 md:px-0 md:py-8">
-          <ul
-            className={`list-disc pl-5 ${setClass(colorTheme)}`}
-          >
-            {items.map((item) => (
-              <li className="text-base font-light">
-                {item}
-              </li>
-            ))}
-          </ul>
+      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+        <div className="md:w-full md:max-w-[706px]">
+          <div className="w-full flex justify-center">
+            <div className="w-full max-w-[706px] p-4 pb-10 md:px-0 md:py-8">
+              <ul
+                className={`list-disc pl-5 ${setClass(colorTheme)}`}
+              >
+                {items.map((item) => (
+                  <li className="text-base font-light">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </>

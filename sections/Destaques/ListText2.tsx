@@ -64,7 +64,7 @@ export default function Section({
     <section className="bg-white md:bg-sacramentoState-10">
       <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
         <div className="md:bg-white md:w-full md:max-w-[706px]">
-          <div className="px-4 md:px-10 pb-[27px] border-t border-sacramentoState-1  text-center">
+          <div className="px-4 md:px-10 pb-[27px] border-t border-sacramentoState-10 text-center">
             <div className="pt-[27px] pb-[43px] flex justify-between items-center">
               <h2 className="text-base font-sans font-medium text-start leading-tight-18">
                 {Subtitle}

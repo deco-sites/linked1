@@ -51,16 +51,21 @@ export default function Section({
   tags = [],
 }: Props) {
   return (
-    <section className="grid gap-8 lg:gap-20 pb-[65px] bg-white">
-      <div>
+    <section className="bg-white">
+      <div className="pb-[65px] grid gap-8 md:gap-20">
         {/* Título para mobile */}
-        <p className="pt-[52px] md:hidden pl-[17px] pr-[31px] pb-[42px] font-sans font-medium text-sacramentoState text-[22px] leading-tight-25 tracking-tight-2 text-left">
-          {titleForMobile}
-        </p>
+        <div className="block md:hidden pt-[52px] pl-[17px] pr-[31px] pb-[42px] ">
+          <p className="text-[22px] font-sans font-medium leading-tight-25 tracking-tight-2 text-sacramentoState text-left">
+            {titleForMobile}
+          </p>
+        </div>
+
         {/* Título para desktop */}
-        <p className="pt-[144px] px-[240px] hidden md:block font-sans text-sacramentoState text-5xl font-medium leading-tight-55 tracking-tight-2 text-center">
-          {titleForDesktop}
-        </p>
+        <div className="hidden md:block pt-[144px] px-[240px]">
+          <p className="text-5xl font-sans font-medium leading-tight-55 tracking-tight-2 text-sacramentoState text-center">
+            {titleForDesktop}
+          </p>
+        </div>
 
         <div className="flex justify-start lg:justify-center pl-4 lg:pt-[79px]">
           <div className="flex flex-wrap justify-start lg:justify-center gap-x-[8px] gap-y-[8px] lg:gap-y-[17px] w-full max-w-[350px] lg:max-w-[780px]">

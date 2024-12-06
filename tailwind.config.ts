@@ -22,6 +22,7 @@ export default {
         "sacramentoState-40": "rgba(0, 51, 48, 0.4)", // 40% de opacidade
         "sacramentoState-80": "rgba(0, 51, 48, 0.8)", // 80% de opacidade
         mintCream: "#D6FFF5",
+        red: "#FE473C",
       },
       fontFamily: {
         sans: ["Public Sans", "sans-serif"],
@@ -44,6 +45,7 @@ export default {
         "tight-15.86": "15.86px",
         "tight-19": "19.6px",
         "tight-115": "115%",
+        "tight-110": "110%",
       },
       letterSpacing: {
         "tight-2": "-0.02em",
@@ -51,6 +53,7 @@ export default {
         "tight-0.44": "-0.44px",
         "tight-0.56": "-0.56px",
         "tight-1.28": "-1.28px",
+        "tight-0.64": "-0.64px",
       },
       container: {
         center: true,

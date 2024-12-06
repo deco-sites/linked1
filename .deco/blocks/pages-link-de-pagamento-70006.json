@@ -1,6 +1,6 @@
 {
-  "name": "Inteligência de Dados Linked",
-  "path": "/opcionais/inteligencia-de-dados",
+  "name": "link-de-pagamento",
+  "path": "/opcionais/link-de-pagamento",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -12,7 +12,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Opcionais",
+        "page": "Link de pagamento",
         "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
       }
     },
@@ -21,7 +21,7 @@
       "section": {
         "__resolveType": "site/sections/Headers/TitleSegment.tsx",
         "page": "Opcionais",
-        "title": "Inteligência de dados Linked",
+        "title": "Link de Pagamento",
         "titleWithColor": " Linked",
         "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos.",
         "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b5c16567-1de6-4323-9aab-ff188996b766/icon_data.svg",
