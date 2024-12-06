@@ -76,6 +76,27 @@
     },
     {
       "__resolveType": "FixedSection"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Contents/ContentButtons.tsx",
+            "textSection": "dsadsads",
+            "button": [
+              {
+                "title": "dsadsa",
+                "name": "asdasd",
+                "url": "dasdsa",
+                "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8715add7-3b4c-4e5d-a5fc-b9d570802c1c/cuttlery_plan_icon.svg"
+              }
+            ]
+          },
+          "title": "Botões"
+        }
+      ]
     }
   ],
   "seo": {

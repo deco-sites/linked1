@@ -40,7 +40,7 @@ export default function Section({
   return (
     <section
       id="fixed-section"
-      className="fixed bottom-0 left-0 w-full flex justify-center bg-white lg:hidden z-50"
+      className="fixed bottom-0 left-0 w-full flex justify-center bg-white lg:hidden z-40"
     >
       <div className="px-5 pt-[14px] pb-5 w-full grid gap-y-[9px]">
         <div className="w-full flex items-center space-x-2">

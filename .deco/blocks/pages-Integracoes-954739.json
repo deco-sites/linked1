@@ -6,6 +6,7 @@
   "sections": [
     {
       "__resolveType": "Navbar"
+      "__resolveType": "Navbar"
     },
     {
       "__resolveType": "Topo de Página - Integrações"
@@ -53,8 +54,10 @@
     },
     {
       "__resolveType": "Footer"
+      "__resolveType": "Footer"
     },
     {
+      "__resolveType": "FixedSection"
       "__resolveType": "FixedSection"
     }
   ],
