@@ -28,7 +28,7 @@ function Product(
 ) {
   return (
     <>
-      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+      <div className="flex md:justify-center">
         <div className="md:w-full md:max-w-[706px]">
           <div className="px-4 md:px-10 py-10 w-full max-w-[343px] md:max-w-none">
             <div className="flex">

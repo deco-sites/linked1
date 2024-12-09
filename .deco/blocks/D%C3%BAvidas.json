@@ -9,7 +9,8 @@
           {
             "icon": "QuestionMarkCircle",
             "iconColor": "Primary",
-            "background": "Secondary"
+            "background": "Secondary",
+            "title": "Ícon"
           }
         ],
         "borderColor": "Secondary"
@@ -24,6 +25,17 @@
         "content": "Ficou com dúvidas?"
       },
       "title": "Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary dark",
+        "title": "teste",
+        "text": "teste",
+        "link": "/teste",
+        "icon": "teste"
+      },
+      "title": "Botão"
     }
   ],
   "collapse": {}

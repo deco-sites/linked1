@@ -171,17 +171,33 @@
         ],
         "footerLeft": {
           "button": {
-            "name": "Ver detalhes",
-            "url": "/planos/plano-essencial"
+            "0": {
+              "buttonTheme": "Primary white",
+              "title": "Botão ver mais (esquerda)",
+              "text": "Ver mais ",
+              "link": "/ver-mais"
+            },
+            "title": "dsa",
+            "text": "Ver detalhes",
+            "link": "essencial",
+            "buttonTheme": "Secondary white"
           },
           "price": "A partir de R$ 00,00"
         },
         "footerRight": {
           "button": {
-            "name": "Ver detalhes",
-            "url": "/planos/plano-total"
+            "0": {
+              "buttonTheme": "Secondary white",
+              "title": "Ver mais (direito)",
+              "text": "Ver detalhes",
+              "link": "vr detalhes"
+            },
+            "title": "dsad",
+            "text": "Ver detalhes",
+            "link": "plano-total",
+            "buttonTheme": "Secondary white"
           },
-          "price": "A partir de R$ 00,00"
+          "price": "A partir de R$ 000,00"
         }
       },
       "title": "Comparação"

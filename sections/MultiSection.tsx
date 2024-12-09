@@ -92,7 +92,7 @@ export default function MultiSection(
     );
   } else {
     return (
-      <div className={`${setClass(background)} md:py-10`}>
+      <div className={`${setClass(background)} py-6 md:py-10`}>
         {sections?.map((item) => (
           LoadComponent(item.section)
         ))}

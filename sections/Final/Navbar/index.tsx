@@ -62,15 +62,7 @@ function Menu({ logo, icon, close_icon, menu, button, subMenu, linkIcons }: JSX.
 
             <div className="hidden w-fit 2xl:flex ml-8 bg-secondary rounded-xl items-center justify-center">
                 {button?.map((btn, index) => (
-                <a
-                    key={index}
-                    href={btn.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
-                >
-                    {btn.text}
-                </a>
+                    <ButtonComponent text={btn.text} link={btn.link} icon={btn.icon} buttonTheme={btn.buttonTheme} />
                 ))}
             </div>
         </nav>

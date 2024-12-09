@@ -18,6 +18,13 @@
               "textAlignment": "Center"
             },
             "title": "Titulo"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Content/Spacer.tsx",
+              "contentAlign": "Vertical"
+            },
+            "title": "Spacer"
           }
         ]
       },
@@ -135,6 +142,39 @@
               "textAlignment": "Center"
             },
             "title": "Descrição"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+              "content": [
+                {
+                  "icon": "ArrowsPointingOut",
+                  "iconColor": "Primary",
+                  "title": "teste",
+                  "background": "White"
+                },
+                {
+                  "icon": "ArrowsPointingOut",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "teste"
+                },
+                {
+                  "icon": "ArrowsPointingOut",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "Teste"
+                },
+                {
+                  "icon": "ArrowsPointingOut",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "Teste"
+                }
+              ],
+              "borderColor": "Primary"
+            },
+            "title": "Opções de plano"
           }
         ]
       },
