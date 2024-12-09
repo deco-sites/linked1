@@ -16,7 +16,7 @@ function LogoGroupComponent(
                   className=""
                   src={item.logo || ""}
                   alt="Ícone"
-                  width={64}
+                  width={100}
                 />
               </div>
             ))}

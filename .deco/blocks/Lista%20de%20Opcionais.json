@@ -7,7 +7,12 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/link-de-pagamentos"
+          "url": "/opcionais/link-de-pagamentos",
+          "title": "a",
+          "text": "Ver detalhes",
+          "link": "ver detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Link de pagamentos",
@@ -21,7 +26,11 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/monitor-de-pedidos-kds"
+          "url": "/opcionais/monitor-de-pedidos-kds",
+          "title": "3",
+          "text": "w",
+          "link": "w",
+          "buttonTheme": "Secondary dark"
         },
         "colorTheme": "Primary",
         "title": "Monitor de pedidos KDS",
@@ -35,7 +44,10 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/app-delivery"
+          "url": "/opcionais/app-delivery",
+          "title": "w",
+          "text": "w",
+          "link": "w"
         },
         "colorTheme": "Primary",
         "title": "App Delivery",
@@ -49,7 +61,11 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/inteligencia-de-dados"
+          "url": "/opcionais/inteligencia-de-dados",
+          "title": "w",
+          "text": "w",
+          "link": "w",
+          "buttonTheme": "Secondary dark"
         },
         "colorTheme": "Primary",
         "title": "Inteligência de dados ",

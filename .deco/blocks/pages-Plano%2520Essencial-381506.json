@@ -6,10 +6,38 @@
       "__resolveType": "Navbar"
     },
     {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+            "page": "Planos",
+            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+          },
+          "title": "Share"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
+            "page": "Planos",
+            "title": "Plano Essencial",
+            "highlight": "Essencial",
+            "description": "Design intuitivo e operação fácil para administrar seus pedidos",
+            "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8715add7-3b4c-4e5d-a5fc-b9d570802c1c/cuttlery_plan_icon.svg",
+            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+          },
+          "title": "TitlePlan"
+        }
+      ],
+      "background": "Primary",
+      "collapse": {}
+    },
+    {
       "__resolveType": "Carrossel Plano Essencial"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
       "sections": [
         {
           "section": {
@@ -19,6 +47,27 @@
             "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
           },
           "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+            "content": [
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "Accent",
+                "background": "White",
+                "title": "Balcão"
+              },
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "Accent",
+                "background": "White",
+                "title": "Delivery"
+              }
+            ],
+            "borderColor": "Primary"
+          },
+          "title": "Grid de ícones"
         },
         {
           "section": {
@@ -33,14 +82,13 @@
               "Retaguarda"
             ],
             "colorTheme": "Primary"
-          }
+          },
+          "title": "Lista"
         }
-      ],
-      "background": "White"
+      ]
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Secondary",
       "sections": [
         {
           "section": {
@@ -74,7 +122,8 @@
           },
           "title": " Carrossel de Testemunhas"
         }
-      ]
+      ],
+      "background": "Secondary"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",

@@ -13,6 +13,18 @@ import type { JSX } from "preact";
 // | "link white"
 // | "fab"
 
+function setWidth(value) {
+    switch (value) {
+      case "Máximo (100%)":
+        return "w-full";
+
+      case "Mínimo (Tamanho do conteúdo)":
+        return "w-fit";
+        
+      default:
+        return "";
+    }
+}
 function setClass(value) {
     switch (value) {
       case "Primary dark":
@@ -44,10 +56,10 @@ function setClass(value) {
     }
 }
 
-function ButtonComponent({ text, link, icon, buttonTheme }: JSX.IntrinsicElements["div"]) {
+function ButtonComponent({ text, link, icon, buttonTheme, tamanho }: JSX.IntrinsicElements["div"]) {
   return (
     <>
-        <a href={link} className={`${setClass(buttonTheme)} flex gap-3  rounded-[10px] text-base md:text-lg font-semibold`}>
+        <a href={link} className={`${setClass(buttonTheme)} ${setWidth(tamanho)} flex gap-3 rounded-[10px] text-base md:text-lg font-semibold`}>
             {text}{icon}
         </a>
         {/* <Script /> */}
