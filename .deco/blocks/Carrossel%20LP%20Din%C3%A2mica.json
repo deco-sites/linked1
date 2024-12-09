@@ -1,0 +1,34 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryContent.tsx",
+        "items": [
+          {
+            "title": "Carrossel de imagens",
+            "description": "Espaço para texto, se houver necessidade",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
+          },
+          {
+            "title": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png"
+          },
+          {
+            "title": "Carrossel de imagens",
+            "description": "Espaço para texto, se houver necessidade",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
+          },
+          {
+            "title": "Evite o disperdício",
+            "description": "Com linked os pedidos são organizados e entregues antes da fome apertar.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
+          }
+        ]
+      },
+      "title": "Diferenciais"
+    }
+  ]
+}

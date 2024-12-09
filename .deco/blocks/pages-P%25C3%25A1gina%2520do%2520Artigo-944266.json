@@ -3,167 +3,206 @@
   "path": "/artigo",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/Offer.tsx",
-        "page": "Clientes",
-        "offer": "Oferecido por",
-        "brandOffer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleArticle.tsx",
-        "author": " por José Silva",
-        "date": "Maio 2024,",
-        "page": "Clientes",
-        "title": "Restaurantes com cardápios enxutos lucram mais ",
-        "menuLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png",
-        "offer": "Oferecido por"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": {
-          "subTopic": [
-            {
-              "descriptionTopic": [
-                "Um cardápio com menos opções melhora a eficiência, reduz o desperdício e destaca pratos de alta performance, além de refletir melhor a identidade do estabelecimento."
-              ],
-              "subTitleTopic": [
-                "teste"
-              ],
-              "topicDescriptionContent": [],
-              "title": "Sub-tópicos",
-              "descriptionSubTopics": [
-                {
-                  "topicDescriptionContent": [
-                    "Seu cardápio precisa ter, no máximo, uma página.  Os clientes têm mais pressa e não querem se perder em muitas informações. Muitas páginas podem fazer com que ele perca o interesse, ou que peça algo “só por pedir”, o que retira muito do potencial de vendas que você pode ter.",
-                    "Além disso, parte do seu público pode ter migrado diretamente dos serviços de fast food, onde a escolha dos alimentos é feita mais rapidamente.",
-                    "Sabendo com que tipo de pratos e produtos o seu estabelecimento trabalha, ele já sai de casa decidido, e não ficará “perdido” em meio a um cardápio recheado de opções que, na maioria das vezes, jamais serão consumidas por eles."
-                  ],
-                  "title": "Agilidade para o consumidor",
-                  "subTitleTopic": "Agilidade para o consumidor"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Um cardápio enxuto também pode gerar redução de custos para o seu estabelecimento, uma vez que serão necessários menos ingredientes.",
-                    "Além de serem mais específicas, as matérias primas com as quais você irá lidar também poderão ser armazenadas em menores quantidades, suficientes apenas para atender as demandas necessárias.",
-                    "Com estoques menores, as chances de produtos estragarem por conta da falta de saída também é reduzida drasticamente - mais um ponto de economia."
-                  ],
-                  "title": "Estoques reduzidos",
-                  "subTitleTopic": "Estoques reduzidos"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Quanto menores os estoques, mais frescos os produtos com os quais você vai lidar. É claro que neste caso você precisa contar com fornecedores prestativos e muito responsáveis. Porém, conseguindo acertar esse pequeno detalhe, a qualidade dos produtos que você tem a oferecer em seu bar ou restaurante vai refletir diretamente na satisfação, e consequente fidelização de seus consumidores/clientes."
-                  ],
-                  "title": "Qualidade nos ingredientes",
-                  "subTitleTopic": "Qualidade nos ingredientes"
-                }
-              ]
-            }
-          ],
-          "title": "Contéudo",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
-          "descriptionImage": "O Restaurante Sabor de Minas reduziu seu cardápio de 20 páginas para somente 1. Economia nas compras do 1º mês foi de 42%"
-        }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/TestimonyText.tsx",
-        "textTestimony": "“A gente tinha mais de 250 pratos no cardápio. Os clientes pediam no máximo 10. Então foi com esses que ficamos.”",
-        "nameDescription": "MARIA RITA, proprietária do Restaurante Sabor de Minas"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": {
-          "subTopic": [
-            {
-              "descriptionTopic": [],
-              "descriptionSubTopics": [
-                {
-                  "topicDescriptionContent": [
-                    "Oferecer um cardápio mais enxuto é uma escolha que precisa estar diretamente relacionada à forma como seu estabelecimento se posiciona no mercado. ",
-                    "Essa maneira mais especializada em determinado segmento vai ajudar a construir uma imagem única de seu estabelecimento. Contando com identidade própria, você poderá ser conhecido por oferecer “o melhor prato da cidade”.",
-                    "Relembre todas as vantagens desse cardápio mais enxuto:"
-                  ],
-                  "title": "Foque no seu nicho",
-                  "subTitleTopic": "Foque no seu nicho"
-                }
-              ],
-              "title": "Foque no seu nicho"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryWithLink.tsx",
-        "title": "Leia mais",
-        "items": [
-          {
-            "SectionTitle": "Leia mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
-            "SectionTitle2": "5 motivos para participar da Restaurante Week"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Um cardápio com menos opções melhora a eficiência, reduz o desperdício e destaca pratos de alta performance, além de refletir melhor a identidade do estabelecimento."
           },
-          {
-            "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
-            "SectionTitle": "Leia Mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          "title": "Parágrafo no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Agilidade para o consumidor"
           },
-          {
-            "SectionTitle": "Leia Mais",
-            "SectionTitle2": "5 motivos para participar da Restaurante Week",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png"
+          "title": "Subtítulo no Topo do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Seu cardápio precisa ter, no máximo, uma página.  Os clientes têm mais pressa e não querem se perder em muitas informações. Muitas páginas podem fazer com que ele perca o interesse, ou que peça algo “só por pedir”, o que retira muito do potencial de vendas que você pode ter."
           },
-          {
-            "SectionTitle": "Leia Mais",
-            "SectionTitle2": "Dicas para melhorar a apresentação dos seus pratos",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ReceiveRecipes.tsx",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
-        "sectionText": "Receba as receitas de sucesso da Menu em seu Whatsapp",
-        "button": {
-          "buttonText": "Assinar",
-          "url": "/planos"
+          "title": "1- Parágrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Além disso, parte do seu público pode ter migrado diretamente dos serviços de fast food, onde a escolha dos alimentos é feita mais rapidamente."
+          },
+          "title": "2- Parágrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Sabendo com que tipo de pratos e produtos o seu estabelecimento trabalha, ele já sai de casa decidido, e não ficará “perdido” em meio a um cardápio recheado de opções que, na maioria das vezes, jamais serão consumidas por eles."
+          },
+          "title": "3- Parágrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Estoques reduzidos"
+          },
+          "title": "Subtítulo no Meio do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Um cardápio enxuto também pode gerar redução de custos para o seu estabelecimento, uma vez que serão necessários menos ingredientes."
+          },
+          "title": "1- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Além de serem mais específicas, as matérias primas com as quais você irá lidar também poderão ser armazenadas em menores quantidades, suficientes apenas para atender as demandas necessárias."
+          },
+          "title": "2- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Com estoques menores, as chances de produtos estragarem por conta da falta de saída também é reduzida drasticamente - mais um ponto de economia."
+          },
+          "title": "3- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Qualidade nos ingredientes"
+          },
+          "title": "Subtítulo no Final do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Quanto menores os estoques, mais frescos os produtos com os quais você vai lidar. É claro que neste caso você precisa contar com fornecedores prestativos e muito responsáveis. Porém, conseguindo acertar esse pequeno detalhe, a qualidade dos produtos que você tem a oferecer em seu bar ou restaurante vai refletir diretamente na satisfação, e consequente fidelização de seus consumidores/clientes."
+          },
+          "title": "1- Parágrafo Embaixo do Subtítulo no Final do Bloco 1"
         }
-      }
+      ],
+      "background": "White"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "site/sections/MultiSection.tsx"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Foque no seu nicho"
+          },
+          "title": "Subtítulo no Topo do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Oferecer um cardápio mais enxuto é uma escolha que precisa estar diretamente relacionada à forma como seu estabelecimento se posiciona no mercado. "
+          },
+          "title": "1- Parágrafo Embaixo do Subtítulo do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": "Essa maneira mais especializada em determinado segmento vai ajudar a construir uma imagem única de seu estabelecimento. Contando com identidade própria, você poderá ser conhecido por oferecer “o melhor prato da cidade”.",
+            "colorTheme": "Primary",
+            "textAlignment": "Left"
+          },
+          "title": "2- Parágrafo Embaixo do Subtítulo do Bloco 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": " Relembre todas as vantagens desse cardápio mais enxuto:",
+            "colorTheme": "Primary",
+            "textAlignment": "Left"
+          },
+          "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Leia mais"
+          },
+          "title": "Título do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Galery/GaleryImages.tsx",
+            "items": [
+              {
+                "description": "5 motivos para participar da Restaurante Week",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
+                "title": "Conteúdo do Carrosel 1"
+              },
+              {
+                "title": "Conteúdo do Carrosel 2",
+                "description": "Dicas para melhorar a apresentação dos seus pratos",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+              },
+              {
+                "title": "Conteúdo do Carrosel 3",
+                "description": "5 motivos para participar da Restaurante Week",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+              },
+              {
+                "title": "Conteúdo do Carrosel 4",
+                "description": "Dicas para melhorar a apresentação dos seus pratos",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+              }
+            ]
+          },
+          "title": "Carrossel de Conteúdo"
+        }
+      ],
+      "background": "Secondary"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

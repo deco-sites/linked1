@@ -3,84 +3,156 @@
   "path": "/termos-de-uso",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Termos de uso"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": {
-          "subTopic": [
-            {
-              "descriptionTopic": [],
-              "descriptionSubTopics": [
-                {
-                  "topicDescriptionContent": [
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-                  ],
-                  "title": "Termos de Uso"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "subTitleTopic": "1. Lorem ipsum",
-                  "title": "1. Lorem ipsum"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "title": "2. Dolor sit amet",
-                  "subTitleTopic": "2. Dolor sit amet"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "title": "3. Dolor sit amet",
-                  "subTitleTopic": "3. Dolor sit amet"
-                }
-              ],
-              "title": "Termos de Uso"
-            }
-          ]
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "White",
+            "content": "Termos de uso"
+          },
+          "title": "Título da Página"
         }
-      }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "1. Lorem ipsum"
+          },
+          "title": "Subtítulo no Topo da Página 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+          },
+          "title": "1- Paragrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+          },
+          "title": "2- Paragrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
+          },
+          "title": "3- Paragrafo Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/List.tsx",
+            "items": [
+              "Quis autem vel eum iure reprehenderit ",
+              "  Qui in ea voluptate velit esse quam nihil ",
+              "Molestiae consequatur",
+              "Vel illum qui dolorem eum ",
+              "Fugiat quo voluptas nulla pariatur"
+            ],
+            "colorTheme": "Primary"
+          },
+          "title": "4- Lista de Texto Embaixo do Subtítulo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "2. Dolor sit ametza"
+          },
+          "title": "Subtítulo no Meio da Página 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+          },
+          "title": "1- Paragrafo Embaixo do Subtítulo Meio da Página 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": " Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
+          },
+          "title": "2- Paragrafo Embaixo do Subtítulo Meio da Página 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "3. Dolor sit amet"
+          },
+          "title": "Subtítulo no Meio da Página 3"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+          },
+          "title": "1- Paragrafo Embaixo do Subtítulo Meio da Página 3"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
+          },
+          "title": "2- Paragrafo Embaixo do Subtítulo Meio da Página 3"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
+          },
+          "title": "3- Paragrafo Embaixo do Subtítulo Meio da Página 3"
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {
