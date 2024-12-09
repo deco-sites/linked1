@@ -5,164 +5,69 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Planos",
-        "title": "Plano Total",
-        "description": "Tudo o que você precisa para organizar, economizar, vender e lucrar mais",
-        "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/aba1ccff-4afd-4cc0-a9aa-977847b57e4c/Captura-de-Tela-2024-10-02-as-20.00.13.png",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Carousel Benefícios"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleLarge.tsx",
-        "page": "Planos",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
-        "title": "Plano Total",
-        "description": "Tudo o que você precisa para organizar, economizar, vender e lucrar mais",
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/aba1ccff-4afd-4cc0-a9aa-977847b57e4c/Captura-de-Tela-2024-10-02-as-20.00.13.png",
-        "wordBreak": "organizar, economizar, vender",
-        "wordBreakDescription": " e lucrar mais",
-        "highlight": "Total"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "PDV",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png",
-            "titleSection": "PDV"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. ",
+            "colorTheme": "Primary",
+            "textAlignment": "Left"
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/List.tsx",
+            "items": [
+              "Instalação em até 72 horas",
+              "Atendimento 24x7",
+              "Treinamentos ilimitados",
+              "Sem limite de caixas e dispositivos",
+              "Sem limite de usuários",
+              "Sem limite de pedidos",
+              "Sem contrato de fidelidade",
+              "Integrações com os principais serviços do mercado",
+              "Retaguarda completa, com mais de 30 relatórios"
+            ],
+            "colorTheme": "Primary"
           }
-        ]
-      }
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "ListText"
-      }
+      "__resolveType": "Dúvidas"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/MultiSection.tsx",
-        "sections": [
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
-              "logos": [
-                {
-                  "title": "Delivery Much",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/01eeaa30-6b3a-48a2-9395-5e4d55e8d6b5/brand_delivery_much-2x.png"
-                },
-                {
-                  "title": "Delivery Direto",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00bcd62a-41bf-4dd9-bbd9-641a94acc2c6/Delivery-direto.jpg"
-                },
-                {
-                  "title": "iFood",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png"
-                },
-                {
-                  "title": "Goomer",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png"
-                }
-              ],
-              "colorTheme": "Primary",
-              "title": "Integrações"
-            },
-            "title": "Integrações"
-          }
-        ],
-        "background": "White"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/PerguntasFrequentes.tsx",
-        "Subtitle": "Dúvidas comuns",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
-        "description": [
-          {
-            "DescriptionAskSection": [
-              {
-                "TitleAsk": "O Linked Food Total funciona em qualquer computador?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Para que tipo de estabelecimento o Linked Food Total é indicado?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Quanto tempo leva para sentir os benefícios do Linked Food Total?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "A integração que preciso não está disponível no Linked Food Total, o que faço?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              },
-              {
-                "TitleAsk": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Total?",
-                "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "name": "Plano Total",

@@ -14,7 +14,8 @@
       "section": {
         "__resolveType": "site/sections/Final/Content/Title.tsx",
         "colorTheme": "Secondary",
-        "content": "Suporte completo em todos os planos"
+        "content": "Suporte completo em todos os planos",
+        "textAlignment": "Center"
       },
       "title": "Título"
     },
@@ -27,7 +28,7 @@
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg",
             "textSectionDescription": "Atendimento 24x7",
             "background": "Primary",
-            "icon": "User",
+            "icon": "ShoppingCart",
             "iconColor": "Accent"
           },
           {

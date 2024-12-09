@@ -7,24 +7,7 @@
       "__resolveType": "Abertura Home"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "description": "Com linked os pedidos são organizados e  entregues antes da fome apertar.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/31085aa3-aee4-4591-b506-d7bb4007ea83/Captura-de-Tela-2024-09-26-as-09.27.40.png",
-            "titleSection": "Aumente a eficiência",
-            "title": "Aumente a eficiência"
-          },
-          {
-            "title": "Evite o disperdício",
-            "titleSection": "Evite o disperdício",
-            "description": "Na linked é possível controlar o estoque e planejar as compras com antecedência.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a6359968-5597-45e3-995d-e29ea41cbbb6/disperdicio.png"
-          }
-        ]
-      }
+      "__resolveType": "Carousel Benefícios"
     },
     {
       "__resolveType": "Tipos de Estabelecimentos"
@@ -36,34 +19,7 @@
       "__resolveType": "Suporte"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/Suporte.tsx",
-        "subTitle": "Suporte completo em todos os planos",
-        "content": [
-          {
-            "textSectionDescription": "Treinamentos ilimitados",
-            "title": "Treinamentos ilimitados",
-            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3d67c64d-e1a6-49ca-bd0d-44853a3aaa68/icon_chat.svg"
-          },
-          {
-            "title": "Configuração e montagem do 1º cardápio",
-            "textSectionDescription": "Configuração e montagem do 1º cardápio",
-            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f87e937-123b-4428-a5f6-f93e6c77a524/icon_book.svg"
-          },
-          {
-            "title": "Atendimento 24x7",
-            "textSectionDescription": "Atendimento 24x7",
-            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d1f97096-e263-4991-9268-4d462572314d/icon_clock.svg"
-          },
-          {
-            "title": "Equipe própria",
-            "textSectionDescription": "Equipe própria",
-            "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d3e04456-4f6e-430a-b89f-6243bef42b49/icon_team.svg"
-          }
-        ],
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a427297b-c1d7-4f39-83bf-bdd51a050d53/img_group_people.png"
-      }
+      "__resolveType": "Carousel de Parceiros"
     },
     {
       "__resolveType": "BigNumbers"

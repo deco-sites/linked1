@@ -3,247 +3,49 @@
   "path": "/opcionais/inteligencia-de-dados",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Opcionais",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "page": "Opcionais",
-        "title": "Inteligência de dados Linked",
-        "titleWithColor": " Linked",
-        "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos.",
-        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b5c16567-1de6-4323-9aab-ff188996b766/icon_data.svg",
-        "highlight": "Linked"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "Retaguarda interativa",
-            "description": "O monitoramento do seu estabelecimento fica ainda mais completo com nossa ferramenta da inteligência de dados.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png",
-            "titleSection": "Retaguarda interativa"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Você tem muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise - seja por período ou loja, caso tenha mais de uma unidade."
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Os gráficos são intuitivos e fáceis de ler, mostrando com clareza oportunidades e necessidades de atuação."
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
+          "title": "Parágrafo 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "A inteligência de dados Linked é perfeita para estabelecimentos de alto movimento e multilojas."
           },
-          {
-            "title": "Frente de caixa",
-            "titleSection": "Frente de caixa",
-            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
-          }
-        ]
-      }
+          "title": "Parágrafo 3"
+        }
+      ],
+      "background": "White"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/Text.tsx",
-        "DescriptionSection": [
-          {
-            "DescriptionSection": [
-              "Você tem muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise - seja por período ou loja, caso tenha mais de uma unidade.",
-              "Os gráficos são intuitivos e fáceis de ler, mostrando com clareza oportunidades e necessidades de atuação.",
-              "A inteligência de dados Linked é perfeita para estabelecimentos de alto movimento e multilojas."
-            ],
-            "title": "Texto 1"
-          }
-        ]
-      }
+      "__resolveType": "Dúvidas"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "description": [
-          {
-            "DescriptionSection": [
-              "Por combo",
-              "Por hora",
-              "Por período de caixa",
-              "Por garçom",
-              "Por cliente",
-              "Por departamento",
-              "Com margem final",
-              "Por Produto",
-              "Entregas por motoboy",
-              "Kardex (controle de estoque)",
-              "Acumulado de vendas no dia a dia",
-              "Movimento de vendas"
-            ],
-            "SectionText": "Vendas",
-            "title": "Vendas"
-          },
-          {
-            "DescriptionSection": [
-              "ABC",
-              "Fornecedor",
-              "Inflação",
-              "Produtos",
-              "Sugestão de compras"
-            ],
-            "title": "Compras",
-            "SectionText": "Compras"
-          },
-          {
-            "DescriptionSection": [
-              "CMV",
-              "Estoque",
-              "Evolução de preços",
-              "Mala direta",
-              "Pendências",
-              "Ticket médio"
-            ],
-            "SectionText": "Gerencial",
-            "title": "Gerencial"
-          },
-          {
-            "DescriptionSection": [
-              "Acompanhe os pratos preferidos",
-              "Faturamento bruto",
-              "Conferência de cupom de venda",
-              "Estorno de estoque/perdas",
-              "Transferência de estoque/mesa",
-              "Total de notas fiscais dia a dia",
-              "CMV",
-              "Estoque",
-              "Evolução de preços",
-              "Mala direta",
-              "Movimento de vendas",
-              "Pendências",
-              "Tíquete médio"
-            ],
-            "SectionText": "Auditoria",
-            "title": "Auditoria"
-          }
-        ],
-        "button": [],
-        "Subtitle": "Recursos e funcionalidades",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
-        "DescriptionSection": [
-          {
-            "DescriptionSection": [],
-            "SecaoDescricao": [
-              {
-                "description": []
-              }
-            ]
-          }
-        ]
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText2.tsx",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
-        "Subtitle": "Requisitos",
-        "description": [
-          {
-            "DescriptionSection": [],
-            "SectionText": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. ",
-            "title": "Inteligência de Dados - Plano Total",
-            "highlight": "Linked Total"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/Opcionais.tsx",
-        "title": "Mais opcionias disponíveis",
-        "items": [
-          {
-            "button": [
-              {
-                "title": "Ver detalhes",
-                "name": "Ver detalhes",
-                "url": "/detalhes"
-              }
-            ],
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/424e7829-7c5d-4750-b147-28b052fc21a7/icon_link_opcional.png",
-            "subTitle": "Link de pagamentos",
-            "description": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você.",
-            "title": "Link de pagamentos"
-          },
-          {
-            "button": [
-              {
-                "title": "Ver detalhes",
-                "name": "Ver detalhes",
-                "url": "/detalhes"
-              }
-            ],
-            "title": "Monitor de pedidos KDS",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/177b31bc-ff5a-4c46-9f7d-cdf8a8739dfa/icon_printer_opcionais.svg",
-            "subTitle": "Monitor de pedidos KDS",
-            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Final/Content/List.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/MultiSection.tsx",
-        "sections": [
-          {
-            "section": {},
-            "title": "teste rafa"
-          }
-        ],
-        "background": "White"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {
