@@ -5,8 +5,9 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "content": "Linked é especialista em food service",
-        "colorTheme": "Secondary"
+        "content": "Por quê a Linked?",
+        "colorTheme": "Secondary",
+        "textAlignment": "Center"
       },
       "title": "Título"
     },

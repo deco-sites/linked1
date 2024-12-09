@@ -62,37 +62,56 @@
             "section": {
               "__resolveType": "site/sections/Final/Content/Comparison.tsx",
               "headerLeft": {
-                "title": "Essencial"
+                "title": "Essencial",
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5ffb559c-3e3d-45bb-a6ac-b6f928c0bf51/cup_plan_essencial_compare.svg",
+                "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio."
               },
               "headerRight": {
-                "title": "Total"
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4de38ec-91b3-4c1d-877e-93da5baceb5d/cuttlery_plan_total_compare.svg",
+                "title": "Total",
+                "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários."
               },
               "content": [
                 {
                   "contentLeft": [
                     {
-                      "title": "Online"
+                      "title": "Impressoras não fiscais"
                     }
                   ],
                   "contentRight": [
                     {
-                      "title": "Online / Offline"
+                      "title": "Impressoras fiscais"
                     }
                   ],
-                  "title": " "
+                  "title": "Módulos"
+                },
+                {
+                  "contentLeft": [
+                    {
+                      "title": "PDV"
+                    }
+                  ],
+                  "contentRight": [
+                    {
+                      "title": "PDV"
+                    }
+                  ],
+                  "title": "Recursos e funcionalidades"
                 }
               ],
               "footerLeft": {
                 "button": {
-                  "name": " ",
-                  "url": " "
-                }
+                  "name": " Ver detalhes",
+                  "url": " /planos/plano-essencial"
+                },
+                "price": " A partir de  R$ 00,00"
               },
               "footerRight": {
                 "button": {
-                  "name": " ",
-                  "url": " "
-                }
+                  "name": "  Ver detalhes",
+                  "url": "  /planos/plano-total"
+                },
+                "price": " A partir de  R$ 00,00"
               }
             },
             "title": "Comparativo de Planos"

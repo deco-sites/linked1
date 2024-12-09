@@ -1,0 +1,30 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryContent.tsx",
+        "items": [
+          {
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2eda5708-354b-4e3f-b1c2-4016d35ea4bd/team_photo.png"
+          },
+          {
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2eda5708-354b-4e3f-b1c2-4016d35ea4bd/team_photo.png"
+          },
+          {
+            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2eda5708-354b-4e3f-b1c2-4016d35ea4bd/team_photo.png"
+          },
+          {
+            "description": "Do prato mais vendido ao lucro em cada prato. A linked oferece relatórios diversos.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2eda5708-354b-4e3f-b1c2-4016d35ea4bd/team_photo.png"
+          }
+        ]
+      },
+      "title": "Diferenciais"
+    }
+  ]
+}
