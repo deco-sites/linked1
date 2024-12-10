@@ -1,23 +1,23 @@
 {
   "__resolveType": "site/sections/Destaques/Duvidas.tsx",
-  "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/abb50f34-a82c-43be-baa5-741b93e7a1ab/icon_question.svg",
-  "title": "Ficou com Dúvidas?",
   "button": [
     {
       "title": "Descubra o plano ideal",
-      "name": "teste",
-      "url": "teste",
+      "name": "Descubra o plano ideal",
+      "url": "/planos",
+      "buttonTheme": "Secondary white",
       "text": "Descubra o plano ideal",
-      "link": "plano-ideal",
-      "buttonTheme": "Secondary white"
+      "link": "/planos"
     },
     {
       "title": "Agende uma demonstração",
-      "name": "teste",
-      "url": "teste",
+      "name": "Agende uma demonstração",
+      "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg",
+      "buttonTheme": "Primary white",
       "text": "Agende uma demonstração",
-      "link": "Agende uma demonstração",
-      "buttonTheme": "Primary white"
+      "link": "/agendar"
     }
-  ]
+  ],
+  "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/abb50f34-a82c-43be-baa5-741b93e7a1ab/icon_question.svg",
+  "title": "Ficou com dúvidas?"
 }

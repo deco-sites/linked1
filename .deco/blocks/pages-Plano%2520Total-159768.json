@@ -24,7 +24,16 @@
             "colorTheme": "Primary",
             "textAlignment": "Left"
           },
-          "title": "Parágrafo 1"
+          "title": "1- Parágrafo em Cima da Imagem"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Image.tsx",
+            "type": "Pequena",
+            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png"
+          },
+          "title": "Imagem do Bloco"
         },
         {
           "section": {
@@ -33,7 +42,7 @@
             "textAlignment": "Left",
             "content": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
           },
-          "title": "Parágrafo 2"
+          "title": "2- Parágrafo Embaixo da Imagem"
         },
         {
           "section": {
@@ -42,7 +51,7 @@
             "textAlignment": "Left",
             "content": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
           },
-          "title": "Parágrafo 2"
+          "title": "3- Parágrafo Em Cima da Lista de Texto"
         },
         {
           "section": {
@@ -59,12 +68,76 @@
               "Retaguarda completa, com mais de 30 relatórios"
             ],
             "colorTheme": "Primary"
-          }
+          },
+          "title": "Lista de Texto"
         }
       ]
     },
     {
-      "__resolveType": "Dúvidas"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Secondary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Galery/GaleryTestimony.tsx",
+            "items": [
+              {
+                "title": "Carrossel Testemunha 1",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+              },
+              {
+                "title": "Carrossel Testemunha 2",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+              },
+              {
+                "title": "Carrossel Testemunha 3",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+              },
+              {
+                "title": "Carrossel Testemunha 4",
+                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+              }
+            ]
+          },
+          "title": "Carrosel de Testemunhas"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+            "buttonTheme": "Primary white",
+            "title": "Compare com a concorrência",
+            "text": "Compare com a concorrência",
+            "link": "/compare"
+          },
+          "title": "Botão do Bloco"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Recursos e Funcionalidades - Plano Total"
+    },
+    {
+      "__resolveType": "Retaguarda"
+    },
+    {
+      "__resolveType": "Opcionais - Plano Total"
+    },
+    {
+      "__resolveType": "Integrações - Plano Total"
+    },
+    {
+      "__resolveType": "Requisitos - Plano Total"
+    },
+    {
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"

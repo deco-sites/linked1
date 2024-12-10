@@ -1,0 +1,60 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Retaguarda"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O  plano Linked Food Total oferece relatórios para você saber tudo o que acontece na loja. "
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+      },
+      "title": "Vídeo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Acompanhe tudo o que está acontecendo em seu estabelecimento de qualquer lugar, pelo computador e celular. Você tem todas as informações em tempo real. Os dados são sincronizados a cada 3 minutos."
+      },
+      "title": "Parágrafo Embaixo do Vídeo"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Os pratos mais vendidos",
+          "O melhor garçom",
+          "Os melhores horários de atendimento",
+          "Os produtos que estão prestes a vencer",
+          "O que está faltando no estoque",
+          "E muito mais"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "title": "Ver lista completa",
+        "text": "Ver lista completa",
+        "link": "/lista"
+      },
+      "title": "Botão do Bloco"
+    }
+  ]
+}

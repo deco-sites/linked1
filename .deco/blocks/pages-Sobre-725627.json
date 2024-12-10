@@ -11,6 +11,14 @@
       "sections": [
         {
           "section": {
+            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+            "page": "Sobre a linked",
+            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+          },
+          "title": "Share"
+        },
+        {
+          "section": {
             "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
             "title": "Existimos para melhorar a vida do empreendedor de Food Service",
             "highlight": "melhorar a vida"
@@ -163,6 +171,49 @@
             "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
           },
           "title": "R$ 00M"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Secondary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "É com muito foco e disciplina que fazemos tudo isso acontecer"
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+            "menu": [
+              {
+                "name": "Propósito",
+                "url": "/proposito"
+              },
+              {
+                "name": "Valores"
+              },
+              {
+                "name": "Diferenciais",
+                "url": "/diferenciais"
+              }
+            ]
+          },
+          "title": "Tabs"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar."
+          },
+          "title": "Paragrafo Embaixo das Tabs"
         }
       ]
     },

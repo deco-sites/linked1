@@ -15,60 +15,20 @@
       "__resolveType": "Carrossel Plano Essencial"
     },
     {
+      "__resolveType": "Parágrafo - Topo do Bloco"
+    },
+    {
       "__resolveType": "site/sections/MultiSection.tsx",
       "sections": [
         {
           "section": {
             "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": "O sucesso dos clientes é  nosso maior orgulho",
             "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
+            "textAlignment": "Left"
           },
-          "title": "Parágrafo 1"
+          "title": "Parágrafo no Topo do Bloco"
         },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
-            "content": [
-              {
-                "icon": "ArrowsPointingOut",
-                "iconColor": "Accent",
-                "background": "White",
-                "title": "Balcão"
-              },
-              {
-                "icon": "ArrowsPointingOut",
-                "iconColor": "Accent",
-                "background": "White",
-                "title": "Delivery"
-              }
-            ],
-            "borderColor": "Primary"
-          },
-          "title": "Grid de ícones"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Não requer instalação",
-              "Atendimento 24x7",
-              "Treinamentos ilimitados",
-              "Sem limite de pedidos",
-              "Sem contrato de fidelidade",
-              "Integração com os principais serviços do mercado",
-              "Retaguarda"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista"
-        }
-      ],
-      "background": "White"
-    },
-    {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
         {
           "section": {
             "__resolveType": "site/sections/Final/Galery/GaleryTestimony.tsx",
@@ -105,105 +65,27 @@
       "background": "Secondary"
     },
     {
+      "__resolveType": "Recursos e Funcionalidades"
+    },
+    {
+      "__resolveType": "Opcionais"
+    },
+    {
+      "__resolveType": "Integrações"
+    },
+    {
+      "__resolveType": "Requisitos"
+    },
+    {
       "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
-            "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
-          },
-          "title": "Vídeo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Atender melhor"
-          },
-          "title": "Atender melhor"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Painel centralizado com os pedidos realizados no local e via delivery",
-              "Envio de notificações para o cliente saber como está a produção de seu pedido"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista de Texto do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Aumentar a eficiência"
-          },
-          "title": "Aumentar a eficiência"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Conheça os dias e horários de maior movimento para se planejar melhor",
-              "Organize e acelere a produção enviando os pedidos direto para a cozinha",
-              "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista de Texto do Bloco 2"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Evitar o desperdício"
-          },
-          "title": "Evitar o desperdício"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
-              "Sugestões de compras mais econômicas"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista de Texto do Bloco 3"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Ficar com as contas em dia"
-          },
-          "title": "Ficar com as contas em dia"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Controle total do caixa, com abertura e fechamento",
-              " Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista de Texto do Bloco 4"
-        }
-      ],
       "background": "White",
       "collapse": {
-        "enable": true,
-        "title": "Recursos e funcionalidades"
+        "title": "Dúvidas comuns",
+        "enable": true
       }
     },
     {
-      "__resolveType": "Dúvidas"
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"

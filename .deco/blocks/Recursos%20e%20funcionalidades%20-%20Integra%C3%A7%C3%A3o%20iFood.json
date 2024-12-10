@@ -1,0 +1,25 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "collapse": {
+    "enable": true,
+    "title": "Recursos e funcionalidades"
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Pedidos delivery",
+          "Pedidos Peça e Retire",
+          "Tempo de preparo",
+          "Forma de pagamento",
+          "Opções de marketing e promoções",
+          "Dados e insights de vendas"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto do Bloco"
+    }
+  ]
+}
