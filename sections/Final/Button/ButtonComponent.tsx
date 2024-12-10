@@ -35,6 +35,14 @@ export interface Props {
         | "Link white"
         | "Faq"
         | "Nenhuma estilização"
+        
+    /**
+     * @title Tamanho do botão
+     * @description Selecione o tamanho do botão
+     */
+    tamanho?: 
+    | "Máximo (100%)"
+    | "Mínimo (Tamanho do conteúdo)";
 }
 
 export default function Section({
@@ -42,8 +50,9 @@ export default function Section({
   link = "/",
   icon = "",
   buttonTheme = "Primary dark",
+  tamanho = "Máximo (100%)",
 }: Props) {
   return (
-    <ButtonComponent text={text} icon={icon} link={link} buttonTheme={buttonTheme} />
+    <ButtonComponent text={text} icon={icon} link={link} buttonTheme={buttonTheme} tamanhp={tamanho} />
   );
 }

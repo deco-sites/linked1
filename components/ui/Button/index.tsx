@@ -59,7 +59,7 @@ function setClass(value) {
 function ButtonComponent({ text, link, icon, buttonTheme, tamanho }: JSX.IntrinsicElements["div"]) {
   return (
     <>
-        <a href={link} className={`${setClass(buttonTheme)} ${setWidth(tamanho)} flex gap-3 rounded-[10px] text-base md:text-lg font-semibold`}>
+        <a href={link} className={`${setClass(buttonTheme)} ${setWidth(tamanho)} flex gap-3 rounded-[10px] text-base md:text-lg font-semibold mx-4`}>
             {text}{icon}
         </a>
         {/* <Script /> */}

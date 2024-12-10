@@ -33,7 +33,8 @@
         "title": "teste",
         "text": "teste",
         "link": "/teste",
-        "icon": "teste"
+        "icon": "teste",
+        "tamanho": "Máximo (100%)"
       },
       "title": "Botão"
     }
