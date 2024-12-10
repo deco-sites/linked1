@@ -19,7 +19,7 @@
             "textAlignment": "Left",
             "content": "Você tem muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise - seja por período ou loja, caso tenha mais de uma unidade."
           },
-          "title": "Parágrafo 1"
+          "title": "1- Parágrafo no Topo do Bloco"
         },
         {
           "section": {
@@ -28,7 +28,7 @@
             "textAlignment": "Left",
             "content": "Os gráficos são intuitivos e fáceis de ler, mostrando com clareza oportunidades e necessidades de atuação."
           },
-          "title": "Parágrafo 2"
+          "title": "2- Parágrafo no Topo do Bloco"
         },
         {
           "section": {
@@ -37,12 +37,34 @@
             "textAlignment": "Left",
             "content": "A inteligência de dados Linked é perfeita para estabelecimentos de alto movimento e multilojas."
           },
-          "title": "Parágrafo 3"
+          "title": "3- Parágrafo no Topo do Bloco"
         }
       ],
       "collapse": {
-        "enable": true
+        "enable": false
       }
+    },
+    {
+      "__resolveType": "Recursos e funcionalidades - Inteligência de Dados"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "enable": true,
+        "title": "Requisitos"
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. "
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",
@@ -89,7 +111,7 @@
       }
     },
     {
-      "__resolveType": "Dúvidas"
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"

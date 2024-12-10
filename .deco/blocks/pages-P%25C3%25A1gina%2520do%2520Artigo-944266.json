@@ -10,6 +10,30 @@
       "sections": [
         {
           "section": {
+            "__resolveType": "site/sections/Final/Content/Image.tsx",
+            "type": "Full",
+            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png"
+          },
+          "title": "Imagem no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "O Restaurante Sabor de Minas reduziu seu cardápio de 20 páginas para somente 1. Economia nas compras do 1º mês foi de 42%"
+          },
+          "title": "Descrição da Imagem"
+        }
+      ],
+      "background": "White"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "sections": [
+        {
+          "section": {
             "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
             "colorTheme": "Primary",
             "textAlignment": "Left",
@@ -111,11 +135,31 @@
       "background": "White"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "White",
+            "textAlignment": "Left",
+            "content": "“A gente tinha mais de 250 pratos no cardápio. Os clientes pediam no máximo 10. Então foi com esses que ficamos.”"
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "White",
+            "textAlignment": "Left",
+            "content": "MARIA RITA, proprietária do Restaurante Sabor de Minas"
+          },
+          "title": "Parágrafo Nome"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
       "sections": [
         {
           "section": {
@@ -153,7 +197,8 @@
           },
           "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
         }
-      ]
+      ],
+      "background": "White"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",
@@ -197,6 +242,41 @@
         }
       ],
       "background": "Secondary"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Image.tsx",
+            "type": "Média",
+            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png"
+          },
+          "title": "Imagem do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "textAlignment": "Center",
+            "colorTheme": "Primary",
+            "content": "Receba as receitas de sucesso da Menu em seu Whatsapp"
+          },
+          "title": "Subtítulo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+            "buttonTheme": "Primary white",
+            "tamanho": "Máximo (100%)",
+            "title": "Assinar",
+            "text": "Assinar",
+            "link": "/planos"
+          },
+          "title": "Botão do Bloco"
+        }
+      ]
     },
     {
       "__resolveType": "Footer"

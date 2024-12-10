@@ -46,16 +46,35 @@
       "background": "White"
     },
     {
-      "__resolveType": "Bloco texto Recursos e Funcionalidades"
+      "__resolveType": "Recursos e funcionalidades - Integração iFood"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "title": "Requisitos",
+        "enable": true
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. "
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        }
+      ]
+    },
+    {
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"
     },
     {
       "__resolveType": "FixedSection"
-    },
-    {
-      "__resolveType": "Dúvidas"
     }
   ],
   "seo": {

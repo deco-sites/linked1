@@ -1,0 +1,39 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Requisitos"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Basicamente você precisa ter um computador conectado a internet para rodar o Linked Food Total. Confira as especificações:"
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Processador i3 com 4GB de memória RAM ou superior"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "title": "Veja como verificar",
+        "text": "Veja como verificar",
+        "link": "/verificar"
+      },
+      "title": "Botão do Bloco"
+    }
+  ]
+}

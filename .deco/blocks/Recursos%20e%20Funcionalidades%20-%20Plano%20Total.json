@@ -1,0 +1,134 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Recursos e funcionalidades"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+      },
+      "title": "Video do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Atender melhor"
+      },
+      "title": "Subtítulo 1 - Atender melhor"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Painel centralizado com os pedidos realizados no delivery, mesas e balcão",
+          "Flexibilidade para transferir o cliente de mesa e lançar os pedidos em comandas individuais",
+          "Painel de senha e envio de notificações para o cliente saber como está a produção de seu pedido",
+          "Combo dinâmico, rateio e fichinha"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Aumentar a eficiência"
+      },
+      "title": "Subtítulo 2 - Aumentar a eficiência"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Conheça os dias e horários de maior movimento para se planejar melhor",
+          "Organize e acelere a produção enviando os pedidos direto para a cozinha",
+          "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 2"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "content": "Evitar o desperdício",
+        "textAlignment": "Left",
+        "colorTheme": "Primary"
+      },
+      "title": "Subtítulo 3 - Evitar o desperdício"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
+          "Sugestões de compras mais econômicas"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 3"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Vender e lucrar mais"
+      },
+      "title": "Subtítulo 4 - Vender e lucrar mais"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Saiba quem são os seus melhores clientes",
+          "Acompanhe os pratos preferidos ",
+          "Veja quem da sua equipe vende mais",
+          "Entenda o custo e o lucro em cada prato"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 4"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Ficar com as contas em dia"
+      },
+      "title": "Subtítulo 5 - Ficar com as contas em dia"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Controle total do caixa, com abertura e fechamento",
+          "Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno",
+          "Emissão de nota fiscal",
+          "Demonstrativo de resultados (DRE)"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 5"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "title": "Ver lista completa",
+        "text": "Ver lista completa",
+        "link": "/lista"
+      },
+      "title": "Botão do Conteúdo"
+    }
+  ]
+}
