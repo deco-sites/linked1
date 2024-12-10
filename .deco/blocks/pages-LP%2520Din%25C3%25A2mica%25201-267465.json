@@ -88,6 +88,9 @@
     },
     {
       "__resolveType": "FixedSection"
+    },
+    {
+      "__resolveType": "TitlePlan"
     }
   ],
   "seo": {

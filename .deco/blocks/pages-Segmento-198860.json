@@ -3,49 +3,52 @@
   "path": "/segmento",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Tipos de estabelecimento",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg"
-      }
+      "__resolveType": "TitleSegment"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "page": "Tipos de estabelecimento",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e8d84463-8e42-4813-ab71-a015be9f469d/icon_share.jpg",
-        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4d1f77c1-52b9-44fe-ae6d-72f3d2efa651/lightning_icon.svg",
-        "title": "Linked para Fast-food",
-        "description": "Uma operação otimizada é crucial para o sucesso de um fast-food. ",
-        "titleWithColor": "Fast-food",
-        "highlight": "Fast-food"
-      }
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Contents/ContentImage.tsx",
+            "type": "Full",
+            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/51045a31-3865-445a-a322-bf6817e7b382/Rectangle-219-(2).jpg"
+          },
+          "title": "Image"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "A principal característica do fast-food é a agilidade para pedir, receber e consumir o produto. Uma operação otimizada é crucial para o sucesso de um fast-food.   Para alcançar isso, é fundamental criar fluxos de trabalho eficientes, treinar a equipe para trabalhar de forma ágil e garantir consistência e qualidade nos pratos servidos."
+          },
+          "title": "paragraph"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+            "textAlignment": "Left",
+            "colorTheme": "Primary",
+            "content": "Como a Linked pode ajudar?"
+          },
+          "title": "Como a Linked pode ajudar?"
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
+      "__resolveType": "duvidas"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

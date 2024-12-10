@@ -6,6 +6,30 @@
       "__resolveType": "Navbar"
     },
     {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+            "page": "Assunto",
+            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
+          },
+          "title": "Assunto"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
+            "page": "Assunto",
+            "title": "Título da página",
+            "highlight": "Título da página",
+            "description": "Subtítulo. Neque porro quisquam est qui dolorem ipsum quia dolor "
+          },
+          "title": "titleplan"
+        }
+      ]
+    },
+    {
       "__resolveType": "Carousel Benefícios"
     },
     {
@@ -20,6 +44,63 @@
             "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
           },
           "title": "Parágrafo no Topo do Bloco"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "enable": true,
+        "title": "Aba fechada"
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
+          },
+          "title": "paragraph"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "enable": true,
+        "title": "Aba fechada"
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e",
+            "colorTheme": "Primary",
+            "textAlignment": "Left"
+          },
+          "title": "paragraph"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "enable": true,
+        "title": "Aba fechada"
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e",
+            "colorTheme": "Primary",
+            "textAlignment": "Left"
+          },
+          "title": "paragraph"
         }
       ]
     },

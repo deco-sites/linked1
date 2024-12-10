@@ -11,11 +11,19 @@
       "sections": [
         {
           "section": {
-            "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+            "page": "Tipos de estabelecimento",
+            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+          },
+          "title": "Tipos de estabelecimento"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/TitleLarge.tsx",
             "title": "Soluções pensadas para cada tipo de negócio",
             "highlight": "cada tipo de negócio"
           },
-          "title": "Título da Página"
+          "title": "Soluções pensadas para cada tipo de negócio"
         }
       ]
     },
@@ -24,12 +32,12 @@
       "sections": [
         {
           "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
+            "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
             "textAlignment": "Left",
             "colorTheme": "Primary",
-            "content": "Em qual categoria  seu estabelecimento mais se encaixa?"
+            "content": "Em qual categoria seu estabelecimento mais se encaixa?"
           },
-          "title": "Subtítulo do Bloco"
+          "title": "Em qual categoria seu estabelecimento mais se encaixa?"
         },
         {
           "section": {

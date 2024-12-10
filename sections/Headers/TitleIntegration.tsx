@@ -13,10 +13,10 @@ export interface Props {
    */
   title: string;
   /**
-   * @title Título com Cor
-   * @description Escreva o título com cor
+   * @title Palavra ou Frase com Cor
+   * @description Escreva a palavra ou frase com cor
    */
-  titleWithColor?: string;
+  highlight?: string;
   /**
    * @title Descrição Curta
    * @description Escreva um pouco sobre a integração
@@ -48,12 +48,30 @@ export default function Section({
   // page = "",
   // iconShare = "",
   title = "",
-  titleWithColor = "",
+  highlight = "",
   integrationLogo = "",
   linkedLogo = "",
   description = "",
   secondDescription = "",
 }: Props) {
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight) return text;
+
+    const regex = new RegExp(`(${highlight})`, "giu");
+
+    const parts = text.split(regex);
+
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === highlight.toLowerCase()) {
+        return (
+          <span key={index} className="text-secondary">
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
+  }
   return (
     <section className="bg-sacramentoState flex justify-center">
       <div className="grid gap-3 md:text-center w-full max-w-[739px] px-4 pb-6 pt-8 md:py-12 md:px-10">
@@ -88,7 +106,7 @@ export default function Section({
           )}
         </div>
         <p className="text-[32px] text-white font-normal font-sans leading-tight-35 tracking-tight-2">
-          {title} <span className="text-secondary">{titleWithColor}</span>
+          {getHighlightedText(title, highlight)}
         </p>
         <div className="">
           <p className="text-white-80 font-sans text-base font-normal leading-tight-18">

@@ -6,6 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
+      "__resolveType": "site/sections/Headers/TitleMedium.tsx",
+      "title": "Parcerias"
+    },
+    {
       "__resolveType": "site/sections/MultiSection.tsx",
       "sections": [
         {

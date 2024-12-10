@@ -6,6 +6,9 @@
       "__resolveType": "Navbar"
     },
     {
+      "__resolveType": "TitleIntegration"
+    },
+    {
       "__resolveType": "Carrossel Integração"
     },
     {
@@ -49,13 +52,13 @@
       "__resolveType": "Bloco texto Recursos e Funcionalidades"
     },
     {
+      "__resolveType": "Dúvidas"
+    },
+    {
       "__resolveType": "Footer"
     },
     {
       "__resolveType": "FixedSection"
-    },
-    {
-      "__resolveType": "Dúvidas"
     }
   ],
   "seo": {

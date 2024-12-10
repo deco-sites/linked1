@@ -3,7 +3,25 @@
   "path": "/lp-dinamica-4",
   "sections": [
     {
+      "__resolveType": "site/sections/Headers/OfferCupom.tsx",
+      "content": {
+        "offerText": "Oferta",
+        "descriptionOffer": "Nam libero tempore, cum soluta nobis est eligendi R$ 00,00",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg"
+      },
+      "iconOutX": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg"
+    },
+    {
       "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "lp-dinamic-4"
+    },
+    {
+      "__resolveType": "site/sections/Contents/ContentImage.tsx",
+      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png",
+      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png",
+      "type": "Full"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",

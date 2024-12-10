@@ -27,7 +27,7 @@ export interface Props {
    * @title Ícone do Plano
    * @description Insira o ícone do plano aqui
    */
-  iconPlan: ImageWidget;
+  iconPlan?: ImageWidget;
   /**
    * @title Ícone de Compartilhamento
    * @description Insira o ícone de compartilhamento aqui
