@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/sections/Destaques/ModalWithSubTopic.tsx",
+  "items": [
+    {
+      "descritiveQuestion": [
+        "Compare com a concorrencia "
+      ],
+      "header": "Plano Total",
+      "descritiveTitle": [
+        "Compare com a concorrência"
+      ],
+      "descritiveInformative": [
+        "Atendimento"
+      ],
+      "topics": [
+        "Controle de pedidos no delivery, mesas e balcão",
+        "Painel de senha"
+      ],
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d4a7b4e9-5dd0-462c-81b9-0479e8628337/image-73.jpg",
+      "steps": [
+        "Em seu computador, clique no ícone do Windows "
+      ],
+      "tabs": [
+        {
+          "steps": [
+            "Em seu computador, clique no ícone do Windows "
+          ],
+          "name": "PC",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/d4a7b4e9-5dd0-462c-81b9-0479e8628337/image-73.jpg"
+        }
+      ],
+      "table": []
+    }
+  ]
+}
