@@ -27,7 +27,40 @@
       "__resolveType": "Bloco de Conteúdo Carrossel"
     },
     {
-      "__resolveType": "Bloco de Conteúdo com Imagem, Texto e Botão"
+      "__resolveType": "site/sections/Contents/ContentImage.tsx",
+      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
+      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
+      "type": "Full"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Lead.tsx",
+            "title": {
+              "textAlignment": "Center",
+              "colorTheme": "Primary",
+              "title": "Receba as receitas de sucesso da Menu em seu Whatsapp",
+              "content": "Receba as receitas de sucesso da Menu em seu Whatsapp"
+            },
+            "button": {
+              "buttonTheme": "Primary white",
+              "tamanho": "Máximo (100%)",
+              "title": "Assine",
+              "text": "Assine",
+              "link": "/assine"
+            },
+            "placeholder": "DDD + Número"
+          },
+          "title": "Receba as receitas de sucesso da Menu em seu Whatsapp"
+        }
+      ],
+      "collapse": {
+        "enable": false,
+        "title": "dsad"
+      }
     },
     {
       "__resolveType": "Footer"
