@@ -1,12 +1,12 @@
 {
-  "name": "Solicitar Plano - Sucesso",
-  "path": "/solicitar-plano/sucesso",
+  "name": "Me Liga - Sucesso",
+  "path": "/me-liga/sucesso",
   "sections": [
     {
-      "__resolveType": "Título Sucesso"
+      "__resolveType": "Título com Parágrafo Sucesso"
     },
     {
-      "__resolveType": "Acompanhe o passo a passo"
+      "__resolveType": "Bloco de Conteúdo com Lista de Texto"
     },
     {
       "__resolveType": "Footer"

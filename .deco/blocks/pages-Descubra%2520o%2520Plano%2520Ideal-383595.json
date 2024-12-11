@@ -1,9 +1,9 @@
 {
-  "name": "Monte Seu Plano",
-  "path": "/monte-seu-plano",
+  "name": "Descubra o Plano Ideal",
+  "path": "/plano-ideal",
   "sections": [
     {
-      "__resolveType": "MonteSeuPlano"
+      "__resolveType": "Bloco de Conteúdo Monte Seu Plano"
     }
   ],
   "seo": {

@@ -1,6 +1,6 @@
 {
-  "name": "Monte Seu Plano",
-  "path": "/monte-seu-plano",
+  "name": "Monte Seu Plano - Integrações",
+  "path": "/monte-seu-plano/integracoes",
   "sections": [
     {
       "__resolveType": "MonteSeuPlano"

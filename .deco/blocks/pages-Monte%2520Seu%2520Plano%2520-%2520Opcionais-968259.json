@@ -1,6 +1,6 @@
 {
-  "name": "Monte Seu Plano",
-  "path": "/monte-seu-plano",
+  "name": "Monte Seu Plano - Opcionais",
+  "path": "/monte-seu-plano/opcionais",
   "sections": [
     {
       "__resolveType": "MonteSeuPlano"
