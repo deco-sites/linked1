@@ -1,0 +1,32 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
+        "title": "Obrigado Júlio!",
+        "highlight": "Júlio!"
+      },
+      "title": "Obrigado!"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Center",
+        "content": "Entraremos em contato dentro dos períodos indicados. "
+      },
+      "title": "1- Parágrafo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Center",
+        "content": "Enquanto isso, fique à vontade para conhecer as soluções que oferecemos para seu segmento."
+      },
+      "title": "2- Parágrafo do Bloco"
+    }
+  ],
+  "background": "Primary"
+}

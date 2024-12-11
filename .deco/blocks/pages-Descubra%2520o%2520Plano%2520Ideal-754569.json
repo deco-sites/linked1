@@ -1,0 +1,34 @@
+{
+  "name": "Descubra o Plano Ideal",
+  "path": "/plano-ideal/resultado",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título do Bloco - Resultado"
+    },
+    {
+      "__resolveType": "Carrossel Plano Total"
+    },
+    {
+      "__resolveType": "Parágrafo com ícones Resultado"
+    },
+    {
+      "__resolveType": "Subtítulo com Descrição e Lista de Texto"
+    },
+    {
+      "__resolveType": "Subtítulo com Ícones"
+    },
+    {
+      "__resolveType": "Botões do Bloco"
+    },
+    {
+      "__resolveType": "Seção Fixa Monte Seu Plano"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,20 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Módulos para balcão, mesa, comanda e delivery",
+          "Funcionalidades de gestão, PDV e contabilidade",
+          "Relatórios atualizados em tempo real",
+          "Treinamentos ilimitados",
+          "Suporte 24x7"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto do Bloco"
+    }
+  ]
+}
