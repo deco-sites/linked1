@@ -1,0 +1,51 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Não faltam números para comprovar nossa experiência"
+      },
+      "title": "Subtítulo do Bloto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "+1.000",
+        "description": "estabelecimentos de food service atendidos em todo o Brasil"
+      },
+      "title": "+1.000"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "+3.000",
+        "description": "profissionais utilizando diariamente nossos produtos e soluções"
+      },
+      "title": "+3.000"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "+ 000.000",
+        "description": "pedidos passam mensalmente por nossas plataformas"
+      },
+      "title": "+ 000.000"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "+R$ 0 Bi",
+        "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
+      },
+      "title": "+R$ 0 Bi"
+    }
+  ],
+  "background": "Secondary"
+}

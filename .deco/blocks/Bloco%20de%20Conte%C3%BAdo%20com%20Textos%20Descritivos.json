@@ -1,0 +1,105 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Um cardápio com menos opções melhora a eficiência, reduz o desperdício e destaca pratos de alta performance, além de refletir melhor a identidade do estabelecimento."
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Agilidade para o consumidor"
+      },
+      "title": "Subtítulo no Topo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Seu cardápio precisa ter, no máximo, uma página.  Os clientes têm mais pressa e não querem se perder em muitas informações. Muitas páginas podem fazer com que ele perca o interesse, ou que peça algo “só por pedir”, o que retira muito do potencial de vendas que você pode ter."
+      },
+      "title": "1- Parágrafo Embaixo do Subtítulo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Além disso, parte do seu público pode ter migrado diretamente dos serviços de fast food, onde a escolha dos alimentos é feita mais rapidamente."
+      },
+      "title": "2- Parágrafo Embaixo do Subtítulo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Sabendo com que tipo de pratos e produtos o seu estabelecimento trabalha, ele já sai de casa decidido, e não ficará “perdido” em meio a um cardápio recheado de opções que, na maioria das vezes, jamais serão consumidas por eles."
+      },
+      "title": "3- Parágrafo Embaixo do Subtítulo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Estoques reduzidos"
+      },
+      "title": "Subtítulo no Meio do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Um cardápio enxuto também pode gerar redução de custos para o seu estabelecimento, uma vez que serão necessários menos ingredientes."
+      },
+      "title": "1- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Além de serem mais específicas, as matérias primas com as quais você irá lidar também poderão ser armazenadas em menores quantidades, suficientes apenas para atender as demandas necessárias."
+      },
+      "title": "2- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Com estoques menores, as chances de produtos estragarem por conta da falta de saída também é reduzida drasticamente - mais um ponto de economia."
+      },
+      "title": "3- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Qualidade nos ingredientes"
+      },
+      "title": "Subtítulo no Final do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Quanto menores os estoques, mais frescos os produtos com os quais você vai lidar. É claro que neste caso você precisa contar com fornecedores prestativos e muito responsáveis. Porém, conseguindo acertar esse pequeno detalhe, a qualidade dos produtos que você tem a oferecer em seu bar ou restaurante vai refletir diretamente na satisfação, e consequente fidelização de seus consumidores/clientes."
+      },
+      "title": "1- Parágrafo Embaixo do Subtítulo no Final do Bloco 1"
+    }
+  ],
+  "background": "White"
+}

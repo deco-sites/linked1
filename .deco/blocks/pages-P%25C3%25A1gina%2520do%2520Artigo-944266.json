@@ -6,277 +6,28 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Full",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png"
-          },
-          "title": "Imagem no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "O Restaurante Sabor de Minas reduziu seu cardápio de 20 páginas para somente 1. Economia nas compras do 1º mês foi de 42%"
-          },
-          "title": "Descrição da Imagem"
-        }
-      ],
-      "background": "White"
+      "__resolveType": "Bloco de Conteúdo Oferecido Por"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Um cardápio com menos opções melhora a eficiência, reduz o desperdício e destaca pratos de alta performance, além de refletir melhor a identidade do estabelecimento."
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Agilidade para o consumidor"
-          },
-          "title": "Subtítulo no Topo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Seu cardápio precisa ter, no máximo, uma página.  Os clientes têm mais pressa e não querem se perder em muitas informações. Muitas páginas podem fazer com que ele perca o interesse, ou que peça algo “só por pedir”, o que retira muito do potencial de vendas que você pode ter."
-          },
-          "title": "1- Parágrafo Embaixo do Subtítulo 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Além disso, parte do seu público pode ter migrado diretamente dos serviços de fast food, onde a escolha dos alimentos é feita mais rapidamente."
-          },
-          "title": "2- Parágrafo Embaixo do Subtítulo 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Sabendo com que tipo de pratos e produtos o seu estabelecimento trabalha, ele já sai de casa decidido, e não ficará “perdido” em meio a um cardápio recheado de opções que, na maioria das vezes, jamais serão consumidas por eles."
-          },
-          "title": "3- Parágrafo Embaixo do Subtítulo 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Estoques reduzidos"
-          },
-          "title": "Subtítulo no Meio do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Um cardápio enxuto também pode gerar redução de custos para o seu estabelecimento, uma vez que serão necessários menos ingredientes."
-          },
-          "title": "1- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Além de serem mais específicas, as matérias primas com as quais você irá lidar também poderão ser armazenadas em menores quantidades, suficientes apenas para atender as demandas necessárias."
-          },
-          "title": "2- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Com estoques menores, as chances de produtos estragarem por conta da falta de saída também é reduzida drasticamente - mais um ponto de economia."
-          },
-          "title": "3- Parágrafo Embaixo do Subtítulo Meio do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Qualidade nos ingredientes"
-          },
-          "title": "Subtítulo no Final do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Quanto menores os estoques, mais frescos os produtos com os quais você vai lidar. É claro que neste caso você precisa contar com fornecedores prestativos e muito responsáveis. Porém, conseguindo acertar esse pequeno detalhe, a qualidade dos produtos que você tem a oferecer em seu bar ou restaurante vai refletir diretamente na satisfação, e consequente fidelização de seus consumidores/clientes."
-          },
-          "title": "1- Parágrafo Embaixo do Subtítulo no Final do Bloco 1"
-        }
-      ],
-      "background": "White"
+      "__resolveType": "Título da Página - Artigo"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "White",
-            "textAlignment": "Left",
-            "content": "“A gente tinha mais de 250 pratos no cardápio. Os clientes pediam no máximo 10. Então foi com esses que ficamos.”"
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "White",
-            "textAlignment": "Left",
-            "content": "MARIA RITA, proprietária do Restaurante Sabor de Minas"
-          },
-          "title": "Parágrafo Nome"
-        }
-      ]
+      "__resolveType": "Imagem no Topo do Bloco com Descrição"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Foque no seu nicho"
-          },
-          "title": "Subtítulo no Topo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Oferecer um cardápio mais enxuto é uma escolha que precisa estar diretamente relacionada à forma como seu estabelecimento se posiciona no mercado. "
-          },
-          "title": "1- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "content": "Essa maneira mais especializada em determinado segmento vai ajudar a construir uma imagem única de seu estabelecimento. Contando com identidade própria, você poderá ser conhecido por oferecer “o melhor prato da cidade”.",
-            "colorTheme": "Primary",
-            "textAlignment": "Left"
-          },
-          "title": "2- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "content": " Relembre todas as vantagens desse cardápio mais enxuto:",
-            "colorTheme": "Primary",
-            "textAlignment": "Left"
-          },
-          "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        }
-      ],
-      "background": "White"
+      "__resolveType": "Bloco de Conteúdo com Textos Descritivos"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Leia mais"
-          },
-          "title": "Título do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Galery/GaleryImages.tsx",
-            "items": [
-              {
-                "description": "5 motivos para participar da Restaurante Week",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
-                "title": "Conteúdo do Carrosel 1"
-              },
-              {
-                "title": "Conteúdo do Carrosel 2",
-                "description": "Dicas para melhorar a apresentação dos seus pratos",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
-              },
-              {
-                "title": "Conteúdo do Carrosel 3",
-                "description": "5 motivos para participar da Restaurante Week",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
-              },
-              {
-                "title": "Conteúdo do Carrosel 4",
-                "description": "Dicas para melhorar a apresentação dos seus pratos",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
-              }
-            ]
-          },
-          "title": "Carrossel de Conteúdo"
-        }
-      ],
-      "background": "Secondary"
+      "__resolveType": "Texto Descritivo de Testemunha"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Média",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png"
-          },
-          "title": "Imagem do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Center",
-            "colorTheme": "Primary",
-            "content": "Receba as receitas de sucesso da Menu em seu Whatsapp"
-          },
-          "title": "Subtítulo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
-            "buttonTheme": "Primary white",
-            "tamanho": "Máximo (100%)",
-            "title": "Assinar",
-            "text": "Assinar",
-            "link": "/planos"
-          },
-          "title": "Botão do Bloco"
-        }
-      ]
+      "__resolveType": "Texto Descritivo"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Carrossel"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo com Imagem, Texto e Botão"
     },
     {
       "__resolveType": "Footer"

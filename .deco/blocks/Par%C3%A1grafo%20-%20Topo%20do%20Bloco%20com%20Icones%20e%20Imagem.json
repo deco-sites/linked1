@@ -1,0 +1,93 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. ",
+        "colorTheme": "Primary",
+        "textAlignment": "Left"
+      },
+      "title": "1- Parágrafo em Cima da Imagem"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Image.tsx",
+        "type": "Pequena",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png"
+      },
+      "title": "Imagem do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
+      },
+      "title": "2- Parágrafo Embaixo da Imagem"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
+      },
+      "title": "3- Parágrafo Em Cima da Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "ShoppingCart",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Mesa"
+          },
+          {
+            "icon": "Phone",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Balcão"
+          },
+          {
+            "icon": "Message",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Comanda"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Delivery"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Instalação em até 72 horas",
+          "Atendimento 24x7",
+          "Treinamentos ilimitados",
+          "Sem limite de caixas e dispositivos",
+          "Sem limite de usuários",
+          "Sem limite de pedidos",
+          "Sem contrato de fidelidade",
+          "Integrações com os principais serviços do mercado",
+          "Retaguarda completa, com mais de 30 relatórios"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto"
+    }
+  ]
+}

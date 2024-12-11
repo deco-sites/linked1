@@ -1,0 +1,24 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Image.tsx",
+        "type": "Full",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4fc7d32-e857-42a9-b6d3-16ee550dad6d/img_cutting_food_full.png"
+      },
+      "title": "Imagem do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Left",
+        "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
+      },
+      "title": "Parágrafo do Bloco"
+    }
+  ],
+  "background": "Primary"
+}

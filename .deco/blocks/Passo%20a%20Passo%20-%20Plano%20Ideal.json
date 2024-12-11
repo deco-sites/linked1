@@ -82,12 +82,30 @@
                 {
                   "contentLeft": [
                     {
-                      "title": "Impressoras não fiscais"
+                      "title": "Delivery"
+                    },
+                    {
+                      "title": "Local"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "-"
                     }
                   ],
                   "contentRight": [
                     {
-                      "title": "Impressoras fiscais"
+                      "title": "Comanda"
+                    },
+                    {
+                      "title": "Mesa"
+                    },
+                    {
+                      "title": "Balcão"
+                    },
+                    {
+                      "title": "Delivery"
                     }
                   ],
                   "title": "Módulos"
@@ -96,27 +114,138 @@
                   "contentLeft": [
                     {
                       "title": "PDV"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "-"
                     }
                   ],
                   "contentRight": [
                     {
                       "title": "PDV"
+                    },
+                    {
+                      "title": "Gestão"
+                    },
+                    {
+                      "title": "Contabilidade"
                     }
                   ],
                   "title": "Recursos e funcionalidades"
+                },
+                {
+                  "contentLeft": [
+                    {
+                      "title": "Online"
+                    },
+                    {
+                      "title": "-"
+                    }
+                  ],
+                  "contentRight": [
+                    {
+                      "title": "Online"
+                    },
+                    {
+                      "title": "Offline"
+                    }
+                  ],
+                  "title": "Conectividade"
+                },
+                {
+                  "contentLeft": [
+                    {
+                      "title": "Impressoras não fiscais"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "POS"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "-"
+                    }
+                  ],
+                  "contentRight": [
+                    {
+                      "title": "Impressoras fiscais"
+                    },
+                    {
+                      "title": "Impressoras produção"
+                    },
+                    {
+                      "title": "POS"
+                    },
+                    {
+                      "title": "TEF"
+                    },
+                    {
+                      "title": "Balanças"
+                    },
+                    {
+                      "title": "Catraca de comanda"
+                    }
+                  ],
+                  "title": "Dispositivos"
+                },
+                {
+                  "contentLeft": [
+                    {
+                      "title": "Link de pagamentos"
+                    },
+                    {
+                      "title": "Monitor de preparos"
+                    },
+                    {
+                      "title": "-"
+                    },
+                    {
+                      "title": "-"
+                    }
+                  ],
+                  "contentRight": [
+                    {
+                      "title": "Link de pagamentos"
+                    },
+                    {
+                      "title": "Monitor de preparos"
+                    },
+                    {
+                      "title": "App de delivery"
+                    },
+                    {
+                      "title": "Inteligência de dados"
+                    }
+                  ],
+                  "title": "Opcionais"
                 }
               ],
               "footerLeft": {
                 "button": {
                   "name": " Ver detalhes",
-                  "url": " /planos/plano-essencial"
+                  "url": " /planos/plano-essencial",
+                  "text": "Ver detalhes",
+                  "link": "/detalhes",
+                  "buttonTheme": "Secondary white"
                 },
                 "price": " A partir de  R$ 00,00"
               },
               "footerRight": {
                 "button": {
                   "name": "  Ver detalhes",
-                  "url": "  /planos/plano-total"
+                  "url": "  /planos/plano-total",
+                  "text": "Ver detalhes",
+                  "link": "/detalhes",
+                  "buttonTheme": "Secondary white"
                 },
                 "price": " A partir de  R$ 00,00"
               }
@@ -161,6 +290,39 @@
               "textAlignment": "Center"
             },
             "title": "Descrição"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+              "content": [
+                {
+                  "icon": "ArrowsPointingOut",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "Link de pagamentos"
+                },
+                {
+                  "icon": "ShoppingCart",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "Monitor de preparos KDS"
+                },
+                {
+                  "icon": "Phone",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "App delivery"
+                },
+                {
+                  "icon": "MapPin",
+                  "iconColor": "Primary",
+                  "background": "White",
+                  "title": "Inteligência de dados"
+                }
+              ],
+              "borderColor": "Primary"
+            },
+            "title": "Ícones do Bloco"
           },
           {
             "section": {

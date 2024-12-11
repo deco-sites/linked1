@@ -4,8 +4,8 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/Image.tsx",
-        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png",
-        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ba55f82a-35a0-49f5-a099-742e46775fb6/group_of_people_team.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ba55f82a-35a0-49f5-a099-742e46775fb6/group_of_people_team.png",
         "type": "Cantos Arredondados"
       },
       "title": "Imagem"
@@ -44,6 +44,12 @@
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg",
             "icon": "Tiktok",
             "iconColor": "Accent"
+          },
+          {
+            "icon": "Twitter",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Equipe própria"
           }
         ],
         "background": "Primary",

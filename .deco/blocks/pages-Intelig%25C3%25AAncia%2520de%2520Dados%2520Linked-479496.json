@@ -6,134 +6,22 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-            "page": "Opcionais",
-            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-          },
-          "title": "Opcionais"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
-            "page": "Inteligência de dados Linked",
-            "title": "Inteligência de dados Linked",
-            "highlight": "Linked",
-            "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos. ",
-            "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2d414290-dc00-4949-86f6-0e3049519f61/Group-31.svg"
-          },
-          "title": "titleplan"
-        }
-      ]
+      "__resolveType": "Título da Página - Inteligência de Dados "
     },
     {
       "__resolveType": "Carrossel Inteligência de Dados"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Você tem muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise - seja por período ou loja, caso tenha mais de uma unidade."
-          },
-          "title": "1- Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Os gráficos são intuitivos e fáceis de ler, mostrando com clareza oportunidades e necessidades de atuação."
-          },
-          "title": "2- Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A inteligência de dados Linked é perfeita para estabelecimentos de alto movimento e multilojas."
-          },
-          "title": "3- Parágrafo no Topo do Bloco"
-        }
-      ],
-      "collapse": {
-        "enable": false
-      }
+      "__resolveType": "Parágrafo no Topo do Bloco - Inteligência de Dados"
     },
     {
       "__resolveType": "Recursos e funcionalidades - Inteligência de Dados"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "collapse": {
-        "enable": true,
-        "title": "Requisitos"
-      },
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. "
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        }
-      ]
+      "__resolveType": "Requisitos - Inteligência de Dados"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
-            "title": "Mais opcionias disponíveis"
-          },
-          "title": "Subtítulo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Product.tsx",
-            "button": {
-              "name": "Ver detalhes",
-              "url": "/planos"
-            },
-            "colorTheme": "White",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg",
-            "title": "Link de pagamentos",
-            "description": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você."
-          },
-          "title": "Link de pagamentos"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Product.tsx",
-            "button": {
-              "name": "Ver detalhes",
-              "url": "/detalhes"
-            },
-            "colorTheme": "White",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ff3a6aa1-d2b4-4819-b3f2-871fbc6e0239/printer_optional.png",
-            "title": "Monitor de pedidos KDS",
-            "description": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros."
-          },
-          "title": "Monitor de pedidos KDS"
-        }
-      ],
-      "collapse": {
-        "enable": false
-      }
+      "__resolveType": "Mais opcionias disponíveis - Inteligência de Dados"
     },
     {
       "__resolveType": "duvidas"

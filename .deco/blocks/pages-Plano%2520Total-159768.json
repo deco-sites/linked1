@@ -14,112 +14,10 @@
       "__resolveType": "Carrossel Plano Total"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "content": "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. ",
-            "colorTheme": "Primary",
-            "textAlignment": "Left"
-          },
-          "title": "1- Parágrafo em Cima da Imagem"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Pequena",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/61232376-8468-4615-bb4a-6b2c27573c02/tablet_on_tablet_total.png"
-          },
-          "title": "Imagem do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
-          },
-          "title": "2- Parágrafo Embaixo da Imagem"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
-          },
-          "title": "3- Parágrafo Em Cima da Lista de Texto"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Instalação em até 72 horas",
-              "Atendimento 24x7",
-              "Treinamentos ilimitados",
-              "Sem limite de caixas e dispositivos",
-              "Sem limite de usuários",
-              "Sem limite de pedidos",
-              "Sem contrato de fidelidade",
-              "Integrações com os principais serviços do mercado",
-              "Retaguarda completa, com mais de 30 relatórios"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista de Texto"
-        }
-      ]
+      "__resolveType": "Parágrafo - Topo do Bloco com Icones e Imagem"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Secondary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Galery/GaleryTestimony.tsx",
-            "items": [
-              {
-                "title": "Carrossel Testemunha 1",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-              },
-              {
-                "title": "Carrossel Testemunha 2",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-              },
-              {
-                "title": "Carrossel Testemunha 3",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-              },
-              {
-                "title": "Carrossel Testemunha 4",
-                "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-                "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
-                "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-              }
-            ]
-          },
-          "title": "Carrosel de Testemunhas"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
-            "buttonTheme": "Primary white",
-            "title": "Compare com a concorrência",
-            "text": "Compare com a concorrência",
-            "link": "/compare"
-          },
-          "title": "Botão do Bloco"
-        }
-      ]
+      "__resolveType": "Carrossel de Testemunhas - Plano Total"
     },
     {
       "__resolveType": "Recursos e Funcionalidades - Plano Total"
@@ -135,6 +33,9 @@
     },
     {
       "__resolveType": "Requisitos - Plano Total"
+    },
+    {
+      "__resolveType": "Dúvidas comuns - Plano Total"
     },
     {
       "__resolveType": "duvidas"

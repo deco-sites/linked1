@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+      },
+      "title": "Ícone de Compartilhamento"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "White",
+        "content": "Termos de uso"
+      },
+      "title": "Título da Página"
+    }
+  ]
+}

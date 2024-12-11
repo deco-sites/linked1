@@ -6,115 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
-            "title": "Receitas de sucesso",
-            "highlight": "sucesso"
-          },
-          "title": "Título da Página - Blog"
-        }
-      ],
-      "collapse": {}
+      "__resolveType": "Título da Página - Clientes"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Veja o que nossos clientes em todo o Brasil estão dizendo."
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Pequena",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png"
-          },
-          "title": "Imagem Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "”Eu vivia comprando o que tava faltando no mercadinho da vizinhança. Com o Linked Food Total consegui finalmente gerenciar melhor meu estoque e economizar.”"
-          },
-          "title": "1- Parágrafo Embaixo da Imagem 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Dennis, Resenhas da Vila SÃO PAULO SP"
-          },
-          "title": "2- Parágrafo Embaixo da Imagem 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Pequena",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f75de54c-7b16-47a5-8c7e-69f4f23d99ce/man_in_kitchen2.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f75de54c-7b16-47a5-8c7e-69f4f23d99ce/man_in_kitchen2.png"
-          },
-          "title": "Imagem Bloco 2"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "“A Linked foi uma verdadeira escola. Aprendemos a gerenciar melhor nosso estoque e fizemos mudanças muito rentáveis em nosso cardápio.”"
-          },
-          "title": "1- Parágrafo Embaixo da Imagem 2"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Proprietário, Nome do Estabelecimento CIDADE, UF"
-          },
-          "title": "2- Parágrafo Embaixo da Imagem 2"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Pequena",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d127a526-88f7-4b6e-9aa7-6130408de8d9/woman_holding_bread.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d127a526-88f7-4b6e-9aa7-6130408de8d9/woman_holding_bread.png"
-          },
-          "title": "Imagem Bloco 3"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "”O KDS era um sonho de consumo. Com os pedidos organizados na cozinha, conseguimos atender mais e melhor, sem errar nos pedidos.”"
-          },
-          "title": "1- Parágrafo Embaixo da Imagem 3"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Proprietário, Nome do Estabelecimento CIDADE, UF"
-          },
-          "title": "2- Parágrafo Embaixo da Imagem 3"
-        }
-      ],
-      "background": "White"
+      "__resolveType": "Bloco de Conteúdo de Clientes"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",

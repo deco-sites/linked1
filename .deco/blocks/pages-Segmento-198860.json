@@ -6,46 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Full",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38d773de-bb9a-465b-a3f4-01beaac3f838/man_in_kitchen_full.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38d773de-bb9a-465b-a3f4-01beaac3f838/man_in_kitchen_full.png"
-          },
-          "title": "Imagem no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A principal característica do fast-food é a agilidade para pedir, receber e consumir o produto. Uma operação otimizada é crucial para o sucesso de um fast-food. "
-          },
-          "title": "1- Parágrafo Embaixo da Imagem"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Para alcançar isso, é fundamental criar fluxos de trabalho eficientes, treinar a equipe para trabalhar de forma ágil e garantir consistência e qualidade nos pratos servidos."
-          },
-          "title": "2- Parágrafo Embaixo da Imagem"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Como a Linked pode ajudar?"
-          },
-          "title": "1- Subtítulo"
-        }
-      ]
+      "__resolveType": "Título da Página - Segmento"
+    },
+    {
+      "__resolveType": "Imagem com Parágrafo no Topo do Bloco"
     },
     {
       "__resolveType": "Organização da cozinha"

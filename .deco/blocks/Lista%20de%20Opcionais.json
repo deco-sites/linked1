@@ -8,9 +8,9 @@
         "button": {
           "name": "Ver Detalhes",
           "url": "/opcionais/link-de-pagamentos",
-          "title": "a",
+          "title": "Ver detalhes",
           "text": "Ver detalhes",
-          "link": "ver detalhes",
+          "link": "/detalhes",
           "buttonTheme": "Secondary white",
           "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
@@ -27,10 +27,11 @@
         "button": {
           "name": "Ver Detalhes",
           "url": "/opcionais/monitor-de-pedidos-kds",
-          "title": "3",
-          "text": "w",
-          "link": "w",
-          "buttonTheme": "Secondary dark"
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Monitor de pedidos KDS",
@@ -45,9 +46,11 @@
         "button": {
           "name": "Ver Detalhes",
           "url": "/opcionais/app-delivery",
-          "title": "w",
-          "text": "w",
-          "link": "w"
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "tamanho": "Mínimo (Tamanho do conteúdo)",
+          "buttonTheme": "Secondary white"
         },
         "colorTheme": "Primary",
         "title": "App Delivery",
@@ -62,10 +65,11 @@
         "button": {
           "name": "Ver Detalhes",
           "url": "/opcionais/inteligencia-de-dados",
-          "title": "w",
-          "text": "w",
-          "link": "w",
-          "buttonTheme": "Secondary dark"
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Inteligência de dados ",

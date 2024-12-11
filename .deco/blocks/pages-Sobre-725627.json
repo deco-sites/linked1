@@ -6,216 +6,22 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-            "page": "Sobre a linked",
-            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
-          },
-          "title": "Share"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
-            "title": "Existimos para melhorar a vida do empreendedor de Food Service",
-            "highlight": "melhorar a vida"
-          },
-          "title": "Título da Página"
-        }
-      ]
+      "__resolveType": "Título da Página - Sobre"
     },
     {
       "__resolveType": "Carrossel Time"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "A Linked Tech tem automação de verdade, que te dá recuros para operar melhor o seu negócio, entender o que acontece nele e ainda planejar o futuro."
-          },
-          "title": "Subtítulo da Página"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A Linked foi fundada em 2016 para mudar o mercado de food service. Para isso, foi atrás da opinião de quem realmente entende do assunto: o empreendedor. "
-          },
-          "title": "1- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Com muita pesquisa e  dedicação, nasceu a primeira versão da solução, com uma frente de caixa funcional e uma retaguarda inteligente em nuvem."
-          },
-          "title": "2- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Hoje a Linked tem produtos capazes de gerenciar todos os processos de um restaurante, proporcionando visão em tempo real das vendas, gerenciamento de estoque, automação comercial e emissão de nota fiscal."
-          },
-          "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
-        }
-      ]
+      "__resolveType": "Parágrafo com Texto Descritivo no Topo"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Não faltam números para comprovar nossa experiência"
-          },
-          "title": "Subtítulo do Bloto"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "+1.000",
-            "description": "estabelecimentos de food service atendidos em todo o Brasil"
-          },
-          "title": "+1.000"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "+3.000",
-            "description": "profissionais utilizando diariamente nossos produtos e soluções"
-          },
-          "title": "+3.000"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "+ 000.000",
-            "description": "pedidos passam mensalmente por nossas plataformas"
-          },
-          "title": "+ 000.000"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "+R$ 0 Bi",
-            "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
-          },
-          "title": "+R$ 0 Bi"
-        }
-      ],
-      "background": "Secondary"
+      "__resolveType": "1- Bloco de Conteúdo Grandes Números"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
-          },
-          "title": "Subtítulo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "00 dias",
-            "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
-          },
-          "title": "00 dias"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "0x",
-            "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
-          },
-          "title": "0x"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "00%",
-            "description": "é o aumento médio do faturamento nos clientes com nosso app de delivery"
-          },
-          "title": "00%"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-            "colorTheme": "Primary",
-            "number": "R$ 00M",
-            "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
-          },
-          "title": "R$ 00M"
-        }
-      ]
+      "__resolveType": "2- Bloco de Conteúdo Grandes Números"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Secondary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "É com muito foco e disciplina que fazemos tudo isso acontecer"
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
-            "menu": [
-              {
-                "name": "Propósito",
-                "url": "/proposito"
-              },
-              {
-                "name": "Valores"
-              },
-              {
-                "name": "Diferenciais",
-                "url": "/diferenciais"
-              }
-            ]
-          },
-          "title": "Tabs"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar."
-          },
-          "title": "Paragrafo Embaixo das Tabs"
-        }
-      ]
+      "__resolveType": "Textos Descritivos com Navegação"
     },
     {
       "__resolveType": "Footer"

@@ -1,0 +1,33 @@
+{
+  "name": "Solicitar Plano - Sucesso",
+  "path": "/solicitar-plano/sucesso",
+  "sections": [
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
+            "title": "Tudo certo!",
+            "highlight": "Tudo certo!"
+          },
+          "title": "Tudo certo!"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Solicitação realizada com sucesso, Júlio . Em breve a cotação será enviada para seu telefone e e-mail."
+          },
+          "title": "Texto Descritivo"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

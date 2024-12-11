@@ -6,61 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/CardMedium.tsx",
-            "items": [
-              {
-                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
-                "button": "Equipamentos",
-                "description": "Restaurantes com cardápios enxutos lucram mais ",
-                "title": "Bloco de Conteúdo 1"
-              },
-              {
-                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-                "button": "Cardápio",
-                "description": "Dicas para melhorar a apresentação dos seus pratos",
-                "title": "Bloco de Conteúdo 2"
-              },
-              {
-                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
-                "button": "Eventos",
-                "description": "5 motivos para participar da Restaurante Week",
-                "title": "Bloco de Conteúdo 3"
-              },
-              {
-                "title": "Bloco de Conteúdo 4",
-                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-                "button": "Cardápio",
-                "description": "Dicas para melhorar a apresentação dos seus pratos"
-              },
-              {
-                "title": "Bloco de Conteúdo 5",
-                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-                "button": "Eventos",
-                "description": "5 motivos para participar da Restaurante Week"
-              }
-            ],
-            "colorTheme": "Primary",
-            "colorThemeButton": "Primary"
-          },
-          "title": "Imagens com Descrição"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
-            "buttonTheme": "Secondary white",
-            "tamanho": "Máximo (100%)",
-            "title": "Carregar mais",
-            "text": "Carregar mais",
-            "link": "/mais"
-          },
-          "title": "Botão do Conteúdo"
-        }
-      ]
+      "__resolveType": "Título da Página - Blog"
+    },
+    {
+      "__resolveType": "Card de Conteúdo com Imagem e Descrição"
     },
     {
       "__resolveType": "Footer"

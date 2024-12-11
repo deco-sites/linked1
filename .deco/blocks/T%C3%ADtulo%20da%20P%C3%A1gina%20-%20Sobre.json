@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "page": "Sobre a linked",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+      },
+      "title": "Share"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Existimos para melhorar a vida do empreendedor de Food Service",
+        "highlight": "melhorar a vida"
+      },
+      "title": "Título da Página"
+    }
+  ]
+}

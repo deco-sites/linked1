@@ -1,0 +1,24 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "page": "Assunto",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+      },
+      "title": "Assunto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/TitlePlan.tsx",
+        "page": "Título da página",
+        "title": "Título da página",
+        "description": "Subtítulo. Neque porro quisquam est qui dolorem ipsum quia dolor ",
+        "highlight": "Título da página"
+      },
+      "title": "Título da página"
+    }
+  ]
+}

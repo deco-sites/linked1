@@ -6,28 +6,13 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Left",
-            "colorTheme": "Primary",
-            "content": "Mas a Linked certamente tem o que você procura"
-          },
-          "title": "Subtítulo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Automação para seu estabelecimento economizar, vender e lucrar mais"
-          },
-          "title": "Parágrafo Embaixo do Subtítulo do Bloco"
-        }
-      ]
+      "__resolveType": "Título da Página - Página Não Encontrada"
+    },
+    {
+      "__resolveType": "Bloco com Subtítulo e Descrição"
+    },
+    {
+      "__resolveType": "Navegação com Lista de Texto"
     },
     {
       "__resolveType": "Footer"

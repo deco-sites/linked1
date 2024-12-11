@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Image.tsx",
+        "type": "Média",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3eec24dd-fdc6-456d-a075-8440fa022007/menu_with_plate.png"
+      },
+      "title": "Imagem do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Center",
+        "colorTheme": "Primary",
+        "content": "Receba as receitas de sucesso da Menu em seu Whatsapp"
+      },
+      "title": "Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "tamanho": "Máximo (100%)",
+        "title": "Assinar",
+        "text": "Assinar",
+        "link": "/planos"
+      },
+      "title": "Botão do Bloco"
+    }
+  ]
+}

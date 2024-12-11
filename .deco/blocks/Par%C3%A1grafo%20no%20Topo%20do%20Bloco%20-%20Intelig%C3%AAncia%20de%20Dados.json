@@ -1,0 +1,36 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Você tem muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise - seja por período ou loja, caso tenha mais de uma unidade."
+      },
+      "title": "1- Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Os gráficos são intuitivos e fáceis de ler, mostrando com clareza oportunidades e necessidades de atuação."
+      },
+      "title": "2- Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "A inteligência de dados Linked é perfeita para estabelecimentos de alto movimento e multilojas."
+      },
+      "title": "3- Parágrafo no Topo do Bloco"
+    }
+  ],
+  "collapse": {
+    "enable": false
+  }
+}

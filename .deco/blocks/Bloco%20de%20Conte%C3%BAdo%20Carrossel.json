@@ -1,0 +1,43 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Leia mais"
+      },
+      "title": "Título do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryImages.tsx",
+        "items": [
+          {
+            "description": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
+            "title": "Conteúdo do Carrosel 1"
+          },
+          {
+            "title": "Conteúdo do Carrosel 2",
+            "description": "Dicas para melhorar a apresentação dos seus pratos",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          },
+          {
+            "title": "Conteúdo do Carrosel 3",
+            "description": "5 motivos para participar da Restaurante Week",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          },
+          {
+            "title": "Conteúdo do Carrosel 4",
+            "description": "Dicas para melhorar a apresentação dos seus pratos",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png"
+          }
+        ]
+      },
+      "title": "Carrossel de Conteúdo"
+    }
+  ],
+  "background": "Secondary"
+}

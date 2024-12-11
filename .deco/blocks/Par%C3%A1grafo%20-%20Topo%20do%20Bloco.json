@@ -12,6 +12,27 @@
     },
     {
       "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "Truck",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Balcão"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Delivery"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    },
+    {
+      "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
         "items": [
           "Não requer instalação",

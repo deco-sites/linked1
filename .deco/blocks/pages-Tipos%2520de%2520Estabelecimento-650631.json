@@ -6,26 +6,7 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-            "page": "Tipos de estabelecimento",
-            "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
-          },
-          "title": "Tipos de estabelecimento"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/TitleLarge.tsx",
-            "title": "Soluções pensadas para cada tipo de negócio",
-            "highlight": "cada tipo de negócio"
-          },
-          "title": "Soluções pensadas para cada tipo de negócio"
-        }
-      ]
+      "__resolveType": "Título da Página - Tipos de estabelecimento"
     },
     {
       "__resolveType": "site/sections/MultiSection.tsx",

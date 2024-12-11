@@ -6,47 +6,16 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "White",
-            "textAlignment": "Left",
-            "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Conteúdo em listas",
-              "Sed ut perspiciatis unde",
-              "Omnis iste natus error sit voluptatem ",
-              "Accusantium doloremque laudantium,"
-            ],
-            "colorTheme": "White"
-          },
-          "title": "Lista de Texto Embaixo do Parágrafo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "White",
-            "textAlignment": "Left",
-            "content": "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
-          },
-          "title": "Parágrafo no Final do Bloco"
-        }
-      ]
+      "__resolveType": "Título da Página - LP"
+    },
+    {
+      "__resolveType": "Vídeo com Textos Descritivos LP"
     },
     {
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "FixedSection"
+      "__resolveType": "Seção Fixa - LP"
     }
   ],
   "seo": {
