@@ -81,7 +81,7 @@ export default function Section({
       <div className="w-full flex md:justify-center">
         <div className="w-full max-w-[300px] md:max-w-[739px] grid gap-3 p-4 pt-10 md:p-10">
           <p className="md:text-center text-[32px] text-white font-sans font-normal leading-tight-35 tracking-tight-2">
-            {title} <span className="text-secondary">{titleWithColor}</span>
+            {title} <span className="text-accent">{titleWithColor}</span>
           </p>
           <p className="md:text-center text-[13.5px] text-white-80 font-sans font-normal leading-tight-15.86">
             {description}

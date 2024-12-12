@@ -51,7 +51,7 @@ export default function Section({
     return parts.map((part, index) => {
       if (part.toLowerCase() === highlight.toLowerCase()) {
         return (
-          <span key={index} className="text-secondary">
+          <span key={index} className="text-accent">
             {part}
           </span>
         );
