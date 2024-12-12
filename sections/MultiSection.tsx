@@ -81,7 +81,7 @@ export default function MultiSection(
           className="collapse collapse-arrow rounded-none bg-white w-full max-w-[706px] border-t md:border-none border-sacramentoState-10"
         >
           <input type="checkbox" />
-          <div className="collapse-title text-xl font-medium after:shadow-[#3BEDB2]">
+          <div className="collapse-title text-lg font-medium after:shadow-[#3BEDB2]">
             {collapse.title}
           </div>
           <div className="collapse-content bg-white">

@@ -15,31 +15,31 @@
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "textAlignment": "Left",
         "colorTheme": "Primary",
         "content": "Atender melhor"
       },
-      "title": "Subtítulo 1 - Atender melhor"
+      "title": "Subtítulo 1 - Atender Melhor"
     },
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
         "items": [
           "Painel centralizado com os pedidos realizados no delivery, mesas e balcão",
           "Flexibilidade para transferir o cliente de mesa e lançar os pedidos em comandas individuais",
           "Painel de senha e envio de notificações para o cliente saber como está a produção de seu pedido",
           "Combo dinâmico, rateio e fichinha"
-        ],
-        "colorTheme": "Primary"
+        ]
       },
       "title": "Lista de Texto Embaixo do Subtítulo 1"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
+        "textAlignment": "Left",
         "content": "Aumentar a eficiência"
       },
       "title": "Subtítulo 2 - Aumentar a eficiência"
@@ -47,40 +47,40 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
         "items": [
           "Conheça os dias e horários de maior movimento para se planejar melhor",
           "Organize e acelere a produção enviando os pedidos direto para a cozinha",
           "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
-        ],
-        "colorTheme": "Primary"
+        ]
       },
       "title": "Lista de Texto Embaixo do Subtítulo 2"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
         "content": "Evitar o desperdício",
-        "textAlignment": "Left",
-        "colorTheme": "Primary"
+        "textAlignment": "Left"
       },
       "title": "Subtítulo 3 - Evitar o desperdício"
     },
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
         "items": [
           "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
           "Sugestões de compras mais econômicas"
-        ],
-        "colorTheme": "Primary"
+        ]
       },
       "title": "Lista de Texto Embaixo do Subtítulo 3"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
+        "textAlignment": "Left",
         "content": "Vender e lucrar mais"
       },
       "title": "Subtítulo 4 - Vender e lucrar mais"
@@ -88,21 +88,21 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
         "items": [
           "Saiba quem são os seus melhores clientes",
           "Acompanhe os pratos preferidos ",
           "Veja quem da sua equipe vende mais",
           "Entenda o custo e o lucro em cada prato"
-        ],
-        "colorTheme": "Primary"
+        ]
       },
       "title": "Lista de Texto Embaixo do Subtítulo 4"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
+        "textAlignment": "Left",
         "content": "Ficar com as contas em dia"
       },
       "title": "Subtítulo 5 - Ficar com as contas em dia"
@@ -110,13 +110,13 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
         "items": [
           "Controle total do caixa, com abertura e fechamento",
           "Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno",
           "Emissão de nota fiscal",
           "Demonstrativo de resultados (DRE)"
-        ],
-        "colorTheme": "Primary"
+        ]
       },
       "title": "Lista de Texto Embaixo do Subtítulo 5"
     },

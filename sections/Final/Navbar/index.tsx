@@ -15,13 +15,15 @@ function Menu({ logo, icon, close_icon, menu, button, subMenu, linkIcons }: JSX.
             className="inline-flex px-4 md:px-10 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50"
         >
             <div className="flex">
-                {logo && (
-                <Image
-                    className=""
-                    src={logo || ""}
-                    width={173.72}
-                />
-                )}
+                <a href="/">
+                    {logo && (
+                    <Image
+                        className=""
+                        src={logo || ""}
+                        width={173.72}
+                    />
+                    )}
+                </a>
             </div>
 
             {/* Ícones de hambúrguer e fechar para mobile */}
