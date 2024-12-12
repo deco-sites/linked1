@@ -22,7 +22,7 @@ export default function Section({
                 <span className="block w-[1px] h-[111px] bg-sacramentoState-40"></span>
             )}
             { contentAlign == "Horizontal" && (
-                <span className="block h-[1px] w-[111px] bg-sacramentoState-40"></span>
+                <span className="block h-[1px] w-full bg-white"></span>
             )}
         </div>
     </div>
