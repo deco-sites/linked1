@@ -1,63 +1,36 @@
 {
   "name": "Inteligência de Dados Linked",
-  "path": "/opicionais/inteligencia-de-dados",
+  "path": "/opcionais/inteligencia-de-dados",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Opcionais",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Título da Página - Inteligência de Dados "
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "page": "Opcionais",
-        "title": "Inteligência de dados Linked",
-        "titleWithColor": " Linked",
-        "description": "Com mais de 30 relatórios, a inteligência de dados da Linked (antigo Cube) permite que você acompanhe os seus dados do ponto de vista de vendas, produtos e pagamentos.",
-        "iconSegment": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/b5c16567-1de6-4323-9aab-ff188996b766/icon_data.svg",
-        "highlight": "Linked"
-      }
+      "__resolveType": "Carrossel Inteligência de Dados"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "Retaguarda interativa",
-            "description": "O monitoramento do seu estabelecimento fica ainda mais completo com nossa ferramenta da inteligência de dados.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8eb4a327-2c5e-49d5-8074-22768f3ed4dd/Captura-de-Tela-2024-09-26-as-12.05.23.png"
-          }
-        ]
-      }
+      "__resolveType": "Parágrafo no Topo do Bloco - Inteligência de Dados"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
+      "__resolveType": "Recursos e funcionalidades - Inteligência de Dados"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Requisitos - Inteligência de Dados"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "Mais opcionias disponíveis - Inteligência de Dados"
+    },
+    {
+      "__resolveType": "duvidas"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

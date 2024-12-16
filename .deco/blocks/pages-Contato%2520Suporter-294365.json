@@ -1,0 +1,22 @@
+{
+  "name": "Contato Suporte",
+  "path": "/suporte",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - Suporte"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo com Botões e Descrição"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

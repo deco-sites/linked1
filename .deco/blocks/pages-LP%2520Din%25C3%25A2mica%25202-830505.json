@@ -1,0 +1,25 @@
+{
+  "name": "LP Dinâmica 2",
+  "path": "/lp-dinamica-2",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - LP"
+    },
+    {
+      "__resolveType": "Vídeo com Textos Descritivos LP"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "Seção Fixa - LP"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

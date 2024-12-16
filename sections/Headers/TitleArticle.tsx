@@ -1,5 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 
 export interface Props {
   // /**
@@ -39,52 +38,41 @@ export interface Props {
   iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    // page = "", 
-    // offer = "",
-    iconShare = "", 
-    title = "", 
-    // menuLogo = "",  
-    date = "", 
-    author = "",
+export default function Section({
+  title = "",
+  date = "",
+  author = "",
 }: Props) {
-
   return (
-    <section className="pb-10">
-      <div>
-        {/* <div className="py-[26.51px] w-full flex bg-sacramentoState items-center justify-between">
-          <p className="pl-4 text-mono text-white-80 text-[11px]">{page}</p>
-          <div className="flex-1"></div>
-          <div className="pr-4 inline-flex items-center space-x-2">
-            <p className="text-mono text-white-80 text-[11px]">{offer}</p>
-            {menuLogo && (
-              <Image
-                className="ml-2"
-                src={menuLogo || ""}
-              />
-            )}
-          </div>
-        </div> */}
-        <div>
-            <h1 className="pl-4 pt-10 pr-12 text-[32px] font-medium text-sans text-sacramentoState">{title}</h1>
-            <div className="w-full">
-              <div className="flex-1"></div>
-              <div className="flex justify-between items-start pt-[24px] pr-4">
-              <div className="flex flex-col">
-                <p className="pl-4 text-sm text-sans font-light">
-                  {date}
-                  <br />
-                </p>
-                <p className="pl-4 text-sm text-sans font-light">{author}</p>
-              </div>
-
-              {iconShare && (
-                <Image
-                  className="ml-auto"
-                  src={iconShare || ""}
-                />
-              )}
+    <section className="w-full bg-white p-4 pt-10 md:p-10 md:pt-20">
+      <div className="w-full max-w-[739px] grid gap-2">
+        <h1 className="text-[32px] md:text-5xl font-sans font-normal md:font-medium leading-tight-35 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96 text-sacramentoState">
+          {title}
+        </h1>
+        <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row md:space-x-[4px]">
+            <p className="text-sm font-sans font-light leading-tight-19 text-sacramentoState-80">
+              {date}
+            </p>
+            <div className="flex justify-between">
+              <p className="text-sm font-sans font-light leading-tight-19 text-sacramentoState-80">
+                {author}
+              </p>
             </div>
+          </div>
+          <div className="md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+            >
+              <path
+                d="M17.9997 14.0112C17.4088 14.0151 16.8262 14.1499 16.2937 14.4058C15.7611 14.6617 15.2919 15.0324 14.9197 15.4912L9.81966 13.1412C10.0595 12.407 10.0595 11.6155 9.81966 10.8812L14.9197 8.53122C15.5213 9.25719 16.36 9.7473 17.2878 9.91506C18.2156 10.0828 19.1729 9.91745 19.9906 9.44813C20.8084 8.9788 21.434 8.2357 21.7572 7.34997C22.0804 6.46423 22.0803 5.49281 21.757 4.60713C21.4336 3.72145 20.8078 2.97847 19.99 2.50929C19.1722 2.04012 18.2149 1.87492 17.2871 2.04285C16.3593 2.21078 15.5207 2.70104 14.9192 3.42712C14.3177 4.15319 13.992 5.0684 13.9997 6.01122C14.0027 6.24945 14.0261 6.48699 14.0697 6.72122L8.78966 9.15122C8.22674 8.6008 7.51391 8.22874 6.74047 8.08165C5.96703 7.93456 5.16738 8.01899 4.44171 8.32436C3.71604 8.62972 3.09662 9.14244 2.66106 9.79828C2.2255 10.4541 1.99316 11.2239 1.99316 12.0112C1.99316 12.7985 2.2255 13.5683 2.66106 14.2242C3.09662 14.88 3.71604 15.3927 4.44171 15.6981C5.16738 16.0035 5.96703 16.0879 6.74047 15.9408C7.51391 15.7937 8.22674 15.4216 8.78966 14.8712L14.0697 17.3012C14.0261 17.5355 14.0027 17.773 13.9997 18.0112C13.9997 18.8023 14.2343 19.5757 14.6738 20.2335C15.1133 20.8913 15.738 21.404 16.4689 21.7067C17.1998 22.0095 18.0041 22.0887 18.78 21.9344C19.5559 21.78 20.2687 21.3991 20.8281 20.8396C21.3875 20.2802 21.7685 19.5675 21.9228 18.7916C22.0771 18.0157 21.9979 17.2114 21.6952 16.4805C21.3924 15.7496 20.8797 15.1249 20.2219 14.6853C19.5641 14.2458 18.7908 14.0112 17.9997 14.0112ZM17.9997 4.01122C18.3952 4.01122 18.7819 4.12852 19.1108 4.34828C19.4397 4.56805 19.696 4.8804 19.8474 5.24586C19.9988 5.61131 20.0384 6.01344 19.9612 6.4014C19.8841 6.78937 19.6936 7.14573 19.4139 7.42544C19.1342 7.70514 18.7778 7.89562 18.3898 7.97279C18.0019 8.04996 17.5997 8.01036 17.2343 7.85898C16.8688 7.70761 16.5565 7.45126 16.3367 7.12236C16.117 6.79346 15.9997 6.40679 15.9997 6.01122C15.9997 5.48079 16.2104 4.97208 16.5854 4.59701C16.9605 4.22194 17.4692 4.01122 17.9997 4.01122ZM5.99966 14.0112C5.6041 14.0112 5.21742 13.8939 4.88852 13.6742C4.55962 13.4544 4.30328 13.142 4.1519 12.7766C4.00053 12.4111 3.96092 12.009 4.03809 11.621C4.11526 11.2331 4.30574 10.8767 4.58545 10.597C4.86515 10.3173 5.22152 10.1268 5.60948 10.0497C5.99744 9.97248 6.39958 10.0121 6.76503 10.1635C7.13048 10.3148 7.44284 10.5712 7.6626 10.9001C7.88236 11.229 7.99966 11.6157 7.99966 12.0112C7.99966 12.5417 7.78895 13.0504 7.41388 13.4254C7.0388 13.8005 6.5301 14.0112 5.99966 14.0112ZM17.9997 20.0112C17.6041 20.0112 17.2174 19.8939 16.8885 19.6742C16.5596 19.4544 16.3033 19.142 16.1519 18.7766C16.0005 18.4111 15.9609 18.009 16.0381 17.621C16.1153 17.2331 16.3057 16.8767 16.5854 16.597C16.8652 16.3173 17.2215 16.1268 17.6095 16.0497C17.9974 15.9725 18.3996 16.0121 18.765 16.1635C19.1305 16.3148 19.4428 16.5712 19.6626 16.9001C19.8824 17.229 19.9997 17.6157 19.9997 18.0112C19.9997 18.5417 19.7889 19.0504 19.4139 19.4254C19.0388 19.8005 18.5301 20.0112 17.9997 20.0112Z"
+                fill="#3BEDB2"
+              />
+            </svg>
           </div>
         </div>
       </div>

@@ -14,23 +14,24 @@ export interface Props {
   iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    page = "", 
-    iconShare = "", 
+export default function Section({
+  page = "",
+  iconShare = "",
 }: Props) {
-
   return (
-    <section class="pb-7 bg-sacramentoState">
-      <div>
-        <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 text-sans font-medium text-white-80 text-[13.5px]">{page}</p>
-          <div className="flex-1"></div>
-          <div className="pt-[24px] items-end justify-end text-end pr-4">
+    <section className="bg-sacramentoState">
+      <div className="px-4 md:px-10 pt-6">
+        <div className="flex justify-between items-center">
+          <p className="text-sm font-sans font-normal leading-tight-15.86 text-white-80">
+            {page}
+          </p>
+          <div className="">
             {iconShare && (
-                  <Image
-                    class=""
-                    src={iconShare || ""}
-                  />
+              <Image
+                className=""
+                src={iconShare || ""}
+                width={24}
+              />
             )}
           </div>
         </div>

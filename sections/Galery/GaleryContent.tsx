@@ -1,12 +1,20 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Item = {
+/**
+ * @title {{{title}}}
+ */
+export interface Item {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
   /**
    * @title Título
    * @description Escreva aqui o título do item
    */
-  title: string;
+  titleSection: string;
   /**
    * @title Descrição
    * @description Escreva aqui a descrição do item
@@ -22,7 +30,7 @@ export type Item = {
    * @description Escolha a imagem do item
    */
   image: ImageWidget;
-};
+}
 
 export interface Props {
   /**
@@ -32,36 +40,39 @@ export interface Props {
   items: Item[];
 }
 
-export default function Section({ 
-  items = [
-    {
-      title: '',
-      description: '',
-      wordBreak: '',
-      image: ''
-    }
-  ] 
+export default function Section({
+  items = [],
 }: Props) {
-
   return (
-    <section className="w-full pb-[59px] bg-sacramentoState">
-      <div className="">
-        <div className="swiper-container">
-          <div className="swiper-wrapper inline-flex">
-            {items.map((item, index) => (
-              <div className="swiper-slide w-fit pl-[32px] pr-[28px] lg:ml-10" key={index}>
-                <article className="w-fit flex flex-col border-t-2 border-white-20">
-                  <p className="pt-[22.8px] text-base text-mintCream text-sans text-left">{item.title}</p>
-                  <div className="flex space-x-5 py-[26px] px-0">
-                    <Image className="" src={item.image || ""} />
-                  </div>
-                  <div className="w-fit pl-0">
-                    <p className="pl-[3px] w-fit text-base text-sans font-normal text-mintCream">{item.description} <br /> {item.wordBreak}</p>
-                  </div>
-                </article>
-              </div>
-            ))}
-          </div>
+    <section className="bg-sacramentoState">
+      <div className="pb-[59px] overflow-x-scroll scrollbar-hide swiper-container">
+        <div className="swiper-wrapper !px-4 md:!px-10 flex gap-x-4 md:gap-x-[20px]">
+          {items.map((item, index) => (
+            <div
+              className="swiper-slide w-full max-w-[343px] flex-none md:flex md:flex-auto"
+              key={index}
+            >
+              <article className="w-full flex flex-col border-t-2 border-white-20">
+                <div className="pt-[23px] text-left">
+                  <p className="text-base md:text-lg font-normal md:font-light md:leading-tight-25 text-mintCream md:text-white">
+                    {item.titleSection}
+                  </p>
+                </div>
+                <div className="flex justify-center py-[26px] px-0 w-full max-w-[343px]">
+                  <Image
+                    src={item.image || ""}
+                    width={343}
+                    className="w-full h-full object-cover rounded-3xl"
+                  />
+                </div>
+                <div className="w-full text-left">
+                  <p className="text-base font-sans font-light leading-tight-18 md:leading-none text-mintCream md:text-white opacity-80">
+                    {item.description}
+                  </p>
+                </div>
+              </article>
+            </div>
+          ))}
         </div>
       </div>
     </section>

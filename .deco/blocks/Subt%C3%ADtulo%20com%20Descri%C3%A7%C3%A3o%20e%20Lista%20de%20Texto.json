@@ -1,0 +1,50 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "textAlignment": "Center",
+        "colorTheme": "White",
+        "content": "O plano Linked Food Total oferece integrações com os principais serviços do mercado"
+      },
+      "title": "Subtítulo do Bloto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Center",
+        "content": "São dezenas de opções e a lista não pára de crescer:"
+      },
+      "title": "Parágrafo Embaixo do Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Abrahão",
+          "Alloy",
+          "Capta",
+          "Cliente Fiel",
+          "Delivery Direto",
+          "Delivery Much",
+          "F360º",
+          "iFood",
+          "Goomer",
+          "Go Totem",
+          "Grynfood",
+          "Neemo",
+          "Prefiro Delivery",
+          "Rappi",
+          "Totvs",
+          "Uber Eats",
+          "VocêQPad"
+        ],
+        "colorTheme": "White"
+      },
+      "title": "Lista de Texto do Bloco"
+    }
+  ],
+  "background": "Primary"
+}

@@ -6,7 +6,8 @@
         "Painel centralizado com os pedidos realizados no local e via delivery",
         "Envio de notificações para o cliente saber como está a produção de seu pedido"
       ],
-      "SectionText": "Atender melhor"
+      "SectionText": "Atender melhor",
+      "title": "Atender melhor"
     },
     {
       "DescriptionSection": [
@@ -14,6 +15,7 @@
         "Organize e acelere a produção enviando os pedidos direto para a cozinha",
         "Entenda como renovar o cardápio para se manter sempre atualizado e rentável"
       ],
+      "title": "Aumentar a eficiência",
       "SectionText": "Aumentar a eficiência"
     },
     {
@@ -21,30 +23,44 @@
         "Controle de estoque para você comprar somente o necessário e acompanhar o que está prestes a vencer",
         "Sugestões de compras mais econômicas"
       ],
-      "SectionText": "Evitar o desperdício"
+      "SectionText": "Evitar o desperdício",
+      "title": "Evitar o desperdício"
     },
     {
       "DescriptionSection": [
         "Acompanhe os pratos preferidos",
         "Veja quem da sua equipe vende mais"
       ],
-      "SectionText": "Vender e lucrar mais"
+      "SectionText": "Vender e lucrar mais",
+      "title": "Vender e lucrar mais"
     },
     {
       "DescriptionSection": [
         "Controle total do caixa, com abertura e fechamento",
         "Controle total do dinheiro, com contas a receber e a pagar, fiado e registro de estorno"
       ],
-      "SectionText": "Ficar com as contas em dia"
+      "SectionText": "Ficar com as contas em dia",
+      "title": "Ficar com as contas em dia"
     }
   ],
   "button": [
     {
       "name": "Ver lista completa",
-      "url": "/lista"
+      "url": "/lista",
+      "title": "Ver lista completa"
     }
   ],
   "Subtitle": "Recursos e funcionalidades",
   "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
-  "videoWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+  "videoWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4",
+  "DescriptionSection": [
+    {
+      "DescriptionSection": [],
+      "SecaoDescricao": [
+        {
+          "description": []
+        }
+      ]
+    }
+  ]
 }

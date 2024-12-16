@@ -1,0 +1,118 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Recursos e funcionalidades"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Vendas"
+      },
+      "title": "Subtítulo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Por combo",
+          "Por hora",
+          "Por período de caixa",
+          "Por garçom",
+          "Por cliente",
+          "Por departamento",
+          "Com margem final",
+          "Por Produto",
+          "Entregas por motoboy",
+          "Kardex (controle de estoque)",
+          "Acumulado de vendas no dia a dia",
+          "Movimento de vendas"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Compras"
+      },
+      "title": "Subtítulo do Bloco 2"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "ABC",
+          "Fornecedor",
+          "Inflação",
+          "Produtos",
+          "Sugestão de compras"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 2"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Gerencial"
+      },
+      "title": "Subtítulo do Bloco 3"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "CMV ",
+          "Estoque ",
+          "Evolução de preços",
+          "Mala direta",
+          "Pendências",
+          "Ticket médio"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 3"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Auditoria"
+      },
+      "title": "Subtítulo do Bloco 4"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Apuração de caixa",
+          "Faturamento bruto",
+          "Conferência de cupom de venda",
+          "Estorno de estoque/perdas",
+          "Transferência de estoque/mesa",
+          "Total de notas fiscais dia a dia",
+          "CMV",
+          "Estoque",
+          "Evolução de preços",
+          "Mala direta",
+          "Movimento de vendas",
+          "Pendências",
+          "Tíquete médio"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Subtítulo 4"
+    }
+  ]
+}

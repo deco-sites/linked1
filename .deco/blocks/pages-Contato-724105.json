@@ -1,0 +1,22 @@
+{
+  "name": "Contato",
+  "path": "/contato",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - Contato Comercial"
+    },
+    {
+      "__resolveType": "Texto Descritivo com Botões"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

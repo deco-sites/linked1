@@ -1,16 +1,43 @@
 {
-  "__resolveType": "site/sections/Destaques/Duvidas.tsx",
-  "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5d04284b-12af-47a2-9806-c19817b13a2e/Captura-de-Tela-2024-10-02-as-20.31.31.png",
-  "title": "Ficou com dúvidas?",
-  "button": [
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Secondary",
+  "sections": [
     {
-      "name": "Descubra o plano ideal",
-      "url": "/planos"
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "QuestionMarkCircle",
+            "iconColor": "Primary",
+            "background": "Secondary",
+            "title": "Ícon"
+          }
+        ],
+        "borderColor": "Secondary"
+      },
+      "title": "Ícone"
     },
     {
-      "url": "/",
-      "name": "Agende uma demonstração",
-      "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg"
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Center",
+        "colorTheme": "Primary",
+        "content": "Ficou com dúvidas?"
+      },
+      "title": "Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary dark",
+        "title": "teste",
+        "text": "teste",
+        "link": "/teste",
+        "icon": "teste",
+        "tamanho": "Máximo (100%)"
+      },
+      "title": "Botão"
     }
-  ]
+  ],
+  "collapse": {}
 }

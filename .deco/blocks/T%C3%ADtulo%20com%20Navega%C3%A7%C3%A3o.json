@@ -1,0 +1,33 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Planos",
+            "url": "/planos"
+          },
+          {
+            "name": "Opcionais",
+            "url": "/opcionais"
+          },
+          {
+            "name": "Integrações",
+            "url": "/integracoes"
+          }
+        ]
+      },
+      "title": "Navegação Topo da Página"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Os principais serviços estão na Linked"
+      },
+      "title": "Título da Página"
+    }
+  ]
+}

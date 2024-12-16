@@ -1,7 +1,10 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export type Link = {
+/**
+ * @title {{{title}}}
+ */
+interface Link {
   /**
    * @title Nome
    * @description Nome visível para clique
@@ -12,7 +15,7 @@ export type Link = {
    * @description Insira a URL ou o caminho de destino
    */
   url: string;
-};
+}
 
 export interface Props {
   /**
@@ -35,7 +38,7 @@ export interface Props {
    * @description Representa o endereço físico associado à entidade.
    */
   address: string;
-    /**
+  /**
    * @title Quebra de Linha
    * @description Insira a quebra de linha
    */
@@ -61,16 +64,23 @@ export default function Footer({
         <div className="text-center">
           <a href={linkedUrl} className="text-center">
             {imageWidget && (
-              <Image src={imageWidget} alt={linkedText} className="block md:hidden mx-auto" />
+              <Image
+                src={imageWidget}
+                alt={linkedText}
+                className="block md:hidden mx-auto"
+                width={195.49}
+              />
             )}
-            <span className="hidden md:block text-[60px] text-caribbeanGreen">{linkedText}</span>
+            <span className="hidden md:block text-[60px] text-caribbeanGreen">
+              {linkedText}
+            </span>
           </a>
         </div>
-        <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs text-center text-mintCream">
+        <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs leading-tight-14 lg:leading-tight-15 text-center text-mintCream">
           {rightsText}
         </p>
         <div className="pb-[160px] lg:pb-[72px] border-t-2 border-white-20 w-full">
-          <p className="pt-[38px] text-[11px] font-mono lg:text-xs text-center text-mintCream">
+          <p className="pt-[38px] text-[11px] font-mono lg:text-xs leading-tight-14 lg:leading-tight-15 text-center text-mintCream">
             {address} <br /> {wordBreak}
           </p>
         </div>

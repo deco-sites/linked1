@@ -1,0 +1,42 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "A Linked Tech tem automação de verdade, que te dá recuros para operar melhor o seu negócio, entender o que acontece nele e ainda planejar o futuro."
+      },
+      "title": "Subtítulo da Página"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "A Linked foi fundada em 2016 para mudar o mercado de food service. Para isso, foi atrás da opinião de quem realmente entende do assunto: o empreendedor. "
+      },
+      "title": "1- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Com muita pesquisa e  dedicação, nasceu a primeira versão da solução, com uma frente de caixa funcional e uma retaguarda inteligente em nuvem."
+      },
+      "title": "2- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Hoje a Linked tem produtos capazes de gerenciar todos os processos de um restaurante, proporcionando visão em tempo real das vendas, gerenciamento de estoque, automação comercial e emissão de nota fiscal."
+      },
+      "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    }
+  ]
+}

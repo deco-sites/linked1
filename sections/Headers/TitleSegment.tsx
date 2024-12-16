@@ -34,49 +34,58 @@ export interface Props {
   // iconShare?: ImageWidget;
 }
 
-export default function Section({ 
-    // page = "", 
-    // iconShare = "", 
-    title = "", 
-    highlight = "",
-    iconSegment = "", 
-    description = "", 
+export default function Section({
+  // page = "",
+  // iconShare = "",
+  title = "",
+  highlight = "",
+  iconSegment = "",
+  description = "",
 }: Props) {
-
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
-    const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return parts.map((part, index) => 
-      part.toLowerCase() === highlight.toLowerCase() ? <span key={index} className="text-secondary">{part}</span> : part
+    const parts = text.split(new RegExp(`(${highlight})`, "gi"));
+    return parts.map((part, index) =>
+      part.toLowerCase() === highlight.toLowerCase()
+        ? <span key={index} className="text-accent">{part}</span>
+        : part
     );
   };
 
   return (
-    <section class="pb-10 bg-sacramentoState">
-      <div>
-        {/* <div className="w-full inline-flex">
-          <p className="pl-4 pt-7 font-sans font-medium text-white-80 text-[13.5px]">{page}</p>
+    <section className="bg-sacramentoState flex justify-center ">
+      <div className="grid gap-3 md:text-center w-full max-w-[739px] px-4 pb-6 pt-8 md:py-12 md:px-10">
+        {
+          /* <div className="w-full inline-flex">
+          <p className="pl-4 pt-7 font-sans font-normal text-white-80 text-[13.5px]">{page}</p>
           <div className="flex-1"></div>
           <div className="pt-[24px] items-end justify-end text-end pr-4">
             {iconShare && (
-                  <Image
-                    class=""
-                    src={iconShare || ""}
-                  />
+              <Image
+                class=""
+                src={iconShare || ""}
+              />
             )}
-            </div>
-          </div> */}
-          <div className="pl-4 pt-5 pb-6">
-            {iconSegment && (
-                  <Image
-                    class=""
-                    src={iconSegment || ""}
-                  />
-            )}
-            <p className="pt-2.5 pr-[69px] text-[32px] font-medium text-sans text-white">{getHighlightedText(title, highlight)}</p>
-            <p className="pt-2.5 pr-[40px] text-lg font-normal text-sans text-white-80">{description}</p>
           </div>
+        </div> */
+        }
+        <div className="flex md:justify-center">
+          {iconSegment && (
+            <Image
+              className=""
+              src={iconSegment || ""}
+              width={32}
+            />
+          )}
+        </div>
+        <p className="text-[32px] font-normal font-sans leading-tight-35 tracking-tight-2 text-white">
+          {getHighlightedText(title, highlight)}
+        </p>
+
+        <p className="text-lg font-normal font-sans leading-tight-21 text-white-80">
+          {description}
+        </p>
       </div>
     </section>
   );

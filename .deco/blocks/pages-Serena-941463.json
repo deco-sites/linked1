@@ -3,48 +3,19 @@
   "path": "/parcerias/serena",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Parcerias",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Bloco de Compartilhamento"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/ImageContent.tsx",
-        "ImageLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/297892ce-4ca9-4b78-977d-9fb03de89fe7/brand_serena.png",
-        "items": [
-          {
-            "Image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/297892ce-4ca9-4b78-977d-9fb03de89fe7/brand_serena.png"
-          }
-        ]
-      }
+      "__resolveType": "Imagem da Marca"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
+      "__resolveType": "Bloco de Conteúdo com Texto Descritivo"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

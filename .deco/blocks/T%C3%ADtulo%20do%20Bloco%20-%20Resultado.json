@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Júlio, o plano mais recomendado para seu estabelecimento é o Linked Food Total",
+        "highlight": "Linked Food Total"
+      },
+      "title": "Título do Bloco"
+    }
+  ]
+}

@@ -2,61 +2,72 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export type Link = {
-    /**
-     * @title Nome
-     * @description Nome visível para clique
-     */
-    name: string;
-    /**
-     * @title Destino
-     * @description Insira a URL ou o caminho de destino
-     */
-    url: string;
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a URL ou o caminho de destino
+   */
+  url: string;
 };
 
 export interface Props {
-    /**
-     * @title Texto do Botão
-     * @description Insira o texto do botão
-     */
-    buttonText: string;
-    /**
-     * @title Ícone do Botão
-     * @description Insisra o Ícone do Botão
-     */
-    ImageWidget: ImageWidget;
-    /**
-     * @title Descrição
-     * @description Insira a descrição
-     */
-    description?: string;
+  /**
+   * @title Texto do Botão
+   * @description Insira o texto do botão
+   */
+  buttonText: string;
+  /**
+   * @title Ícone do Botão
+   * @description Insisra o Ícone do Botão
+   */
+  ImageWidget: ImageWidget;
+  /**
+   * @title Descrição
+   * @description Insira a descrição
+   */
+  description?: string;
 }
 
-
 export default function Section({
-    buttonText = '',
-    ImageWidget = '',
-    description = '',
-  }: Props) {
-    return (
-    <section id="fixed-section" className="fixed bottom-0 left-0 w-full flex justify-center bg-white lg:hidden z-50">
-      <div className="w-full px-5 pt-3.5 pb-5 bg-white shadow-lg flex flex-col justify-center gap-2.5">
-        <div className="inline-flex">
-            <div className="w-full flex justify-between items-center gap-2">
-                <a className="py-[12.5px] px-[55px] ml-5 mr-2.5 flex-grow bg-sacramentoState rounded-lg flex justify-center items-center text-secondary text-base font-semibold font-sans">
-                    {buttonText}
-                </a>
-            </div>
-            <div className="py-2.5 px-5 bg-secondary rounded-lg flex justify-center items-center">
-                {ImageWidget && (
-                <div className="w-6 h-6 flex justify-center items-center">
-                    <Image src={ImageWidget} alt="Section Image" className=""/>
-                </div>
-                )}
-            </div>
+  buttonText = "",
+  ImageWidget = "",
+  description = "",
+}: Props) {
+  return (
+    <section
+      id="fixed-section"
+      className="fixed bottom-0 left-0 w-full flex justify-center bg-white lg:hidden z-40"
+    >
+      <div className="px-5 pt-[14px] pb-5 w-full grid gap-y-[9px]">
+        <div className="w-full flex items-center space-x-2">
+          <div className="flex-grow">
+            <a className="py-[10px] px-5 w-full bg-sacramentoState rounded-[10px] flex justify-center items-center text-base font-medium font-sans leading-tight-18 text-[#3BEDB2]">
+              {buttonText}
+            </a>
+          </div>
+          <div className="w-[92px] flex-shrink-0">
+            {ImageWidget && (
+              <div className="w-full px-5 py-2.5 h-10 flex justify-center items-center bg-secondary rounded-[10px]">
+                <Image
+                  src={ImageWidget}
+                  alt="Section Image"
+                  className="w-6 h-6"
+                  width={24}
+                />
+              </div>
+            )}
+          </div>
         </div>
-        <p className="w-full text-center text-sacramentoState-80 text-sm font-normal font-sans">{description}</p>
+        <div className="text-center">
+          <p className="text-sm font-sans font-normal leading-tight-15.86 text-sacramentoState-80">
+            {description}
+          </p>
+        </div>
       </div>
     </section>
-    );
+  );
 }

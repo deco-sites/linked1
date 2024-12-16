@@ -1,0 +1,54 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Ele atende todas as características do seu negócio",
+        "colorTheme": "White",
+        "textAlignment": "Left"
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "Phone",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Fast-food"
+          },
+          {
+            "icon": "Ruler",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Rede ou franquia"
+          },
+          {
+            "icon": "MapPin",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Recusrsos de PDV, Gestão e contabilidade"
+          },
+          {
+            "icon": "Truck",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Conexão com impressoras fiscais, POS e TEF"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Accent",
+            "background": "Primary",
+            "title": "Múltiplos perfis de usuários"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    }
+  ]
+}

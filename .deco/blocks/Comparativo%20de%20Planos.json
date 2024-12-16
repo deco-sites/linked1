@@ -1,0 +1,206 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "collapse": {
+    "title": "Comparação de Planos"
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Comparison.tsx",
+        "headerLeft": {
+          "title": "Essencial",
+          "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio.",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5ffb559c-3e3d-45bb-a6ac-b6f928c0bf51/cup_plan_essencial_compare.svg"
+        },
+        "headerRight": {
+          "title": "Total",
+          "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários.",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4de38ec-91b3-4c1d-877e-93da5baceb5d/cuttlery_plan_total_compare.svg"
+        },
+        "content": [
+          {
+            "contentLeft": [
+              {
+                "title": "Delivery"
+              },
+              {
+                "title": "Local"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "Comanda"
+              },
+              {
+                "title": "Mesa"
+              },
+              {
+                "title": "Balcão"
+              },
+              {
+                "title": "Delivery"
+              }
+            ],
+            "title": "Módulos"
+          },
+          {
+            "contentLeft": [
+              {
+                "title": "PDV"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "PDV"
+              },
+              {
+                "title": "Gestão"
+              },
+              {
+                "title": "Contabilidade"
+              }
+            ],
+            "title": "Recursos e funcionalidades"
+          },
+          {
+            "contentLeft": [
+              {
+                "title": "Online"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "Online"
+              },
+              {
+                "title": "Offline"
+              }
+            ],
+            "title": "Conectividade"
+          },
+          {
+            "contentLeft": [
+              {
+                "title": "Impressoras não fiscais"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "POS"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "Impressoras fiscais"
+              },
+              {
+                "title": "Impressoras produção"
+              },
+              {
+                "title": "POS"
+              },
+              {
+                "title": "TEF"
+              },
+              {
+                "title": "Balanças"
+              },
+              {
+                "title": "Catraca de comanda"
+              }
+            ],
+            "title": "Dispositivos"
+          },
+          {
+            "contentLeft": [
+              {
+                "title": "Link de pagamentos"
+              },
+              {
+                "title": "Monitor de preparos"
+              },
+              {
+                "title": "-"
+              },
+              {
+                "title": "-"
+              }
+            ],
+            "contentRight": [
+              {
+                "title": "Link de pagamentos"
+              },
+              {
+                "title": "Monitor de preparos"
+              },
+              {
+                "title": "App de delivery"
+              },
+              {
+                "title": "Inteligência de dados"
+              }
+            ],
+            "title": "Opcionais"
+          }
+        ],
+        "footerLeft": {
+          "button": {
+            "0": {
+              "buttonTheme": "Primary white",
+              "title": "Botão ver mais (esquerda)",
+              "text": "Ver mais ",
+              "link": "/ver-mais"
+            },
+            "title": "dsa",
+            "text": "Ver detalhes",
+            "link": "essencial",
+            "buttonTheme": "Secondary white"
+          },
+          "price": "A partir de R$ 00,00"
+        },
+        "footerRight": {
+          "button": {
+            "0": {
+              "buttonTheme": "Secondary white",
+              "title": "Ver mais (direito)",
+              "text": "Ver detalhes",
+              "link": "vr detalhes"
+            },
+            "title": "dsad",
+            "text": "Ver detalhes",
+            "link": "plano-total",
+            "buttonTheme": "Secondary white"
+          },
+          "price": "A partir de R$ 000,00"
+        }
+      },
+      "title": "Comparação"
+    }
+  ]
+}

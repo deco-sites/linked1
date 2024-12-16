@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Gestão eficiente do estoque"
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O plano Linked Food Total possui um módulo exclusivo de gestão do estoque. Cada vez que um pedido é realizado, a ferramenta dá baixa nos ingredientes, indicando com antecedência o que é preciso comprar e na quantidade certa, de acordo com o movimento da loja."
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+      },
+      "title": "Vídeo do Bloco"
+    }
+  ],
+  "background": "Primary"
+}

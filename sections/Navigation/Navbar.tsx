@@ -1,7 +1,16 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import Navbar from "../Final/Navbar/index.tsx";
 
+// import { useState } from "react";
+import { useEffect } from "react";
+
+
+/**
+ * @title {{{title}}}
+ */
 export type Link = {
+  title: string;
   /**
    * @title Nome
    * @description Nome visível para clique
@@ -11,9 +20,60 @@ export type Link = {
    * @title Destino
    * @description Insira a url ou o caminho de destino
    */
-    url: string;
+  url: string;
 };
 
+/**
+ * @title {{{title}}}
+ */
+export type IconLink = {
+  title: string;
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  image: ImageWidget;
+  /**
+   * @title Destino
+   * @description Insira a url ou o caminho de destino
+   */
+  url: string;
+};
+
+/**
+ * @title {{{title}}}
+ */
+export type Button = {
+    title: string;
+    /**
+     * @title Texto
+     * @description Escreva o texto do botão
+     */
+    text: string;
+    /**
+     * @title Link
+     * @description Escreva o link de redirecionamento
+     */
+    link: string;
+    /**
+     * @title Icone
+     * @description Selecione o ícone que deseja
+     */
+    icon?: string;
+    /**
+     * @title Botão
+     * @description Selecione o tipo de botão que deseja
+     */
+    buttonTheme?:
+        | "Primary dark"
+        | "Primary white"
+        | "Secondary dark"
+        | "Secondary white"
+        | "Link dark"
+        | "Link white"
+        | "Faq"
+        | "Nenhuma estilização"
+}
 export interface Props {
   /**
    * @title Logo
@@ -21,123 +81,56 @@ export interface Props {
    */
   logo?: ImageWidget;
   /**
-   * @title Ícone de Menu
-   * @description Insira o ícone de menu
+   * @title Ítens do Menu (Mobile e Desktop)
+   * @description Insira os links que aparecerão no desktop e mobile Obs.: cuidado com  a quantidade de links
    */
-  icon?: ImageWidget;
-  /**
-   * @title Ícone de Fechar
-   * @description Insira o ícone de fechar
-   */
-  close_icon?: ImageWidget;
   menu?: Link[];
-  button?: Link[];
+  /**
+   * @title Botão
+   * @Description Botões
+   */
+  button?: Button[];
+  /**
+   * @title Ítens do Menu (Mobile)
+   * @description Insira os links que aparecerão apenas no mobile Obs.: cuidado com  a quantidade de links
+   */
+  subMenu?: Button[];
+  /**
+   * @title Links de ícones (Mobile)
+   * @description Insira os ícones e links que aparecerão no menu
+   */
+  linkIcons?: IconLink[];
+
 }
 
 export default function Section({
   logo,
-  icon,
-  close_icon,
   menu = [
     {
+      title: "Home",
       name: "Home",
       url: "/",
     },
   ],
-  button = [
+  subMenu = [
     {
+      title: "Home",
       name: "Home",
       url: "/",
     },
+  ],
+  linkIcons = [],
+  button = [
+    {
+      title: "Botão",
+      text: "Home",
+      link: "/",
+      icon: "",
+      buttonTheme: "Primary dark",
+    }
   ],
 }: Props) {
 
-  // // Efeito para o menu toggle (abrir e fechar)
-  // useEffect(() => {
-  //   const menuToggle = document.getElementById("menu-toggle") as HTMLInputElement;
-  //   const menu = document.getElementById("menu");
-  //   const body = document.body;
-  //   const hamburgerIcon = document.getElementById("hamburger-icon");
-  //   const closeIcon = document.getElementById("close-icon");
-  //   const fixedSection = document.getElementById("fixed-section");
-
-  //   const handleToggle = () => {
-  //     if (menuToggle.checked) {
-  //       menu?.classList.remove("hidden");
-  //       body.classList.add("overflow-hidden");
-  //       hamburgerIcon?.classList.add("hidden");
-  //       closeIcon?.classList.remove("hidden");
-  //       fixedSection?.classList.add("hidden");
-  //     } else {
-  //       menu?.classList.add("hidden");
-  //       body.classList.remove("overflow-hidden");
-  //       hamburgerIcon?.classList.remove("hidden");
-  //       closeIcon?.classList.add("hidden");
-  //       fixedSection?.classList.remove("hidden");
-  //     }
-  //   };
-
-  // menuToggle?.addEventListener("change", handleToggle);
-
-  //   // Limpeza do evento para evitar vazamentos de memória
-  //   return () => {
-  //     menuToggle?.removeEventListener("change", handleToggle);
-  //   };
-  // }, []);
-
   return (
-    <nav role="navigation" className="inline-flex pl-4 pr-4 py-[29.5px] lg:py-9 lg:px-10 w-full justify-between bg-sacramentoState border-b-2 border-white-20 relative top-0 left-0 z-50">
-      <div className="flex">
-        {logo && (
-          <Image
-            className="lg:pr-[124.94px]"
-            src={logo || ""} 
-          />
-        )}
-      </div>
-
-      {/* Ícones de hambúrguer e fechar para mobile */}
-      <div className="w-fit md:hidden flex items-center">
-        <input type="checkbox" id="menu-toggle" class="hidden" />
-        <div id="hamburger-icon" class="">
-          {icon && (
-            <Image
-              className=""
-              src={icon || ""}
-            />
-          )}
-        </div>
-        <div id="close-icon" className="hidden">
-          {close_icon && (
-            <Image
-              className=""
-              src={close_icon || ""}
-            />
-          )}
-        </div>
-      </div>
-
-      <div id="menu" className="hidden md:flex space-x-4 text-sans text-white font-light items-center whitespace-nowrap">
-        {menu?.map((item, index) => (
-          <a key={index} href={item.url}>
-            {item.name}
-          </a>
-        ))}
-      </div>
-
-      <div className="hidden w-fit md:flex ml-8 mr-10 bg-secondary rounded-xl items-center justify-center gap-4">
-        {button?.map((btn, index) => (
-          <a
-            key={index}
-            href={btn.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-max px-[22px] py-3.5 flex-none text-sans text-base font-light"
-          >
-            {btn.name}
-          </a>
-        ))}
-      </div>
-    </nav>
-  );
-}
+    <Navbar logo={logo} menu={menu} button={button} subMenu={subMenu} linkIcons={linkIcons} />
+  );}

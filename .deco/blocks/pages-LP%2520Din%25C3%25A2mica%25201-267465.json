@@ -1,0 +1,40 @@
+{
+  "name": "LP Dinâmica 1",
+  "path": "/lp-dinamica-1",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - LP"
+    },
+    {
+      "__resolveType": "Carrossel LP Dinâmica"
+    },
+    {
+      "__resolveType": "Parágrafo com Lista de Texto"
+    },
+    {
+      "__resolveType": "Carrossel de Testemunhas LP 1"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Aba Fechada"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Aba Aberta"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
+    },
+    {
+      "__resolveType": "TitlePlan"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

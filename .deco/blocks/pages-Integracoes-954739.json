@@ -5,120 +5,160 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Tabs"
-      }
+      "__resolveType": "Topo de Página - Integrações"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Os principais serviços estão na Linked"
-      }
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Delivery Much",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/01eeaa30-6b3a-48a2-9395-5e4d55e8d6b5/brand_delivery_much-2x.png"
+              },
+              {
+                "title": "Delivery Direto",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png"
+              },
+              {
+                "title": "iFood",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png"
+              },
+              {
+                "title": "Prefiro Delivery",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2d334e5d-b175-4751-a6b0-0c6a4596c01d/prefirodelivery.jpg"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Delivery"
+          },
+          "title": "Grupo de Logos"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Abrahao",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5521161e-867c-4a2b-8039-447d4594b572/abrahao_integracion.png"
+              },
+              {
+                "title": "Alloy",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/50e5609f-c84d-406c-b72b-317b89c16bd4/brand_ahoy.png"
+              },
+              {
+                "title": "Goomer",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png"
+              },
+              {
+                "title": "Gryn Food",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00551a17-08d8-44e1-b0c0-fbb84de41b8f/brand_gryn_food.png"
+              },
+              {
+                "title": "Neemo",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e7ca772b-0cae-4cfc-a058-1c7c6f1f0c0f/brand_neemo.png"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Cardápio digital"
+          },
+          "title": "Grupo de Logos"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Go Totem",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/81a877b1-d117-4e2b-bc09-329c1009933e/brand_go_totem.png"
+              },
+              {
+                "title": "Você Q Pod",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d728d9a8-b788-4776-9b6f-d6b8532d6e5c/brand_voce_q_pod.png"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Totem e autoatendimento"
+          },
+          "title": "Grupo de Logos"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Cappta",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f81d9965-2c5d-4f4b-a4a7-c46d7bc0cdd9/brand_cappta.png"
+              },
+              {
+                "title": "TOTVS",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5e2637ee-c382-4002-98c9-8b106e552f8b/brand_totvs.png"
+              },
+              {
+                "title": "F360",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/175a3a08-0ef0-4114-b88b-f373e3e88a02/brand_f360.png"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Pagamentos"
+          },
+          "title": "Grupo de Logos"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Entre Pay",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3c99fd00-f24b-4ed5-b719-1c341fdd2eee/brand_entre_pay.png"
+              },
+              {
+                "title": "Cielo",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15430617-06d3-4a83-813e-5822c95d0b28/brand_cielo.png"
+              },
+              {
+                "title": "iFood",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Maquininhas"
+          },
+          "title": "Grupo de Logos"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/LogoGroup.tsx",
+            "logos": [
+              {
+                "title": "Cliente Fiel",
+                "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b309473-9803-4c9a-bec9-641c48da7f26/brand_cliente_fiel.png"
+              }
+            ],
+            "colorTheme": "Primary",
+            "title": "Fidelização"
+          },
+          "title": "Grupo de Logos"
+        }
+      ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListImage.tsx",
-        "sectionText": "Nossa lista aumenta a cada dia.  Confira todas as integrações:",
-        "button": [
-          {
-            "name": "Delivery"
-          },
-          {
-            "name": "Cardápio digital"
-          },
-          {
-            "name": "Totem e autoatendimento"
-          },
-          {
-            "name": "Pagamentos"
-          },
-          {
-            "name": "Maquininhas"
-          },
-          {
-            "name": "Fidelização"
-          }
-        ],
-        "categories": [
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/cb2ba4b6-5780-4fee-8124-374662364b6a/brand_delivery_much.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bceb98bb-4414-4f3d-ac7d-31c75afb40ff/brand_delivery_direto.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png"
-            ],
-            "name": "Delivery"
-          },
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/94a610ea-c33f-4c78-a0f5-3091ba030356/brand_abrahao.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/50e5609f-c84d-406c-b72b-317b89c16bd4/brand_ahoy.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00551a17-08d8-44e1-b0c0-fbb84de41b8f/brand_gryn_food.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e7ca772b-0cae-4cfc-a058-1c7c6f1f0c0f/brand_neemo.png"
-            ],
-            "name": "Cardápio digital"
-          },
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/81a877b1-d117-4e2b-bc09-329c1009933e/brand_go_totem.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d728d9a8-b788-4776-9b6f-d6b8532d6e5c/brand_voce_q_pod.png"
-            ],
-            "name": "Totem e autoatendimento"
-          },
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f81d9965-2c5d-4f4b-a4a7-c46d7bc0cdd9/brand_cappta.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5e2637ee-c382-4002-98c9-8b106e552f8b/brand_totvs.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/175a3a08-0ef0-4114-b88b-f373e3e88a02/brand_f360.png"
-            ],
-            "name": "Pagamentos"
-          },
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3c99fd00-f24b-4ed5-b719-1c341fdd2eee/brand_entre_pay.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15430617-06d3-4a83-813e-5822c95d0b28/brand_cielo.png",
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png"
-            ],
-            "name": "Maquininhas"
-          },
-          {
-            "images": [
-              "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b309473-9803-4c9a-bec9-641c48da7f26/brand_cliente_fiel.png"
-            ],
-            "name": "Fidelização"
-          }
-        ],
-        "dropdownText": "Por categoria",
-        "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
-      }
+      "__resolveType": "Dúvidas"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
+      "__resolveType": "Footer"
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
+      "__resolveType": "FixedSection"
     }
   ],
   "name": "Integracoes",

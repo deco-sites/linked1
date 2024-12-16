@@ -1,0 +1,25 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "page": "Tipos de estabelecimento",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+      },
+      "title": "Tipos de estabelecimento"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/TitlePlan.tsx",
+        "page": "Linked para Fast-food",
+        "title": "Linked para Fast-food",
+        "highlight": "Fast-food",
+        "description": "Uma operação otimizada é crucial para o sucesso de um fast-food. ",
+        "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/4d1f77c1-52b9-44fe-ae6d-72f3d2efa651/lightning_icon.svg"
+      },
+      "title": "Linked para Fast-food"
+    }
+  ]
+}

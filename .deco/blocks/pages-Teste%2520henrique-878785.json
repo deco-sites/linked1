@@ -1,0 +1,195 @@
+{
+  "name": "Teste henrique",
+  "path": "/teste-de-headers",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / Openning",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/Openning.tsx",
+        "title": "Gestão inteligente para sonhar mais",
+        "highlight": "Sonhar mais",
+        "subtitleDescription": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleLArge",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "TitleLarge - final"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleMedium",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
+        "title": "Plano para todos os modelos de negócio"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitlePlan",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "TitlePlan"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleIntegration",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "TitleIntegration"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleSegment",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "TitleSegment"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleModal",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleMonteSeuPlano",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleMonteSeuPlano.tsx",
+        "title": "Monte o plano ideal",
+        "titleWithColor": "plano ideal",
+        "description": "Cada estabelecimento tem suas particularidades. Por isso a Linked Tech permite que você monte a plataforma do jeito que faz sentido para seu negócio. ",
+        "iconBack": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg",
+        "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e817617-dfe2-4fbd-b618-309782a75dfe/Frame-138.svg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleArticle",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/MultiSection.tsx",
+        "background": "White",
+        "sections": [
+          {
+            "section": {
+              "__resolveType": "site/sections/Headers/Offer.tsx",
+              "page": "Cliente",
+              "offer": "Oferecido por",
+              "brandOffer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png"
+            },
+            "title": "Cliente"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Headers/TitleArticle.tsx",
+              "title": "Restaurantes com cardápios enxutos lucram mais ",
+              "date": "Maio 2024, por José Silva  ",
+              "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png",
+              "author": " "
+            },
+            "title": "TitleArticle"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleError",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleError.tsx",
+        "title": "Não encontramos essa página",
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/69593216-2231-4769-8b21-39ec14654a81/cuttlery_404.svg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Header / TitleSuc",
+        "colorTheme": "Primary"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
+        "title": "Tudo certo!",
+        "titleWithColor": "Tudo certo!",
+        "subtitle": "Solicitação realizada com sucesso, Júlio. Em breve a cotação será enviada para seu telefone e e-mail.",
+        "highlight": "Tudo certo!"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

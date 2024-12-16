@@ -1,0 +1,23 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
+        "page": "Clientes",
+        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38edbcb8-b0b3-4969-b346-aaa6fee6482a/u_share-alt.svg"
+      },
+      "title": "Clientes"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Mais de 1.000 estabelecimentos já estão na Linked",
+        "highlight": " 1.000"
+      },
+      "title": "Título da Página - Clientes"
+    }
+  ],
+  "collapse": {}
+}

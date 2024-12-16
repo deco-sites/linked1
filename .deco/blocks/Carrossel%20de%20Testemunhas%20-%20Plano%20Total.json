@@ -1,0 +1,57 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Secondary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O sucesso dos clientes é  nosso maior orgulho"
+      },
+      "title": "Parágrafo Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryTestimony.tsx",
+        "items": [
+          {
+            "title": "Carrossel Testemunha 1",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Carrossel Testemunha 2",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Carrossel Testemunha 3",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          },
+          {
+            "title": "Carrossel Testemunha 4",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
+            "textTestimony": "\"Através dos relatórios descobri que meu produto principal não dava lucro. Mudei a receita evitei um verdadeiro rombo no orçamento.”",
+            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
+          }
+        ]
+      },
+      "title": "Carrosel de Testemunhas"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "title": "Compare com a concorrência",
+        "text": "Compare com a concorrência",
+        "link": "/compare"
+      },
+      "title": "Botão do Bloco"
+    }
+  ]
+}

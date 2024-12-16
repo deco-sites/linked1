@@ -1,0 +1,15 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/TitleSuccess.tsx",
+        "title": "Tudo certo!",
+        "highlight": "Tudo certo!",
+        "subtitle": "Solicitação realizada com sucesso, Júlio . Em breve a cotação será enviada para seu telefone e e-mail."
+      },
+      "title": "Tudo certo!"
+    }
+  ]
+}

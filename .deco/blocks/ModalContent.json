@@ -1,0 +1,22 @@
+{
+  "__resolveType": "site/sections/Destaques/ModalContent.tsx",
+  "items": [
+    {
+      "question": [
+        {
+          "answer": [
+            "adada"
+          ],
+          "description": "dadaad"
+        }
+      ],
+      "descritiveQuestion": [],
+      "radioButton": [],
+      "checkBoxButton": [],
+      "tags": [],
+      "urlButton": [],
+      "button": [],
+      "header": "dadada"
+    }
+  ]
+}

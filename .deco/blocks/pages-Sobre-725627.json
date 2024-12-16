@@ -1,0 +1,37 @@
+{
+  "name": "Sobre",
+  "path": "/sobre",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - Sobre"
+    },
+    {
+      "__resolveType": "Carrossel Time"
+    },
+    {
+      "__resolveType": "Parágrafo com Texto Descritivo no Topo"
+    },
+    {
+      "__resolveType": "1- Bloco de Conteúdo Grandes Números"
+    },
+    {
+      "__resolveType": "2- Bloco de Conteúdo Grandes Números"
+    },
+    {
+      "__resolveType": "Textos Descritivos com Navegação"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

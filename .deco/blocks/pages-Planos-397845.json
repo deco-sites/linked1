@@ -16,15 +16,18 @@
           {
             "name": "Planos",
             "url": "/planos",
-            "status": true
+            "status": true,
+            "title": "Planos"
           },
           {
-            "name": "Opicionais",
-            "url": "/opicionais"
+            "name": "Opcionais",
+            "url": "/opcionais",
+            "title": "Opcionais"
           },
           {
             "name": "Integrações",
-            "url": "/integracoes"
+            "url": "/integracoes",
+            "title": "Integrações"
           }
         ]
       }
@@ -34,6 +37,158 @@
       "section": {
         "__resolveType": "site/sections/Headers/TitleMedium.tsx",
         "title": "Plano para todos os modelos de negócio"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+<<<<<<< HEAD
+        "__resolveType": "site/sections/Contents/ContentComparisonTitle.tsx",
+        "cols": [
+          {
+            "boxes": [
+              {
+                "items": [
+                  {
+                    "title": "Tópico",
+                    "link": "Link de destino"
+                  }
+                ],
+                "title": "Aqui tem um bloco"
+              }
+            ],
+            "title": "Aqui tem um texto",
+            "description": "Aqui tem uma descrição",
+            "price": "Preço",
+            "btnTitle": "Título de botão",
+            "btnLink": "Link de botão",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/a6359968-5597-45e3-995d-e29ea41cbbb6/disperdicio.png"
+          }
+        ],
+        "content": [
+          {
+            "resourceDescriptionColumOne": [
+              "Impressoras não fiscais",
+              "-"
+            ],
+            "resourceDescriptionColumnTwo": [
+              "Impressoras fiscais",
+              "Impressoras produção"
+            ],
+            "underlineDescription": false,
+            "title": "Bloco",
+            "sectionTitle": "Modulos",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ff3a6aa1-d2b4-4819-b3f2-871fbc6e0239/printer_optional.png",
+            "planTitle": "Nome do plano",
+            "planDescription": "Descrição básica do plano",
+            "planPrice": "R$ 50,00",
+            "buttonDetails": "Descrição do botão",
+            "resourceHeaderDescriptionColumOne": [
+              {
+                "title": "Essencial",
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ff3a6aa1-d2b4-4819-b3f2-871fbc6e0239/printer_optional.png",
+                "planTitle": "Essencial",
+                "planPrice": "A partir de R$ 20,00",
+                "buttonDetails": "Ver detalhes",
+                "planDescription": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio."
+              }
+            ],
+            "resourceHeaderDescriptionColumTwo": [
+              {
+                "title": "Total",
+                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f6b5c0f2-0f81-43f2-9c94-e099802b2db5/link_optional.png",
+                "planTitle": "Total",
+                "planDescription": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários.",
+                "planPrice": "A partir de R$ 30,00",
+                "buttonDetails": "Ver detalhes"
+              }
+            ],
+            "resourceContentBody": [
+              {
+                "resourceDescriptionColumOne": [
+                  {
+                    "title": "Delivery",
+                    "sectionTitle": "Coluna 1"
+                  },
+                  {
+                    "title": "Local"
+                  },
+                  {
+                    "title": "-"
+                  },
+                  {
+                    "title": "-"
+                  }
+                ],
+                "resourceDescriptionColumnTwo": [
+                  {
+                    "title": "Comanda",
+                    "sectionTitle": "Coluna 2"
+                  },
+                  {
+                    "title": "Mesa"
+                  },
+                  {
+                    "title": "Balcão"
+                  },
+                  {
+                    "title": "Delivery"
+                  }
+                ],
+                "title": "Módulos",
+                "sectionTitle": "Modulos"
+              },
+              {
+                "resourceDescriptionColumOne": [
+                  {
+                    "title": "PDV"
+                  },
+                  {
+                    "title": "-"
+                  },
+                  {
+                    "title": "-"
+                  }
+                ],
+                "resourceDescriptionColumnTwo": [
+                  {
+                    "title": "PDV"
+                  },
+                  {
+                    "title": "Gestão"
+                  },
+                  {
+                    "title": "Contabilidade"
+                  }
+                ],
+                "title": "Recursos e funcionalidades",
+                "sectionTitle": "Recursos e funcionalidadess"
+              },
+              {
+                "resourceDescriptionColumOne": [
+                  {
+                    "title": "Online"
+                  },
+                  {
+                    "title": "-"
+                  }
+                ],
+                "resourceDescriptionColumnTwo": [
+                  {
+                    "title": "Onlineaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                  },
+                  {
+                    "title": "Offline"
+                  }
+                ],
+                "title": "Conectividade aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            ]
+          }
+        ]
+=======
+        "__resolveType": "ListText"
+>>>>>>> 9ef2a0e2b3f7935ff63ba3299478d3fa7d8faf28
       }
     },
     {

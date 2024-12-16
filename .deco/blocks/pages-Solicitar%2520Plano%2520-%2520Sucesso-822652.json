@@ -1,0 +1,19 @@
+{
+  "name": "Solicitar Plano - Sucesso",
+  "path": "/solicitar-plano/sucesso",
+  "sections": [
+    {
+      "__resolveType": "Título Sucesso"
+    },
+    {
+      "__resolveType": "Acompanhe o passo a passo"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

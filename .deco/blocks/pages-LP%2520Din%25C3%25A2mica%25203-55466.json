@@ -1,0 +1,40 @@
+{
+  "name": "LP Dinâmica 3",
+  "path": "/lp-dinamica-3",
+  "sections": [
+    {
+      "__resolveType": "Bloco de Oferta"
+    },
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - LP 3"
+    },
+    {
+      "__resolveType": "Carousel Benefícios"
+    },
+    {
+      "__resolveType": "Parágrafo no Topo do Bloco LP 3"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "Seção Fixa - LP"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

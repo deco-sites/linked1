@@ -1,0 +1,42 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Foque no seu nicho"
+      },
+      "title": "Subtítulo no Topo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Oferecer um cardápio mais enxuto é uma escolha que precisa estar diretamente relacionada à forma como seu estabelecimento se posiciona no mercado. "
+      },
+      "title": "1- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Essa maneira mais especializada em determinado segmento vai ajudar a construir uma imagem única de seu estabelecimento. Contando com identidade própria, você poderá ser conhecido por oferecer “o melhor prato da cidade”.",
+        "colorTheme": "Primary",
+        "textAlignment": "Left"
+      },
+      "title": "2- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": " Relembre todas as vantagens desse cardápio mais enxuto:",
+        "colorTheme": "Primary",
+        "textAlignment": "Left"
+      },
+      "title": "3- Parágrafo Embaixo do Subtítulo do Bloco 1"
+    }
+  ],
+  "background": "White"
+}

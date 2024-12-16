@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/Headers/OfferCupom.tsx",
+  "content": {
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg",
+    "offerText": "Oferta",
+    "descriptionOffer": "Nam libero tempore, cum soluta nobis est eligendi R$ 00,00"
+  },
+  "iconOutX": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg"
+}

@@ -1,10 +1,26 @@
-import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { ImageWidget } from "apps/admin/widgets.ts";
 
-export type Item = {
+/**
+ * @title {{{title}}}
+ */
+export interface Item {
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
+  /**
+   * @title Logo
+   * @description Insira a logo do bloco
+   */
   logo?: ImageWidget;
+  /**
+   * @title Descrição do bloco
+   * @description Escreva a descrição do bloco
+   */
   description?: string;
-};
+}
 
 interface Props {
   /**
@@ -13,25 +29,37 @@ interface Props {
   items?: Item[];
 }
 
-export default function Section({ items = [] }: Props) {
+export default function Section({
+  items = [],
+}: Props) {
   return (
-    <div className="flex flex-wrap justify-center gap-8 p-4">
-      {items.map((item, index) => (
-        <div key={index} className="flex flex-col items-center max-w-xs text-center">
-          {item.logo && (
-            <Image
-              src={item.logo}
-              alt="Partner logo"
-              width={150}
-              height={150}
-              className="mb-4"
-            />
-          )}
-          {item.description && (
-            <p className="text-sm">{item.description}</p>
-          )}
-        </div>
-      ))}
-    </div>
+    <section>
+      <div className="px-4 flex flex-wrap justify-center">
+        {items.map((item, index) => (
+          <div
+            key={index}
+            className={`flex flex-col items-center border-b border-sacramentoState-10 ${
+              index === items.length - 1 ? "mb-[65.6px]" : ""
+            }`}
+          >
+            {item.logo && (
+              <Image
+                src={item.logo}
+                width={343}
+                height={232}
+                className="pt-10 w-full"
+              />
+            )}
+            {item.description && (
+              <div className="pt-[13px] pb-10">
+                <p className="text-base font-sans font-normal leading-tight-18 text-sacramentoState">
+                  {item.description}
+                </p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }

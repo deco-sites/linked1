@@ -1,0 +1,37 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Mint-Cream",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "colorTheme": "Primary",
+        "content": "A Linked também tem parcerias para transformar o seu negócio"
+      },
+      "title": "Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryPartners.tsx",
+        "items": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5efa42f3-ab03-4dcd-88b3-7dea5ce3ecda/brand_money_carrosel.png",
+            "title": "wMoney",
+            "description": "Empréstimos com taxas a partir de 1,9% ao mês."
+          },
+          {
+            "title": "serena",
+            "description": "Seu negócio mais sustentável e economia de até 35% na conta de luz.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7cc4d475-8c0e-4db9-883b-93069619b73e/brand_serena_partner.png"
+          },
+          {
+            "title": "contabilizei",
+            "description": "Toda a contabilidade do seu estabelecimento com desconto especial para clientes Linked.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ee9b7403-c1c3-4828-91bd-0b7bf0e0d2b1/brand_contabilizei_partner.png"
+          }
+        ]
+      },
+      "title": "Carousel de Parceiros"
+    }
+  ]
+}

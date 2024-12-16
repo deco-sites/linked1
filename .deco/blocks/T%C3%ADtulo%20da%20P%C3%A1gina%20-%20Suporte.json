@@ -1,0 +1,30 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Vendas",
+            "url": "/vendas"
+          },
+          {
+            "name": "Suporte",
+            "url": "/suporte"
+          }
+        ]
+      },
+      "title": "Navegação Topo da Página"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Como podemos ajudar?",
+        "highlight": "ajudar"
+      },
+      "title": "Título da Página"
+    }
+  ],
+  "background": "Primary"
+}

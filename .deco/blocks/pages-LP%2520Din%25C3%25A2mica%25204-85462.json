@@ -1,0 +1,28 @@
+{
+  "name": "LP Dinâmica 4",
+  "path": "/lp-dinamica-4",
+  "sections": [
+    {
+      "__resolveType": "Bloco de Oferta"
+    },
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Título da Página - LP 3"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo com Imagem Grande e Texto"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "Seção Fixa - LP"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
