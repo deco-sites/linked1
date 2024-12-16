@@ -13,6 +13,42 @@
     },
     {
       "section": {
+        "__resolveType": "site/sections/Final/Content/OrderTracking.tsx",
+        "order": [
+          {
+            "subtitleOrderStatus": "Solicitação",
+            "description": "Recebemos seu pedido",
+            "title": "Solicitação",
+            "imageStatus": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/269f9d05-c456-42a8-8117-69b3954887e7/arrow_ok_svg.svg"
+          },
+          {
+            "subtitleOrderStatus": "Vistoria",
+            "description": "Nosso consultor vai checar se os seus equipamentos são compatíveis com o plano escolhido",
+            "title": "Vistoria"
+          },
+          {
+            "subtitleOrderStatus": "Pagamento",
+            "description": "Cobrança da taxa de instalação",
+            "title": "Pagamento"
+          },
+          {
+            "subtitleOrderStatus": "Instalação",
+            "description": "Em até 72h após o pagamento",
+            "title": "Instalação"
+          },
+          {
+            "subtitleOrderStatus": "Treinamento",
+            "description": "Pode ser realizado no mesmo dia da instalação.",
+            "title": "Treinamento"
+          }
+        ],
+        "colorTheme": "Primary",
+        "colorThemeBackgroundIcon": "White"
+      },
+      "title": "Acompanhar Pedido - Status"
+    },
+    {
+      "section": {
         "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
         "buttonTheme": "Secondary white",
         "tamanho": "Mínimo (Tamanho do conteúdo)",
