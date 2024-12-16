@@ -3,63 +3,16 @@
   "path": "/contato",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Navigation/Tabs.tsx",
-        "menu": [
-          {
-            "name": "Vendas",
-            "url": "/planos",
-            "status": true,
-            "title": "Vendas"
-          },
-          {
-            "name": "Suporte",
-            "url": "/suporte",
-            "status": true,
-            "title": "Suporte"
-          }
-        ]
-      }
+      "__resolveType": "Título da Página - Contato Comercial"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Agende já uma demonstração",
-        "highlight": "Agende já"
-      }
+      "__resolveType": "Texto Descritivo com Botões"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/TextWithButton.tsx",
-        "title": "Vamos adorar mostrar em detalhes o funcionamento dos nossos produtos e até mesmo recomendar o melhor plano para seu estabelecimento. ",
-        "button": [
-          {
-            "title": "Me liga",
-            "name": "Me liga",
-            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/cfcd4b5a-ea9c-41b4-916b-ded9f20d3974/cellphone_icon_green_dark.svg"
-          },
-          {
-            "title": "Agendar no WhatsApp",
-            "name": "Agendar no WhatsApp",
-            "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/14d726f2-661e-4585-b316-39e7a66f518c/icon_whatsapp.svg"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

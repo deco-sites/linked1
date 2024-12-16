@@ -1,5 +1,6 @@
 import type { JSX } from "preact";
 import Image from "apps/website/components/Image.tsx";
+import ButtonComponent from "../../Button/index.tsx";
 
 // Implemente a seção
 function setClass(value) {
@@ -24,11 +25,10 @@ function setClass(value) {
 function Product(
   { icon, title, description, button, colorTheme }:
     & JSX.IntrinsicElements["div"]
-    & Props,
 ) {
   return (
     <>
-      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
+      <div className="flex md:justify-center">
         <div className="md:w-full md:max-w-[706px]">
           <div className="px-4 md:px-10 py-10 w-full max-w-[343px] md:max-w-none">
             <div className="flex">
@@ -63,7 +63,7 @@ function Product(
                 </p>
               )}
             </div>
-            <div className="w-fit py-[13px] md:flex rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
+            {/* <div className="w-fit py-[13px] md:flex rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
               <a
                 href={button.url}
                 target="_blank"
@@ -71,8 +71,9 @@ function Product(
                 className="w-max px-[32px] flex-none font-sans text-base font-semibold leading-tight-18 text-sacramentoState"
               >
                 {button.name}
-              </a>
-            </div>
+              </a> */}
+              <ButtonComponent text={button.text} link={button.link} icon={button.icon} buttonTheme={button.buttonTheme} tamanho={button.tamanho} />
+            {/* </div> */}
           </div>
         </div>
       </div>

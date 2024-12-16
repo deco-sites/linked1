@@ -3,221 +3,31 @@
   "path": "/sobre",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Sobre a Linked",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Título da Página - Sobre"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleLarge.tsx",
-        "title": "Existimos para melhorar a vida do empreendedor de Food Service",
-        "highlight": " melhorar a vida"
-      }
+      "__resolveType": "Carrossel Time"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
-            "title": "Carrosel 1",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png"
-          },
-          {
-            "title": "Carrosel 2",
-            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png"
-          },
-          {
-            "title": "Carrosel 3",
-            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png"
-          },
-          {
-            "title": "Carrosel 4",
-            "description": "Time dedicado ao atendimento 24/7 em nosso escritório em São Paulo",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8553e93c-05d5-4fc7-97b0-7498764def93/galery_people_1.png"
-          }
-        ]
-      }
+      "__resolveType": "Parágrafo com Texto Descritivo no Topo"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": {
-          "subTopic": [
-            {
-              "descriptionTopic": [],
-              "descriptionSubTopics": [
-                {
-                  "topicDescriptionContent": [
-                    "A Linked foi fundada em 2016 para mudar o mercado de food service. Para isso, foi atrás da opinião de quem realmente entende do assunto: o empreendedor. ",
-                    "Com muita pesquisa e  dedicação, nasceu a primeira versão da solução, com uma frente de caixa funcional e uma retaguarda inteligente em nuvem.",
-                    "Hoje a Linked tem produtos capazes de gerenciar todos os processos de um restaurante, proporcionando visão em tempo real das vendas, gerenciamento de estoque, automação comercial e emissão de nota fiscal."
-                  ],
-                  "subTitleTopic": "A Linked Tech tem automação de verdade, que te dá recuros para operar melhor o seu negócio, entender o que acontece nele e ainda planejar o futuro.",
-                  "title": "Sobre"
-                }
-              ],
-              "title": "Texto Sobre"
-            }
-          ]
-        }
-      }
+      "__resolveType": "1- Bloco de Conteúdo Grandes Números"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/MultiSection.tsx",
-        "sections": [
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
-              "colorTheme": "Sacramento-State",
-              "content": "Não faltam números para comprovar nossa experiência"
-            },
-            "title": "Não faltam números para comprovar nossa experiência"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "+1.000",
-              "description": "estabelecimentos de food service atendidos em todo o Brasil"
-            },
-            "title": "+1.000"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "+3.000",
-              "description": "profissionais utilizando diariamente nossos produtos e soluções"
-            },
-            "title": "+3.000"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "+ 000.000",
-              "description": "notas fiscais emitidas e registradas diariamente em nossos sistemas"
-            },
-            "title": "+ 000.000"
-          }
-        ],
-        "background": "Mint-Cream"
-      }
+      "__resolveType": "2- Bloco de Conteúdo Grandes Números"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/MultiSection.tsx",
-        "sections": [
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
-              "colorTheme": "Sacramento-State",
-              "content": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
-            },
-            "title": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "00 dias",
-              "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
-            },
-            "title": "00 dias"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "0x",
-              "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
-            },
-            "title": "0x"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "00%",
-              "description": "é o aumento médio do faturamento nos clientes com nosso app de delivery"
-            },
-            "title": "00%"
-          },
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
-              "colorTheme": "Sacramento-State",
-              "number": "R$ 00M",
-              "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
-            },
-            "title": "R$ 00M"
-          }
-        ],
-        "background": "White"
-      }
+      "__resolveType": "Textos Descritivos com Navegação"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentTabs.tsx",
-        "subtitleSection": "É com muito foco e disciplina que fazemos tudo isso acontecer",
-        "menu": [
-          {
-            "title": "Propósito",
-            "name": "Propósito",
-            "status": true,
-            "url": "/proposito"
-          },
-          {
-            "title": "Valores",
-            "name": "Valores",
-            "url": "/valores",
-            "status": true
-          },
-          {
-            "title": "Diferenciais",
-            "name": "Diferenciais",
-            "status": true,
-            "url": "/diferenciais"
-          }
-        ],
-        "content": [
-          {
-            "sectionContentText": "A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar.",
-            "title": "Propósito"
-          }
-        ]
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

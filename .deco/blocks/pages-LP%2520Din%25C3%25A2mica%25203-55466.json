@@ -3,121 +3,34 @@
   "path": "/lp-dinamica-3",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/OfferCupom.tsx",
-        "content": {
-          "title": "Ofert",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0e7dd729-826f-4875-964e-16b10391ccc4/icon_fire_offer.svg",
-          "offerText": "Oferta",
-          "descriptionOffer": "Nam libero tempore, cum soluta nobis est eligendi R$ 00,00"
-        },
-        "iconOutX": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg"
-      }
+      "__resolveType": "Bloco de Oferta"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx"
-      }
+      "__resolveType": "Título da Página - LP 3"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "title": "Título da página",
-        "description": "Subtítulo. Neque porro quisquam est qui dolorem ipsum quia dolor ",
-        "highlight": "Título da página"
-      }
+      "__resolveType": "Carousel Benefícios"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/252cf9c3-2407-4413-875d-07f22a16b489/cutting_food_on_table.png"
-          },
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/252cf9c3-2407-4413-875d-07f22a16b489/cutting_food_on_table.png"
-          },
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/252cf9c3-2407-4413-875d-07f22a16b489/cutting_food_on_table.png"
-          },
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/252cf9c3-2407-4413-875d-07f22a16b489/cutting_food_on_table.png"
-          }
-        ]
-      }
+      "__resolveType": "Parágrafo no Topo do Bloco LP 3"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/Text2.tsx",
-        "DescriptionSection": [
-          {
-            "SectionText": [
-              "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
-            ],
-            "DescriptionSection": [],
-            "title": "Conteúdo Texto"
-          }
-        ]
-      }
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "Subtitle": "Aba fechada",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
-      }
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "Subtitle": "Aba fechada",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
-      }
+      "__resolveType": "Bloco de Conteúdo Aba Fechada LP 3"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "Subtitle": "Aba fechada",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "Seção Fixa - LP"
     }
   ],
   "seo": {

@@ -76,23 +76,25 @@ export default function MultiSection(
 ) {
   if (collapse && collapse.enable) {
     return (
-      <div
-        tabIndex={0}
-        className="collapse collapse-arrow border-base-300 bg-base-200 border"
-      >
-        <div className="collapse-title text-xl font-medium">
-          {collapse.title}
-        </div>
-        <div className="collapse-content">
-          {sections?.map((item) => (
-            LoadComponent(item.section)
-          ))}
+      <div className="bg-sacramentoState-10 flex justify-center md:py-2">
+        <div
+          className="collapse collapse-arrow rounded-none bg-white w-full max-w-[706px] border-t md:border-none border-sacramentoState-10"
+        >
+          <input type="checkbox" />
+          <div className="collapse-title text-lg font-medium after:shadow-[#3BEDB2]">
+            {collapse.title}
+          </div>
+          <div className="collapse-content bg-white">
+            {sections?.map((item) => (
+              LoadComponent(item.section)
+            ))}
+          </div>
         </div>
       </div>
     );
   } else {
     return (
-      <div className={`${setClass(background)} md:py-10`}>
+      <div className={`${setClass(background)} py-6 md:py-10`}>
         {sections?.map((item) => (
           LoadComponent(item.section)
         ))}

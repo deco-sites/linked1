@@ -1,0 +1,51 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Mas os resultados dos estabelecimentos que atendemos são nosso maior orgulho"
+      },
+      "title": "Subtítulo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "00 dias",
+        "description": "é o tempo médio que um estabelecimento leva para colher os resultados de uma gestão mais eficiente"
+      },
+      "title": "00 dias"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "0x",
+        "description": "é o aumento médio do lucro nos estabelecimentos atendidos pela linked ao longo do 1º ano"
+      },
+      "title": "0x"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "00%",
+        "description": "é o aumento médio do faturamento nos clientes com nosso app de delivery"
+      },
+      "title": "00%"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "R$ 00M",
+        "description": "é o montante que conseguimos manter nos resturantes através de soluções de delivery e pagamento próprios"
+      },
+      "title": "R$ 00M"
+    }
+  ]
+}

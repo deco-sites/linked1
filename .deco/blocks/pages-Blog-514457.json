@@ -3,117 +3,16 @@
   "path": "/blog",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/Offer.tsx",
-        "page": "Blog",
-        "offer": "Oferecido por",
-        "brandOffer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/24e7c4ae-a476-4260-8ea6-1a36d0fc91b9/brand_menu.png"
-      }
+      "__resolveType": "Título da Página - Blog"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Receitas de sucesso",
-        "highlight": "sucesso"
-      }
+      "__resolveType": "Card de Conteúdo com Imagem e Descrição"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Navigation/Tabs.tsx",
-        "menu": [
-          {
-            "name": "Mais lidas",
-            "url": "/mais-lidas",
-            "status": true,
-            "title": "Mais lidas"
-          },
-          {
-            "name": "Recentes",
-            "url": "/recentes",
-            "status": true,
-            "title": "Recentes"
-          },
-          {
-            "name": "Assuntos",
-            "url": "/assuntos",
-            "status": true,
-            "title": "Assuntos"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/MultiSection.tsx",
-        "background": "White",
-        "sections": [
-          {
-            "section": {
-              "__resolveType": "site/sections/Final/Content/CardMedium.tsx",
-              "items": [
-                {
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7f6c73c0-efc0-4b73-8173-0a01a18df7ee/food_on_table_full.png",
-                  "title": "Equipamentos",
-                  "button": "Equipamentos",
-                  "description": "Restaurantes com cardápios enxutos lucram mais "
-                },
-                {
-                  "title": "Cardápio",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-                  "button": "Cardápio",
-                  "description": "Dicas para melhorar a apresentação dos seus pratos"
-                },
-                {
-                  "title": "Eventos",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
-                  "button": "Eventos",
-                  "description": "5 motivos para participar da Restaurante Week"
-                },
-                {
-                  "title": "Cardápio",
-                  "button": "Cardápio",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
-                  "description": "Dicas para melhorar a apresentação dos seus pratos"
-                },
-                {
-                  "title": "Eventos",
-                  "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b663871-7757-4b96-a13f-d69a9d72cbf3/table_with_chairs.png",
-                  "description": "5 motivos para participar da Restaurante Week",
-                  "button": "Eventos"
-                }
-              ],
-              "colorTheme": "Sacramento-State",
-              "buttonMore": "Carregar mais",
-              "iconButton": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/237a659e-8bac-47a9-8c90-4331dd76e677/arrow_down_button_blog.svg",
-              "colorTheme2": "Mint-Cream",
-              "colorThemeButton": "Mint-Cream"
-            },
-            "title": "Conteúdo"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Dúvidas"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "Footer"
     }
   ],
   "seo": {

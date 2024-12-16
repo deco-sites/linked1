@@ -1,0 +1,34 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Galery/GaleryContent.tsx",
+        "items": [
+          {
+            "title": "Retaguarda interativa",
+            "description": "O monitoramento do seu estabelecimento fica ainda mais completo com nossa ferramenta da inteligência de dados.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/fa8bf361-bf78-4958-bee1-5bbd185a258e/grafico_with_bg_green.png"
+          },
+          {
+            "title": "Frente de caixa",
+            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/fa8bf361-bf78-4958-bee1-5bbd185a258e/grafico_with_bg_green.png"
+          },
+          {
+            "title": "Retaguarda interativa",
+            "description": "O monitoramento do seu estabelecimento fica ainda mais completo com nossa ferramenta da inteligência de dados.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/fa8bf361-bf78-4958-bee1-5bbd185a258e/grafico_with_bg_green.png"
+          },
+          {
+            "title": "Frente de caixa",
+            "description": "Pedidos organizados para aumentar o giro das mesas e acompanhamento do delivery minuto a minuto",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/fa8bf361-bf78-4958-bee1-5bbd185a258e/grafico_with_bg_green.png"
+          }
+        ]
+      },
+      "title": "Diferenciais"
+    }
+  ]
+}

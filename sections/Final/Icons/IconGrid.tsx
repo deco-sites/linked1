@@ -55,7 +55,7 @@ export default function Section({
   return (
     <div className="flex justify-center px-4 md:px-0">
       <div
-        className={`grid gap-[1px] w-full max-w-[899px] ${setClassBorder(borderColor)} ${
+        className={`grid gap-[1px] w-full max-w-[899px] ${
           content.length === 1
             ? "grid-cols-1" // 1 item: 1 coluna
             : content.length === 2

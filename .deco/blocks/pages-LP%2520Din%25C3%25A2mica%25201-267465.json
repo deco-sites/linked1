@@ -3,155 +3,34 @@
   "path": "/lp-dinamica-1",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "page": "Assunto",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Título da Página - LP"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleSegment.tsx",
-        "title": "Título da página",
-        "description": "Subtítulo. Neque porro quisquam est qui dolorem ipsum quia dolor "
-      }
+      "__resolveType": "Carrossel LP Dinâmica"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryContent.tsx",
-        "items": [
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
-          },
-          {
-            "description": "Espaço para texto, se houver necessidade",
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
-          },
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
-          },
-          {
-            "title": "Carrossel de imagens",
-            "titleSection": "Carrossel de imagens",
-            "description": "Espaço para texto, se houver necessidade",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/134c1a03-5606-4346-b675-64133ae1af40/plate_and_food_on_table_home.png"
-          }
-        ]
-      }
+      "__resolveType": "Parágrafo com Lista de Texto"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/Text2.tsx",
-        "DescriptionSection": [
-          {
-            "SectionText": [
-              "Conteúdo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit e"
-            ],
-            "DescriptionSection": [
-              "Conteúdo em listas",
-              "Sed ut perspiciatis unde",
-              "Omnis iste natus error sit voluptatem ",
-              "Accusantium doloremque laudantium,"
-            ],
-            "title": "Conteúdo Texto"
-          }
-        ]
-      }
+      "__resolveType": "Carrossel de Testemunhas LP 1"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Galery/GaleryTestimony.tsx",
-        "items": [
-          {
-            "title": "Carrossel 1",
-            "titleSection": "Intertítulo",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png",
-            "textTestimony": "”Citação. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP"
-          },
-          {
-            "title": "Carrossel 2",
-            "textTestimony": "”Citação. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png"
-          },
-          {
-            "title": "Carrossel 3",
-            "textTestimony": "”Citação. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png"
-          },
-          {
-            "title": "Carrossel 4",
-            "textTestimony": "”Citação. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.”",
-            "nameDescription": "Dennis, Resenhas da Vila SÃO PAULO SP",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2f33105c-d780-424b-91c1-acdd06253401/woman_in_bakery.png"
-          }
-        ],
-        "button": [
-          {
-            "title": "Call to action secundário",
-            "name": "Call to action secundário",
-            "url": "/teste"
-          }
-        ]
-      }
+      "__resolveType": "Bloco de Conteúdo Aba Fechada"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "Subtitle": "Aba fechada",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
-      }
+      "__resolveType": "Bloco de Conteúdo Aba Aberta"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Destaques/ListText.tsx",
-        "Subtitle": "Aba aberta",
-        "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
-        "videoWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4",
-        "description": [
-          {
-            "DescriptionSection": [],
-            "title": "Descrição",
-            "SectionDescriptionText": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. "
-          }
-        ],
-        "sectionDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi."
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
+      "__resolveType": "FixedSection"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "TitlePlan"
     }
   ],
   "seo": {

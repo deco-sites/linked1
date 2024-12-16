@@ -1,0 +1,75 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Você ainda pode contratar módulos adicionais para o   Linked Food Total"
+      },
+      "title": "1- Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "O Linked Food Total é nosso produto mais completo e conta com uma série de vantagens"
+      },
+      "title": "2- Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "ShoppingCart",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Instalação em até 72 horas"
+          },
+          {
+            "icon": "WhatsApp",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Atendimento 24x7"
+          },
+          {
+            "icon": "Truck",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Treinamentos ilimitados"
+          },
+          {
+            "icon": "Phone",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de caixas e dispositivos"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de usuários"
+          },
+          {
+            "icon": "Message",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de pedidos"
+          },
+          {
+            "icon": "Message",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem contrato de fidelidade"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    }
+  ],
+  "background": "White"
+}

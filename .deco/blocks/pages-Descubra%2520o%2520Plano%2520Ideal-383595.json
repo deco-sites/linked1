@@ -1,0 +1,13 @@
+{
+  "name": "Descubra o Plano Ideal",
+  "path": "/plano-ideal",
+  "sections": [
+    {
+      "__resolveType": "Bloco de Conteúdo Monte Seu Plano"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

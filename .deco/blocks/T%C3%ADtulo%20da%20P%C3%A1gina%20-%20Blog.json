@@ -1,0 +1,43 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Headers/Offer.tsx",
+        "page": "Clientes",
+        "offer": "Oferecido por",
+        "brandOffer": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/545cf229-a2cb-4e33-b304-65f7910e269b/offer_by_menu.png"
+      },
+      "title": "Clientes"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Receitas de sucesso",
+        "highlight": "sucesso"
+      },
+      "title": "Título da Página"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Mais lidas",
+            "url": "/mais-lidas"
+          },
+          {
+            "name": "Recentes",
+            "url": "/recentes"
+          },
+          {
+            "name": "Assuntos",
+            "url": "/assuntos"
+          }
+        ]
+      },
+      "title": "Navegação"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Secondary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "É com muito foco e disciplina que fazemos tudo isso acontecer"
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Propósito",
+            "url": "/proposito"
+          },
+          {
+            "name": "Valores"
+          },
+          {
+            "name": "Diferenciais",
+            "url": "/diferenciais"
+          }
+        ]
+      },
+      "title": "Tabs"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "A linked tem um propósito muito claro, melhorar a vida do empreendedor de food service. Juntando tudo o que ele precisa em um só lugar."
+      },
+      "title": "Paragrafo Embaixo das Tabs"
+    }
+  ]
+}

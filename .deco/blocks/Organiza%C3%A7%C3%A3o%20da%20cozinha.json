@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Organização da cozinha"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Esqueça os pedidos no papel. Com o KDS (Kitchen Display System) os pedidos feitos em qualquer canal são disparados automaticamente para a cozinha."
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+      },
+      "title": "Vídeo do Bloco"
+    }
+  ]
+}

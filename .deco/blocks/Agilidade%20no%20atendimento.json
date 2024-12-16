@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "collapse": {
+    "enable": true,
+    "title": "Agilidade no atendimento"
+  },
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Nosso sistema de pedidos é eficiente e atende qualquer modalidade de compra - via mesa, balcão, comanda ou delivery. Lista organizada e acompanhamento visual de todas as entregas."
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Video/VideoContent.tsx",
+        "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/968a934c-a982-4575-b867-7aad7f2d99f2/video_example_test.mp4"
+      },
+      "title": "Vídeo do Bloco"
+    }
+  ]
+}

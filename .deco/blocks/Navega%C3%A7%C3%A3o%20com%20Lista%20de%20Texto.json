@@ -1,0 +1,81 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Food",
+            "url": "/food",
+            "status": false
+          },
+          {
+            "name": "Beauty",
+            "url": "/beauty"
+          },
+          {
+            "name": "Pet",
+            "url": "/pet"
+          }
+        ]
+      },
+      "title": "1- Subtítulo - Navegação"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Soluções para cada tipo de negócio"
+      },
+      "title": "2- Subtítulo - Soluções para cada tipo de negócio"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Produtos"
+      },
+      "title": "3- Subtítulo - Produtos"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Opcionais"
+      },
+      "title": "4- Subtítulo - Opcionais"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Integrações com os principais serviços"
+      },
+      "title": "5- Subtítulo - Integrações com os principais serviços"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Parcerias exclusivas"
+      },
+      "title": "Parcerias exclusivas"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Boas práticas e informações"
+      },
+      "title": "Boas práticas e informações"
+    }
+  ]
+}

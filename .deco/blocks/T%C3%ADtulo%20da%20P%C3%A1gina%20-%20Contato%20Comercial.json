@@ -1,0 +1,30 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/Tabs.tsx",
+        "menu": [
+          {
+            "name": "Vendas",
+            "url": "/planos"
+          },
+          {
+            "name": "Suporte",
+            "url": "/suporte"
+          }
+        ]
+      },
+      "title": "Navegação Topo da Página"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
+        "title": "Agende já uma demonstração",
+        "highlight": "Agende já"
+      },
+      "title": "Título da Página"
+    }
+  ]
+}

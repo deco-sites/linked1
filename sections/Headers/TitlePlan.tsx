@@ -27,7 +27,7 @@ export interface Props {
    * @title Ícone do Plano
    * @description Insira o ícone do plano aqui
    */
-  iconPlan: ImageWidget;
+  iconPlan?: ImageWidget;
   /**
    * @title Ícone de Compartilhamento
    * @description Insira o ícone de compartilhamento aqui
@@ -51,7 +51,7 @@ export default function Section({
     return parts.map((part, index) => {
       if (part.toLowerCase() === highlight.toLowerCase()) {
         return (
-          <span key={index} className="text-secondary">
+          <span key={index} className="text-accent">
             {part}
           </span>
         );

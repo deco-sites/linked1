@@ -1,0 +1,52 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "Truck",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Balcão"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Primary",
+            "background": "White",
+            "title": "Delivery"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Não requer instalação",
+          "Atendimento 24x7",
+          "Treinamentos ilimitados",
+          "Sem limite de pedidos",
+          "Sem contrato de fidelidade",
+          "Integração com os principais serviços do mercado",
+          "Retaguarda"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto Embaixo do Parágrafo no Topo"
+    }
+  ],
+  "background": "White"
+}

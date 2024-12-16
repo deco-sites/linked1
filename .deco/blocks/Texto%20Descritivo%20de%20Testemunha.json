@@ -1,0 +1,24 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Left",
+        "content": "“A gente tinha mais de 250 pratos no cardápio. Os clientes pediam no máximo 10. Então foi com esses que ficamos.”"
+      },
+      "title": "Parágrafo no Topo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Left",
+        "content": "MARIA RITA, proprietária do Restaurante Sabor de Minas"
+      },
+      "title": "Parágrafo Nome"
+    }
+  ]
+}

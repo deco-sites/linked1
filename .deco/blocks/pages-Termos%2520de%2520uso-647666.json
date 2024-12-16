@@ -3,84 +3,19 @@
   "path": "/termos-de-uso",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Navbar"
-      }
+      "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/SubtitleWithShareIcon.tsx",
-        "iconShare": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/40422243-7d7b-4220-a16d-b10498047abe/icon_share2.png"
-      }
+      "__resolveType": "Título da Página - Termos de Uso"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Headers/TitleMedium.tsx",
-        "title": "Termos de uso"
-      }
+      "__resolveType": "Bloco de Conteúdo com Texto Descritivo"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contents/ContentText.tsx",
-        "content": {
-          "subTopic": [
-            {
-              "descriptionTopic": [],
-              "descriptionSubTopics": [
-                {
-                  "topicDescriptionContent": [
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-                  ],
-                  "title": "Termos de Uso"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "subTitleTopic": "1. Lorem ipsum",
-                  "title": "1. Lorem ipsum"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "title": "2. Dolor sit amet",
-                  "subTitleTopic": "2. Dolor sit amet"
-                },
-                {
-                  "topicDescriptionContent": [
-                    "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? ",
-                    "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? "
-                  ],
-                  "title": "3. Dolor sit amet",
-                  "subTitleTopic": "3. Dolor sit amet"
-                }
-              ],
-              "title": "Termos de Uso"
-            }
-          ]
-        }
-      }
+      "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Footer"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "FixedSection"
-      }
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

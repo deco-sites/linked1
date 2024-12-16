@@ -23,7 +23,7 @@ export default function Section({
     const parts = text.split(new RegExp(`(${highlight})`, "gi"));
     return parts.map((part, index) =>
       part.toLowerCase() === highlight.toLowerCase()
-        ? <span key={index} className="text-secondary">{part}</span>
+        ? <span key={index} className="text-accent">{part}</span>
         : part
     );
   };

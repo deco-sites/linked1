@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "collapse": {
+    "title": "Dúvidas comuns",
+    "enable": true
+  },
+  "sections": []
+}

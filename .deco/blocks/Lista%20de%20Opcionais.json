@@ -7,7 +7,12 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/link-de-pagamentos"
+          "url": "/opcionais/link-de-pagamentos",
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Link de pagamentos",
@@ -21,7 +26,12 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/monitor-de-pedidos-kds"
+          "url": "/opcionais/monitor-de-pedidos-kds",
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Monitor de pedidos KDS",
@@ -35,7 +45,12 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/app-delivery"
+          "url": "/opcionais/app-delivery",
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "tamanho": "Mínimo (Tamanho do conteúdo)",
+          "buttonTheme": "Secondary white"
         },
         "colorTheme": "Primary",
         "title": "App Delivery",
@@ -49,7 +64,12 @@
         "__resolveType": "site/sections/Final/Content/Product.tsx",
         "button": {
           "name": "Ver Detalhes",
-          "url": "/opcionais/inteligencia-de-dados"
+          "url": "/opcionais/inteligencia-de-dados",
+          "title": "Ver detalhes",
+          "text": "Ver detalhes",
+          "link": "/detalhes",
+          "buttonTheme": "Secondary white",
+          "tamanho": "Mínimo (Tamanho do conteúdo)"
         },
         "colorTheme": "Primary",
         "title": "Inteligência de dados ",

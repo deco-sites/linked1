@@ -1,4 +1,5 @@
 import type { JSX } from "preact";
+import ButtonComponent from "../../../../sections/Final/Button/ButtonComponent.tsx";
 
 function ComparisonFooter(
   { left, right }: JSX.IntrinsicElements["div"] & Props,
@@ -16,12 +17,7 @@ function ComparisonFooter(
               </div>
             )}
             {left.button && (
-              <a
-                href={left.button.link}
-                className="text-base font-sans font-semibold px-4 py-2 rounded-lg border border-sacramentoState text-sacramentoState text-center"
-              >
-                {left.button.name}
-              </a>
+              <ButtonComponent text={left.button.text} link={left.button.link} icon={left.button.icon} buttonTheme={left.button.buttonTheme} />
             )}
           </div>
         )}
@@ -35,12 +31,7 @@ function ComparisonFooter(
               </div>
             )}
             {right.button && (
-              <a
-                href={right.button.link}
-                className="text-base font-sans font-semibold px-4 py-2 rounded-lg border border-sacramentoState text-sacramentoState text-center"
-              >
-                {right.button.name}
-              </a>
+              <ButtonComponent text={right.button.text} link={right.button.link} icon={right.button.icon} buttonTheme={right.button.buttonTheme} />
             )}
           </div>
         )}

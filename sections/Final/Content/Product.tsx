@@ -1,17 +1,48 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Product from "../../../components/ui/Content/Product/index.tsx";
 
-export interface Link {
+/**
+ * @title {{{title}}}
+ */
+export interface Button {
+  title: string;
   /**
-   * @title Nome
-   * @description Nome visível para clique
+   * @title Texto
+   * @description Escreva o texto do botão
    */
-  name: string;
+  text: string;
+  
   /**
-   * @title Destino
-   * @description Insira a url ou o caminho de destino
+   * @title Tamanho do botão
+   * @description Selecione o tamanho do botão
    */
-  url: string;
+  tamanho?: 
+  | "Máximo (100%)"
+  | "Mínimo (Tamanho do conteúdo)";
+
+  /**
+   * @title Link
+   * @description Escreva o link de redirecionamento
+   */
+  link: string;
+  /**
+   * @title Icone
+   * @description Selecione o ícone que deseja
+   */
+  icon?: string;
+  /**
+   * @title Botão
+   * @description Selecione o tipo de botão que deseja
+   */
+  buttonTheme?:
+      | "Primary dark"
+      | "Primary white"
+      | "Secondary dark"
+      | "Secondary white"
+      | "Link dark"
+      | "Link white"
+      | "Faq"
+      | "Nenhuma estilização"
 }
 
 export interface Props {
@@ -34,7 +65,7 @@ export interface Props {
    * @title Botão
    * @description Insira o botão desejado
    */
-  button: Link;
+  button: Button;
   colorTheme: "Primary" | "Secondary" | "White" | "Accent";
 }
 

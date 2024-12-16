@@ -2,6 +2,8 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import ComparisonHeader from "../../../components/ui/Content/ComparisonHeader/index.tsx";
 import ComparisonBody from "../../../components/ui/Content/ComparisonBody/index.tsx";
 import ComparisonFooter from "../../../components/ui/Content/ComparisonFooter/index.tsx";
+import ButtonComponent from "../../../components/ui/Button/index.tsx";
+
 
 export interface ContentHeader {
   /**
@@ -33,16 +35,34 @@ export interface ContentFooter {
    */
   button?: {
     /**
-     * @title Nome
-     * @description Nome visível para clique
+     * @title Texto
+     * @description Escreva o texto do botão
      */
-    name: string;
+    text: string;
     /**
-     * @title Destino
-     * @description Insira a URL ou o caminho de destino
+     * @title Link
+     * @description Escreva o link de redirecionamento
      */
-    url: string;
-  };
+    link: string;
+    /**
+     * @title Icone
+     * @description Selecione o ícone que deseja
+     */
+    icon?: string;
+    /**
+     * @title Botão
+     * @description Selecione o tipo de botão que deseja
+     */
+    buttonTheme?:
+        | "Primary dark"
+        | "Primary white"
+        | "Secondary dark"
+        | "Secondary white"
+        | "Link dark"
+        | "Link white"
+        | "Faq"
+        | "Nenhuma estilização"
+  }
 }
 
 /**
@@ -114,19 +134,19 @@ export default function Section({
   content,
 }: Props) {
   return (
-    <section className="">
-      <div className="relative">
+    <section className="flex justify-center">
+      <div className="relative w-full max-w-[706px]">
         <div className="px-4 pt-[47px] pb-[64px] flex justify-center items-center gap-6">
           <div
             className={`grid gap-[64px]`}
           >
             <ComparisonHeader left={headerLeft} right={headerRight} />
+            <ComparisonFooter left={footerLeft} right={footerRight} />
 
             {/* Content Body Section */}
             {Array.isArray(content) &&
               content.map((body) => <ComparisonBody body={body} />)}
 
-            <ComparisonFooter left={footerLeft} right={footerRight} />
           </div>
         </div>
       </div>

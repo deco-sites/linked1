@@ -40,19 +40,15 @@ function Paragraph(
 ) {
   return (
     <>
-      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-        <div className="md:w-full md:max-w-[706px]">
-          <div className="w-full flex justify-center">
-            <div className="w-full max-w-[706px] p-4 md:px-0 md:py-8">
-              <p
-                className={`text-base font-sans font-normal leading-tight-18 ${
-                  setClass(colorTheme)
-                } ${setAlignment(alignment)}`}
-              >
-                {content}
-              </p>
-            </div>
-          </div>
+      <div className="w-full flex justify-center">
+        <div className="w-full max-w-[706px] p-4 md:px-0 md:py-8">
+          <p
+            className={`font-sans text-base font-normal leading-tight-18 ${
+              setClass(colorTheme)
+            } ${setAlignment(alignment)}`}
+          >
+            {content}
+          </p>
         </div>
       </div>
     </>

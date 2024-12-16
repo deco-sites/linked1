@@ -12,10 +12,13 @@
       "__resolveType": "Comparativo de Planos"
     },
     {
-      "__resolveType": "Dúvidas"
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
     }
   ],
   "seo": {

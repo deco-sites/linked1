@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "content": "Acompanhe o passo a passo",
+        "colorTheme": "Primary",
+        "textAlignment": "Left"
+      },
+      "title": "Acompanhe o passo a passo"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Secondary white",
+        "tamanho": "Mínimo (Tamanho do conteúdo)",
+        "title": "Acompanhar pedido",
+        "text": "Acompanhar pedido",
+        "link": "/acompanhar"
+      },
+      "title": "Botão do Conteúdo"
+    }
+  ]
+}

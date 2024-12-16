@@ -1,0 +1,19 @@
+{
+  "name": "Me Liga - Sucesso",
+  "path": "/me-liga/sucesso",
+  "sections": [
+    {
+      "__resolveType": "Título com Parágrafo Sucesso"
+    },
+    {
+      "__resolveType": "Bloco de Conteúdo com Lista de Texto"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

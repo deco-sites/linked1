@@ -51,9 +51,7 @@ function IconBox({
   return (
     <>
       <div
-        className={`flex flex-col items-center justify-center gap-2 py-3 px-4 h-full min-h-[170px] ${
-          setClass(background)
-        }`}
+        className={`flex flex-col items-center justify-center gap-2 py-3 px-4 h-full min-h-[170px]`}
       >
         <div
           className={`flex justify-center items-center h-[64px] w-[64px] md:h-[76px] md:w-[76px] rounded-full ${

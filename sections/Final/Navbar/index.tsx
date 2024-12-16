@@ -15,13 +15,15 @@ function Menu({ logo, icon, close_icon, menu, button, subMenu, linkIcons }: JSX.
             className="inline-flex px-4 md:px-10 py-6 w-full justify-between bg-sacramentoState border-b border-white-20 relative top-0 left-0 z-50"
         >
             <div className="flex">
-                {logo && (
-                <Image
-                    className=""
-                    src={logo || ""}
-                    width={173.72}
-                />
-                )}
+                <a href="/">
+                    {logo && (
+                    <Image
+                        className=""
+                        src={logo || ""}
+                        width={173.72}
+                    />
+                    )}
+                </a>
             </div>
 
             {/* Ícones de hambúrguer e fechar para mobile */}
@@ -62,15 +64,7 @@ function Menu({ logo, icon, close_icon, menu, button, subMenu, linkIcons }: JSX.
 
             <div className="hidden w-fit 2xl:flex ml-8 bg-secondary rounded-xl items-center justify-center">
                 {button?.map((btn, index) => (
-                <a
-                    key={index}
-                    href={btn.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-fit pl-[22px] py-3.5 flex-none font-sans text-base font-light"
-                >
-                    {btn.text}
-                </a>
+                    <ButtonComponent text={btn.text} link={btn.link} icon={btn.icon} buttonTheme={btn.buttonTheme} />
                 ))}
             </div>
         </nav>
