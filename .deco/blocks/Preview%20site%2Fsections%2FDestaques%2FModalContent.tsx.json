@@ -1,0 +1,51 @@
+{
+  "__resolveType": "site/sections/Destaques/ModalContent.tsx",
+  "items": [
+    {
+      "question": [
+        {
+          "question": "Pode deixar que nós vamos entrar em contado",
+          "answer": [
+            "qual a sua idade ?",
+            "qual seu telefone ? "
+          ]
+        }
+      ],
+      "title": "Me liga Component",
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/0e21bbf6-a44e-4afd-84b5-b869485180ce/image-57.svg",
+      "header": "Me liga",
+      "timeOptions": [
+        {
+          "label": "manha",
+          "value": "0"
+        },
+        {
+          "label": "tarde",
+          "value": "1"
+        }
+      ],
+      "selectedOption": "0",
+      "subContent": [],
+      "iconArrays": [],
+      "checkbox": [
+        {
+          "label": "manha",
+          "value": "0"
+        },
+        {
+          "label": "tarde",
+          "value": "1"
+        },
+        {
+          "label": "noite",
+          "value": "3"
+        }
+      ],
+      "button": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/17879d4c-6dae-4c6a-a8aa-64b66a75cfb8/fi_chevron-up.png",
+      "buttonIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/nasc-template-1/b69b13e8-ed98-4ac0-8079-cdd8833be52b/I-want-very-simple-just-a-small-button-with-an-arrow-for-the-next",
+      "descritiveQuestion": [
+        "Qual o melhor horário?"
+      ]
+    }
+  ]
+}
