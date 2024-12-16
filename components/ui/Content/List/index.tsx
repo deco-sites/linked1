@@ -1,6 +1,5 @@
 import type { JSX } from "preact";
 
-// Implemente a seção
 function setClass(value: string) {
   switch (value) {
     case "Primary":
@@ -20,27 +19,34 @@ function setClass(value: string) {
   }
 }
 
-function List({ items, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
+interface Props {
+  items: string[];
+  colorTheme: string;
+  isFirst: boolean;
+  isLast: boolean;
+}
+
+function List({ items, colorTheme, isFirst, isLast }: Props) {
   return (
-    <>
-      <div className="md:pt-[64px] md:pb-[64px] md:flex md:justify-center">
-        <div className="md:w-full md:max-w-[706px]">
-          <div className="w-full flex justify-center">
-            <div className="w-full max-w-[706px] p-4 pb-10 md:px-0 md:py-8">
-              <ul
-                className={`list-disc pl-5 ${setClass(colorTheme)}`}
-              >
-                {items.map((item) => (
-                  <li className="text-base font-light">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+    <div
+      className={`md:flex md:justify-center ${
+        isFirst ? "pt-[64px]" : ""
+      } ${isLast ? "pb-[64px]" : ""}`}
+    >
+      <div className="md:w-full md:max-w-[706px]">
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-[706px] p-4 pb-10 md:px-0 md:py-8">
+            <ul className={`list-disc pl-5 ${setClass(colorTheme)}`}>
+              {items.map((item, index) => (
+                <li key={index} className="text-base font-light">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -5,15 +5,17 @@ import Image from "apps/website/components/Image.tsx";
 function GaleryTestimony({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <section className="pb-[32px] w-full bg-mintCream">
+      <section className="${
+              setClass(colorTheme)
+            }`}">
         <div className="overflow-x-scroll scrollbar-hide swiper-container">
-          <div className="swiper-wrapper inline-flex lg:flex-nowrap">
+          <div className="swiper-wrapper inline-flex md:flex-nowrap">
             {items.map((item, index: number) => (
               <div
-                className={`swiper-slide w-[315px] min-w-[315px] pl-4 ${
-                  index === 0 ? "lg:pl-10" : ""
+                className={`swiper-slide w-full max-w-[309px] pl-4 ${
+                  index === 0 ? "md:pl-10" : ""
                 } ${index === items.length - 1 ? "mr-4" : ""} ${
-                  index !== 0 ? "lg:pl-0" : ""
+                  index !== 0 ? "md:pl-0" : ""
                 }`}
                 key={index}
               >
