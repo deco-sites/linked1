@@ -31,6 +31,10 @@
     overflow: hidden;
     height: 100vh;
   }
+
+  .no-padding-collapse {
+    @apply p-0 pe-0 min-h-0;
+  }
 }
 
 @layer utilities {
