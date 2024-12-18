@@ -93,16 +93,14 @@ function setClass(value: string) {
 function OptionalCollappseComponent({ optional, colorTheme }: Props) {
   return (
     <div className="flex justify-center md:py-2">
-      <div className="w-full max-w-[706px]">
+      <div className="pt-10 w-full max-w-[706px]">
         {optional.map((item, index) => (
-          <div
-            key={index}
-            className="collapse px-4 py-4 w-ful"
-          >
+          <div key={index} className="collapse px-4 w-full grid gap-y-4">
             <input
               type="checkbox"
               className="peer hidden"
               id={`collapse-${index}`}
+              name="benefits"
             />
 
             <label
@@ -126,21 +124,22 @@ function OptionalCollappseComponent({ optional, colorTheme }: Props) {
                 </span>
               </div>
 
-              <div className="ml-auto flex items-center">
-                <img
-                  src={item.closedIcon}
-                  alt="Closed Icon"
-                  className="w-6 h-6 peer-checked:hidden"
+              <svg
+                className="transition-transform duration-300 peer-checked:rotate-270"
+                width="24"
+                height="24"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.8302 11.73L10.5902 7.49001C10.4972 7.39628 10.3866 7.32189 10.2648 7.27112C10.1429 7.22035 10.0122 7.19421 9.88019 7.19421C9.74818 7.19421 9.61747 7.22035 9.49561 7.27112C9.37375 7.32189 9.26315 7.39628 9.17019 7.49001C8.98394 7.67737 8.87939 7.93083 8.87939 8.19501C8.87939 8.4592 8.98394 8.71265 9.17019 8.90001L12.7102 12.44L9.17019 15.98C8.98394 16.1674 8.87939 16.4208 8.87939 16.685C8.87939 16.9492 8.98394 17.2027 9.17019 17.39C9.26363 17.4827 9.37444 17.556 9.49628 17.6058C9.61812 17.6555 9.74858 17.6808 9.88019 17.68C10.0118 17.6808 10.1423 17.6555 10.2641 17.6058C10.3859 17.556 10.4967 17.4827 10.5902 17.39L14.8302 13.15C14.9239 13.057 14.9983 12.9464 15.0491 12.8246C15.0998 12.7027 15.126 12.572 15.126 12.44C15.126 12.308 15.0998 12.1773 15.0491 12.0554C14.9983 11.9336 14.9239 11.823 14.8302 11.73Z"
+                  fill="#3BEDB2"
                 />
-                <img
-                  src={item.openIcon}
-                  alt="Open Icon"
-                  className="w-6 h-6 hidden peer-checked:block"
-                />
-              </div>
+              </svg>
             </label>
 
-            <div className="collapse-content pl-[2rem] peer-checked:pt-4">
+            <div className="collapse-content pl-[3.75rem] hidden peer-checked:block">
               {item.sections?.map((sectionItem) => (
                 <div key={sectionItem.title} className="mt-2">
                   {LoadComponent(sectionItem.section)}

@@ -22,6 +22,14 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+  
+  .collapse > input[name="duvidas"]:checked ~ label > svg {
+    transform: rotate(180deg);
+  }
+
+  .collapse > input[name="benefits"]:checked ~ label > svg {
+    transform: rotate(270deg);
+  }
 }
 
 @layer components {

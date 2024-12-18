@@ -26,7 +26,36 @@
       "collapse": {
         "title": "Redução de custos",
         "enable": true
-      }
+      },
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Benefits.tsx",
+            "benefits": [
+              {
+                "title": "Inteligência de dados",
+                "subTitleBenefit": "Inteligência de dados",
+                "descriptionBenefit": "Dados atualizados em tempo real com visão clara das oportunidades de otimização e redução de custos. ",
+                "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9319507d-6d1d-4be1-8637-cd4eeb66a358/icon_data_opcionais.svg"
+              },
+              {
+                "title": "App delivery",
+                "descriptionBenefit": "O seu próprio aplicativo de delivery disponível na Play Store e App Store. Amplie suas vendas sem dividir margens.",
+                "subTitleBenefit": "App delivery",
+                "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8c8f3889-5b86-473a-953b-b56905fe7a64/cellphone_rounded.svg"
+              },
+              {
+                "title": "Link pagamentos",
+                "descriptionBenefit": "Pagamento online para o seu delivery próprio, mesmo se ele for por telefone. Mais comodidade para os seus clientes e mais economia para você.",
+                "subTitleBenefit": "Link pagamentos",
+                "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+              }
+            ],
+            "colorTheme": "Primary"
+          },
+          "title": "Redução de Custos"
+        }
+      ]
     },
     {
       "__resolveType": "Integrações - Tipo de Estabelecimento Fast Food"

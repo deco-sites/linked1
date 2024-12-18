@@ -1,6 +1,6 @@
 import React from "react";
+import Benefits from "../../../components/ui/Content/Benefits/index.tsx";
 import { ImageWidget } from "apps/admin/widgets.ts";
-import OptionalCollappseComponent from "../../../components/ui/Content/OptionalCollappse/index.tsx";
 import { Section } from "deco/blocks/section.ts";
 
 /**
@@ -17,30 +17,37 @@ export interface Item {
 /**
  * @title {{{title}}}
  */
-export interface Optional {
+export interface Benefits {
     /**
      * @title Título do Bloco
      * @description Escreva o título do bloco
      */
     title: string;
     /**
-     * @title Ícone da Marca
-     * @description Ícone da marca no collapse
+     * @title Ícone do Benefício
+     * @description Ícone do benefício do plano
      */
-    iconBrand?: ImageWidget;
+    iconBenefit?: ImageWidget;
     /**
-     * @title Nome da Marca
-     * @description Insira o nome da marca
+     * @title Subtítulo Benefício
+     * @description Insira o subtítulo do benefício
      */
-    brandNameSubtitle?: string;
+    subTitleBenefit?: string;
+    /**
+     * @title Descrição do Benefício
+     * @description Insira a descrição falando sobre o benefício
+     */
+    descriptionBenefit?: string;
     /**
      * @title Ícone (Fechado)
      * @description Ícone exibido quando o collapse está fechado
+     * @conditional collapse.enable
      */
     closedIcon?: ImageWidget;
     /**
      * @title Ícone (Aberto)
      * @description Ícone exibido quando o collapse está aberto
+     * @conditional collapse.enable
      */
     openIcon?: ImageWidget;
     /**
@@ -51,9 +58,18 @@ export interface Optional {
 
 export interface Props {
     /**
-     * @title Conteúdo de Opcional
+     * @title Conteúdo da Dúvida
      */
-    optional: Optional[];
+    benefits: Benefits[];
+
+    collapse?: {
+        /**
+         * @title Ativar Collapse
+         * @description Habilitar comportamento de colapso
+         */
+        enable?: boolean;
+    };
+
     /**
      * @title Cor do Tema
      */
@@ -67,12 +83,15 @@ export interface Props {
         | "Mint-Cream";
 }
 
-export default function Section(
-    { optional, colorTheme }: Props,
-) {
+export default function Section({
+    benefits,
+    collapse,
+    colorTheme,
+}: Props) {
     return (
-        <OptionalCollappseComponent
-            optional={optional}
+        <Benefits
+            benefits={benefits}
+            collapse={collapse}
             colorTheme={colorTheme}
         />
     );

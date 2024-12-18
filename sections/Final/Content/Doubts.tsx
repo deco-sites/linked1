@@ -24,16 +24,6 @@ export interface Doubts {
      */
     title: string;
     /**
-     * @title Ícone (Fechado)
-     * @description Ícone exibido quando o collapse está fechado
-     */
-    closedIcon?: ImageWidget;
-    /**
-     * @title Ícone (Aberto)
-     * @description Ícone exibido quando o collapse está aberto
-     */
-    openIcon?: ImageWidget;
-    /**
      * @title Subtítulo da Dúvida
      * @description Escreva aqui subtítulo da dúvida
      */

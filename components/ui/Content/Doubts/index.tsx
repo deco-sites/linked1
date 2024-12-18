@@ -24,16 +24,6 @@ export interface Doubts {
    */
   title: string;
   /**
-   * @title Ícone (Fechado)
-   * @description Ícone exibido quando o collapse está fechado
-   */
-  closedIcon?: ImageWidget;
-  /**
-   * @title Ícone (Aberto)
-   * @description Ícone exibido quando o collapse está aberto
-   */
-  openIcon?: ImageWidget;
-  /**
    * @title Subtítulo da Dúvida
    * @description Escreva aqui subtítulo da dúvida
    */
@@ -103,8 +93,9 @@ function DoubtsComponent({ doubt, colorTheme }: Props) {
           >
             <input
               type="checkbox"
-              className="peer hidden"
+              className="peer"
               id={`collapse-${index}`}
+              name="duvidas"
             />
 
             <label
@@ -115,20 +106,26 @@ function DoubtsComponent({ doubt, colorTheme }: Props) {
                 )
               }`}
             >
-              <img
-                src={item.closedIcon}
-                alt="icon"
-                className="w-6 h-6 peer-checked:hidden"
-              />
-              <img
-                src={item.openIcon}
-                alt="icon"
-                className="w-6 h-6 hidden peer-checked:block"
-              />
+              <svg
+                className="transition-transform duration-300 peer-checked:rotate-180"
+                width="34"
+                height="34"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 9.28906L12 15.2891L18 9.28906"
+                  stroke="#3BEDB2"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
               {item.subtitleDoubtAppear}
             </label>
 
-            <div className="collapse-content no-padding-collapse pl-[2rem] peer-checked:pt-4">
+            <div className="collapse-content no-padding-collapse pl-[1rem] !pb-0">
               {item.sections?.map((sectionItem) => (
                 <div key={sectionItem.title} className="mt-2">
                   {LoadComponent(sectionItem.section)}
