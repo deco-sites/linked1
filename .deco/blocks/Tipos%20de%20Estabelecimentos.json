@@ -34,7 +34,8 @@
           {
             "colorTheme": "Primary",
             "name": "Fast-food",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg"
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/003dc51c-f6a5-444b-ae4f-84fdc3b3bdcc/icon_lightning_category.svg",
+            "url": "/tipos-de-estabelecimento/fast-food"
           },
           {
             "colorTheme": "Primary",

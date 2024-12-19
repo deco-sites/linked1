@@ -84,7 +84,7 @@
                   "name": " Ver detalhes",
                   "url": " /planos/plano-essencial",
                   "text": "Ver detalhes",
-                  "link": "/detalhes",
+                  "link": "/planos/plano-essencial",
                   "buttonTheme": "Secondary white"
                 }
               },
@@ -93,7 +93,7 @@
                   "name": "  Ver detalhes",
                   "url": "  /planos/plano-total",
                   "buttonTheme": "Secondary white",
-                  "link": "/detalhes",
+                  "link": "/planos/plano-total",
                   "text": "Ver detalhes"
                 }
               }

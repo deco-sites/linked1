@@ -65,7 +65,17 @@
       "__resolveType": "Requisitos"
     },
     {
-      "__resolveType": "Dúvidas comuns"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "collapse": {
+        "title": "Dúvidas comuns",
+        "enable": true
+      },
+      "sections": [
+        {
+          "section": {}
+        }
+      ]
     },
     {
       "__resolveType": "duvidas"
