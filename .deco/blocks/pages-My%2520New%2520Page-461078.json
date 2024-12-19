@@ -1,0 +1,61 @@
+{
+  "name": "My New Page",
+  "path": "/me-liga",
+  "sections": [
+    {
+      "__resolveType": "site/sections/FormSection.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/FormSteps.tsx",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/InputRadio.tsx",
+                  "inputRadio": [
+                    {
+                      "label": "etiqueta 1"
+                    },
+                    {
+                      "label": "Etiqueta 2"
+                    }
+                  ],
+                  "text": "Título",
+                  "name": "inputradio"
+                },
+                "title": "Step 1 - Por favor, diga o seu nome.",
+                "text": "Solicitar plano",
+                "description": "Primeiramente, qual o seu nome completo?"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/FormSteps.tsx",
+                  "sections": [
+                    {
+                      "section": {
+                        "__resolveType": "site/sections/Final/Form/InputText.tsx",
+                        "title": "Número",
+                        "placeholder": "Número"
+                      },
+                      "title": "Solicitar plano",
+                      "text": "Solicitar plano",
+                      "description": "Qual seu telefone, Júlio? Por favor, informe o DDD e o número"
+                    }
+                  ]
+                },
+                "title": "Step 2 - DDD e número",
+                "text": "DDD e número",
+                "description": "DDD e número"
+              }
+            ]
+          },
+          "title": "Steps"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
