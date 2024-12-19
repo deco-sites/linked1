@@ -40,7 +40,7 @@ function Conection({
           <div
             class={`w-16 h-16 ${setClass("bg", circleBackground)} ${
               setClass("text", colorText)
-            } flex justify-center items-center rounded-full text-xl font-bold`}
+            } flex justify-center items-center rounded-full font-sans text-[32px] font-medium leading-tight-35 tracking-tight-0.64`}
           >
             {content}
           </div>

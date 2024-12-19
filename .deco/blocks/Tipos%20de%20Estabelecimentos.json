@@ -6,10 +6,12 @@
       "section": {
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
-        "content": "Soluções para todos os tipos de estabelecimentos",
-        "textAlignment": "Left"
+        "content": "A Linked tem opções para vários tipos de estabelecimento",
+        "textAlignment": "Left",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (327px)"
       },
-      "title": "Soluções"
+      "title": "Título"
     },
     {
       "section": {

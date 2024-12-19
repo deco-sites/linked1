@@ -12,7 +12,53 @@
       "__resolveType": "Carousel Benefícios"
     },
     {
-      "__resolveType": "Parágrafo, ìcones e Lista de Texto - Topo do Bloco"
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
+          },
+          "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+            "content": [
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "White",
+                "background": "White",
+                "title": "teste"
+              },
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "Primary",
+                "background": "Primary",
+                "title": "teste2"
+              }
+            ],
+            "borderColor": "White"
+          },
+          "title": "Ícones do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/List.tsx",
+            "items": [
+              "Não requer instalação",
+              "Atendimento 24x7",
+              "Treinamentos ilimitados",
+              "Sem limite de pedidos"
+            ],
+            "colorTheme": "Primary"
+          },
+          "title": "Lista Texto"
+        }
+      ]
     },
     {
       "__resolveType": "Opcionais - Plano Essencial"
