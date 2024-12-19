@@ -5,5 +5,42 @@
     "title": "Opcionais"
   },
   "background": "White",
-  "sections": []
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Benefits.tsx",
+        "benefits": [
+          {
+            "title": "Link pagamentos",
+            "subTitleBenefit": "Link pagamentos",
+            "descriptionBenefit": "Envie pelo celular e economize a taxa da maquininha",
+            "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3f56c830-4ad5-47ba-b9c8-39429eebcba3/link-de-pagamento.svg"
+          },
+          {
+            "title": "Monitor de preparos KDS",
+            "subTitleBenefit": "Monitor de preparos KDS",
+            "descriptionBenefit": "Envie os pedidos diretamente para o monitor de preparos da cozinha, aumentando a produtividade e evitando erros.",
+            "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/177b31bc-ff5a-4c46-9f7d-cdf8a8739dfa/icon_printer_opcionais.svg"
+          },
+          {
+            "title": "App delivery",
+            "subTitleBenefit": "App delivery",
+            "descriptionBenefit": "O seu próprio aplicativo de delivery disponível na Play Store e na App Store. Amplie suas vendas sem dividir margens.",
+            "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8c8f3889-5b86-473a-953b-b56905fe7a64/cellphone_rounded.svg"
+          },
+          {
+            "title": "Inteligência de dados",
+            "subTitleBenefit": "Inteligência de dados",
+            "descriptionBenefit": "Gestão interativa com mais informações estratégicas. muito mais liberdade para interagir com os seus dados e escolher sua perspectiva de análise.",
+            "iconBenefit": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9319507d-6d1d-4be1-8637-cd4eeb66a358/icon_data_opcionais.svg"
+          }
+        ],
+        "colorTheme": "Primary",
+        "collapse": {
+          "enable": false
+        }
+      },
+      "title": "Benefícios do Plano"
+    }
+  ]
 }
