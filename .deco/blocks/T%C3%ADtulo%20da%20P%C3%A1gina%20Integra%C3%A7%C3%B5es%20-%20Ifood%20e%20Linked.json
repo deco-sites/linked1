@@ -12,12 +12,13 @@
     {
       "section": {
         "__resolveType": "site/sections/Headers/TitleIntegration.tsx",
-        "title": "Ifood e",
+        "title": "Ifood e Linked",
         "titleWithColor": "Linked",
         "description": "Todas as plataformas da Linked Food são compatíveis e podem ser integradas com o iFood, o principal serviço de delivery do Brasil.",
         "secondDescription": "A integração é realizada de forma simples e rápida, exigindo apenas os dados de acesso da sua conta no iFood.",
         "integrationLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/7b318508-44df-4c43-b78c-ce37155ef9e1/brand_ifood.png",
-        "linkedLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8c125a12-e397-4671-8fad-5966d7fa1d44/linked_logo.png"
+        "linkedLogo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8c125a12-e397-4671-8fad-5966d7fa1d44/linked_logo.png",
+        "highlight": "Linked"
       },
       "title": "Ifood e Linked"
     }

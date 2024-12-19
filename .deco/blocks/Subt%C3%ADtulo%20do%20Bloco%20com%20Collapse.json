@@ -1,0 +1,138 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Você ainda pode contratar módulos adicionais para o   Linked Food Total"
+      },
+      "title": "1- Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Benefits.tsx",
+        "colorTheme": "Primary",
+        "benefits": [
+          {
+            "title": "Pagamentos no celular",
+            "subTitleBenefit": "Pagamentos no celular",
+            "descriptionBenefit": "Envie a cobrança pelo WhatsApp e economize com as taxas da maquininha",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1046f10d-ae60-4484-b5dc-8747d2f4c032/Icon_sizes.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left",
+                  "content": "Envie a cobrança pelo WhatsApp e economize com as taxas da maquininha"
+                },
+                "title": "Teste Parágrafo"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/List.tsx",
+                  "colorTheme": "Primary",
+                  "items": [
+                    "111",
+                    "222",
+                    "333"
+                  ]
+                },
+                "title": "Teste Lista"
+              }
+            ]
+          },
+          {
+            "title": "Monitor de preparos KDS",
+            "subTitleBenefit": "Monitor de preparos KDS",
+            "descriptionBenefit": "Sistema KDS para organizar a produção e evitar erros nos pedidos",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1046f10d-ae60-4484-b5dc-8747d2f4c032/Icon_sizes.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          },
+          {
+            "title": "App delivery",
+            "subTitleBenefit": "App delivery",
+            "descriptionBenefit": "Sistema KDS para organizar a produção e evitar erros nos pedidos",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1046f10d-ae60-4484-b5dc-8747d2f4c032/Icon_sizes.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          },
+          {
+            "title": "Inteligência de dados",
+            "subTitleBenefit": "Inteligência de dados",
+            "descriptionBenefit": "Relatórios interativos para você saber mais sobre o seu negócio",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/25e6e79f-c9b5-4c09-a889-73cf9c116a4b/arrow_right.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          }
+        ],
+        "collapse": {
+          "enable": true
+        }
+      },
+      "title": "Adicionais Collapse"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "content": "O Linked Food Total é nosso produto mais completo e conta com uma série de vantagens",
+        "textAlignment": "Left",
+        "colorTheme": "Primary"
+      },
+      "title": "2- Subtítulo do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+        "content": [
+          {
+            "icon": "ShoppingCart",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Instalação em até 72 horas"
+          },
+          {
+            "icon": "WhatsApp",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Atendimento 24x7"
+          },
+          {
+            "icon": "Truck",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Treinamentos ilimitados"
+          },
+          {
+            "icon": "Phone",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de caixas e dispositivos"
+          },
+          {
+            "icon": "User",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de usuários"
+          },
+          {
+            "icon": "Message",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem limite de pedidos"
+          },
+          {
+            "icon": "Message",
+            "iconColor": "Accent",
+            "background": "White",
+            "title": "Sem contrato de fidelidade"
+          }
+        ],
+        "borderColor": "Primary"
+      },
+      "title": "Ícones do Bloco"
+    }
+  ],
+  "background": "White"
+}

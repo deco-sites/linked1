@@ -9,51 +9,10 @@
       "__resolveType": "essencial-plan"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
-            "title": "Plano Essencial",
-            "highlight": "Essencial",
-            "description": "Design intuitivo e operação fácil para administrar seus pedidos",
-            "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8715add7-3b4c-4e5d-a5fc-b9d570802c1c/cuttlery_plan_icon.svg"
-          },
-          "title": "Plano Essencial"
-        }
-      ]
-    },
-    {
       "__resolveType": "Carousel Benefícios"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
-          },
-          "title": "Parágrafo 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Não requer instalação",
-              "Atendimento 24x7",
-              "Treinamentos ilimitados",
-              "Sem limite de pedidos"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista Texto"
-        }
-      ]
+      "__resolveType": "Parágrafo, ìcones e Lista de Texto - Topo do Bloco"
     },
     {
       "__resolveType": "Opcionais - Plano Essencial"
@@ -65,17 +24,7 @@
       "__resolveType": "Requisitos"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "collapse": {
-        "title": "Dúvidas comuns",
-        "enable": true
-      },
-      "sections": [
-        {
-          "section": {}
-        }
-      ]
+      "__resolveType": "Dúvidas comuns - Plano Essencial"
     },
     {
       "__resolveType": "duvidas"
