@@ -20,7 +20,7 @@ export default function Section({
 }: Props) {
   return (
     <section className="bg-sacramentoState">
-      <div className="px-4 md:px-10 pt-6">
+      <div className="px-4 md:px-10">
         <div className="flex justify-between items-center">
           <p className="text-sm font-sans font-normal leading-tight-15.86 text-white-80">
             {page}

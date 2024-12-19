@@ -9,22 +9,6 @@
       "__resolveType": "essencial-plan"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Primary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Headers/TitlePlan.tsx",
-            "title": "Plano Essencial",
-            "highlight": "Essencial",
-            "description": "Design intuitivo e operação fácil para administrar seus pedidos",
-            "iconPlan": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8715add7-3b4c-4e5d-a5fc-b9d570802c1c/cuttlery_plan_icon.svg"
-          },
-          "title": "Plano Essencial"
-        }
-      ]
-    },
-    {
       "__resolveType": "Carousel Benefícios"
     },
     {
@@ -39,6 +23,27 @@
             "content": "O Linked Food Essencial é feito para empreendedores que buscam alta performance na operação e gestão objetiva. Com atendimento fácil e rápido, este plano tem tudo o que você precisa. Indicado para estabelecimentos de micro e pequeno porte. "
           },
           "title": "Parágrafo 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
+            "content": [
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "White",
+                "background": "White",
+                "title": "teste"
+              },
+              {
+                "icon": "ArrowsPointingOut",
+                "iconColor": "Primary",
+                "background": "Primary",
+                "title": "teste2"
+              }
+            ],
+            "borderColor": "White"
+          },
+          "title": "Ícones do Bloco"
         },
         {
           "section": {

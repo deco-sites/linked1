@@ -12,12 +12,16 @@
         "sections": [
           {
             "section": {
-              "__resolveType": "site/sections/Final/Content/Title.tsx",
-              "colorTheme": "Primary",
+              "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "content": "Aqui você monta o plano ideal para o seu negócio",
-              "textAlignment": "Center"
+              "textAlignment": "Center",
+              "colorTheme": "Primary",
+              "fontSize": "32px",
+              "containerWidth": "Largura Limitada (343px)",
+              "contentAlignment": "Center",
+              "paddingTop": "Espaçamento (95px)"
             },
-            "title": "Titulo"
+            "title": "Chamada"
           },
           {
             "section": {
@@ -52,7 +56,10 @@
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
               "content": "Você escolhe o plano",
-              "textAlignment": "Center"
+              "textAlignment": "Center",
+              "containerWidth": "Largura Completa",
+              "contentAlignment": "Center",
+              "paddingTop": "Espacamento (40px)"
             },
             "title": "Título"
           },
@@ -126,7 +133,10 @@
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
               "content": "Você escolhe os opcionais",
-              "textAlignment": "Center"
+              "textAlignment": "Center",
+              "contentAlignment": "Center",
+              "containerWidth": "Largura Limitada (290px)",
+              "paddingTop": "Espacamento (40px)"
             },
             "title": "Título"
           },
@@ -168,7 +178,7 @@
                   "title": "Inteligência de dados"
                 }
               ],
-              "borderColor": "Primary"
+              "borderColor": "Secondary"
             },
             "title": "Ícones do Bloco"
           },
@@ -208,7 +218,9 @@
               "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
               "colorTheme": "Primary",
               "content": "Por fim, escolhe as integrações",
-              "textAlignment": "Center"
+              "textAlignment": "Center",
+              "contentAlignment": "Center",
+              "paddingTop": "Espacamento (40px)"
             },
             "title": "Título"
           },

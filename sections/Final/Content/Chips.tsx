@@ -34,8 +34,8 @@ export default function Section({
 }: Props) {
   return (
     // <div className="flex justify-start lg:justify-center pl-4 lg:pt-[79px]">
-    <div className="flex justify-center px-4">
-      <div className="flex flex-wrap justify-start md:justify-center gap-2 lg:gap-y-[17px] w-full max-w-[350px] md:max-w-[780px]">
+    <div className="flex justify-center px-4 pb-[65px]">
+      <div className="flex flex-wrap justify-start md:justify-center gap-x-2 gap-y-2 lg:gap-y-[17px] w-full max-w-[350px] md:max-w-[780px]">
         {tags?.map((tag) => (
           <Chip
             name={tag.name}

@@ -13,8 +13,11 @@
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Headers/HeaderMedium.tsx",
-        "title": "Plano para todos os modelos de negócio"
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "White",
+        "content": "Plano para todos os modelos de negócio",
+        "fontSize": "28px"
       },
       "title": "Título da Página"
     }

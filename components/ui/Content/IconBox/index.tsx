@@ -63,7 +63,6 @@ function IconBox({
               id={icon}
               size={40}
               strokeWidth={2}
-              class={`${setClassColor(color)}`}
             />
           )}
         </div>
