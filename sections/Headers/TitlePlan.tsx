@@ -61,8 +61,8 @@ export default function Section({
   };
 
   return (
-    <div className="bg-sacramentoState flex justify-center">
-      <div className="px-4 pb-6 pt-8 w-full max-w-[735px] md:text-center flex flex-col gap-3 md:items-center">
+    <div className="bg-sacramentoState flex">
+      <div className="pl-4 pb-6 pt-8 w-full max-w-[230px] md:max-w-[735px] md:text-center flex flex-col gap-3 md:items-center">
         {iconPlan && (
           <Image
             width={45}
@@ -71,7 +71,7 @@ export default function Section({
             src={iconPlan || ""}
           />
         )}
-        <p className="text-[28px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">
+        <p className="text-[32px] md:text-5xl text-white font-normal md:font-medium font-sans leading-tight-32 md:leading-tight-115 tracking-tight-2 md:tracking-tight-0.96">
           {getHighlightedText(title, highlight)}
         </p>
         <p className="text-base md:text-lg font-sans font-normal leading-tight-18 md:leading-tight-25 text-white-80">

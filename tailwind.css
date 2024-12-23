@@ -27,6 +27,10 @@
     transform: rotate(180deg);
   }
 
+  .collapse > input[name="MultiSection"]:checked ~ label > div > svg {
+    transform: rotate(180deg);
+  }
+
   .collapse > input[name="benefits"]:checked ~ label > svg {
     transform: rotate(270deg);
   }

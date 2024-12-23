@@ -4,7 +4,7 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-        "colorTheme": "Primary",
+        "colorTheme": "Primary-80",
         "textAlignment": "Left",
         "content": "Vamos adorar mostrar em detalhes o funcionamento dos nossos produtos e até mesmo recomendar o melhor plano para seu estabelecimento. "
       },

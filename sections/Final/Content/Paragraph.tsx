@@ -7,7 +7,7 @@ export interface Props {
    * @description Escreva aqui o seu conteúdo
    */
   content: string;
-  colorTheme: "Primary" | "Secondary" | "White" | "Accent";
+  colorTheme: "Primary" | "Primary-80" | "Secondary" | "White" | "Accent";
   /**
    * @title Alinhamento
    * @format button-group

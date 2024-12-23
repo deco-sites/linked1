@@ -13,6 +13,11 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "top": "0 -4px 6px -1px rgba(0, 0, 0, 0.1)",
+        "top-lg":
+          "0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -4px rgba(0, 0, 0, 0.1)",
+      },
       colors: {
         "white-20": "rgba(255, 255, 255, 0.2)", // 20% de opacidade
         "white-80": "rgba(255, 255, 255, 0.8)", // 80% de opacidade
@@ -22,6 +27,7 @@ export default {
         "sacramentoState-40": "rgba(0, 51, 48, 0.4)", // 40% de opacidade
         "sacramentoState-80": "rgba(0, 51, 48, 0.8)", // 80% de opacidade
         mintCream: "#D6FFF5",
+        darkMintCream: "#3BEDB2",
         red: "#FE473C",
       },
       fontFamily: {

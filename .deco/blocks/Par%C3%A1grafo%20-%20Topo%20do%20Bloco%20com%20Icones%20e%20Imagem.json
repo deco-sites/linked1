@@ -6,7 +6,7 @@
       "section": {
         "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
         "content": "O Linked Food Total é um dos planos mais completos do mercado. Ele gerencia todos os processos de um restaurante, proporcionando visão em tempo real das vendas, controle de estoque, automação comercial e emissão de nota fiscal. ",
-        "colorTheme": "Primary",
+        "colorTheme": "Primary-80",
         "textAlignment": "Left"
       },
       "title": "1- Parágrafo em Cima da Imagem"
@@ -23,7 +23,7 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-        "colorTheme": "Primary",
+        "colorTheme": "Primary-80",
         "textAlignment": "Left",
         "content": "O Linked Food Total funciona de forma online e offline, com sincronização de dados a cada 3 minutos. Também possui diversos perfis de acesso, podendo ser usado por administradores, garçons, cozinheiros e até mesmo pelo seu contador."
       },
@@ -32,7 +32,7 @@
     {
       "section": {
         "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-        "colorTheme": "Primary",
+        "colorTheme": "Primary-80",
         "textAlignment": "Left",
         "content": "O plano Total atende todos os modelos de negócio, incluindo redes e franquias."
       },
@@ -67,7 +67,7 @@
             "title": "Delivery"
           }
         ],
-        "borderColor": "Primary"
+        "borderColor": "White"
       },
       "title": "Ícones do Bloco"
     },

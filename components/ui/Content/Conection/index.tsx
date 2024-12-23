@@ -38,9 +38,9 @@ function Conection({
         </div>
         <div class="absolute inset-0 flex justify-center items-center">
           <div
-            class={`w-16 h-16 ${setClass("bg", circleBackground)} ${
+            class={`w-16 h-16 lg:w-[70px] lg:h-[70px] ${setClass("bg", circleBackground)} ${
               setClass("text", colorText)
-            } flex justify-center items-center rounded-full font-sans text-[32px] font-medium leading-tight-35 tracking-tight-0.64`}
+            } flex justify-center items-center rounded-full font-sans text-[32px] lg:text-[48px] font-medium leading-tight-35 tracking-tight-0.64`}
           >
             {content}
           </div>

@@ -9,7 +9,8 @@
         "content": "A Linked tem opções para vários tipos de estabelecimento",
         "textAlignment": "Left",
         "fontSize": "22px",
-        "containerWidth": "Largura Limitada (327px)"
+        "containerWidth": "Largura Limitada (343px)",
+        "paddingTop": "Espacamento (40px)"
       },
       "title": "Título"
     },

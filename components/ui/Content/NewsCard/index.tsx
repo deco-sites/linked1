@@ -78,12 +78,14 @@ function NewsCard({
               }`}
             >
               {item.logo && (
-                <Image
-                  src={item.logo}
-                  width={343}
-                  height={232}
-                  className="w-full h-full rounded-lg pt-10"
-                />
+                <div className="rounded-lg">
+                  <Image
+                    src={item.logo}
+                    width={343}
+                    height={232}
+                    className="w-full h-full rounded-lg pt-10"
+                  />
+                </div>
               )}
               {item.button && (
                 <div

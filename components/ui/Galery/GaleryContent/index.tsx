@@ -30,7 +30,7 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
                     <div className="absolute w-full h-full bg-primary/40"></div>
                   </div>
                   <div className="w-full pl-0 text-left">
-                    <p className="pl-[3px] text-base text-white opacity-80 leading-tight-18 lg:leading-tight-22">
+                    <p className="pl-[3px] text-base text-mintCream opacity-80 leading-tight-18 lg:leading-tight-22">
                       {item.description}
                     </p>
                   </div>

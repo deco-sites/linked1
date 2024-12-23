@@ -66,19 +66,20 @@ export default function Section({
             ? "grid-cols-2 md:grid-cols-3" // 3 itens: 2 colunas mobile, 3 colunas desktop
             : content.length >= 4
             ? "grid-cols-2" // 4 ou mais itens: 2 colunas
-            : "grid-cols-2 md:grid-cols-3" // Layout padrão para demais casos
+            : "grid-cols-2 md:grid-cols-3"
         }`}
       >
         {content.slice(0, 8).map((item, index) => {
-          // Verificar se é um dos dois últimos elementos
+          const isFirstTwo = index < 2;
           const isLastTwo = index >= content.length - 2;
-          const isLastColumn = (index + 1) % 2 === 0; // Última coluna da linha atual
 
           return (
             <div
               key={index}
-              className={`${!isLastTwo ? "border-b" : ""} ${
-                !isLastColumn ? "border-r" : ""
+              className={`${isFirstTwo ? "mt-10" : ""} ${
+                !isLastTwo ? "border-b" : ""
+              } ${(index + 1) % 2 !== 0 ? "border-r" : ""} ${
+                isLastTwo ? "mb-10" : ""
               } ${setClassBorder(borderColor)}`}
             >
               <IconBox

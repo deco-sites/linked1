@@ -74,38 +74,39 @@
           },
           {
             "section": {
-              "__resolveType": "site/sections/Final/Content/Comparison.tsx",
-              "headerLeft": {
-                "title": "Essencial",
-                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5ffb559c-3e3d-45bb-a6ac-b6f928c0bf51/cup_plan_essencial_compare.svg",
-                "description": "Performance e gestão objetiva para estabelecimentos de micro e pequeno porte com poucos itens em cardápio."
+              "__resolveType": "site/sections/Final/Content/ComparisonPlan.tsx",
+              "leftPlanBenefits": {
+                "benefitDescription": [
+                  "Online",
+                  "PDV"
+                ]
               },
-              "headerRight": {
-                "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4de38ec-91b3-4c1d-877e-93da5baceb5d/cuttlery_plan_total_compare.svg",
-                "title": "Total",
-                "description": "Alta performance e gestão completa. Ideal para estabelecimentos com muitos itens em cardápio e múltiplos perfis de usuários."
+              "rightPlanBenefits": {
+                "benefitDescription": [
+                  " ︎Online / Offline",
+                  "PDV",
+                  "Gestão",
+                  "Contabilidade"
+                ]
               },
-              "content": [],
-              "footerLeft": {
-                "button": {
-                  "name": " Ver detalhes",
-                  "url": " /planos/plano-essencial",
-                  "text": "Ver detalhes",
-                  "link": "/planos/plano-essencial",
-                  "buttonTheme": "Secondary white"
-                }
-              },
-              "footerRight": {
-                "button": {
-                  "name": "  Ver detalhes",
-                  "url": "  /planos/plano-total",
-                  "buttonTheme": "Secondary white",
-                  "link": "/planos/plano-total",
-                  "text": "Ver detalhes"
-                }
-              }
+              "title": "Plano Essencial",
+              "leftPlanIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5ffb559c-3e3d-45bb-a6ac-b6f928c0bf51/cup_plan_essencial_compare.svg",
+              "leftPlanName": "Essencial",
+              "rightPlanIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e4de38ec-91b3-4c1d-877e-93da5baceb5d/cuttlery_plan_total_compare.svg",
+              "rightPlanName": "Total"
             },
             "title": "Comparativo de Planos"
+          },
+          {
+            "section": {
+              "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+              "buttonTheme": "Secondary white",
+              "tamanho": "Máximo (100%)",
+              "title": "Compare os planos",
+              "text": "Compare os planos",
+              "link": "/compare"
+            },
+            "title": "Compare os planos"
           }
         ]
       },

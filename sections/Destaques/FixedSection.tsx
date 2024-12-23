@@ -51,7 +51,7 @@ export default function Section({
           </div>
           <div className="w-[92px] flex-shrink-0">
             {ImageWidget && (
-              <div className="w-full px-5 py-2.5 h-10 flex justify-center items-center bg-secondary rounded-[10px]">
+              <div className="w-full px-5 py-2.5 h-10 flex justify-center items-center bg-darkMintCream rounded-[10px]">
                 <Image
                   src={ImageWidget}
                   alt="Section Image"
