@@ -71,8 +71,8 @@ function ComparisonPlan({
                 src={leftPlanIcon}
                 alt={leftPlanName}
                 className="w-[30px] h-[30px]"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
               />
               <div className="pl-2">
                 <h3 className="text-lg font-sans font-semibold leading-tight-20 text-sacramentoState">
@@ -102,8 +102,8 @@ function ComparisonPlan({
               src={rightPlanIcon}
               alt={rightPlanName}
               className="w-[30px] h-[30px]"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
             />
             <div className="pl-2">
               <h3 className="text-lg font-sans font-semibold leading-tight-20 text-sacramentoState">

@@ -4,7 +4,8 @@
   "address": "Rua Gomes de Carvalho, 1.609 Vila Olímpia,",
   "rightsText": "Todos os direitos reservados 2024",
   "linkedUrl": "/",
-  "imageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/035dfa74-6084-4aba-ac31-3a213afb83eb/linkedtech_logo_mobile_footer.png",
-  "linkedText": "Linked",
-  "wordBreak": "São Paulo, SP"
+  "imageWidget": "https://data.decoassets.com/linked1/2ebcd8d0-1b08-440a-ae3e-a3fa35ed46be/linked_tech_logo.svg",
+  "wordBreak": "São Paulo, SP",
+  "brandLogoMobile": "https://data.decoassets.com/linked1/2ebcd8d0-1b08-440a-ae3e-a3fa35ed46be/linked_tech_logo.svg",
+  "brandLogoDesktop": "https://data.decoassets.com/linked1/9f16eb56-201c-4188-adcb-59affb6bbc18/linked_tech_logo_desktop.svg"
 }

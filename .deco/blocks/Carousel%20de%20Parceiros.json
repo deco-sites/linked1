@@ -7,7 +7,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
         "content": "A Linked também tem parcerias para transformar o seu negócio",
-        "textAlignment": "Left"
+        "textAlignment": "Left",
+        "containerWidth": "Largura Completa"
       },
       "title": "Título"
     },

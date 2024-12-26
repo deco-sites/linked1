@@ -19,20 +19,20 @@ interface Link {
 
 export interface Props {
   /**
-   * @title Menu de Navegação
-   * @description Insira os links do menu de navegação
-   */
-  linkedText: string;
-  /**
    * @title URL do Link de Texto
    * @description URL do link adicional
    */
   linkedUrl: string;
   /**
-   * @title Imagem do Link
-   * @description Insira a imagem para o link adicional
+   * @title Logo da Marca (Mobile)
+   * @description Insira o logo da marca para dispositivos mobile
    */
-  imageWidget: ImageWidget;
+  brandLogoMobile: ImageWidget;
+  /**
+   * @title Logo da Marca (Desktop)
+   * @description Insira o logo da marca para desktop
+   */
+  brandLogoDesktop: ImageWidget;
   /**
    * @title Endereço
    * @description Representa o endereço físico associado à entidade.
@@ -51,9 +51,9 @@ export interface Props {
 }
 
 export default function Footer({
-  linkedText = "",
-  linkedUrl = "#",
-  imageWidget = "",
+  linkedUrl = "/",
+  brandLogoMobile = "",
+  brandLogoDesktop = "",
   rightsText = "",
   address = "",
   wordBreak = "",
@@ -62,19 +62,29 @@ export default function Footer({
     <footer className="bg-sacramentoState">
       <div className="w-full pt-[159px] text-center">
         <div className="text-center">
+
           <a href={linkedUrl} className="text-center">
-            {imageWidget && (
+            {brandLogoMobile && (
               <Image
-                src={imageWidget}
-                alt={linkedText}
+                src={brandLogoMobile}
+                alt="Logo da Marca"
                 className="block md:hidden mx-auto"
                 width={195.49}
               />
             )}
-            <span className="hidden md:block text-[60px] text-caribbeanGreen">
-              {linkedText}
-            </span>
           </a>
+
+          <a href={linkedUrl} className="text-center">
+            {brandLogoDesktop && (
+              <Image
+                src={brandLogoDesktop}
+                alt="Logo da Marca"
+                className="hidden md:block mx-auto"
+                width={253.24}
+              />
+            )}
+          </a>
+
         </div>
         <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs leading-tight-14 lg:leading-tight-15 text-center text-mintCream">
           {rightsText}
