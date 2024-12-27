@@ -6,7 +6,7 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "essencial-plan"
+      "__resolveType": "Título do Plano Essencial"
     },
     {
       "__resolveType": "Carousel Benefícios"
@@ -30,15 +30,15 @@
             "content": [
               {
                 "icon": "ArrowsPointingOut",
-                "iconColor": "White",
+                "iconColor": "Primary",
                 "background": "White",
-                "title": "teste"
+                "title": "Balcão"
               },
               {
                 "icon": "ArrowsPointingOut",
                 "iconColor": "Primary",
-                "background": "Primary",
-                "title": "teste2"
+                "background": "White",
+                "title": "Delivery"
               }
             ],
             "borderColor": "White"
