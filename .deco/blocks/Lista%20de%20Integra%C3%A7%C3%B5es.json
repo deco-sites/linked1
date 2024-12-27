@@ -52,19 +52,23 @@
         "logos": [
           {
             "title": "Delivery Much",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e40e849-3e79-4675-8942-ed279da4edc1/brand_delivery_much_new.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e40e849-3e79-4675-8942-ed279da4edc1/brand_delivery_much_new.png",
+            "category": "Delivery"
           },
           {
             "title": "Delivery Direto",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png",
+            "category": "Delivery"
           },
           {
             "title": "iFood",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/645bca49-be80-492b-b96b-2824c4024330/brand_ifood_new.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/645bca49-be80-492b-b96b-2824c4024330/brand_ifood_new.png",
+            "category": "Delivery"
           },
           {
             "title": "Prefiro Delivery",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png",
+            "category": "Delivery"
           }
         ],
         "colorTheme": "Primary",
@@ -78,23 +82,28 @@
         "logos": [
           {
             "title": "Abrahao",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5521161e-867c-4a2b-8039-447d4594b572/abrahao_integracion.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5521161e-867c-4a2b-8039-447d4594b572/abrahao_integracion.png",
+            "category": "Cardápio digital"
           },
           {
             "title": "Alloy",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/50e5609f-c84d-406c-b72b-317b89c16bd4/brand_ahoy.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/50e5609f-c84d-406c-b72b-317b89c16bd4/brand_ahoy.png",
+            "category": "Cardápio digital"
           },
           {
             "title": "Goomer",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/676d9dfc-8cb9-4fac-8072-1834cd9b4601/brand_goomer.png",
+            "category": "Cardápio digital"
           },
           {
             "title": "Gryn Food",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00551a17-08d8-44e1-b0c0-fbb84de41b8f/brand_gryn_food.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/00551a17-08d8-44e1-b0c0-fbb84de41b8f/brand_gryn_food.png",
+            "category": "Cardápio digital"
           },
           {
             "title": "Neemo",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e7ca772b-0cae-4cfc-a058-1c7c6f1f0c0f/brand_neemo.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e7ca772b-0cae-4cfc-a058-1c7c6f1f0c0f/brand_neemo.png",
+            "category": "Cardápio digital"
           }
         ],
         "colorTheme": "Primary",
@@ -108,11 +117,13 @@
         "logos": [
           {
             "title": "Go Totem",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/81a877b1-d117-4e2b-bc09-329c1009933e/brand_go_totem.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/81a877b1-d117-4e2b-bc09-329c1009933e/brand_go_totem.png",
+            "category": "Totem e autoatendimento"
           },
           {
             "title": "Voce Q Pod",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d728d9a8-b788-4776-9b6f-d6b8532d6e5c/brand_voce_q_pod.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d728d9a8-b788-4776-9b6f-d6b8532d6e5c/brand_voce_q_pod.png",
+            "category": "Totem e autoatendimento"
           }
         ],
         "colorTheme": "Primary",
@@ -126,15 +137,18 @@
         "logos": [
           {
             "title": "Cappta",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f81d9965-2c5d-4f4b-a4a7-c46d7bc0cdd9/brand_cappta.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/f81d9965-2c5d-4f4b-a4a7-c46d7bc0cdd9/brand_cappta.png",
+            "category": "Pagamentos"
           },
           {
             "title": "TOTVS",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5e2637ee-c382-4002-98c9-8b106e552f8b/brand_totvs.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5e2637ee-c382-4002-98c9-8b106e552f8b/brand_totvs.png",
+            "category": "Pagamentos"
           },
           {
             "title": "F360",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/175a3a08-0ef0-4114-b88b-f373e3e88a02/brand_f360.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/175a3a08-0ef0-4114-b88b-f373e3e88a02/brand_f360.png",
+            "category": "Pagamentos"
           }
         ],
         "colorTheme": "Primary",
@@ -148,15 +162,18 @@
         "logos": [
           {
             "title": "Entre Pay",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3c99fd00-f24b-4ed5-b719-1c341fdd2eee/brand_entre_pay.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3c99fd00-f24b-4ed5-b719-1c341fdd2eee/brand_entre_pay.png",
+            "category": "Maquininhas"
           },
           {
             "title": "Cielo",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15430617-06d3-4a83-813e-5822c95d0b28/brand_cielo.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/15430617-06d3-4a83-813e-5822c95d0b28/brand_cielo.png",
+            "category": "Maquininhas"
           },
           {
             "title": "iFood",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/98b4ad94-c576-4ea4-a260-c489ca247675/ifood_integracion.png",
+            "category": "Maquininhas"
           }
         ],
         "colorTheme": "Primary",
@@ -170,7 +187,8 @@
         "logos": [
           {
             "title": "Cliente Fiel",
-            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b309473-9803-4c9a-bec9-641c48da7f26/brand_cliente_fiel.png"
+            "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b309473-9803-4c9a-bec9-641c48da7f26/brand_cliente_fiel.png",
+            "category": "Fidelização"
           }
         ],
         "colorTheme": "Primary",
