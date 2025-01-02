@@ -104,7 +104,8 @@
               "tamanho": "Máximo (100%)",
               "title": "Compare os planos",
               "text": "Compare os planos",
-              "link": "/compare"
+              "link": "/compare",
+              "tamanhoDesktop": "Mínimo (Tamanho do conteúdo)"
             },
             "title": "Compare os planos"
           }
@@ -189,7 +190,9 @@
               "buttonTheme": "Secondary white",
               "title": "Veja em detalhes",
               "text": "Veja em detalhes",
-              "link": "/detalhes"
+              "link": "/detalhes",
+              "tamanho": "Máximo (100%)",
+              "tamanhoDesktop": "Mínimo (Tamanho do conteúdo)"
             },
             "title": "Veja em detalhes"
           }
@@ -249,7 +252,9 @@
               "buttonTheme": "Secondary white",
               "title": "Veja a lista completa",
               "text": "Veja a lista completa",
-              "link": "/lista"
+              "link": "/lista",
+              "tamanho": "Máximo (100%)",
+              "tamanhoDesktop": "Mínimo (Tamanho do conteúdo)"
             },
             "title": "Veja a lista completa"
           }

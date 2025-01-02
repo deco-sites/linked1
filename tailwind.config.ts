@@ -64,6 +64,10 @@ export default {
       container: {
         center: true,
       },
+      safelist: [
+        "w-full",
+        "w-fit",
+      ],
     },
   },
 };

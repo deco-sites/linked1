@@ -56,21 +56,29 @@ export interface Props extends JSX.HTMLAttributes<HTMLDivElement> {
 function Dropdown({
   dropdownText = "",
   arrowIcon,
-  button,
+  button = [],
   onCategoryChange,
 }: JSX.IntrinsicElements["div"] & Props) {
   const isOpen = useSignal(false);
 
   const handleChange = (event: Event) => {
     const selectedValue = (event.target as HTMLSelectElement).value;
-    console.log(`Valor selecionado no Dropdown: ${selectedValue}`);
-    onCategoryChange?.(selectedValue);
+    console.log(`[Dropdown] Valor selecionado: ${selectedValue}`);
+    if (onCategoryChange) {
+      onCategoryChange(selectedValue);
+    } else {
+      console.warn("[Dropdown] onCategoryChange não foi passado.");
+    }
   };
 
   const handleToggle = () => {
     isOpen.value = !isOpen.value;
-    console.log(`Dropdown ${isOpen.value ? "aberto" : "fechado"}`);
+    console.log(
+      `[Dropdown] Estado do dropdown: ${isOpen.value ? "Aberto" : "Fechado"}`,
+    );
   };
+
+  console.log("[Dropdown] Botões recebidos:", button);
 
   return (
     <div className="w-full flex justify-center">
@@ -86,7 +94,7 @@ function Dropdown({
           >
             {dropdownText}
           </option>
-          {button?.map((filteredCategories, index) => (
+          {button.map((filteredCategories, index) => (
             <option key={index} value={filteredCategories.name}>
               {filteredCategories.name}
             </option>

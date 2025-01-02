@@ -6,7 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "Título com Navegação"
+      "__resolveType": "Tabs"
+    },
+    {
+      "__resolveType": "Título da Página - Integrações"
     },
     {
       "__resolveType": "Lista de Integrações"
