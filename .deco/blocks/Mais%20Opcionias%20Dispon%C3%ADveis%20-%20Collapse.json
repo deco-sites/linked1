@@ -1,0 +1,67 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "Primary",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "colorTheme": "White",
+        "textAlignment": "Left",
+        "content": "Mais opcionias disponíveis"
+      },
+      "title": "Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/OptionalCollapse.tsx",
+        "colorTheme": "White",
+        "doubt": [
+          {
+            "sections": [],
+            "title": "Delivery much",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/25e6e79f-c9b5-4c09-a889-73cf9c116a4b/arrow_right.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg",
+            "subtitleDoubtAppear": "Delivery much"
+          }
+        ],
+        "optional": [
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "colorTheme": "White",
+                  "textAlignment": "Left",
+                  "content": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. "
+                },
+                "title": "Teste Parágrafo"
+              }
+            ],
+            "brandNameSubtitle": "Delivery much",
+            "title": "Delivery much",
+            "iconBrand": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e40e849-3e79-4675-8942-ed279da4edc1/brand_delivery_much_new.png",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/25e6e79f-c9b5-4c09-a889-73cf9c116a4b/arrow_right.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1e9b7a44-679f-4ea7-bca0-0183b5cb5371/icon_arrow_down.svg"
+          },
+          {
+            "sections": [],
+            "title": "Delivery direto",
+            "iconBrand": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png",
+            "brandNameSubtitle": "Delivery direto",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/25e6e79f-c9b5-4c09-a889-73cf9c116a4b/arrow_right.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          },
+          {
+            "sections": [],
+            "title": "Prefiro Delivery",
+            "brandNameSubtitle": "Prefiro Delivery",
+            "iconBrand": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/25e6e79f-c9b5-4c09-a889-73cf9c116a4b/arrow_right.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          }
+        ]
+      },
+      "title": "Mais opcionias disponíveis - Collapse"
+    }
+  ]
+}

@@ -77,13 +77,40 @@ export default function MultiSection(
   if (collapse && collapse.enable) {
     return (
       <div className="bg-sacramentoState-10 flex justify-center md:py-2">
-        <div
-          className="collapse collapse-arrow rounded-none bg-white w-full max-w-[706px] border-t md:border-none border-sacramentoState-10"
-        >
-          <input type="checkbox" />
-          <div className="collapse-title text-lg font-medium after:shadow-[#3BEDB2]">
-            {collapse.title}
-          </div>
+        <div className="collapse rounded-none bg-white w-full max-w-[706px] border-t md:border-none border-sacramentoState-10">
+          <input
+            type="checkbox"
+            className="peer"
+            id="collapse"
+            name="MultiSection"
+          />
+          <label
+            htmlFor="collapse"
+            className="collapse-title no-padding-collapse flex items-center gap-x-[10px] text-lg font-sans font-normal cursor-pointer"
+          >
+            <div className="px-4 flex flex-grow justify-between">
+              <p className="text-base font-sans font-semibold after:shadow-[#3BEDB2]">
+                {collapse.title}
+              </p>
+
+              <svg
+                className="transition-transform duration-300 peer-checked:rotate-180"
+                width="24"
+                height="24"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 9.28906L12 15.2891L18 9.28906"
+                  stroke="#3BEDB2"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </label>
           <div className="collapse-content bg-white">
             {sections?.map((item) => (
               LoadComponent(item.section)
@@ -94,7 +121,7 @@ export default function MultiSection(
     );
   } else {
     return (
-      <div className={`${setClass(background)} py-6 md:py-10`}>
+      <div className={`${setClass(background)}`}>
         {sections?.map((item) => (
           LoadComponent(item.section)
         ))}

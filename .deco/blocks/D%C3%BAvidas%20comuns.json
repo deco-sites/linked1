@@ -5,5 +5,91 @@
     "title": "Dúvidas comuns",
     "enable": true
   },
-  "sections": []
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Doubts.tsx",
+        "doubt": [
+          {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "subtitleDoubtAppear": "O Linked Food Essencial funciona em qualquer computador?",
+            "title": "1- Dúvida",
+            "descriptionHiddenDoubt": "O Linked Food Essencial funciona em qualquer computador?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "colorTheme": "Primary",
+                  "content": "O Linked Food Essencial funciona em qualquer computador?",
+                  "textAlignment": "Left"
+                },
+                "title": "O Linked Food Essencial funciona em qualquer computador?"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/List.tsx",
+                  "colorTheme": "Primary",
+                  "items": [
+                    "Teste",
+                    "Teste"
+                  ]
+                },
+                "title": "Teste"
+              }
+            ]
+          },
+          {
+            "title": "2- Dúvida",
+            "subtitleDoubtAppear": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+            "descriptionHiddenDoubt": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left",
+                  "content": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?"
+                },
+                "title": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?"
+              }
+            ]
+          },
+          {
+            "title": "3- Dúvida",
+            "subtitleDoubtAppear": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+            "descriptionHiddenDoubt": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          },
+          {
+            "title": "4- Dúvida",
+            "subtitleDoubtAppear": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+            "descriptionHiddenDoubt": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          },
+          {
+            "subtitleDoubtAppear": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+            "title": "5- Dúvida",
+            "descriptionHiddenDoubt": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          },
+          {
+            "title": "6- Dúvida",
+            "subtitleDoubtAppear": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
+            "descriptionHiddenDoubt": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
+            "closedIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
+            "openIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/8b0ae72e-ca79-4351-9625-22a8e54559d7/arrow_up.svg"
+          }
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Dúvidas Comuns"
+    }
+  ]
 }

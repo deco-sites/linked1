@@ -1,0 +1,31 @@
+{
+  "__resolveType": "site/sections/Final/Content/Dropdown.tsx",
+  "title": "Dropdown",
+  "dropdownText": "Por categoria",
+  "button": [
+    {
+      "title": "Delivery",
+      "name": "Delivery"
+    },
+    {
+      "title": "Cardápio digital",
+      "name": "Cardápio digital"
+    },
+    {
+      "title": "Totem e autoatendimento",
+      "name": "Totem e autoatendimento"
+    },
+    {
+      "title": "Pagamentos",
+      "name": "Pagamentos"
+    },
+    {
+      "title": "Maquininhas",
+      "name": "Maquininhas"
+    },
+    {
+      "title": "Fidelização",
+      "name": "Fidelização"
+    }
+  ]
+}

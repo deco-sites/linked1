@@ -5,7 +5,9 @@ import Image from "apps/website/components/Image.tsx";
 function GaleryTestimony({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <section className="pb-[32px] w-full bg-mintCream">
+      <section className="${
+              setClass(colorTheme)
+            }`}">
         <div className="overflow-x-scroll scrollbar-hide swiper-container">
           <div className="swiper-wrapper flex lg:flex-nowrap gap-6 px-4 md:px-0">
             {items.map((item, index: number) => (

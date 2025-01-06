@@ -11,45 +11,120 @@
             "sections": [
               {
                 "section": {
-                  "__resolveType": "site/sections/Final/Form/InputRadio.tsx",
-                  "inputRadio": [
-                    {
-                      "label": "etiqueta 1"
-                    },
-                    {
-                      "label": "Etiqueta 2"
-                    }
-                  ],
-                  "text": "Título",
-                  "name": "inputradio"
+                  "__resolveType": "site/sections/Final/Form/TItleForm.tsx",
+                  "textAlignment": "Left",
+                  "colorTheme": "Primary",
+                  "fontSize": "28px",
+                  "containerWidth": "Largura Limitada (327px)",
+                  "contentAlignment": "Start",
+                  "paddingTop": "Espacamento (40px)",
+                  "description": "Solicitar plano",
+                  "content": "Primeiramente, qual o seu nome completo?"
                 },
-                "title": "Step 1 - Por favor, diga o seu nome.",
+                "title": "Título do Formulario",
+                "text": "Primeiramente, qual o seu nome completo?",
+                "description": "Primeiramente, qual o seu nome completo?"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/InputText.tsx",
+                  "title": "Por favor, diga o seu nome.",
+                  "placeholder": "Por favor, diga o seu nome."
+                },
+                "title": "Por favor, diga o seu nome.",
+                "text": "Por favor, diga o seu nome.",
+                "description": "Por favor, diga o seu nome."
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/fixedSectionForm.tsx",
+                  "description": "Se preferir, fale agora mesmo com um de nossos consultores",
+                  "highlight": "agora mesmo",
+                  "ImageWidget": "https://data.decoassets.com/linked1/a83662bf-6bbb-42db-b5b1-fa5b5162e8ed/Icon_sizes-(2).png"
+                },
+                "title": "Seção Fixa",
+                "text": "Seção Fixa",
+                "description": "Seção Fixa"
+              }
+            ]
+          },
+          "title": "Step 1"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/FormSteps.tsx",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/TItleForm.tsx",
+                  "textAlignment": "Left",
+                  "colorTheme": "Primary",
+                  "fontSize": "28px",
+                  "containerWidth": "Largura Limitada (327px)",
+                  "contentAlignment": "Start",
+                  "paddingTop": "Espacamento (40px)",
+                  "content": "Primeiramente, qual o seu nome completo?",
+                  "description": "Solicitar plano"
+                },
+                "title": "Título Formulario",
                 "text": "Solicitar plano",
                 "description": "Primeiramente, qual o seu nome completo?"
               },
               {
                 "section": {
-                  "__resolveType": "site/sections/FormSteps.tsx",
-                  "sections": [
-                    {
-                      "section": {
-                        "__resolveType": "site/sections/Final/Form/InputText.tsx",
-                        "title": "Número",
-                        "placeholder": "Número"
-                      },
-                      "title": "Solicitar plano",
-                      "text": "Solicitar plano",
-                      "description": "Qual seu telefone, Júlio? Por favor, informe o DDD e o número"
-                    }
-                  ]
+                  "__resolveType": "site/sections/Final/Form/InputText.tsx",
+                  "title": "Por favor, diga o seu nome.",
+                  "placeholder": "Por favor, diga o seu nome."
                 },
-                "title": "Step 2 - DDD e número",
-                "text": "DDD e número",
-                "description": "DDD e número"
+                "title": "Por favor, diga o seu nome.",
+                "text": "Por favor, diga o seu nome.",
+                "description": "Por favor, diga o seu nome."
               }
             ]
           },
-          "title": "Steps"
+          "title": "Step 2"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/FormSteps.tsx",
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/TItleForm.tsx",
+                  "textAlignment": "Left",
+                  "colorTheme": "Primary",
+                  "fontSize": "28px",
+                  "containerWidth": "Largura Limitada (327px)",
+                  "contentAlignment": "Start",
+                  "paddingTop": "Espacamento (40px)",
+                  "content": "Primeiramente, qual o seu nome completo?",
+                  "description": "Solicitar plano"
+                },
+                "title": "Título Formulario",
+                "text": "Solicitar plano",
+                "description": "Primeiramente, qual o seu nome completo?"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/InputRadio.tsx",
+                  "inputRadio": [
+                    {
+                      "label": "Teste 1"
+                    },
+                    {
+                      "label": "Teste 2"
+                    }
+                  ],
+                  "text": "Teste",
+                  "name": "Teste"
+                },
+                "title": "Teste",
+                "text": "Teste",
+                "description": "Teste"
+              }
+            ]
+          },
+          "title": "Step 3"
         }
       ]
     }

@@ -40,6 +40,12 @@
       "buttonTheme": "Primary dark",
       "text": "Monte seu plano a partir de R$ 00,00",
       "link": "monte-seu-plano"
+    },
+    {
+      "buttonTheme": "Secondary dark",
+      "title": "Acompanhar pedido",
+      "text": "Acompanhar pedido",
+      "link": "/acompanhar"
     }
   ],
   "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/1f0c93aa-9fb8-4049-85cb-8d5b5cad8659/icon_hamburguer.png",

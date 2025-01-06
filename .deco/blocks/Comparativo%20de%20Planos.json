@@ -140,10 +140,12 @@
           {
             "contentLeft": [
               {
-                "title": "Link de pagamentos"
+                "title": "Link de pagamentos",
+                "link": "/link-pagamentos"
               },
               {
-                "title": "Monitor de preparos"
+                "title": "Monitor de preparos",
+                "link": "/monitor"
               },
               {
                 "title": "-"
@@ -154,16 +156,20 @@
             ],
             "contentRight": [
               {
-                "title": "Link de pagamentos"
+                "title": "Link de pagamentos",
+                "link": "/link-pagamentos"
               },
               {
-                "title": "Monitor de preparos"
+                "title": "Monitor de preparos",
+                "link": "Monitor de preparos"
               },
               {
-                "title": "App de delivery"
+                "title": "App de delivery",
+                "link": "/app"
               },
               {
-                "title": "Inteligência de dados"
+                "title": "Inteligência de dados",
+                "link": "/inteligencia-dados"
               }
             ],
             "title": "Opcionais"

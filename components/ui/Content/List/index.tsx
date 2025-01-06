@@ -1,6 +1,5 @@
 import type { JSX } from "preact";
 
-// Implemente a seção
 function setClass(value: string) {
   switch (value) {
     case "Primary":
@@ -20,7 +19,14 @@ function setClass(value: string) {
   }
 }
 
-function List({ items, colorTheme }: JSX.IntrinsicElements["div"] & Props) {
+interface Props {
+  items: string[];
+  colorTheme: string;
+  isFirst: boolean;
+  isLast: boolean;
+}
+
+function List({ items, colorTheme, isFirst, isLast }: Props) {
   return (
     <>
       <div className="flex md:justify-center">

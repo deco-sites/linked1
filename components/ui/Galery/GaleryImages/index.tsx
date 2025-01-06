@@ -10,7 +10,7 @@ function GaleryImages({ items }: JSX.IntrinsicElements["div"] & Props) {
           <div className="swiper-wrapper flex lg:flex-nowrap gap-6">
             {items.map((item, index) => (
               <div
-                className={`swiper-slide w-[315px] min-w-[315px] pl-4 ${
+                className={`swiper-slide w-[315px] min-w-[315px] pl-4 pb-[54px] ${
                   index === 0 ? "lg:pl-10" : ""
                 } ${index === items.length - 1 ? "lg:pr-10" : ""} ${
                   index !== 0 ? "lg:pl-0" : ""

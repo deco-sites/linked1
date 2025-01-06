@@ -22,6 +22,18 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+  
+  .collapse > input[name="duvidas"]:checked ~ label > svg {
+    transform: rotate(180deg);
+  }
+
+  .collapse > input[name="MultiSection"]:checked ~ label > div > svg {
+    transform: rotate(180deg);
+  }
+
+  .collapse > input[name="benefits"]:checked ~ label > svg {
+    transform: rotate(270deg);
+  }
 }
 
 @layer components {
@@ -30,6 +42,10 @@
   .no-scroll {
     overflow: hidden;
     height: 100vh;
+  }
+
+  .no-padding-collapse {
+    @apply p-0 pe-0 min-h-0;
   }
 }
 

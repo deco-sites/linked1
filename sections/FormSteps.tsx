@@ -29,11 +29,18 @@ export interface Props {
   sections?: Item[];
 }
 
-export default function FormSteps(
-  { sections }: Props) {
-    return (
-      <div>
-        <FormStepsComponent sections={sections} />
-      </div>
-    );
+export default function FormSteps({ sections }: Props) {
+  if (!sections || sections.length === 0) {
+    return <div>Nenhum conteúdo encontrado</div>;
   }
+  return (
+    <div>
+      <FormStepsComponent
+        sections={sections.map((item) => ({
+          Component: item.section.Component,
+          props: item.section.props,
+        }))}
+      />
+    </div>
+  );
+}

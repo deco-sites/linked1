@@ -5,7 +5,18 @@ import LogoGroup from "../../../components/ui/Content/LogoGroup/index.tsx";
  * @title {{{title}}}
  */
 export interface Logos {
+  /**
+   * @title Nome da Categoria
+   * @description Nome da categoria a qual o logo pertence
+   */
+  category: string;
+
+  /**
+   * @title Nome do Logo
+   * @description Título do logo
+   */
   title: string;
+
   /**
    * @title Imagem
    * @description Adicione o Logotipo

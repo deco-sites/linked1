@@ -1,0 +1,110 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "background": "White",
+  "collapse": {
+    "title": "Dúvidas comuns",
+    "enable": true
+  },
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Doubts.tsx",
+        "doubt": [
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left",
+                  "content": "O Linked Food Essencial funciona em qualquer computador?"
+                },
+                "title": "O Linked Food Essencial funciona em qualquer computador?"
+              }
+            ],
+            "title": "O Linked Food Essencial funciona em qualquer computador?",
+            "subtitleDoubtAppear": "O Linked Food Essencial funciona em qualquer computador?"
+          },
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "content": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left"
+                },
+                "title": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?"
+              }
+            ],
+            "title": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?",
+            "subtitleDoubtAppear": "Para que tipo de estabelecimento o Linked Food Essencial é indicado?"
+          },
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "content": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left"
+                },
+                "title": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?"
+              }
+            ],
+            "title": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?",
+            "subtitleDoubtAppear": "Quanto tempo leva para sentir os benefícios do Linked Food Essencial?"
+          },
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "content": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left"
+                },
+                "title": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?"
+              }
+            ],
+            "title": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+            "subtitleDoubtAppear": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?",
+            "descriptionHiddenDoubt": "A integração que preciso não está disponível no Linked Food Essencial, o que faço?"
+          },
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "content": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left"
+                },
+                "title": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?"
+              }
+            ],
+            "title": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?",
+            "subtitleDoubtAppear": "Tenho mais de uma loja. Este plano traz visão integrada de todas elas?"
+          },
+          {
+            "sections": [
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+                  "content": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
+                  "colorTheme": "Primary",
+                  "textAlignment": "Left"
+                },
+                "title": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?"
+              }
+            ],
+            "title": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?",
+            "subtitleDoubtAppear": "Já uso outro sistema de gestão. Consigo importar os dados para o Linked Food Essencial?"
+          }
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Dúvidas Comuns"
+    }
+  ]
+}

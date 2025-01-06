@@ -12,69 +12,19 @@
       "__resolveType": "Carrossel Integração"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Com esta integração, você visualiza os pedidos feitos no iFood em um único painel de controle. Ele traz todos os detalhes, incluindo a hora em que o pedido foi realizado e eventuais atrasos."
-          },
-          "title": "Parágrafo 1"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "São muitas as vantagens de gerenciar seus pedidos do iFood através da Linked Food:"
-          },
-          "title": "Parágrafo 2"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/List.tsx",
-            "items": [
-              "Facilidade na gestão de pedidos",
-              "Maior eficiência operacional",
-              "Acesso a uma base de clientes ampla",
-              "Aumento da visibilidade"
-            ],
-            "colorTheme": "Primary"
-          },
-          "title": "Lista Texto"
-        }
-      ],
-      "background": "White"
+      "__resolveType": "Parágrafo com Lista de Texto - Topo do Bloco"
     },
     {
       "__resolveType": "Recursos e funcionalidades - Integração iFood"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "collapse": {
-        "title": "Requisitos",
-        "enable": true
-      },
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A Inteligência de Dados Linked faz parte do plano Linked Total e está disponível para todos os assinantes da plataforma. "
-          },
-          "title": "Parágrafo no Topo do Bloco"
-        }
-      ]
+      "__resolveType": "Requisitos - Integração"
+    },
+    {
+      "__resolveType": "Mais Opcionias Disponíveis - Collapse"
     },
     {
       "__resolveType": "duvidas"
-    },
-    {
-      "__resolveType": "Dúvidas"
     },
     {
       "__resolveType": "Footer"

@@ -12,10 +12,14 @@
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "colorTheme": "Secondary",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "content": "Suporte completo em todos os planos",
-        "textAlignment": "Center"
+        "textAlignment": "Center",
+        "colorTheme": "Mint-Cream",
+        "fontSize": "28px",
+        "containerWidth": "Largura Limitada (327px)",
+        "contentAlignment": "Center",
+        "paddingTop": "Espacamento (40px)"
       },
       "title": "Título"
     },
@@ -29,25 +33,25 @@
             "textSectionDescription": "Atendimento 24x7",
             "background": "Primary",
             "icon": "ShoppingCart",
-            "iconColor": "Accent"
+            "iconColor": "Secondary"
           },
           {
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg",
             "title": "Treinamentos ilimitados",
             "background": "Primary",
             "icon": "Tiktok",
-            "iconColor": "Accent"
+            "iconColor": "Secondary"
           },
           {
             "background": "Primary",
             "title": "Configuração e montagem do 1º cardápio",
             "ImageWidget": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e0cfe7bf-02da-4b9b-9e54-f4acf33b5d1a/fi_x.svg",
             "icon": "Tiktok",
-            "iconColor": "Accent"
+            "iconColor": "Secondary"
           },
           {
             "icon": "Twitter",
-            "iconColor": "Accent",
+            "iconColor": "Secondary",
             "background": "Primary",
             "title": "Equipe própria"
           }

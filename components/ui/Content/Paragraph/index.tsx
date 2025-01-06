@@ -4,10 +4,13 @@ import type { JSX } from "preact";
 function setClass(value: string) {
   switch (value) {
     case "Primary":
-      return "text-primary";
+      return "text-sacramentoState";
+
+    case "Primary-80":
+      return "text-sacramentoState-80";
 
     case "Secondary":
-      return "text-secondary";
+      return "text-mintCream";
 
     case "White":
       return "text-white";
@@ -16,7 +19,7 @@ function setClass(value: string) {
       return "text-accent";
 
     default:
-      return "text-primary";
+      return "text-sacramentoState";
   }
 }
 
