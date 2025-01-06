@@ -1,0 +1,89 @@
+{
+  "name": "testeDropdown",
+  "path": "/drop",
+  "sections": [
+    {
+      "__resolveType": "Navbar"
+    },
+    {
+      "__resolveType": "Navegação entre Planos, Opcionais e Integrações"
+    },
+    {
+      "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+      "content": "Os principais serviços estão na Linked",
+      "colorTheme": "White",
+      "colorThemeBg": "Primary",
+      "containerWidth": "Largura Limitada (327px)"
+    },
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "White",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+            "colorTheme": "Primary",
+            "textAlignment": "Left",
+            "content": "Nossa lista aumenta a cada dia.  Confira todas as integrações:"
+          },
+          "title": "Parágrafo no Topo do Bloco"
+        },
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Content/DropdownWithLogos.tsx",
+            "button": [
+              {
+                "title": "Delivery",
+                "name": "Delivery",
+                "id": "1"
+              },
+              {
+                "title": "Cardápio digital",
+                "name": "Cardápio digital",
+                "id": "2"
+              }
+            ],
+            "logos": [
+              {
+                "category": "Delivery",
+                "title": "Delivery",
+                "logo": [
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/3e40e849-3e79-4675-8942-ed279da4edc1/brand_delivery_much_new.png",
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/d71881ca-5a78-46c6-8491-2313249a8a67/delivery_direto_integracion.png",
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/645bca49-be80-492b-b96b-2824c4024330/brand_ifood_new.png",
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/2029070d-c66f-4ef5-bee2-98ed76d29ab7/brand_prefiro_delivery.png"
+                ],
+                "id": "5"
+              },
+              {
+                "logo": [
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5521161e-867c-4a2b-8039-447d4594b572/abrahao_integracion.png",
+                  "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/50e5609f-c84d-406c-b72b-317b89c16bd4/brand_ahoy.png"
+                ],
+                "category": "Cardápio digital",
+                "title": "Cardápio digital",
+                "id": "2"
+              }
+            ],
+            "dropdownText": "Por categoria",
+            "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+          },
+          "title": "Dropdown Com Logos"
+        }
+      ]
+    },
+    {
+      "__resolveType": "duvidas"
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "FixedSection"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
