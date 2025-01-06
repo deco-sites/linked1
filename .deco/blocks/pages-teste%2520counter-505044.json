@@ -1,0 +1,22 @@
+{
+  "name": "teste counter",
+  "path": "/counter",
+  "sections": [
+    {
+      "__resolveType": "site/sections/MultiSection.tsx",
+      "background": "Primary",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Final/Counter/Counter.tsx"
+          },
+          "title": "counter"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
