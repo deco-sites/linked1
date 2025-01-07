@@ -65,49 +65,51 @@ import * as $$$$$$55 from "./sections/Final/Content/Product.tsx";
 import * as $$$$$$56 from "./sections/Final/Content/Spacer.tsx";
 import * as $$$$$$57 from "./sections/Final/Content/Title.tsx";
 import * as $$$$$$58 from "./sections/Final/Content/TitleMedium.tsx";
-import * as $$$$$$59 from "./sections/Final/DropDown/DropDownComponent.tsx";
-import * as $$$$$$64 from "./sections/Final/Form/fixedSectionForm.tsx";
-import * as $$$$$$60 from "./sections/Final/Form/Form.tsx";
-import * as $$$$$$61 from "./sections/Final/Form/InputRadio.tsx";
-import * as $$$$$$62 from "./sections/Final/Form/InputText.tsx";
-import * as $$$$$$63 from "./sections/Final/Form/TItleForm.tsx";
-import * as $$$$$$65 from "./sections/Final/Galery/GaleryContent.tsx";
-import * as $$$$$$66 from "./sections/Final/Galery/GaleryImages.tsx";
-import * as $$$$$$67 from "./sections/Final/Galery/GaleryPartners.tsx";
-import * as $$$$$$68 from "./sections/Final/Galery/GaleryTestimony.tsx";
-import * as $$$$$$69 from "./sections/Final/Headers/HeaderMedium.tsx";
-import * as $$$$$$70 from "./sections/Final/Headers/Openning.tsx";
-import * as $$$$$$71 from "./sections/Final/Headers/Tabs.tsx";
-import * as $$$$$$72 from "./sections/Final/Icons/IconGrid.tsx";
-import * as $$$$$$73 from "./sections/Final/Navbar/index.tsx";
-import * as $$$$$$74 from "./sections/Final/Navbar/script.tsx";
-import * as $$$$$$75 from "./sections/Final/Video/VideoContent.tsx";
-import * as $$$$$$76 from "./sections/Footer.tsx";
-import * as $$$$$$77 from "./sections/FormSection.tsx";
-import * as $$$$$$78 from "./sections/FormSteps.tsx";
-import * as $$$$$$79 from "./sections/Galery/GaleryContent.tsx";
-import * as $$$$$$80 from "./sections/Galery/GaleryTestimony.tsx";
-import * as $$$$$$81 from "./sections/Galery/GaleryWithLink.tsx";
-import * as $$$$$$82 from "./sections/Galery/ImageContent.tsx";
-import * as $$$$$$83 from "./sections/Headers/Offer.tsx";
-import * as $$$$$$84 from "./sections/Headers/OfferCupom.tsx";
-import * as $$$$$$85 from "./sections/Headers/Openning.tsx";
-import * as $$$$$$86 from "./sections/Headers/SubtitleWithShareIcon.tsx";
-import * as $$$$$$87 from "./sections/Headers/TitleArticle.tsx";
-import * as $$$$$$88 from "./sections/Headers/TitleError.tsx";
-import * as $$$$$$89 from "./sections/Headers/TitleIntegration.tsx";
-import * as $$$$$$90 from "./sections/Headers/TitleLarge.tsx";
-import * as $$$$$$91 from "./sections/Headers/TitleMedium.tsx";
-import * as $$$$$$92 from "./sections/Headers/TitleMonteSeuPlano.tsx";
-import * as $$$$$$93 from "./sections/Headers/TitlePlan.tsx";
-import * as $$$$$$94 from "./sections/Headers/TitleSegment.tsx";
-import * as $$$$$$95 from "./sections/Headers/TitleSuccess.tsx";
-import * as $$$$$$96 from "./sections/ModalContent.tsx";
-import * as $$$$$$97 from "./sections/MultiSection.tsx";
-import * as $$$$$$98 from "./sections/Navigation/Categorias.tsx";
-import * as $$$$$$99 from "./sections/Navigation/Navbar.tsx";
-import * as $$$$$$100 from "./sections/Navigation/Tabs.tsx";
-import * as $$$$$$101 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$59 from "./sections/Final/Counter/Counter.tsx";
+import * as $$$$$$60 from "./sections/Final/Counter/script.tsx";
+import * as $$$$$$61 from "./sections/Final/DropDown/DropDownComponent.tsx";
+import * as $$$$$$66 from "./sections/Final/Form/fixedSectionForm.tsx";
+import * as $$$$$$62 from "./sections/Final/Form/Form.tsx";
+import * as $$$$$$63 from "./sections/Final/Form/InputRadio.tsx";
+import * as $$$$$$64 from "./sections/Final/Form/InputText.tsx";
+import * as $$$$$$65 from "./sections/Final/Form/TItleForm.tsx";
+import * as $$$$$$67 from "./sections/Final/Galery/GaleryContent.tsx";
+import * as $$$$$$68 from "./sections/Final/Galery/GaleryImages.tsx";
+import * as $$$$$$69 from "./sections/Final/Galery/GaleryPartners.tsx";
+import * as $$$$$$70 from "./sections/Final/Galery/GaleryTestimony.tsx";
+import * as $$$$$$71 from "./sections/Final/Headers/HeaderMedium.tsx";
+import * as $$$$$$72 from "./sections/Final/Headers/Openning.tsx";
+import * as $$$$$$73 from "./sections/Final/Headers/Tabs.tsx";
+import * as $$$$$$74 from "./sections/Final/Icons/IconGrid.tsx";
+import * as $$$$$$75 from "./sections/Final/Navbar/index.tsx";
+import * as $$$$$$76 from "./sections/Final/Navbar/script.tsx";
+import * as $$$$$$77 from "./sections/Final/Video/VideoContent.tsx";
+import * as $$$$$$78 from "./sections/Footer.tsx";
+import * as $$$$$$79 from "./sections/FormSection.tsx";
+import * as $$$$$$80 from "./sections/FormSteps.tsx";
+import * as $$$$$$81 from "./sections/Galery/GaleryContent.tsx";
+import * as $$$$$$82 from "./sections/Galery/GaleryTestimony.tsx";
+import * as $$$$$$83 from "./sections/Galery/GaleryWithLink.tsx";
+import * as $$$$$$84 from "./sections/Galery/ImageContent.tsx";
+import * as $$$$$$85 from "./sections/Headers/Offer.tsx";
+import * as $$$$$$86 from "./sections/Headers/OfferCupom.tsx";
+import * as $$$$$$87 from "./sections/Headers/Openning.tsx";
+import * as $$$$$$88 from "./sections/Headers/SubtitleWithShareIcon.tsx";
+import * as $$$$$$89 from "./sections/Headers/TitleArticle.tsx";
+import * as $$$$$$90 from "./sections/Headers/TitleError.tsx";
+import * as $$$$$$91 from "./sections/Headers/TitleIntegration.tsx";
+import * as $$$$$$92 from "./sections/Headers/TitleLarge.tsx";
+import * as $$$$$$93 from "./sections/Headers/TitleMedium.tsx";
+import * as $$$$$$94 from "./sections/Headers/TitleMonteSeuPlano.tsx";
+import * as $$$$$$95 from "./sections/Headers/TitlePlan.tsx";
+import * as $$$$$$96 from "./sections/Headers/TitleSegment.tsx";
+import * as $$$$$$97 from "./sections/Headers/TitleSuccess.tsx";
+import * as $$$$$$98 from "./sections/ModalContent.tsx";
+import * as $$$$$$99 from "./sections/MultiSection.tsx";
+import * as $$$$$$100 from "./sections/Navigation/Categorias.tsx";
+import * as $$$$$$101 from "./sections/Navigation/Navbar.tsx";
+import * as $$$$$$102 from "./sections/Navigation/Tabs.tsx";
+import * as $$$$$$103 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -174,49 +176,51 @@ const manifest = {
     "site/sections/Final/Content/Spacer.tsx": $$$$$$56,
     "site/sections/Final/Content/Title.tsx": $$$$$$57,
     "site/sections/Final/Content/TitleMedium.tsx": $$$$$$58,
-    "site/sections/Final/DropDown/DropDownComponent.tsx": $$$$$$59,
-    "site/sections/Final/Form/fixedSectionForm.tsx": $$$$$$64,
-    "site/sections/Final/Form/Form.tsx": $$$$$$60,
-    "site/sections/Final/Form/InputRadio.tsx": $$$$$$61,
-    "site/sections/Final/Form/InputText.tsx": $$$$$$62,
-    "site/sections/Final/Form/TItleForm.tsx": $$$$$$63,
-    "site/sections/Final/Galery/GaleryContent.tsx": $$$$$$65,
-    "site/sections/Final/Galery/GaleryImages.tsx": $$$$$$66,
-    "site/sections/Final/Galery/GaleryPartners.tsx": $$$$$$67,
-    "site/sections/Final/Galery/GaleryTestimony.tsx": $$$$$$68,
-    "site/sections/Final/Headers/HeaderMedium.tsx": $$$$$$69,
-    "site/sections/Final/Headers/Openning.tsx": $$$$$$70,
-    "site/sections/Final/Headers/Tabs.tsx": $$$$$$71,
-    "site/sections/Final/Icons/IconGrid.tsx": $$$$$$72,
-    "site/sections/Final/Navbar/index.tsx": $$$$$$73,
-    "site/sections/Final/Navbar/script.tsx": $$$$$$74,
-    "site/sections/Final/Video/VideoContent.tsx": $$$$$$75,
-    "site/sections/Footer.tsx": $$$$$$76,
-    "site/sections/FormSection.tsx": $$$$$$77,
-    "site/sections/FormSteps.tsx": $$$$$$78,
-    "site/sections/Galery/GaleryContent.tsx": $$$$$$79,
-    "site/sections/Galery/GaleryTestimony.tsx": $$$$$$80,
-    "site/sections/Galery/GaleryWithLink.tsx": $$$$$$81,
-    "site/sections/Galery/ImageContent.tsx": $$$$$$82,
-    "site/sections/Headers/Offer.tsx": $$$$$$83,
-    "site/sections/Headers/OfferCupom.tsx": $$$$$$84,
-    "site/sections/Headers/Openning.tsx": $$$$$$85,
-    "site/sections/Headers/SubtitleWithShareIcon.tsx": $$$$$$86,
-    "site/sections/Headers/TitleArticle.tsx": $$$$$$87,
-    "site/sections/Headers/TitleError.tsx": $$$$$$88,
-    "site/sections/Headers/TitleIntegration.tsx": $$$$$$89,
-    "site/sections/Headers/TitleLarge.tsx": $$$$$$90,
-    "site/sections/Headers/TitleMedium.tsx": $$$$$$91,
-    "site/sections/Headers/TitleMonteSeuPlano.tsx": $$$$$$92,
-    "site/sections/Headers/TitlePlan.tsx": $$$$$$93,
-    "site/sections/Headers/TitleSegment.tsx": $$$$$$94,
-    "site/sections/Headers/TitleSuccess.tsx": $$$$$$95,
-    "site/sections/ModalContent.tsx": $$$$$$96,
-    "site/sections/MultiSection.tsx": $$$$$$97,
-    "site/sections/Navigation/Categorias.tsx": $$$$$$98,
-    "site/sections/Navigation/Navbar.tsx": $$$$$$99,
-    "site/sections/Navigation/Tabs.tsx": $$$$$$100,
-    "site/sections/Theme/Theme.tsx": $$$$$$101,
+    "site/sections/Final/Counter/Counter.tsx": $$$$$$59,
+    "site/sections/Final/Counter/script.tsx": $$$$$$60,
+    "site/sections/Final/DropDown/DropDownComponent.tsx": $$$$$$61,
+    "site/sections/Final/Form/fixedSectionForm.tsx": $$$$$$66,
+    "site/sections/Final/Form/Form.tsx": $$$$$$62,
+    "site/sections/Final/Form/InputRadio.tsx": $$$$$$63,
+    "site/sections/Final/Form/InputText.tsx": $$$$$$64,
+    "site/sections/Final/Form/TItleForm.tsx": $$$$$$65,
+    "site/sections/Final/Galery/GaleryContent.tsx": $$$$$$67,
+    "site/sections/Final/Galery/GaleryImages.tsx": $$$$$$68,
+    "site/sections/Final/Galery/GaleryPartners.tsx": $$$$$$69,
+    "site/sections/Final/Galery/GaleryTestimony.tsx": $$$$$$70,
+    "site/sections/Final/Headers/HeaderMedium.tsx": $$$$$$71,
+    "site/sections/Final/Headers/Openning.tsx": $$$$$$72,
+    "site/sections/Final/Headers/Tabs.tsx": $$$$$$73,
+    "site/sections/Final/Icons/IconGrid.tsx": $$$$$$74,
+    "site/sections/Final/Navbar/index.tsx": $$$$$$75,
+    "site/sections/Final/Navbar/script.tsx": $$$$$$76,
+    "site/sections/Final/Video/VideoContent.tsx": $$$$$$77,
+    "site/sections/Footer.tsx": $$$$$$78,
+    "site/sections/FormSection.tsx": $$$$$$79,
+    "site/sections/FormSteps.tsx": $$$$$$80,
+    "site/sections/Galery/GaleryContent.tsx": $$$$$$81,
+    "site/sections/Galery/GaleryTestimony.tsx": $$$$$$82,
+    "site/sections/Galery/GaleryWithLink.tsx": $$$$$$83,
+    "site/sections/Galery/ImageContent.tsx": $$$$$$84,
+    "site/sections/Headers/Offer.tsx": $$$$$$85,
+    "site/sections/Headers/OfferCupom.tsx": $$$$$$86,
+    "site/sections/Headers/Openning.tsx": $$$$$$87,
+    "site/sections/Headers/SubtitleWithShareIcon.tsx": $$$$$$88,
+    "site/sections/Headers/TitleArticle.tsx": $$$$$$89,
+    "site/sections/Headers/TitleError.tsx": $$$$$$90,
+    "site/sections/Headers/TitleIntegration.tsx": $$$$$$91,
+    "site/sections/Headers/TitleLarge.tsx": $$$$$$92,
+    "site/sections/Headers/TitleMedium.tsx": $$$$$$93,
+    "site/sections/Headers/TitleMonteSeuPlano.tsx": $$$$$$94,
+    "site/sections/Headers/TitlePlan.tsx": $$$$$$95,
+    "site/sections/Headers/TitleSegment.tsx": $$$$$$96,
+    "site/sections/Headers/TitleSuccess.tsx": $$$$$$97,
+    "site/sections/ModalContent.tsx": $$$$$$98,
+    "site/sections/MultiSection.tsx": $$$$$$99,
+    "site/sections/Navigation/Categorias.tsx": $$$$$$100,
+    "site/sections/Navigation/Navbar.tsx": $$$$$$101,
+    "site/sections/Navigation/Tabs.tsx": $$$$$$102,
+    "site/sections/Theme/Theme.tsx": $$$$$$103,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

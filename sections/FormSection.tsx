@@ -29,7 +29,7 @@ function LoadComponent(
   );
 }
 
-export default function FormSection(
+function FormSection(
   { sections }: Props,
 ) {
     return (
@@ -40,3 +40,5 @@ export default function FormSection(
       </div>
     );
   }
+
+export default FormSection;
