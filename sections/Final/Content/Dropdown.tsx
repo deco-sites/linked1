@@ -46,7 +46,6 @@ export interface Props {
      * @description Insira as categorias de integração filtradas
      */
     button?: filteredCategories[];
-
     /**
      * @title Função de Mudança de Categoria
      * @description Função chamada ao mudar a categoria no Dropdown

@@ -8,11 +8,13 @@
         "menu": [
           {
             "name": "Planos",
-            "url": "/planos"
+            "url": "/planos",
+            "status": false
           },
           {
             "name": "Opcionais",
-            "url": "/opcionais"
+            "url": "/opcionais",
+            "status": true
           },
           {
             "name": "Integrações",

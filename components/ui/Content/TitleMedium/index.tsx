@@ -21,6 +21,35 @@ function setClass(value: string) {
   }
 }
 
+// Implemente a seção
+function setClassBackground(value: string) {
+  switch (value) {
+    case "Primary":
+      return "bg-primary";
+
+    case "Secondary":
+      return "bg-secondary";
+
+    case "White":
+      return "bg-white";
+
+    case "Light":
+      return "bg-light";
+
+    case "Sacramento-State":
+      return "bg-sacramentoState";
+
+    case "Sacramento-State-10":
+      return "bg-sacramentoState-10";
+
+    case "Mint-Cream":
+      return "bg-mintCream";
+
+    default:
+      return "bg-primary";
+  }
+}
+
 function setAlignment(value: string) {
   switch (value) {
     case "Left":
@@ -92,6 +121,7 @@ function TitleMedium(
   {
     content,
     colorTheme,
+    colorThemeBg,
     alignment,
     fontSize,
     containerWidth,
@@ -103,7 +133,7 @@ function TitleMedium(
 ) {
   return (
     <div
-      className={`flex ${setAlignmentContent(contentAlignment)} items-center`}
+      className={`flex ${setAlignmentContent(contentAlignment)} ${setClassBackground(colorThemeBg)} items-center`}
     >
       <div
         className={`${

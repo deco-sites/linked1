@@ -6,12 +6,14 @@ function ParentComponent({ title, dropdownText, arrowIcon, button, logos }) {
     const [selectedCategory, setSelectedCategory] = useState("");
 
     const handleCategoryChange = (category: string) => {
-        console.log(`Categoria selecionada: ${category}`);
+        console.log(`[ParentComponent] Categoria selecionada: ${category}`);
         setSelectedCategory(category);
     };
 
+    console.log("[ParentComponent] Categoria atual:", selectedCategory);
+
     return (
-        <>
+        <div className="w-full flex flex-col items-center">
             <Dropdown
                 dropdownText={dropdownText}
                 arrowIcon={arrowIcon}
@@ -23,7 +25,7 @@ function ParentComponent({ title, dropdownText, arrowIcon, button, logos }) {
                 logos={logos}
                 selectedCategory={selectedCategory}
             />
-        </>
+        </div>
     );
 }
 

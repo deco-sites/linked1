@@ -19,10 +19,10 @@
                   "contentAlignment": "Start",
                   "paddingTop": "Espacamento (40px)",
                   "description": "Solicitar plano",
-                  "content": "Primeiramente, qual o seu nome completo?"
+                  "content": "Pagina 1"
                 },
-                "title": "Título do Formulario",
-                "text": "Primeiramente, qual o seu nome completo?",
+                "title": "Solicitar plano",
+                "text": "Solicitar plano",
                 "description": "Primeiramente, qual o seu nome completo?"
               },
               {
@@ -63,7 +63,7 @@
                   "containerWidth": "Largura Limitada (327px)",
                   "contentAlignment": "Start",
                   "paddingTop": "Espacamento (40px)",
-                  "content": "Primeiramente, qual o seu nome completo?",
+                  "content": "Pagina 2",
                   "description": "Solicitar plano"
                 },
                 "title": "Título Formulario",
@@ -79,6 +79,17 @@
                 "title": "Por favor, diga o seu nome.",
                 "text": "Por favor, diga o seu nome.",
                 "description": "Por favor, diga o seu nome."
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/fixedSectionForm.tsx",
+                  "description": "Se preferir, fale agora mesmo com um de nossos consultores",
+                  "highlight": " agora mesmo",
+                  "ImageWidget": "https://data.decoassets.com/linked1/09eab253-e3e1-495a-bb35-67e06333cd42/icon_whats_fixed.svg"
+                },
+                "title": "Seção Fixa",
+                "text": "Seção Fixa",
+                "description": "Seção Fixa"
               }
             ]
           },
@@ -97,7 +108,7 @@
                   "containerWidth": "Largura Limitada (327px)",
                   "contentAlignment": "Start",
                   "paddingTop": "Espacamento (40px)",
-                  "content": "Primeiramente, qual o seu nome completo?",
+                  "content": "Pagina 3",
                   "description": "Solicitar plano"
                 },
                 "title": "Título Formulario",
@@ -121,6 +132,17 @@
                 "title": "Teste",
                 "text": "Teste",
                 "description": "Teste"
+              },
+              {
+                "section": {
+                  "__resolveType": "site/sections/Final/Form/fixedSectionForm.tsx",
+                  "description": "Se preferir, fale agora mesmo com um de nossos consultores",
+                  "highlight": "agora mesmo",
+                  "ImageWidget": "https://data.decoassets.com/linked1/09eab253-e3e1-495a-bb35-67e06333cd42/icon_whats_fixed.svg"
+                },
+                "title": "Seção Fixa",
+                "text": "Seção Fixa",
+                "description": "Seção Fixa"
               }
             ]
           },

@@ -10,7 +10,9 @@
         "textAlignment": "Left",
         "fontSize": "22px",
         "containerWidth": "Largura Limitada (343px)",
-        "paddingTop": "Espacamento (40px)"
+        "paddingTop": "Espacamento (40px)",
+        "contentAlignment": "Start",
+        "colorThemeBg": "White"
       },
       "title": "Título"
     },
@@ -95,7 +97,5 @@
       "title": "Categorias"
     }
   ],
-  "collapse": {
-    "title": "Soluções"
-  }
+  "collapse": {}
 }

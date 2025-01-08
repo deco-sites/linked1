@@ -26,6 +26,18 @@ export interface Props {
     | "Sacramento-State-10"
     | "Mint-Cream";
   /**
+   * @title Tema de Cor (Background)
+   * @description Escolha o tema de cor de fundo
+   */
+  colorThemeBg:
+    | "Primary"
+    | "Secondary"
+    | "White"
+    | "Accent"
+    | "Sacramento-State"
+    | "Sacramento-State-10"
+    | "Mint-Cream";
+  /**
    * @title Tamanho da Fonte
    * @description Escolha o tamanho da fonte (22px, 28px ou 32px)
    * @format select
@@ -65,6 +77,7 @@ export interface Props {
 export default function Section({
   content,
   colorTheme,
+  colorThemeBg,
   textAlignment,
   fontSize = "28px",
   containerWidth = "Largura Limitada (290px)",
@@ -75,6 +88,7 @@ export default function Section({
     <TitleMedium
       content={content}
       colorTheme={colorTheme}
+      colorThemeBg={colorThemeBg}
       alignment={textAlignment}
       fontSize={fontSize}
       containerWidth={containerWidth}

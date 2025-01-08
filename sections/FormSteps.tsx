@@ -30,17 +30,10 @@ export interface Props {
 }
 
 export default function FormSteps({ sections }: Props) {
-  if (!sections || sections.length === 0) {
-    return <div>Nenhum conteúdo encontrado</div>;
-  }
+  
   return (
     <div>
-      <FormStepsComponent
-        sections={sections.map((item) => ({
-          Component: item.section.Component,
-          props: item.section.props,
-        }))}
-      />
+      <FormStepsComponent sections={sections} />
     </div>
   );
 }

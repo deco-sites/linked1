@@ -56,48 +56,38 @@ export interface Props extends JSX.HTMLAttributes<HTMLDivElement> {
 function Dropdown({
   dropdownText = "",
   arrowIcon,
-  button,
-  onCategoryChange,
-}: JSX.IntrinsicElements["div"] & Props) {
-  const isOpen = useSignal(false);
+  button = [],
+  logos = [],
+}: Props) {
+  const selectedCategory = useSignal<string>("");
 
   const handleChange = (event: Event) => {
     const selectedValue = (event.target as HTMLSelectElement).value;
-    console.log(`Valor selecionado no Dropdown: ${selectedValue}`);
-    onCategoryChange?.(selectedValue);
+    selectedCategory.value = selectedValue;
   };
 
-  const handleToggle = () => {
-    isOpen.value = !isOpen.value;
-    console.log(`Dropdown ${isOpen.value ? "aberto" : "fechado"}`);
-  };
+  const filteredLogos = logos.filter(
+    (logo) => logo.category === selectedCategory.value,
+  );
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex flex-col items-center">
       <div className="w-full max-w-[706px] px-4 md:px-0 mt-10 relative">
         <select
           className="w-full pl-2 py-[13.5px] border-b border-sacramentoState rounded-t-lg text-sacramentoState bg-sacramentoState-10 cursor-pointer appearance-none pr-10 bg-[#e9f1ef]"
           onChange={handleChange}
-          onClick={handleToggle}
         >
-          <option
-            value=""
-            className="text-sacramentoState-80 text-lg font-sans font-normal leading-tight-21"
-          >
+          <option value="" className="text-sacramentoState-80">
             {dropdownText}
           </option>
-          {button?.map((filteredCategories, index) => (
-            <option key={index} value={filteredCategories.name}>
-              {filteredCategories.name}
+          {button.map((category, index) => (
+            <option key={index} value={category.name}>
+              {category.name}
             </option>
           ))}
         </select>
         {arrowIcon && (
-          <div
-            className={`absolute pr-2 right-4 top-1/2 transform -translate-y-1/2 pointer-events-none transition-transform duration-300 ${
-              isOpen.value ? "rotate-180" : "rotate-0"
-            }`}
-          >
+          <div className="absolute pr-2 right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
             <img
               className="w-6 h-6"
               src={arrowIcon || ""}
@@ -106,6 +96,22 @@ function Dropdown({
             />
           </div>
         )}
+      </div>
+      <div className="w-full mt-6 flex flex-wrap justify-center gap-4">
+        {filteredLogos.length > 0
+          ? (
+            filteredLogos.map((logo, index) => (
+              <div
+                key={index}
+                className="w-24 h-24 flex justify-center items-center"
+              >
+                <img src={logo.logo} alt={logo.title} className="max-w-full" />
+              </div>
+            ))
+          )
+          : (
+            <p className=""></p>
+          )}
       </div>
     </div>
   );

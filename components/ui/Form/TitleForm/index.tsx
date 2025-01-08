@@ -103,32 +103,36 @@ function TitleForm(
         & Props,
 ) {
     return (
-        <div
-            className={`flex ${
-                setAlignmentContent(contentAlignment)
-            } items-center`}
-        >
+        <>
             <div
-                className={`${
-                    setContainerWidth(containerWidth)
-                }  px-4 ${setPaddingTop(paddingTop)}`}
+                className={`flex ${
+                    setAlignmentContent(contentAlignment)
+                } items-center`}
             >
-                <div className="grid gap-y-2">
-                    <p className="text-sm font-sans font-light leading-tight-19 text-sacramentoState-80">
-                        {description}
-                    </p>
-                    <p
-                        className={`font-sans font-medium leading-tight-115 tracking-tight-0.56 ${
-                            setClass(
-                                colorTheme,
-                            )
-                        } ${setAlignment(alignment)} ${setFontSize(fontSize)}`}
-                    >
-                        {content}
-                    </p>
+                <div
+                    className={`${setContainerWidth(containerWidth)}  ${
+                        setPaddingTop(paddingTop)
+                    }`}
+                >
+                    <div className="grid gap-y-2">
+                        <p className="text-sm font-sans font-light leading-tight-19 text-sacramentoState-80">
+                            {description}
+                        </p>
+                        <p
+                            className={`font-sans font-medium leading-tight-115 tracking-tight-0.56 ${
+                                setClass(
+                                    colorTheme,
+                                )
+                            } ${setAlignment(alignment)} ${
+                                setFontSize(fontSize)
+                            }`}
+                        >
+                            {content}
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
