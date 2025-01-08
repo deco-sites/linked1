@@ -6,10 +6,10 @@
       "section": {
         "__resolveType": "site/sections/Final/Content/Image.tsx",
         "type": "Full",
-        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38d773de-bb9a-465b-a3f4-01beaac3f838/man_in_kitchen_full.png",
-        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/38d773de-bb9a-465b-a3f4-01beaac3f838/man_in_kitchen_full.png"
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9ac91f58-a2d6-43f5-b770-01eeb60e70d2/men_in_the_kitchen.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9ac91f58-a2d6-43f5-b770-01eeb60e70d2/men_in_the_kitchen.png"
       },
-      "title": "Imagem no Topo do Bloco"
+      "title": "Imagem no Topo"
     },
     {
       "section": {
@@ -18,7 +18,7 @@
         "textAlignment": "Left",
         "content": "A principal característica do fast-food é a agilidade para pedir, receber e consumir o produto. Uma operação otimizada é crucial para o sucesso de um fast-food. "
       },
-      "title": "1- Parágrafo Embaixo da Imagem"
+      "title": "1- Parágrafo Topo do Bloco"
     },
     {
       "section": {
@@ -27,16 +27,7 @@
         "textAlignment": "Left",
         "content": "Para alcançar isso, é fundamental criar fluxos de trabalho eficientes, treinar a equipe para trabalhar de forma ágil e garantir consistência e qualidade nos pratos servidos."
       },
-      "title": "2- Parágrafo Embaixo da Imagem"
-    },
-    {
-      "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
-        "colorTheme": "Primary",
-        "content": "Como a Linked pode ajudar?"
-      },
-      "title": "1- Subtítulo"
+      "title": "2- Parágrafo Topo do Bloco"
     }
   ]
 }

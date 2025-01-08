@@ -1,0 +1,95 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "fontSize": "28px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
+        "content": "Serena: Energia limpa e economia na conta de luz"
+      },
+      "title": "Título do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Sabia que você pode escolher de onde comprar a energia que utiliza em seu restaurante? E o melhor: essa energia pode ser renovável."
+      },
+      "title": "Parágrafo Embaixo do Título"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Image.tsx",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9aeea245-06d4-44d2-b8ae-90b06ffaf051/factory_clean_energy.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9aeea245-06d4-44d2-b8ae-90b06ffaf051/factory_clean_energy.png",
+        "type": "Pequena"
+      },
+      "title": "Imagem - Fábrica"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Há 15 anos no mercado, a Serena é uma das principais geradoras e comercializadoras de energia solar e eólica digital para você e para seu negócio. "
+      },
+      "title": "Parágrafo Embaixo da Imagem Fábrica"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Image.tsx",
+        "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bdd96d0d-e555-443c-81ae-00bab491d5f6/wind_network.png",
+        "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/bdd96d0d-e555-443c-81ae-00bab491d5f6/wind_network.png",
+        "type": "Pequena"
+      },
+      "title": "Imagem - Network"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/BigNumber.tsx",
+        "colorTheme": "Primary",
+        "number": "35%",
+        "description": "Até 35% de economia no 1º ano energia solar e eólica"
+      },
+      "title": "35%"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "Comprar diretamente da Serena significa dinheiro no bolso. Sua economia em energia pode variar dependendo do seu perfil de consumo e da região onde você está.  Esta economia pode chegar a até 35% (equivalente a 4 meses do ano sem pagar pela energia) para clientes que recebem energia elétrica em média ou alta tensão. Para clientes de baixa tensão o desconto pode ser de até 21% no primeiro ano (equivalente a 2,5 meses de economia no ano)"
+      },
+      "title": "1- Parágrafo Embaixo do Grande Número"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "content": "O processo é simples e você realiza com poucos cliques, na própria internet."
+      },
+      "title": "2- Parágrafo Embaixo do Grande Número"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "items": [
+          "Contratação digital",
+          "Não é preciso instalar placas solares",
+          "Energia entregue do mesmo jeito, pela sua distribuidora",
+          "Você só paga o que consome"
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Lista de Texto"
+    }
+  ],
+  "background": "White"
+}

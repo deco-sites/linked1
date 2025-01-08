@@ -92,6 +92,17 @@
         "colorTheme": "Primary"
       },
       "title": "Lista de Texto do Bloco 4"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
+        "buttonTheme": "Primary white",
+        "tamanho": "Máximo (100%)",
+        "title": "Ver lista completa",
+        "text": "Ver lista completa",
+        "link": "/lista"
+      },
+      "title": "Ver lista completa"
     }
   ],
   "background": "White"

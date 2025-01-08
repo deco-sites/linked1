@@ -52,13 +52,22 @@
               "Não requer instalação",
               "Atendimento 24x7",
               "Treinamentos ilimitados",
-              "Sem limite de pedidos"
+              "Sem limite de pedidos",
+              "Sem contrato de fidelidade",
+              "Integração com os principais serviços do mercado",
+              "Retaguarda"
             ],
             "colorTheme": "Primary"
           },
           "title": "Lista Texto"
         }
       ]
+    },
+    {
+      "__resolveType": "Carrossel de Testemunhas"
+    },
+    {
+      "__resolveType": "Recursos e funcionalidades"
     },
     {
       "__resolveType": "Opcionais - Plano Essencial"
