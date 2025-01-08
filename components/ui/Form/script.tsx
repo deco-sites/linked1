@@ -1,4 +1,4 @@
-import { useScript as useScript } from "@deco/deco/hooks";
+import { useScript } from "@deco/deco/hooks";
 
 export interface Props {}
 
@@ -11,10 +11,10 @@ const setup = ({}: Props) => {
     ) as HTMLElement[];
   };
 
-  let formPages = getFormPages();
-  const totalSteps = () => formPages.length;
+  const totalSteps = () => getFormPages().length;
 
   const showCurrentPage = () => {
+    const formPages = getFormPages();
     formPages.forEach((page, index) => {
       if (index === currentStep) {
         page.classList.add("block");
@@ -29,23 +29,27 @@ const setup = ({}: Props) => {
     console.log(`Total de páginas: ${totalSteps()}`);
   };
 
-  const button = document.getElementById("botao") as HTMLButtonElement | null;
+  const updateProgressBar = () => {
+    const progressBar = document.getElementById("progress-bar") as HTMLElement;
+    if (progressBar) {
+      const progress = (currentStep / (totalSteps() - 1)) * 100;
+      console.log("barra de progresso: " + progress);
 
-  const attachButtonEvent = () => {
-    if (button) {
-      button.removeEventListener("click", handleNext);
-      button.addEventListener("click", handleNext);
+      progressBar.style.width = `${progress}%`;
     }
   };
 
   const handleNext = () => {
+    const formPages = getFormPages();
+
     if (currentStep < totalSteps() - 1) {
       currentStep++;
       console.log(`Indo para a próxima etapa: ${currentStep}`);
       showCurrentPage();
+      updateProgressBar();
 
       window.scrollTo({
-        top: formPages[currentStep].offsetTop,
+        top: formPages[currentStep]?.offsetTop || 0,
         behavior: "smooth",
       });
     } else {
@@ -53,21 +57,38 @@ const setup = ({}: Props) => {
     }
   };
 
-  attachButtonEvent();
+  const handleBack = () => {
+    const formPages = getFormPages();
 
-  const observer = new MutationObserver(() => {
-    console.log(
-      "Mudança detectada no DOM, atualizando páginas do formulário...",
-    );
-    formPages = getFormPages();
-    showCurrentPage();
+    if (currentStep > 0) {
+      currentStep--;
+      console.log(`Voltando para a etapa anterior: ${currentStep}`);
+      showCurrentPage();
+      updateProgressBar();
 
-    attachButtonEvent();
+      window.scrollTo({
+        top: formPages[currentStep]?.offsetTop || 0,
+        behavior: "smooth",
+      });
+    } else {
+      alert("Você está na primeira etapa!");
+    }
+  };
+
+  document.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement)?.id === "botao") {
+      handleNext();
+    }
   });
 
-  observer.observe(document.body, { childList: true, subtree: true });
+  document.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement)?.id === "back") {
+      handleBack();
+    }
+  });
 
   showCurrentPage();
+  updateProgressBar();
 };
 
 function FormSteps({}: Props) {

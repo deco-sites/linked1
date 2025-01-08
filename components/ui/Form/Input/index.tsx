@@ -1,4 +1,3 @@
-import Script, { type Props } from "../script.tsx";
 
 interface InputComponentProps {
   placeholder?: string;
@@ -25,7 +24,6 @@ function InputComponent({ placeholder, onValidate }: InputComponentProps) {
           />
         </div>
       </div>
-      <Script />
     </>
   );
 }

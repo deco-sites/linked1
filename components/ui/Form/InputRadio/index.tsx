@@ -1,5 +1,4 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "../script.tsx";
 
 interface InputRadioComponentProps {
   text: string;
@@ -72,7 +71,6 @@ function InputRadioComponent({
           ))}
         </div>
       </div>
-      <Script />
     </>
   );
 }

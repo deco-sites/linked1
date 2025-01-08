@@ -4,7 +4,6 @@ import type { JSX } from "preact";
 // import Image from "apps/website/components/Image.tsx";
 // import IconComponent from "../Icons/IconGrid.tsx";
 import Script, { type Props } from "./script.tsx";
-import { useState } from "preact/hooks";
 
 // Implemente a seção
 function LoadComponent(
@@ -20,10 +19,13 @@ function LoadComponent(
 function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <div data-form="formulario" className="flex justify-center overflow-y-hidden">
+      <div
+        data-form="formulario"
+        className="flex justify-center overflow-y-hidden"
+      >
         <div className="h-dvh grid grid-rows-[80px_1fr_96px] w-full max-w-[706px]">
           <div className="grid grid-cols-[32px_minmax(137px,_1fr)_32px] items-center justify-between gap-4 px-4 py-6">
-            <button>
+            <button id="back">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -38,17 +40,21 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
               </svg>
             </button>
             <div className="flex justify-center items-center">
-              <div
-                className={`w-full max-w-[137px] h-[5px] bg-sacramentoState-10 rounded-full after:h-[5px] after:bg-[#3BEDB2] after:rounded-full after:block`}
-              >
+              <div className="w-full max-w-[137px] h-[5px] bg-sacramentoState-10 rounded-full">
+                <div
+                  id="progress-bar"
+                  className="h-[5px] bg-[#3BEDB2] rounded-full block"
+                >
+                </div>
               </div>
             </div>
           </div>
           <div className="px-6 py-6 border-y border-gray-100 flex flex-col gap-12 h-full overflow-auto">
             {sections?.map((item, index) => (
               // <div data-index={index} className="hidde">
-              <div data-index={'campo-' + index} className="" key={index}>
-                {/* <div className="grid gap-2">
+              <div data-index={"campo-" + index} className="" key={index}>
+                {
+                  /* <div className="grid gap-2">
                   <h1 className="text-sm font-light text-primary">
                     {sections[currentStep.value].text} 1 *
                     Solicitar plano
@@ -57,14 +63,15 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
                     {sections[currentStep.value].description}
                     Primeiramente, qual o seu nome completo?
                   </h2>
-                </div> */}
+                </div> */
+                }
                 {
                   /* // Renderizando o componente
                 // {LoadComponent(item.section)} */
                 }
                 <LoadComponent
                   {...item.section}
-                /> 
+                />
               </div>
             ))}
           </div>

@@ -1,5 +1,4 @@
 import type { JSX } from "preact";
-import Script, { type Props } from "../script.tsx";
 
 function setClass(value: string) {
     switch (value) {
@@ -133,7 +132,6 @@ function TitleForm(
                     </div>
                 </div>
             </div>
-            <Script />
         </>
     );
 }
