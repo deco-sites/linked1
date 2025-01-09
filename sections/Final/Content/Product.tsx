@@ -11,14 +11,14 @@ export interface Button {
    * @description Escreva o texto do botão
    */
   text: string;
-  
+
   /**
    * @title Tamanho do botão
    * @description Selecione o tamanho do botão
    */
-  tamanho?: 
-  | "Máximo (100%)"
-  | "Mínimo (Tamanho do conteúdo)";
+  tamanho?:
+    | "Máximo (100%)"
+    | "Mínimo (Tamanho do conteúdo)";
 
   /**
    * @title Link
@@ -35,14 +35,14 @@ export interface Button {
    * @description Selecione o tipo de botão que deseja
    */
   buttonTheme?:
-      | "Primary dark"
-      | "Primary white"
-      | "Secondary dark"
-      | "Secondary white"
-      | "Link dark"
-      | "Link white"
-      | "Faq"
-      | "Nenhuma estilização"
+    | "Primary dark"
+    | "Primary white"
+    | "Secondary dark"
+    | "Secondary white"
+    | "Link dark"
+    | "Link white"
+    | "Faq"
+    | "Nenhuma estilização";
 }
 
 export interface Props {

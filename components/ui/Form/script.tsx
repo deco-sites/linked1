@@ -1,8 +1,16 @@
 import { useScript } from "@deco/deco/hooks";
 
-export interface Props {}
+export interface Props {
+  step?: Number;
+}
 
-const setup = ({}: Props) => {
+const setup = ({
+  step,
+}: Props) => {
+  // let stepElement = document.querySelectorAll(`[data-step=${step}]`),
+
+  // stepElement.querySelectorAll()
+
   let currentStep = 0;
 
   const getFormPages = () => {
@@ -91,12 +99,12 @@ const setup = ({}: Props) => {
   updateProgressBar();
 };
 
-function FormSteps({}: Props) {
+function FormSteps({ step }: Props) {
   return (
     <script
       type="module"
       dangerouslySetInnerHTML={{
-        __html: useScript(setup, {}),
+        __html: useScript(setup, { step }),
       }}
     />
   );

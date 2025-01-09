@@ -16,12 +16,14 @@ function LoadComponent(
   );
 }
 
-function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
+function FormComponent(
+  { sections, step }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div
-        data-form="formulario"
         className="flex justify-center overflow-y-hidden"
+        data-step={step}
       >
         <div className="h-dvh grid grid-rows-[80px_1fr_96px] w-full max-w-[706px]">
           <div className="grid grid-cols-[32px_minmax(137px,_1fr)_32px] items-center justify-between gap-4 px-4 py-6">
@@ -52,7 +54,7 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
           <div className="px-6 py-6 border-y border-gray-100 flex flex-col gap-12 h-full overflow-auto">
             {sections?.map((item, index) => (
               // <div data-index={index} className="hidde">
-              <div data-index={"campo-" + index} className="" key={index}>
+              <div key={index}>
                 {
                   /* <div className="grid gap-2">
                   <h1 className="text-sm font-light text-primary">
@@ -77,7 +79,7 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
           </div>
         </div>
       </div>
-      <Script />
+      <Script step={step} />
     </>
   );
 }

@@ -109,9 +109,7 @@ function Dropdown({
               </div>
             ))
           )
-          : (
-            <p className=""></p>
-          )}
+          : <p className=""></p>}
       </div>
     </div>
   );

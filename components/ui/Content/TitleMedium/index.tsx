@@ -133,7 +133,9 @@ function TitleMedium(
 ) {
   return (
     <div
-      className={`flex ${setAlignmentContent(contentAlignment)} ${setClassBackground(colorThemeBg)} items-center`}
+      className={`flex ${setAlignmentContent(contentAlignment)} ${
+        setClassBackground(colorThemeBg)
+      } items-center`}
     >
       <div
         className={`${

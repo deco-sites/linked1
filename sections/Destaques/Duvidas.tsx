@@ -53,14 +53,14 @@ export interface Button {
    * @description Selecione o tipo de botão que deseja
    */
   buttonTheme?:
-      | "Primary dark"
-      | "Primary white"
-      | "Secondary dark"
-      | "Secondary white"
-      | "Link dark"
-      | "Link white"
-      | "Faq"
-      | "Nenhuma estilização"
+    | "Primary dark"
+    | "Primary white"
+    | "Secondary dark"
+    | "Secondary white"
+    | "Link dark"
+    | "Link white"
+    | "Faq"
+    | "Nenhuma estilização";
 }
 
 export interface Props {
@@ -105,14 +105,20 @@ export default function Section({
         </div>
 
         <div className="grid gap-4">
-        {button?.map((btn, index) => (
-          <div key={index}>
-            <ButtonComponent text={btn.text} link={btn.link} icon={btn.icon} buttonTheme={btn.buttonTheme} />
-          </div>
-        ))}
+          {button?.map((btn, index) => (
+            <div key={index}>
+              <ButtonComponent
+                text={btn.text}
+                link={btn.link}
+                icon={btn.icon}
+                buttonTheme={btn.buttonTheme}
+              />
+            </div>
+          ))}
         </div>
 
-        {/* <div className="pb-24 px-4 w-full max-w md:max-w-[465px] flex flex-col rounded-xl items-center justify-center space-y-4">
+        {
+          /* <div className="pb-24 px-4 w-full max-w md:max-w-[465px] flex flex-col rounded-xl items-center justify-center space-y-4">
           {button?.map((btn, index) => (
             <div key={index} className="w-full max-w flex gap-x-[10px] justify-center cursor-pointer">
               <a
@@ -138,7 +144,8 @@ export default function Section({
               </a>
             </div>
           ))}
-        </div> */}
+        </div> */
+        }
       </div>
     </section>
   );
