@@ -41,16 +41,16 @@ export interface Props {
    */
   arrowIcon: ImageWidget;
 
-    /**
-     * @title Categorias Filtradas
-     * @description Insira as categorias de integração filtradas
-     */
-    button?: filteredCategories[];
-    /**
-     * @title Função de Mudança de Categoria
-     * @description Função chamada ao mudar a categoria no Dropdown
-     */
-    onCategoryChange: (selected: string) => void;
+  /**
+   * @title Categorias Filtradas
+   * @description Insira as categorias de integração filtradas
+   */
+  button?: filteredCategories[];
+  /**
+   * @title Função de Mudança de Categoria
+   * @description Função chamada ao mudar a categoria no Dropdown
+   */
+  onCategoryChange: (selected: string) => void;
 }
 
 export default function Section({

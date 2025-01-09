@@ -22,7 +22,10 @@ export interface Props {
 function LoadComponent(
   { Component, props }: Section,
   index,
+  index,
 ) {
+  props.step = index;
+
   props.step = index;
 
   return (
@@ -45,3 +48,4 @@ function FormSection(
 }
 
 export default FormSection;
+

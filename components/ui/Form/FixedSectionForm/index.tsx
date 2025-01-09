@@ -13,9 +13,34 @@ export type Link = {
    * @description Insira a URL ou o caminho de destino
    */
   url: string;
+  /**
+   * @title Nome
+   * @description Nome visível para clique
+   */
+  name: string;
+  /**
+   * @title Destino
+   * @description Insira a URL ou o caminho de destino
+   */
+  url: string;
 };
 
 export interface Props {
+  /**
+   * @title Descrição
+   * @description Insira a descrição
+   */
+  description?: string;
+  /**
+   * @title Palavra ou Frase com Cor
+   * @description Escreva a palavra ou frase com cor
+   */
+  highlight?: string;
+  /**
+   * @title Ícone do Botão
+   * @description Insisra o Ícone do Botão
+   */
+  ImageWidget: ImageWidget;
   /**
    * @title Descrição
    * @description Insira a descrição
@@ -37,14 +62,35 @@ function FixedSectionForm({
   description = "",
   highlight = "",
   ImageWidget = "",
+  description = "",
+  highlight = "",
+  ImageWidget = "",
 }: Props) {
+  const getHighlightedText = (text: string, highlight: string) => {
+    if (!highlight) return text;
   const getHighlightedText = (text: string, highlight: string) => {
     if (!highlight) return text;
 
     const regex = new RegExp(`(${highlight})`, "giu");
+    const regex = new RegExp(`(${highlight})`, "giu");
 
     const parts = text.split(regex);
+    const parts = text.split(regex);
 
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === highlight.toLowerCase()) {
+        return (
+          <span
+            key={index}
+            className="font-bold text-sacramentoState"
+          >
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
+  };
     return parts.map((part, index) => {
       if (part.toLowerCase() === highlight.toLowerCase()) {
         return (
@@ -114,3 +160,4 @@ function FixedSectionForm({
 }
 
 export default FixedSectionForm;
+

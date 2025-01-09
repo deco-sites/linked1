@@ -94,9 +94,11 @@ function FormSteps({ step }: Props) {
       type="module"
       dangerouslySetInnerHTML={{
         __html: useScript(setup, { step }),
+        __html: useScript(setup, { step }),
       }}
     />
   );
 }
 
 export default FormSteps;
+

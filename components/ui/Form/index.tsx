@@ -20,6 +20,9 @@ function LoadComponent(
 function FormComponent(
   { sections, step }: JSX.IntrinsicElements["div"] & Props,
 ) {
+function FormComponent(
+  { sections, step }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div
@@ -56,6 +59,7 @@ function FormComponent(
             {sections?.map((item, index) => (
               // <div data-index={index} className="hidde">
               <div key={index}>
+              <div key={index}>
                 {
                   /* <div className="grid gap-2">
                   <h1 className="text-sm font-light text-primary">
@@ -80,6 +84,7 @@ function FormComponent(
           </div>
         </div>
       </div>
+      <Script step={step} />
       <Script step={step} />
     </>
   );
