@@ -6,40 +6,40 @@ import { ImageWidget } from "apps/admin/widgets.ts";
  * @title {{{title}}}
  */
 export interface filteredCategories {
-    /**
-     * @title Título do Bloco
-     * @description Escreva o título do bloco
-     */
-    title: string;
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
 
-    /**
-     * @title Nome
-     * @description Nome da categoria filtrada
-     */
-    name: string;
+  /**
+   * @title Nome
+   * @description Nome da categoria filtrada
+   */
+  name: string;
 }
 
 /**
  * @title {{{title}}}
  */
 export interface Props {
-    /**
-     * @title Título do Bloco
-     * @description Escreva o título do bloco
-     */
-    title: string;
+  /**
+   * @title Título do Bloco
+   * @description Escreva o título do bloco
+   */
+  title: string;
 
-    /**
-     * @title Texto do Dropdown
-     * @description Insira o texto do dropdown
-     */
-    dropdownText: string;
+  /**
+   * @title Texto do Dropdown
+   * @description Insira o texto do dropdown
+   */
+  dropdownText: string;
 
-    /**
-     * @title Ícone de Seta
-     * @description Insira o ícone de seta
-     */
-    arrowIcon: ImageWidget;
+  /**
+   * @title Ícone de Seta
+   * @description Insira o ícone de seta
+   */
+  arrowIcon: ImageWidget;
 
     /**
      * @title Categorias Filtradas
@@ -54,19 +54,19 @@ export interface Props {
 }
 
 export default function Section({
-    title = "",
-    dropdownText = "",
-    arrowIcon,
-    button,
-    onCategoryChange,
+  title = "",
+  dropdownText = "",
+  arrowIcon,
+  button,
+  onCategoryChange,
 }: Props) {
-    return (
-        <Dropdown
-            title={title}
-            dropdownText={dropdownText}
-            arrowIcon={arrowIcon}
-            button={button}
-            onCategoryChange={onCategoryChange}
-        />
-    );
+  return (
+    <Dropdown
+      title={title}
+      dropdownText={dropdownText}
+      arrowIcon={arrowIcon}
+      button={button}
+      onCategoryChange={onCategoryChange}
+    />
+  );
 }

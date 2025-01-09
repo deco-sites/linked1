@@ -17,7 +17,12 @@ function ComparisonFooter(
               </div>
             )}
             {left.button && (
-              <ButtonComponent text={left.button.text} link={left.button.link} icon={left.button.icon} buttonTheme={left.button.buttonTheme} />
+              <ButtonComponent
+                text={left.button.text}
+                link={left.button.link}
+                icon={left.button.icon}
+                buttonTheme={left.button.buttonTheme}
+              />
             )}
           </div>
         )}
@@ -31,7 +36,12 @@ function ComparisonFooter(
               </div>
             )}
             {right.button && (
-              <ButtonComponent text={right.button.text} link={right.button.link} icon={right.button.icon} buttonTheme={right.button.buttonTheme} />
+              <ButtonComponent
+                text={right.button.text}
+                link={right.button.link}
+                icon={right.button.icon}
+                buttonTheme={right.button.buttonTheme}
+              />
             )}
           </div>
         )}

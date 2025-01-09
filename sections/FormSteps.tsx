@@ -27,13 +27,13 @@ export interface Props {
    * @title Conteúdo
    */
   sections?: Item[];
+  step?: Number;
 }
 
-export default function FormSteps({ sections }: Props) {
-  
+export default function FormSteps({ sections, step }: Props) {
   return (
     <div>
-      <FormStepsComponent sections={sections} />
+      <FormStepsComponent sections={sections} step={step} />
     </div>
   );
 }

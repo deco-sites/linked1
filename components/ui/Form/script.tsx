@@ -1,102 +1,99 @@
 import { useScript } from "@deco/deco/hooks";
 
-export interface Props {}
+export interface Props {
+  step?: number;
+}
 
-const setup = ({}: Props) => {
+const setup = (_: Props) => {
+  const stepElement = Array.from(document.querySelectorAll("[data-step]"));
   let currentStep = 0;
 
-  const getFormPages = () => {
-    return Array.from(
-      document.querySelectorAll('[data-form="formulario"]'),
-    ) as HTMLElement[];
-  };
+  const totalSteps = () => stepElement.length;
 
-  const totalSteps = () => getFormPages().length;
-
-  const showCurrentPage = () => {
-    const formPages = getFormPages();
-    formPages.forEach((page, index) => {
-      if (index === currentStep) {
-        page.classList.add("block");
-        page.classList.remove("hidden");
-      } else {
-        page.classList.add("hidden");
-        page.classList.remove("block");
-      }
+  const showCurrentPage = (): void => {
+    stepElement.forEach((page, index) => {
+      page.classList.toggle("block", index === currentStep);
+      page.classList.toggle("hidden", index !== currentStep);
     });
-
     console.log(`Etapa atual: ${currentStep}`);
-    console.log(`Total de páginas: ${totalSteps()}`);
   };
 
   const updateProgressBar = () => {
-    const progressBar = document.getElementById("progress-bar") as HTMLElement;
-    if (progressBar) {
-      const progress = (currentStep / (totalSteps() - 1)) * 100;
-      console.log("barra de progresso: " + progress);
+    const progressBar = document.querySelector('[data-bar="progress"]') as HTMLElement; 
+    const total = totalSteps();
 
-      progressBar.style.width = `${progress}%`;
+    console.log("TOTAL: " + total);
+
+    if (!progressBar.style.background) {
+      progressBar.style.width = "15%";
+      console.log("aqui")
     }
+
+    const progress = (currentStep / (total - 1)) * 100;
+    console.log("Barra de progresso: " + progress);
+
+    progressBar.style.background = "#000000";
+    progressBar.style.width = `${progress}%`;
   };
 
   const handleNext = () => {
-    const formPages = getFormPages();
-
-    if (currentStep < totalSteps() - 1) {
+    const total = totalSteps();
+    if (currentStep < total - 1) {
       currentStep++;
       console.log(`Indo para a próxima etapa: ${currentStep}`);
       showCurrentPage();
       updateProgressBar();
 
-      window.scrollTo({
-        top: formPages[currentStep]?.offsetTop || 0,
+      globalThis.scrollTo({
+        top: stepElement[currentStep]?.offsetTop || 0,
         behavior: "smooth",
       });
     } else {
-      alert("Você completou todos os formulários!");
+      console.log("Você completou todos os formulários!");
     }
   };
 
   const handleBack = () => {
-    const formPages = getFormPages();
-
     if (currentStep > 0) {
       currentStep--;
       console.log(`Voltando para a etapa anterior: ${currentStep}`);
       showCurrentPage();
       updateProgressBar();
 
-      window.scrollTo({
-        top: formPages[currentStep]?.offsetTop || 0,
+      globalThis.scrollTo({
+        top: stepElement[currentStep]?.offsetTop || 0,
         behavior: "smooth",
       });
     } else {
-      alert("Você está na primeira etapa!");
+      console.log("Você está na primeira etapa!");
     }
   };
 
-  document.addEventListener("click", (event) => {
-    if ((event.target as HTMLElement)?.id === "botao") {
-      handleNext();
-    }
-  });
+  const bindEvents = () => {
+    const nextButtons = document.querySelectorAll('[data-next="next"]');
+    const backButtons = document.querySelectorAll('[data-back="back"]');
 
-  document.addEventListener("click", (event) => {
-    if ((event.target as HTMLElement)?.id === "back") {
-      handleBack();
-    }
-  });
+    nextButtons.forEach((button) => {
+      button.addEventListener("click", handleNext);
+    });
 
+    backButtons.forEach((button) => {
+      button.addEventListener("click", handleBack);
+    });
+  };
+
+  bindEvents();
   showCurrentPage();
   updateProgressBar();
 };
 
-function FormSteps({}: Props) {
+
+function FormSteps({ step }: Props) {
   return (
     <script
       type="module"
       dangerouslySetInnerHTML={{
-        __html: useScript(setup, {}),
+        __html: useScript(setup, { step }),
       }}
     />
   );

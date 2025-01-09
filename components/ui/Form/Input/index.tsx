@@ -1,10 +1,13 @@
 
 interface InputComponentProps {
+  name?: string;
   placeholder?: string;
   onValidate?: (isValid: boolean) => void;
 }
 
-function InputComponent({ placeholder, onValidate }: InputComponentProps) {
+function InputComponent(
+  { name, placeholder, onValidate }: InputComponentProps,
+) {
   const handleChange = (e: Event) => {
     const input = e.target as HTMLInputElement;
     if (onValidate) {
@@ -17,6 +20,7 @@ function InputComponent({ placeholder, onValidate }: InputComponentProps) {
       <div className="flex justify-center">
         <div className="w-full max-w-[706px]">
           <input
+            data-campo={name}
             type="text"
             placeholder={placeholder}
             className="focus:outline-none w-full pb-2 border-b-2 border-sacramentoState text-sacramentoState placeholder:sacramentoState-80 rounded-none"

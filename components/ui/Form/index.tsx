@@ -4,6 +4,7 @@ import type { JSX } from "preact";
 // import Image from "apps/website/components/Image.tsx";
 // import IconComponent from "../Icons/IconGrid.tsx";
 import Script, { type Props } from "./script.tsx";
+import { withDefaultFacets } from "apps/vtex/utils/intelligentSearch.ts";
 
 // Implemente a seção
 function LoadComponent(
@@ -16,16 +17,18 @@ function LoadComponent(
   );
 }
 
-function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
+function FormComponent(
+  { sections, step }: JSX.IntrinsicElements["div"] & Props,
+) {
   return (
     <>
       <div
-        data-form="formulario"
         className="flex justify-center overflow-y-hidden"
+        data-step={String(step)}
       >
         <div className="h-dvh grid grid-rows-[80px_1fr_96px] w-full max-w-[706px]">
           <div className="grid grid-cols-[32px_minmax(137px,_1fr)_32px] items-center justify-between gap-4 px-4 py-6">
-            <button id="back">
+            <button data-back="back">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -42,7 +45,7 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
             <div className="flex justify-center items-center">
               <div className="w-full max-w-[137px] h-[5px] bg-sacramentoState-10 rounded-full">
                 <div
-                  id="progress-bar"
+                  data-bar="progress"
                   className="h-[5px] bg-[#3BEDB2] rounded-full block"
                 >
                 </div>
@@ -52,7 +55,7 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
           <div className="px-6 py-6 border-y border-gray-100 flex flex-col gap-12 h-full overflow-auto">
             {sections?.map((item, index) => (
               // <div data-index={index} className="hidde">
-              <div data-index={"campo-" + index} className="" key={index}>
+              <div key={index}>
                 {
                   /* <div className="grid gap-2">
                   <h1 className="text-sm font-light text-primary">
@@ -77,7 +80,7 @@ function FormComponent({ sections }: JSX.IntrinsicElements["div"] & Props) {
           </div>
         </div>
       </div>
-      <Script />
+      <Script step={step} />
     </>
   );
 }

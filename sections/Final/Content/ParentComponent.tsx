@@ -3,7 +3,7 @@ import Dropdown from "../../../components/ui/Content/Dropdown/index.tsx";
 import LogoGroupComponent from "../../../components/ui/Content/LogoGroup/index.tsx";
 
 function ParentComponent({ title, dropdownText, arrowIcon, button, logos }) {
-    const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
 
     const handleCategoryChange = (category: string) => {
         console.log(`[ParentComponent] Categoria selecionada: ${category}`);
