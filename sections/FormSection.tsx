@@ -22,10 +22,7 @@ export interface Props {
 function LoadComponent(
   { Component, props }: Section,
   index,
-  index,
 ) {
-  props.step = index;
-
   props.step = index;
 
   return (
@@ -39,13 +36,12 @@ function FormSection(
   { sections }: Props,
 ) {
   return (
-      <div data-form="formulario">
-        {sections?.map((item, index) => (
-          LoadComponent(item.section, index)
-        ))}
-      </div>
+    <div data-form="formulario">
+      {sections?.map((item, index) => (
+        LoadComponent(item.section, index)
+      ))}
+    </div>
   );
 }
 
 export default FormSection;
-

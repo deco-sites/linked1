@@ -29,12 +29,6 @@ function setClass(value: string) {
   }
 }
 
-/* Descrição do component
-*asdasd
-*asd
-*asd
-*/
-
 function BigNumber(
   { number, description, colorTheme }: JSX.IntrinsicElements["div"] & Props,
 ) {

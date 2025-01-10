@@ -16,8 +16,8 @@ export interface Props {
    */
   text: string;
   /**
-   * @title Nome do formulário
-   * @description Escreva o nome do formulário (Necessário que seja um nome único no site)
+   * @title Chave
+   * @description Escreva o identificador do campo
    */
   name: string;
   /**
@@ -29,7 +29,7 @@ export interface Props {
 
 export default function Section({
   text,
-  name,
+  name = "name",
   inputRadio,
 }: Props) {
   return (

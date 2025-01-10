@@ -4,7 +4,6 @@ import type { JSX } from "preact";
 // import Image from "apps/website/components/Image.tsx";
 // import IconComponent from "../Icons/IconGrid.tsx";
 import Script, { type Props } from "./script.tsx";
-import { withDefaultFacets } from "apps/vtex/utils/intelligentSearch.ts";
 
 // Implemente a seção
 function LoadComponent(
@@ -17,9 +16,6 @@ function LoadComponent(
   );
 }
 
-function FormComponent(
-  { sections, step }: JSX.IntrinsicElements["div"] & Props,
-) {
 function FormComponent(
   { sections, step }: JSX.IntrinsicElements["div"] & Props,
 ) {
@@ -50,41 +46,19 @@ function FormComponent(
                 <div
                   data-bar="progress"
                   className="h-[5px] bg-[#3BEDB2] rounded-full block"
-                >
-                </div>
+                ></div>
               </div>
             </div>
           </div>
           <div className="px-6 py-6 border-y border-gray-100 flex flex-col gap-12 h-full overflow-auto">
             {sections?.map((item, index) => (
-              // <div data-index={index} className="hidde">
               <div key={index}>
-              <div key={index}>
-                {
-                  /* <div className="grid gap-2">
-                  <h1 className="text-sm font-light text-primary">
-                    {sections[currentStep.value].text} 1 *
-                    Solicitar plano
-                  </h1>
-                  <h2 className="text-2xl font-semibold text-primary">
-                    {sections[currentStep.value].description}
-                    Primeiramente, qual o seu nome completo?
-                  </h2>
-                </div> */
-                }
-                {
-                  /* // Renderizando o componente
-                // {LoadComponent(item.section)} */
-                }
-                <LoadComponent
-                  {...item.section}
-                />
+                <LoadComponent {...item.section} />
               </div>
             ))}
           </div>
         </div>
       </div>
-      <Script step={step} />
       <Script step={step} />
     </>
   );
