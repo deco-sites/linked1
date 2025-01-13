@@ -1,0 +1,140 @@
+{
+  "__resolveType": "site/sections/MultiSection.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "textAlignment": "Left",
+        "colorTheme": "Primary",
+        "content": "Clientes em"
+      },
+      "title": "Título do Bloco"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Dropdown.tsx",
+        "button": [],
+        "onCategoryChange": {},
+        "title": "São Paulo",
+        "dropdownText": "São Paulo",
+        "arrowIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/5b84cd87-7621-407f-8007-45aea2d586c0/arrow_down_2.svg"
+      },
+      "title": "Dopdown"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/Clients.tsx",
+        "clients": [
+          {
+            "title": "1- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "2- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "3- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "4- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "5- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "6- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "7- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "1- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "8- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "9- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "10- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "11- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "12- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "13- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          },
+          {
+            "title": "14- Restaurant",
+            "name": "Nome",
+            "type": "Tipo",
+            "cityUf": "Cidade/UF",
+            "iconClient": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/e9fcb715-ec0a-43fb-92ab-5d51ccfc8db1/icon_restaurant_svg.svg"
+          }
+        ],
+        "colorTheme": "Primary"
+      },
+      "title": "Clientes"
+    }
+  ],
+  "background": "White"
+}

@@ -18,7 +18,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "textAlignment": "Left",
         "colorTheme": "Primary",
-        "content": "Atender melhor"
+        "content": "Atender melhor",
+        "colorThemeBg": "White"
       },
       "title": "Subtítulo 1 - Atender Melhor"
     },
@@ -40,7 +41,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
         "textAlignment": "Left",
-        "content": "Aumentar a eficiência"
+        "content": "Aumentar a eficiência",
+        "colorThemeBg": "White"
       },
       "title": "Subtítulo 2 - Aumentar a eficiência"
     },
@@ -61,7 +63,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
         "content": "Evitar o desperdício",
-        "textAlignment": "Left"
+        "textAlignment": "Left",
+        "colorThemeBg": "White"
       },
       "title": "Subtítulo 3 - Evitar o desperdício"
     },
@@ -81,7 +84,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
         "textAlignment": "Left",
-        "content": "Vender e lucrar mais"
+        "content": "Vender e lucrar mais",
+        "colorThemeBg": "White"
       },
       "title": "Subtítulo 4 - Vender e lucrar mais"
     },
@@ -103,7 +107,8 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "colorTheme": "Primary",
         "textAlignment": "Left",
-        "content": "Ficar com as contas em dia"
+        "content": "Ficar com as contas em dia",
+        "colorThemeBg": "White"
       },
       "title": "Subtítulo 5 - Ficar com as contas em dia"
     },

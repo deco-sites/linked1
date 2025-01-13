@@ -6,37 +6,10 @@
       "__resolveType": "Navbar"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "White",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Image.tsx",
-            "type": "Full",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9ac91f58-a2d6-43f5-b770-01eeb60e70d2/men_in_the_kitchen.png",
-            "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/9ac91f58-a2d6-43f5-b770-01eeb60e70d2/men_in_the_kitchen.png"
-          },
-          "title": "Imagem no Topo"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "A principal característica do fast-food é a agilidade para pedir, receber e consumir o produto. Uma operação otimizada é crucial para o sucesso de um fast-food. "
-          },
-          "title": "1- Parágrafo Topo do Bloco"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Paragraph.tsx",
-            "colorTheme": "Primary",
-            "textAlignment": "Left",
-            "content": "Para alcançar isso, é fundamental criar fluxos de trabalho eficientes, treinar a equipe para trabalhar de forma ágil e garantir consistência e qualidade nos pratos servidos."
-          },
-          "title": "2- Parágrafo Topo do Bloco"
-        }
-      ]
+      "__resolveType": "Título - Linked Para Fast-Food"
+    },
+    {
+      "__resolveType": "Imagem com Parágrafo no Topo do Bloco"
     },
     {
       "__resolveType": "site/sections/Final/Content/Title.tsx",
@@ -52,11 +25,7 @@
       "__resolveType": "Agilidade no atendimento"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "collapse": {
-        "enable": true,
-        "title": "Redução de custos"
-      }
+      "__resolveType": "Redução de custos"
     },
     {
       "__resolveType": "Integrações - Tipo de Estabelecimento Fast Food"
@@ -65,47 +34,7 @@
       "__resolveType": "Economia de dinheiro"
     },
     {
-      "__resolveType": "site/sections/MultiSection.tsx",
-      "background": "Secondary",
-      "sections": [
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Icons/IconGrid.tsx",
-            "content": [
-              {
-                "icon": "QuestionMarkCircle",
-                "iconColor": "Primary",
-                "background": "Secondary",
-                "title": "Ícon"
-              }
-            ],
-            "borderColor": "Secondary"
-          },
-          "title": "Ícone"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Content/Title.tsx",
-            "textAlignment": "Center",
-            "colorTheme": "Primary",
-            "content": "Ficou com dúvidas?"
-          },
-          "title": "Título"
-        },
-        {
-          "section": {
-            "__resolveType": "site/sections/Final/Button/ButtonComponent.tsx",
-            "buttonTheme": "Primary dark",
-            "title": "teste",
-            "text": "teste",
-            "link": "/teste",
-            "icon": "teste",
-            "tamanho": "Máximo (100%)"
-          },
-          "title": "Botão"
-        }
-      ],
-      "collapse": {}
+      "__resolveType": "duvidas"
     },
     {
       "__resolveType": "Footer"

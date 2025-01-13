@@ -17,7 +17,8 @@
         "menu": [
           {
             "name": "Propósito",
-            "url": "/proposito"
+            "url": "/proposito",
+            "status": false
           },
           {
             "name": "Valores"

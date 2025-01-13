@@ -8,7 +8,8 @@
         "colorTheme": "Primary",
         "content": "A Linked também tem parcerias para transformar o seu negócio",
         "textAlignment": "Left",
-        "containerWidth": "Largura Completa"
+        "containerWidth": "Largura Completa",
+        "colorThemeBg": "Secondary"
       },
       "title": "Título"
     },

@@ -88,48 +88,48 @@
         "content": [
           {
             "icon": "ShoppingCart",
-            "iconColor": "Accent",
-            "background": "White",
-            "title": "Instalação em até 72 horas"
+            "iconColor": "Primary",
+            "title": "Instalação em até 72 horas",
+            "background": "White"
           },
           {
             "icon": "WhatsApp",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Atendimento 24x7"
           },
           {
             "icon": "Truck",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Treinamentos ilimitados"
           },
           {
             "icon": "Phone",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Sem limite de caixas e dispositivos"
           },
           {
             "icon": "User",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Sem limite de usuários"
           },
           {
             "icon": "Message",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Sem limite de pedidos"
           },
           {
             "icon": "Message",
-            "iconColor": "Accent",
+            "iconColor": "Primary",
             "background": "White",
             "title": "Sem contrato de fidelidade"
           }
         ],
-        "borderColor": "Primary"
+        "borderColor": "White"
       },
       "title": "Ícones do Bloco"
     }

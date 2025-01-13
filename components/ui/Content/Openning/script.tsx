@@ -7,8 +7,6 @@ const setup = () => {
   const slides = Array.from(document.querySelectorAll("[data-slide]"));
   const totalSlides = slides.length;
 
-  console.log("TOTAL SLIDES: " + totalSlides);
-
   const showSlide = (index: number) => {
     slides.forEach((slide, idx) => {
       if (idx === index) {
@@ -23,13 +21,11 @@ const setup = () => {
 
   const nextSlide = () => {
     currentIndex = (currentIndex + 1) % totalSlides;
-    console.log("INDEX ATUAL: " + currentIndex);
     showSlide(currentIndex);
   };
 
   const prevSlide = () => {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-    console.log("INDEX ATUAL: " + currentIndex);
     showSlide(currentIndex);
   };
 

@@ -6,7 +6,9 @@
         "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "textAlignment": "Center",
         "colorTheme": "White",
-        "content": "O plano Linked Food Total oferece integrações com os principais serviços do mercado"
+        "content": "O plano Linked Food Total oferece integrações com os principais serviços do mercado",
+        "colorThemeBg": "Primary",
+        "containerWidth": "Largura Completa"
       },
       "title": "Subtítulo do Bloto"
     },

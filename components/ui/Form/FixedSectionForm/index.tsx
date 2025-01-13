@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import Script, { type Props } from "../script.tsx";
 import type { JSX } from "preact";
 
 export type Link = {
