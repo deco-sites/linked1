@@ -70,4 +70,19 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;  /* Chrome, Safari, and Opera */
   }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 80;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-left {
+    animation: slideInFromLeft 0.8s ease-out forwards;
+  }
 }

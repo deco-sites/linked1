@@ -71,7 +71,7 @@ export default function Section({
       }
       return part;
     });
-  }
+  };
   return (
     <section className="bg-sacramentoState flex justify-center">
       <div className="grid gap-3 md:text-center w-full max-w-[739px] px-4 pb-6 pt-8 md:py-12 md:px-10">

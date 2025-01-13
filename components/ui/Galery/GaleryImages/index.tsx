@@ -19,7 +19,11 @@ function GaleryImages({ items }: JSX.IntrinsicElements["div"] & Props) {
               >
                 <article className="w-full flex flex-col border-t-2 border-white-20">
                   <div className="flex justify-center py-[26px] h-[274px] px-0">
-                    <Image className="w-full h-full object-cover rounded-2xl" src={item.image || ""} width={315} />
+                    <Image
+                      className="w-full h-full object-cover rounded-2xl"
+                      src={item.image || ""}
+                      width={315}
+                    />
                   </div>
                   <div className="w-full pl-0 text-left">
                     <p className="pl-[3px] text-base text-primary opacity-80 leading-tight-18 lg:leading-tight-22">

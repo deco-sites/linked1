@@ -21,7 +21,10 @@ export interface Props {
 // Implemente a seção
 function LoadComponent(
   { Component, props }: Section,
+  index,
 ) {
+  props.step = index;
+
   return (
     <div>
       <Component {...props} />
@@ -32,13 +35,13 @@ function LoadComponent(
 function FormSection(
   { sections }: Props,
 ) {
-    return (
-      <div>
-        {sections?.map((item) => (
-          LoadComponent(item.section)
-        ))}
-      </div>
-    );
-  }
+  return (
+    <div data-form="formulario">
+      {sections?.map((item, index) => (
+        LoadComponent(item.section, index)
+      ))}
+    </div>
+  );
+}
 
 export default FormSection;

@@ -1,17 +1,19 @@
 import type { JSX } from "preact";
+import Script, { type Props } from "./script.tsx";
 
 import Image from "apps/website/components/Image.tsx";
 
 function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <section className="px-4 lg:px-10 w-full pb-[59px]">
-        <div className="overflow-x-scroll scrollbar-hide swiper-container">
+      <div className="px-4 lg:px-10 w-full pb-[59px]">
+        <div id="swiper-container" className="overflow-x-scroll scrollbar-hide">
           <div className="swiper-wrapper flex gap-x-5">
             {items.map((item, index) => (
               <div
                 className="swiper-slide"
                 key={index}
+                data-galery={String(index)}
               >
                 <article className="w-[315px] md:w-full flex flex-col border-t-2 border-white-20">
                   <p className="pt-[23px] text-base text-white opacity-80 text-left lg:leading-tight-21 lg:leading-tight-25">
@@ -35,7 +37,9 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
             ))}
           </div>
         </div>
-      </section>
+      </div>
+
+      <Script />
     </>
   );
 }

@@ -2,5 +2,20 @@
   "__resolveType": "site/sections/Final/Headers/Openning.tsx",
   "title": "Gestão inteligente para sonhar mais",
   "highlight": "sonhar mais",
-  "subtitleDescription": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
+  "subtitleDescription": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar",
+  "open": [
+    {
+      "title": "Gestão inteligente para sonhar mais",
+      "highlight": "sonhar mais",
+      "subtitleDescription": "A Linked entende as dores do seu negócio e pode te ajudar a economizar e lucrar"
+    },
+    {
+      "title": "Gestão inteligente para sonhar mais",
+      "highlight": "sonhar mais"
+    },
+    {
+      "title": "Gestão inteligente para sonhar mais",
+      "highlight": "sonhar mais"
+    }
+  ]
 }

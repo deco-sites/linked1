@@ -62,7 +62,6 @@ export default function Footer({
     <footer className="bg-sacramentoState">
       <div className="w-full pt-[159px] text-center">
         <div className="text-center">
-
           <a href={linkedUrl} className="text-center">
             {brandLogoMobile && (
               <Image
@@ -84,7 +83,6 @@ export default function Footer({
               />
             )}
           </a>
-
         </div>
         <p className="pt-[22px] pb-[66px] font-light font-mono text-[11px] lg:text-xs leading-tight-14 lg:leading-tight-15 text-center text-mintCream">
           {rightsText}

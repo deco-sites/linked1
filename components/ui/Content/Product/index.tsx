@@ -24,7 +24,7 @@ function setClass(value) {
 
 function Product(
   { icon, title, description, button, colorTheme }:
-    & JSX.IntrinsicElements["div"]
+    JSX.IntrinsicElements["div"],
 ) {
   return (
     <>
@@ -63,7 +63,8 @@ function Product(
                 </p>
               )}
             </div>
-            {/* <div className="w-fit py-[13px] md:flex rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
+            {
+              /* <div className="w-fit py-[13px] md:flex rounded-xl border-[1px] border-sacramentoState items-center justify-center gap-4">
               <a
                 href={button.url}
                 target="_blank"
@@ -71,8 +72,15 @@ function Product(
                 className="w-max px-[32px] flex-none font-sans text-base font-semibold leading-tight-18 text-sacramentoState"
               >
                 {button.name}
-              </a> */}
-              <ButtonComponent text={button.text} link={button.link} icon={button.icon} buttonTheme={button.buttonTheme} tamanho={button.tamanho} />
+              </a> */
+            }
+            <ButtonComponent
+              text={button.text}
+              link={button.link}
+              icon={button.icon}
+              buttonTheme={button.buttonTheme}
+              tamanho={button.tamanho}
+            />
             {/* </div> */}
           </div>
         </div>

@@ -29,7 +29,8 @@
                 "section": {
                   "__resolveType": "site/sections/Final/Form/InputText.tsx",
                   "title": "Por favor, diga o seu nome.",
-                  "placeholder": "Por favor, diga o seu nome."
+                  "placeholder": "Por favor, diga o seu nome.",
+                  "name": "name"
                 },
                 "title": "Por favor, diga o seu nome.",
                 "text": "Por favor, diga o seu nome.",
@@ -73,12 +74,13 @@
               {
                 "section": {
                   "__resolveType": "site/sections/Final/Form/InputText.tsx",
-                  "title": "Por favor, diga o seu nome.",
-                  "placeholder": "Por favor, diga o seu nome."
+                  "title": "Por favor, diga o seu sobrenome.",
+                  "placeholder": "Por favor, diga o seu sobrenome.",
+                  "name": "lastname"
                 },
-                "title": "Por favor, diga o seu nome.",
-                "text": "Por favor, diga o seu nome.",
-                "description": "Por favor, diga o seu nome."
+                "title": "Por favor, diga o seu sobrenome.",
+                "text": "Por favor, diga o seu sobrenome.",
+                "description": "Por favor, diga o seu sobrenome."
               },
               {
                 "section": {
@@ -127,7 +129,7 @@
                     }
                   ],
                   "text": "Teste",
-                  "name": "Teste"
+                  "name": "radio"
                 },
                 "title": "Teste",
                 "text": "Teste",
