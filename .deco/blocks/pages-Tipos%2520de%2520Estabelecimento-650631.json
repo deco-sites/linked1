@@ -16,7 +16,10 @@
             "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
             "textAlignment": "Left",
             "colorTheme": "Primary",
-            "content": "Em qual categoria seu estabelecimento mais se encaixa?"
+            "content": "Em qual categoria seu estabelecimento mais se encaixa?",
+            "colorThemeBg": "White",
+            "containerWidth": "Largura Completa",
+            "fontSize": "22px"
           },
           "title": "Em qual categoria seu estabelecimento mais se encaixa?"
         },

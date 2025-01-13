@@ -19,7 +19,8 @@
               "fontSize": "32px",
               "containerWidth": "Largura Limitada (343px)",
               "contentAlignment": "Center",
-              "paddingTop": "Espaçamento (95px)"
+              "paddingTop": "Espaçamento (95px)",
+              "colorThemeBg": "Secondary"
             },
             "title": "Chamada"
           },
@@ -59,7 +60,8 @@
               "textAlignment": "Center",
               "containerWidth": "Largura Completa",
               "contentAlignment": "Center",
-              "paddingTop": "Espacamento (40px)"
+              "paddingTop": "Espacamento (40px)",
+              "colorThemeBg": "White"
             },
             "title": "Título"
           },
@@ -138,7 +140,8 @@
               "textAlignment": "Center",
               "contentAlignment": "Center",
               "containerWidth": "Largura Limitada (290px)",
-              "paddingTop": "Espacamento (40px)"
+              "paddingTop": "Espacamento (40px)",
+              "colorThemeBg": "Secondary"
             },
             "title": "Título"
           },
@@ -224,7 +227,8 @@
               "content": "Por fim, escolhe as integrações",
               "textAlignment": "Center",
               "contentAlignment": "Center",
-              "paddingTop": "Espacamento (40px)"
+              "paddingTop": "Espacamento (40px)",
+              "colorThemeBg": "White"
             },
             "title": "Título"
           },

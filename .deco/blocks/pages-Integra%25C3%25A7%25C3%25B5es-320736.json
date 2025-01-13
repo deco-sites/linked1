@@ -11,8 +11,9 @@
     {
       "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
       "content": "Os principais serviços estão na Linked",
-      "colorTheme": "Primary",
-      "containerWidth": "Largura Limitada (327px)"
+      "colorTheme": "White",
+      "containerWidth": "Largura Limitada (327px)",
+      "colorThemeBg": "Primary"
     },
     {
       "__resolveType": "Lista de Integrações"

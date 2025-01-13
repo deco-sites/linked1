@@ -4,9 +4,14 @@
   "sections": [
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "textAlignment": "Left",
         "colorTheme": "Primary",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Mas a Linked certamente tem o que você procura"
       },
       "title": "Subtítulo do Bloco"

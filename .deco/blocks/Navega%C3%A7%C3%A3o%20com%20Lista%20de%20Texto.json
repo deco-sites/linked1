@@ -25,57 +25,169 @@
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
         "textAlignment": "Left",
         "colorTheme": "Primary",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Soluções para cada tipo de negócio"
       },
-      "title": "2- Subtítulo - Soluções para cada tipo de negócio"
+      "title": "1 - Subtítulo"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/List.tsx",
         "colorTheme": "Primary",
+        "items": [
+          "À la carte",
+          "Adega",
+          "Açaí",
+          "Bar",
+          "Cafeteria",
+          "Churrascaria",
+          "Fast Food",
+          "Fine dining"
+        ]
+      },
+      "title": "1 - Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Produtos"
       },
-      "title": "3- Subtítulo - Produtos"
+      "title": "2 - Subtítulo"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/List.tsx",
         "colorTheme": "Primary",
+        "items": [
+          "Plano Linked Food  Essencial",
+          "Plano Linked Food  Total"
+        ]
+      },
+      "title": "2 - Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Opcionais"
       },
-      "title": "4- Subtítulo - Opcionais"
+      "title": "3 - Subtítulo"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/List.tsx",
         "colorTheme": "Primary",
+        "items": [
+          "Link de Pagamentos",
+          "Monitor de preparos KDS",
+          "Inteligência de Dados",
+          "App de Delivery próprio"
+        ]
+      },
+      "title": "3 - Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Integrações com os principais serviços"
       },
-      "title": "5- Subtítulo - Integrações com os principais serviços"
+      "title": "4 - Subtítulo"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/List.tsx",
         "colorTheme": "Primary",
+        "items": [
+          "Abrahão",
+          "Alloy",
+          "Capta",
+          "Cliente Fiel",
+          "Deeliv",
+          "Delivery Direto",
+          "Delivery Much",
+          "F360º"
+        ]
+      },
+      "title": "4 - Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Parcerias exclusivas"
       },
-      "title": "Parcerias exclusivas"
+      "title": "5 - Subtítulo"
     },
     {
       "section": {
-        "__resolveType": "site/sections/Final/Content/Title.tsx",
-        "textAlignment": "Left",
+        "__resolveType": "site/sections/Final/Content/List.tsx",
         "colorTheme": "Primary",
+        "items": [
+          "Energia renovável mais barata",
+          "Crédito",
+          "Contabilidade",
+          "Compras coletivas",
+          "Recrutamento para food service"
+        ]
+      },
+      "title": "5 - Lista de Texto"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/TitleMedium.tsx",
+        "colorTheme": "Primary",
+        "textAlignment": "Left",
+        "colorThemeBg": "White",
+        "fontSize": "22px",
+        "containerWidth": "Largura Limitada (290px)",
+        "contentAlignment": "Start",
+        "paddingTop": "Espacamento (91px)",
         "content": "Boas práticas e informações"
       },
-      "title": "Boas práticas e informações"
+      "title": "6 - Subtítulo"
+    },
+    {
+      "section": {
+        "__resolveType": "site/sections/Final/Content/List.tsx",
+        "colorTheme": "Primary",
+        "items": [
+          "Receitas de sucesso "
+        ]
+      },
+      "title": "6 - Lista de Texto"
     }
   ]
 }

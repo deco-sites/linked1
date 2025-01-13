@@ -19,7 +19,8 @@
         "fontSize": "28px",
         "containerWidth": "Largura Limitada (327px)",
         "contentAlignment": "Center",
-        "paddingTop": "Espacamento (40px)"
+        "paddingTop": "Espacamento (40px)",
+        "colorThemeBg": "Primary"
       },
       "title": "Título"
     },

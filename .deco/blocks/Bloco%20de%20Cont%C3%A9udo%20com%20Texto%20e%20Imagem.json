@@ -7,10 +7,11 @@
         "textAlignment": "Left",
         "colorTheme": "Primary",
         "fontSize": "28px",
-        "containerWidth": "Largura Limitada (290px)",
+        "containerWidth": "Largura Limitada (327px)",
         "contentAlignment": "Start",
         "paddingTop": "Espacamento (91px)",
-        "content": "Serena: Energia limpa e economia na conta de luz"
+        "content": "Serena: Energia limpa e economia na conta de luz",
+        "colorThemeBg": "White"
       },
       "title": "Título do Bloco"
     },
