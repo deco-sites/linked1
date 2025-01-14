@@ -24,12 +24,20 @@
             "colorTheme": "Primary",
             "name": "A la carte",
             "url": "/estabelecimentos/a-la-carte",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png"
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/ea0ff24d-0771-4d8a-8e1b-c8fc779bf089/icon_printer.png",
+            "hiddenImage": {
+              "hoverImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+              "title": "Hover"
+            }
           },
           {
             "colorTheme": "Primary",
             "name": "Bar",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg"
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/0ba9c71a-b81b-4e03-a86c-4992768c866d/cup1.svg",
+            "hiddenImage": {
+              "hoverImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+              "title": "Hover"
+            }
           },
           {
             "colorTheme": "Primary",
@@ -65,7 +73,11 @@
           {
             "colorTheme": "Primary",
             "name": "De rua",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/20e58c5a-cb67-40d0-ad35-842f5b97693d/icon_truck.svg"
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/20e58c5a-cb67-40d0-ad35-842f5b97693d/icon_truck.svg",
+            "hiddenImage": {
+              "hoverImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/linked1/703ed69d-dd99-4e8f-be6f-544ad0230d40/plate_cuttlery_on_table.png",
+              "title": "Hover"
+            }
           },
           {
             "colorTheme": "Primary",
