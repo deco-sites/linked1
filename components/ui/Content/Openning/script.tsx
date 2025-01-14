@@ -3,48 +3,48 @@ import { useScript } from "@deco/deco/hooks";
 export interface Props {}
 
 const setup = () => {
-  let currentIndex = 0;
   const slides = Array.from(document.querySelectorAll("[data-slide]"));
+  if (slides.length === 0) return;
+
   const totalSlides = slides.length;
+  const activeClasses = ["translate-x-0", "opacity-100", "block"];
+  const inactiveClasses = ["translate-x-full", "opacity-0", "hidden"];
+  let currentIndex = 0;
 
-  const showSlide = (index: number) => {
+  const updateSlideVisibility = (index: number) => {
     slides.forEach((slide, idx) => {
-      if (idx === index) {
-        slide.classList.remove("translate-x-full", "opacity-0", "hidden");
-        slide.classList.add("translate-x-0", "opacity-100", "block");
-      } else {
-        slide.classList.remove("translate-x-0", "opacity-100", "block");
-        slide.classList.add("translate-x-full", "opacity-0", "hidden");
-      }
+      const isActive = idx === index;
+      slide.classList.remove(...(isActive ? inactiveClasses : activeClasses));
+      slide.classList.add(...(isActive ? activeClasses : inactiveClasses));
     });
   };
 
-  const nextSlide = () => {
+  const goToNextSlide = () => {
     currentIndex = (currentIndex + 1) % totalSlides;
-    showSlide(currentIndex);
+    updateSlideVisibility(currentIndex);
   };
 
-  const prevSlide = () => {
+  const goToPreviousSlide = () => {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-    showSlide(currentIndex);
+    updateSlideVisibility(currentIndex);
   };
 
-  document.addEventListener("DOMContentLoaded", () => {
-    if (slides.length === 0) return;
+  const handleKeyboardNavigation = (event: KeyboardEvent) => {
+    if (event.key === "ArrowRight") goToNextSlide();
+    if (event.key === "ArrowLeft") goToPreviousSlide();
+  };
 
-    showSlide(currentIndex);
+  const startAutoSlide = () => {
+    setInterval(goToNextSlide, 5000);
+  };
 
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "ArrowRight") {
-        nextSlide();
-      }
-      if (event.key === "ArrowLeft") {
-        prevSlide();
-      }
-    });
+  const setupEventListeners = () => {
+    document.addEventListener("keydown", handleKeyboardNavigation);
+  };
 
-    setInterval(nextSlide, 5000);
-  });
+  updateSlideVisibility(currentIndex);
+  setupEventListeners();
+  startAutoSlide();
 };
 
 function Open({}: Props) {

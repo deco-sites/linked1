@@ -9,16 +9,17 @@ declare global {
 export interface Props {}
 
 const setup = () => {
-  const emblaScript = document.createElement("script");
-  emblaScript.src = "https://cdn.jsdelivr.net/npm/embla-carousel@latest";
-  emblaScript.onload = () => {
-    const emblaApi = window.EmblaCarousel(document.querySelector(".embla"), {
-      align: "start",
-      draggable: true,
-    });
+  
+  if (window.innerWidth < 768) {
+    const emblaScript = document.createElement("script");
+    emblaScript.src = "https://cdn.jsdelivr.net/npm/embla-carousel@latest";
+    emblaScript.onload = () => {
+      const emblaApi = window.EmblaCarousel(document.querySelector(".embla"), {
+        align: "start",
+        draggable: true,
+      });
 
-    const updateActiveSlide = () => {
-      if (window.innerWidth < 768) {
+      const updateActiveSlide = () => {
         const slides = document.querySelectorAll(".embla__slide");
         const selectedIndex = emblaApi.selectedScrollSnap();
 
@@ -26,14 +27,14 @@ const setup = () => {
           slide.classList.toggle("border-white", index === selectedIndex);
           slide.classList.toggle("border-white-20", index !== selectedIndex);
         });
-      }
+      };
+
+      emblaApi.on("select", updateActiveSlide);
+      updateActiveSlide();
     };
 
-    emblaApi.on("select", updateActiveSlide);
-    updateActiveSlide();
-  };
-
-  document.body.appendChild(emblaScript);
+    document.body.appendChild(emblaScript);
+  }
 };
 
 function Galery({}: Props) {
