@@ -24,6 +24,7 @@ export default {
         caribbeanGreen: "#00D2A0",
         sacramentoState: "#003330",
         "sacramentoState-10": "rgba(0, 51, 48, 0.1)", // 10% de opacidade
+        "sacramentoState-20": "rgba(0, 51, 48, 0.2)", // 20% de opacidade
         "sacramentoState-40": "rgba(0, 51, 48, 0.4)", // 40% de opacidade
         "sacramentoState-80": "rgba(0, 51, 48, 0.8)", // 80% de opacidade
         mintCream: "#D6FFF5",

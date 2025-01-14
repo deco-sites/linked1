@@ -5,11 +5,11 @@ function GaleryContent({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
       <div className="px-4 lg:px-10 pb-[59px] overflow-x-hidden">
-        <div className="embla w-full">
+        <div className="embla embla-content w-full">
           <div className="embla__container flex md:grid md:grid-cols-4 gap-x-4">
             {items.map((item, index) => (
               <div
-                className="embla__slide group flex flex-col flex-shrink-0 border-t-2 border-white-20 hover:md:border-white group-hover:border-white max-w-[80%] md:max-w-[100%] transition-all duration-700 ease-out"
+                className="embla__slide embla-slide-content group flex flex-col flex-shrink-0 border-t-2 border-white-20 hover:md:border-white group-hover:border-white max-w-[80%] md:max-w-[100%] transition-all duration-700 ease-out"
                 key={index}
               >
                 <p className="pt-[23px] text-base text-white opacity-80 text-left">

@@ -14,7 +14,7 @@ const setup = () => {
     emblaScript.src = "https://cdn.jsdelivr.net/npm/embla-carousel@latest";
     emblaScript.onload = () => {
       const emblaApi = window.EmblaCarousel(
-        document.querySelector(".embla-content"),
+        document.querySelector(".embla-partner"),
         {
           align: "start",
           draggable: true,
@@ -22,12 +22,18 @@ const setup = () => {
       );
 
       const updateActiveSlide = () => {
-        const slides = document.querySelectorAll(".embla-slide-content");
+        const slides = document.querySelectorAll(".embla-slide-partner");
         const selectedIndex = emblaApi.selectedScrollSnap();
 
         slides.forEach((slide, index) => {
-          slide.classList.toggle("border-white", index === selectedIndex);
-          slide.classList.toggle("border-white-20", index !== selectedIndex);
+          slide.classList.toggle(
+            "border-sacramentoState",
+            index === selectedIndex,
+          );
+          slide.classList.toggle(
+            "border-sacramentoState-20",
+            index !== selectedIndex,
+          );
         });
       };
 
@@ -39,7 +45,7 @@ const setup = () => {
   }
 };
 
-function Galery({}: Props) {
+function GaleryPartner({}: Props) {
   return (
     <script
       type="module"
@@ -50,4 +56,4 @@ function Galery({}: Props) {
   );
 }
 
-export default Galery;
+export default GaleryPartner;

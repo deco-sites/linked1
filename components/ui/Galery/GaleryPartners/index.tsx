@@ -1,24 +1,21 @@
-import type { JSX } from "preact";
-
 import Image from "apps/website/components/Image.tsx";
+import Script from "./script.tsx";
 
 function GaleryPartners({ items }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <>
-      <section className="px-4 md:px-10 flex justify-center">
-        <div className="w-full">
-          {/* <p className="pl-[15px] pb-20 pt-[93px] font-sans font-normal text-[28px] leading-tight-32 tracking-tight-2 text-primary">{title}</p> */}
-          <div className="flex md:grid md:grid-cols-3 gap-x-4 md:gap-x-5 overflow-x-scroll scrollbar-hide">
+      <div className="px-4 lg:mx-10 pb-[59px] overflow-x-hidden">
+        <div className="embla embla-partner w-full">
+          <div className="embla__container flex md:grid md:grid-cols-3 gap-x-4">
             {items.map((item, index) => (
               <div
+                className="embla__slide embla-slide-partner group flex flex-col flex-shrink-0 border-b-2 border-sacramentoState-20 hover:md:border-sacramentoState group-hover:border-sacramentoState max-w-[80%] md:max-w-[100%] transition-all duration-700 ease-out"
                 key={index}
-                className={`mb-[62px] w-full max-w-[274px] md:max-w-[463px] flex-none border-b border-sacramentoState-10`}
               >
-                <div className="w-full h-[158px] md:h-[259px] aspect-video">
+                <div className="h-[158px] md:h-[259px]">
                   <Image
                     className="w-full h-full object-cover rounded-xl"
                     src={item.image || ""}
-                    width={274.4}
                     alt={item.description}
                   />
                 </div>
@@ -29,7 +26,8 @@ function GaleryPartners({ items }: JSX.IntrinsicElements["div"] & Props) {
             ))}
           </div>
         </div>
-      </section>
+      </div>
+      <Script />
     </>
   );
 }

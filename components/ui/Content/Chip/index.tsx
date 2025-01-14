@@ -10,7 +10,7 @@ function Chip({
 }: JSX.IntrinsicElements["div"] & Props) {
   return (
     <div className="relative w-fit inline-flex items-center group">
-      <div className="px-4 py-3 flex gap-x-2 items-center bg-mintCream text-sacramentoState hover:lg:bg-sacramentoState hover:lg:text-darkMintCream rounded-[58px] z-10 transition-all duration-300 ease-in-out">
+      <div className="px-4 py-3 flex gap-x-2 items-center bg-mintCream text-sacramentoState hover:lg:bg-sacramentoState hover:lg:text-darkMintCream rounded-[58px] z-10 transition-all duration-300 ease-in-out cursor-pointer">
         <Image
           className="w-4 h-4"
           src={icon || ""}
